@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+    <meta charset="utf-8">
+    <title>{$mad_configs.title}</title>
+    <meta name="keywords" content="{$mad_configs.keywords}" />
+    <meta name="description" content="{$mad_configs.description}" />
+    <link rel="stylesheet" href="{$view_path}/css/style.css">
+    <link rel="stylesheet" href="{$view_path}/js/jquery-1.9.0.js">
+</head>
+<body>
+	{include file='header.mad'}
+	{include file='goods_body.mad'}
+	<div class="clear"></div>
+<div class="wid" id="main">
+	<h3><span>产品详细介绍</span>&nbsp;&nbsp;&nbsp;&nbsp;<a href="user.php?act=index" style=" font-weight:100"><u>返回主页</u></a></h3>
+    <div id="main_all" class="pcont">
+		<div id="conts">
+        {$goods.goods_content}
+        <p class='red'>{$goods_date}</p>
+        </div>
+    </div>
+</div>
+<div class="clear"></div>
+
+<div class="wid" id="bottom">
+{$mad_configs.copyright}
+</div>
+</body>
+</html>

@@ -1,0 +1,12 @@
+23:47:47 use a0122145834;
+23:47:47 set names utf8;
+23:47:47 select * from configs
+23:50:15 use a0122145834;
+23:50:15 set names utf8;
+23:50:15 select * from configs
+23:50:33 use a0122145834;
+23:50:33 set names utf8;
+23:50:33 select * from configs
+23:59:54 use a0122145834;
+23:59:54 set names utf8;
+23:59:54 select * from configs

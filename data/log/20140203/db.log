@@ -1,0 +1,441 @@
+00:03:33 use a0122145834;
+00:03:33 set names utf8;
+00:03:33 select * from configs
+00:09:56 use a0122145834;
+00:09:56 set names utf8;
+00:09:56 select * from configs
+00:13:59 use a0122145834;
+00:13:59 set names utf8;
+00:13:59 select * from configs
+00:14:32 use a0122145834;
+00:14:32 set names utf8;
+00:14:32 select * from configs
+01:03:33 use a0122145834;
+01:03:33 set names utf8;
+01:03:33 select * from configs
+01:41:02 use a0122145834;
+01:41:02 set names utf8;
+01:41:02 select * from configs
+01:41:48 use a0122145834;
+01:41:48 set names utf8;
+01:41:48 select * from configs
+01:48:45 use a0122145834;
+01:48:45 set names utf8;
+01:48:45 select * from configs
+01:50:38 use a0122145834;
+01:50:38 set names utf8;
+01:50:38 select * from configs
+01:51:23 use a0122145834;
+01:51:23 set names utf8;
+01:51:23 select * from configs
+01:55:29 use a0122145834;
+01:55:29 set names utf8;
+01:55:29 select * from configs
+02:37:04 use a0122145834;
+02:37:04 set names utf8;
+02:37:04 select * from configs
+02:37:39 use a0122145834;
+02:37:39 set names utf8;
+02:37:39 select * from configs
+03:15:51 use a0122145834;
+03:15:51 set names utf8;
+03:15:51 select * from configs
+03:49:59 use a0122145834;
+03:49:59 set names utf8;
+03:49:59 select * from configs
+04:17:35 use a0122145834;
+04:17:35 set names utf8;
+04:17:35 select * from configs
+04:20:48 use a0122145834;
+04:20:48 set names utf8;
+04:20:48 select * from configs
+05:41:09 use a0122145834;
+05:41:09 set names utf8;
+05:41:09 select * from configs
+06:22:19 use a0122145834;
+06:22:19 set names utf8;
+06:22:19 select * from configs
+06:22:19 use a0122145834;
+06:22:19 set names utf8;
+06:22:19 select * from configs
+06:22:19 use a0122145834;
+06:22:19 set names utf8;
+06:22:19 select * from configs
+06:22:20 use a0122145834;
+06:22:20 set names utf8;
+06:22:20 select * from configs
+06:37:33 use a0122145834;
+06:37:33 set names utf8;
+06:37:33 select * from configs
+06:37:33 use a0122145834;
+06:37:33 set names utf8;
+06:37:33 select * from configs
+06:37:33 use a0122145834;
+06:37:33 set names utf8;
+06:37:33 select * from configs
+06:37:34 use a0122145834;
+06:37:34 set names utf8;
+06:37:34 select * from configs
+06:52:28 use a0122145834;
+06:52:28 set names utf8;
+06:52:28 select * from configs
+06:52:47 use a0122145834;
+06:52:47 set names utf8;
+06:52:47 select * from configs
+07:56:04 use a0122145834;
+07:56:04 set names utf8;
+07:56:04 select * from configs
+08:30:12 use a0122145834;
+08:30:12 set names utf8;
+08:30:12 select * from configs
+08:30:13 use a0122145834;
+08:30:13 set names utf8;
+08:30:13 select * from configs
+08:35:01 use a0122145834;
+08:35:01 set names utf8;
+08:35:01 select * from configs
+09:27:16 use a0122145834;
+09:27:16 set names utf8;
+09:27:16 select * from configs
+09:31:35 use a0122145834;
+09:31:35 set names utf8;
+09:31:35 select * from configs
+09:31:53 use a0122145834;
+09:31:53 set names utf8;
+09:31:53 select * from configs
+10:39:39 use a0122145834;
+10:39:39 set names utf8;
+10:39:39 select * from configs
+10:39:56 use a0122145834;
+10:39:56 set names utf8;
+10:39:56 select * from configs
+11:32:16 use a0122145834;
+11:32:16 set names utf8;
+11:32:16 select * from configs
+11:35:19 use a0122145834;
+11:35:19 set names utf8;
+11:35:19 select * from configs
+11:43:41 use a0122145834;
+11:43:41 set names utf8;
+11:43:41 select * from configs
+12:38:42 use a0122145834;
+12:38:42 set names utf8;
+12:38:42 select * from configs
+12:41:24 use a0122145834;
+12:41:24 set names utf8;
+12:41:24 select * from configs
+13:42:17 use a0122145834;
+13:42:17 set names utf8;
+13:42:17 select * from configs
+13:42:49 use a0122145834;
+13:42:50 set names utf8;
+13:42:50 select * from configs
+13:55:34 use a0122145834;
+13:55:34 set names utf8;
+13:55:34 select * from configs
+13:57:46 use a0122145834;
+13:57:46 set names utf8;
+13:57:46 select * from configs
+14:14:33 use a0122145834;
+14:14:33 set names utf8;
+14:14:33 select * from configs
+14:23:52 use a0122145834;
+14:23:52 set names utf8;
+14:23:52 select * from configs
+14:24:03 use a0122145834;
+14:24:03 set names utf8;
+14:24:03 select * from configs
+14:26:03 use a0122145834;
+14:26:03 set names utf8;
+14:26:03 select * from configs
+14:26:43 use a0122145834;
+14:26:43 set names utf8;
+14:26:43 select * from configs
+14:29:04 use a0122145834;
+14:29:04 set names utf8;
+14:29:04 select * from configs
+14:29:58 use a0122145834;
+14:29:58 set names utf8;
+14:29:58 select * from configs
+14:30:19 use a0122145834;
+14:30:19 set names utf8;
+14:30:19 select * from configs
+14:33:10 use a0122145834;
+14:33:10 set names utf8;
+14:33:10 select * from configs
+14:35:11 use a0122145834;
+14:35:11 set names utf8;
+14:35:11 select * from configs
+14:37:23 use a0122145834;
+14:37:23 set names utf8;
+14:37:23 select * from configs
+14:38:53 use a0122145834;
+14:38:53 set names utf8;
+14:38:53 select * from configs
+14:39:19 use a0122145834;
+14:39:19 set names utf8;
+14:39:19 select * from configs
+14:40:48 use a0122145834;
+14:40:48 set names utf8;
+14:40:48 select * from configs
+14:42:02 use a0122145834;
+14:42:02 set names utf8;
+14:42:02 select * from configs
+14:42:56 use a0122145834;
+14:42:56 set names utf8;
+14:42:56 select * from configs
+14:52:03 use a0122145834;
+14:52:03 set names utf8;
+14:52:03 select * from configs
+14:52:03 use a0122145834;
+14:52:03 set names utf8;
+14:52:03 select * from configs
+14:54:34 use a0122145834;
+14:54:34 set names utf8;
+14:54:34 select * from configs
+14:54:34 use a0122145834;
+14:54:34 set names utf8;
+14:54:34 select * from configs
+14:59:59 use a0122145834;
+14:59:59 set names utf8;
+14:59:59 select * from configs
+15:15:28 use a0122145834;
+15:15:28 set names utf8;
+15:15:28 select * from configs
+15:24:03 use a0122145834;
+15:24:03 set names utf8;
+15:24:03 select * from configs
+15:24:59 use a0122145834;
+15:24:59 set names utf8;
+15:24:59 select * from configs
+15:37:23 use a0122145834;
+15:37:23 set names utf8;
+15:37:23 select * from configs
+16:02:46 use a0122145834;
+16:02:46 set names utf8;
+16:02:46 select * from configs
+16:15:18 use a0122145834;
+16:15:18 set names utf8;
+16:15:18 select * from configs
+16:17:47 use a0122145834;
+16:17:47 set names utf8;
+16:17:47 select * from configs
+16:34:31 use a0122145834;
+16:34:31 set names utf8;
+16:34:31 select * from configs
+16:37:21 use a0122145834;
+16:37:21 set names utf8;
+16:37:21 select * from configs
+16:49:07 use a0122145834;
+16:49:07 set names utf8;
+16:49:07 select * from configs
+16:53:06 use a0122145834;
+16:53:06 set names utf8;
+16:53:06 select * from configs
+17:18:11 use a0122145834;
+17:18:11 set names utf8;
+17:18:11 select * from configs
+17:23:15 use a0122145834;
+17:23:15 set names utf8;
+17:23:15 select * from configs
+17:25:10 use a0122145834;
+17:25:10 set names utf8;
+17:25:10 select * from configs
+17:43:55 use a0122145834;
+17:43:55 set names utf8;
+17:43:55 select * from configs
+17:43:55 use a0122145834;
+17:43:56 set names utf8;
+17:43:56 select * from configs
+17:49:52 use a0122145834;
+17:49:52 set names utf8;
+17:49:52 select * from configs
+18:39:47 use a0122145834;
+18:39:47 set names utf8;
+18:39:47 select * from configs
+18:39:59 use a0122145834;
+18:39:59 set names utf8;
+18:39:59 select * from configs
+18:40:00 use a0122145834;
+18:40:00 set names utf8;
+18:40:00 select * from configs
+18:40:12 use a0122145834;
+18:40:12 set names utf8;
+18:40:12 select * from configs
+18:43:54 use a0122145834;
+18:43:54 set names utf8;
+18:43:54 select * from configs
+18:46:57 use a0122145834;
+18:46:57 set names utf8;
+18:46:57 select * from configs
+18:48:53 use a0122145834;
+18:48:53 set names utf8;
+18:48:53 select * from configs
+18:55:26 use a0122145834;
+18:55:26 set names utf8;
+18:55:26 select * from configs
+19:07:11 use a0122145834;
+19:07:11 set names utf8;
+19:07:11 select * from configs
+19:15:45 use a0122145834;
+19:15:45 set names utf8;
+19:15:45 select * from configs
+19:17:14 use a0122145834;
+19:17:14 set names utf8;
+19:17:14 select * from configs
+19:24:33 use a0122145834;
+19:24:33 set names utf8;
+19:24:33 select * from configs
+19:27:04 use a0122145834;
+19:27:04 set names utf8;
+19:27:04 select * from configs
+19:27:04 use a0122145834;
+19:27:04 set names utf8;
+19:27:04 select * from configs
+19:27:06 use a0122145834;
+19:27:06 set names utf8;
+19:27:06 select * from configs
+19:33:13 use a0122145834;
+19:33:13 set names utf8;
+19:33:13 select * from configs
+19:33:13 use a0122145834;
+19:33:13 set names utf8;
+19:33:13 select * from configs
+19:33:26 use a0122145834;
+19:33:26 set names utf8;
+19:33:26 select * from configs
+19:39:29 use a0122145834;
+19:39:29 set names utf8;
+19:39:29 select * from configs
+19:43:18 use a0122145834;
+19:43:18 set names utf8;
+19:43:18 select * from configs
+19:48:24 use a0122145834;
+19:48:24 set names utf8;
+19:48:24 select * from configs
+19:52:03 use a0122145834;
+19:52:03 set names utf8;
+19:52:03 select * from configs
+19:52:37 use a0122145834;
+19:52:37 set names utf8;
+19:52:37 select * from configs
+19:54:22 use a0122145834;
+19:54:22 set names utf8;
+19:54:22 select * from configs
+20:06:01 use a0122145834;
+20:06:01 set names utf8;
+20:06:01 select * from configs
+20:08:25 use a0122145834;
+20:08:25 set names utf8;
+20:08:25 select * from configs
+20:12:46 use a0122145834;
+20:12:46 set names utf8;
+20:12:46 select * from configs
+20:18:57 use a0122145834;
+20:18:57 set names utf8;
+20:18:57 select * from configs
+20:19:05 use a0122145834;
+20:19:05 set names utf8;
+20:19:05 select * from configs
+20:21:36 use a0122145834;
+20:21:36 set names utf8;
+20:21:36 select * from configs
+20:23:47 use a0122145834;
+20:23:47 set names utf8;
+20:23:47 select * from configs
+20:27:56 use a0122145834;
+20:27:56 set names utf8;
+20:27:56 select * from configs
+20:28:03 use a0122145834;
+20:28:03 set names utf8;
+20:28:03 select * from configs
+20:28:08 use a0122145834;
+20:28:08 set names utf8;
+20:28:08 select * from configs
+20:28:10 use a0122145834;
+20:28:10 set names utf8;
+20:28:10 select * from configs
+20:28:12 use a0122145834;
+20:28:12 set names utf8;
+20:28:12 select * from configs
+20:28:14 use a0122145834;
+20:28:14 set names utf8;
+20:28:14 select * from configs
+20:28:26 use a0122145834;
+20:28:26 set names utf8;
+20:28:26 select * from configs
+20:28:32 use a0122145834;
+20:28:32 set names utf8;
+20:28:32 select * from configs
+20:28:39 use a0122145834;
+20:28:39 set names utf8;
+20:28:39 select * from configs
+20:28:46 use a0122145834;
+20:28:46 set names utf8;
+20:28:46 select * from configs
+20:29:38 use a0122145834;
+20:29:38 set names utf8;
+20:29:38 select * from configs
+20:29:38 use a0122145834;
+20:29:38 set names utf8;
+20:29:38 select * from configs
+20:30:16 use a0122145834;
+20:30:16 set names utf8;
+20:30:16 select * from configs
+20:37:02 use a0122145834;
+20:37:02 set names utf8;
+20:37:02 select * from configs
+20:38:46 use a0122145834;
+20:38:46 set names utf8;
+20:38:46 select * from configs
+20:40:56 use a0122145834;
+20:40:56 set names utf8;
+20:40:56 select * from configs
+20:40:56 use a0122145834;
+20:40:56 set names utf8;
+20:40:56 select * from configs
+20:45:41 use a0122145834;
+20:45:41 set names utf8;
+20:45:41 select * from configs
+20:49:43 use a0122145834;
+20:49:43 set names utf8;
+20:49:43 select * from configs
+20:51:12 use a0122145834;
+20:51:12 set names utf8;
+20:51:12 select * from configs
+20:51:54 use a0122145834;
+20:51:54 set names utf8;
+20:51:54 select * from configs
+20:51:55 use a0122145834;
+20:51:55 set names utf8;
+20:51:55 select * from configs
+20:55:06 use a0122145834;
+20:55:06 set names utf8;
+20:55:06 select * from configs
+20:55:48 use a0122145834;
+20:55:48 set names utf8;
+20:55:48 select * from configs
+21:06:29 use a0122145834;
+21:06:29 set names utf8;
+21:06:29 select * from configs
+21:08:04 use a0122145834;
+21:08:04 set names utf8;
+21:08:04 select * from configs
+21:08:47 use a0122145834;
+21:08:47 set names utf8;
+21:08:47 select * from configs
+21:09:40 use a0122145834;
+21:09:40 set names utf8;
+21:09:40 select * from configs
+21:09:42 use a0122145834;
+21:09:42 set names utf8;
+21:09:42 select * from configs
+21:09:43 use a0122145834;
+21:09:43 set names utf8;
+21:09:43 select * from configs
+21:10:33 use a0122145834;
+21:10:33 set names utf8;
+21:10:33 select * from configs
+22:58:33 use a0122145834;
+22:58:33 set names utf8;
+22:58:33 select * from configs

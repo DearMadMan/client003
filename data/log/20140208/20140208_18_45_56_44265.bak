@@ -1,0 +1,3658 @@
+15:44:37 use a0122145834;
+15:44:37 set names utf8;
+15:44:37 select * from configs
+15:44:37 select * from admins where id=1
+15:44:37 select * from articles where id=15
+15:44:43 use a0122145834;
+15:44:43 set names utf8;
+15:44:43 select * from configs
+15:44:43 select * from users where id=35
+15:44:43 select count(id) from users where spreader_id='35'
+15:44:43 select * from images
+15:44:43 select type_id from articles where id='15'
+15:44:43 select * from articles where id='15'
+15:46:56 use a0122145834;
+15:46:56 set names utf8;
+15:46:56 select * from configs
+15:46:56 select * from users where id=35
+15:46:56 select count(id) from users where spreader_id='35'
+15:46:56 select * from images
+15:46:56 select * from article_type
+15:46:56 select * from article_type where id='0'
+15:46:56 select count(id) from articles where type_id='0' order by add_time desc
+15:46:56 select * from articles where type_id='0' order by add_time desc limit 0,5
+15:47:10 use a0122145834;
+15:47:10 set names utf8;
+15:47:10 select * from configs
+15:47:10 select * from users where id=35
+15:47:10 select count(id) from users where spreader_id='35'
+15:47:10 select * from images
+15:47:10 select * from article_type
+15:47:10 select count(id) from articles order by add_time desc
+15:47:10 select * from articles order by add_time desc limit 0,5
+15:47:12 use a0122145834;
+15:47:12 set names utf8;
+15:47:12 select * from configs
+15:47:12 select * from users where id=35
+15:47:12 select count(id) from users where spreader_id='35'
+15:47:12 select * from images
+15:47:12 select * from article_type
+15:47:12 select * from article_type where id='9'
+15:47:12 select count(id) from articles where type_id='9' order by add_time desc
+15:47:12 select * from articles where type_id='9' order by add_time desc limit 0,5
+15:47:18 use a0122145834;
+15:47:18 set names utf8;
+15:47:18 select * from configs
+15:47:18 select * from users where id=35
+15:47:19 use a0122145834;
+15:47:19 set names utf8;
+15:47:19 select * from configs
+15:47:19 select * from users where id=35
+15:47:19 select count(id) from users where spreader_id='35'
+15:47:19 select * from images
+15:47:19 select * from goods where need_top=1 and need_hidden=0 order by id desc limit 0,5
+15:47:19 select count(id) from goods where need_top=0 and need_hidden=0 order by id desc
+15:47:19 select * from goods where need_top=0 and need_hidden=0 order by id desc limit 0,5
+15:48:20 use a0122145834;
+15:48:20 set names utf8;
+15:48:20 select * from configs
+15:48:20 select * from users where id=35
+15:48:20 select count(id) from users where spreader_id='35'
+15:48:20 select * from images
+15:48:20 select * from article_type
+15:48:20 select count(id) from articles order by add_time desc
+15:48:20 select * from articles order by add_time desc limit 0,5
+15:48:34 use a0122145834;
+15:48:34 set names utf8;
+15:48:34 select * from configs
+15:48:34 select * from users where id=35
+15:48:34 select count(id) from users where spreader_id='35'
+15:48:34 select * from images
+15:48:34 select * from article_type
+15:48:34 select count(id) from articles order by add_time desc
+15:48:34 select * from articles order by add_time desc limit 0,5
+15:48:49 use a0122145834;
+15:48:49 set names utf8;
+15:48:49 select * from configs
+15:48:49 select * from users where id=35
+15:48:49 select count(id) from users where spreader_id='35'
+15:48:49 select * from images
+15:48:49 select * from article_type
+15:48:49 select count(id) from articles order by add_time desc
+15:48:49 select * from articles order by add_time desc limit 0,5
+15:49:00 use a0122145834;
+15:49:00 set names utf8;
+15:49:00 select * from configs
+15:49:00 select * from admins where id=1
+15:49:00 select count(o.id) from articles as o left join article_type as u on u.id=o.type_id 
+15:49:00 select o.id,o.title,o.add_time,u.type_name from articles as o left join article_type as u on u.id=o.type_id  limit 0,20
+15:49:38 use a0122145834;
+15:49:38 set names utf8;
+15:49:38 select * from configs
+15:49:38 select * from users where id=35
+15:49:38 select count(id) from users where spreader_id='35'
+15:49:38 select * from images
+15:49:38 select * from article_type
+15:49:38 select * from article_type where id='10'
+15:49:38 select count(id) from articles where type_id='10' order by add_time desc
+15:49:38 select * from articles where type_id='10' order by add_time desc limit 0,5
+15:50:52 use a0122145834;
+15:50:52 set names utf8;
+15:50:52 select * from configs
+15:50:52 select * from users where id=35
+15:50:52 use a0122145834;
+15:50:52 set names utf8;
+15:50:52 select * from configs
+15:50:52 select * from users where id=35
+15:50:52 select count(id) from users where spreader_id='35'
+15:50:52 select * from images
+15:50:52 select * from goods where need_top=1 and need_hidden=0 order by id desc limit 0,5
+15:50:52 select count(id) from goods where need_top=0 and need_hidden=0 order by id desc
+15:50:52 select * from goods where need_top=0 and need_hidden=0 order by id desc limit 0,5
+15:51:05 use a0122145834;
+15:51:05 set names utf8;
+15:51:05 select * from configs
+15:51:05 select * from users where id=35
+15:51:05 select count(id) from users where spreader_id='35'
+15:51:05 select * from images
+15:51:05 select count(id) from income where user_id=35
+15:51:05 select * from income where user_id=35 limit 0,5
+15:51:07 use a0122145834;
+15:51:07 set names utf8;
+15:51:07 select * from configs
+15:51:07 select * from users where id=35
+15:51:07 insert into income (user_id,income_money,order_sn,add_time,pay_status) values ('35','10','139184586767849','1391845867','0') ;
+15:51:48 use a0122145834;
+15:51:48 set names utf8;
+15:51:48 select * from configs
+15:51:48 select * from users where id=35
+15:51:48 select count(id) from users where spreader_id='35'
+15:51:48 select * from images
+15:51:48 select count(id) from income where user_id=35
+15:51:48 select * from income where user_id=35 limit 0,5
+16:15:54 use a0122145834;
+16:15:54 set names utf8;
+16:15:54 select * from configs
+16:16:41 use a0122145834;
+16:16:41 set names utf8;
+16:16:41 select * from configs
+16:21:07 use a0122145834;
+16:21:07 set names utf8;
+16:21:07 select * from configs
+16:31:00 use a0122145834;
+16:31:00 set names utf8;
+16:31:00 select * from configs
+16:31:00 select * from users where id=35
+16:31:00 use a0122145834;
+16:31:00 set names utf8;
+16:31:00 select * from configs
+16:31:00 select * from users where id=35
+16:31:00 select count(id) from users where spreader_id='35'
+16:31:00 select * from images
+16:31:00 select * from goods where need_top=1 and need_hidden=0 order by id desc limit 0,5
+16:31:00 select count(id) from goods where need_top=0 and need_hidden=0 order by id desc
+16:31:00 select * from goods where need_top=0 and need_hidden=0 order by id desc limit 0,5
+16:31:03 use a0122145834;
+16:31:03 set names utf8;
+16:31:03 select * from configs
+16:31:03 select * from users where id=35
+16:31:03 select count(id) from users where spreader_id='35'
+16:31:03 select * from images
+16:31:03 select * from article_type
+16:31:03 select * from article_type where id='0'
+16:31:03 select count(id) from articles where type_id='0' order by add_time desc
+16:31:04 select * from articles where type_id='0' order by add_time desc limit 0,5
+16:31:06 use a0122145834;
+16:31:06 set names utf8;
+16:31:06 select * from configs
+16:31:06 select * from users where id=35
+16:31:06 select count(id) from users where spreader_id='35'
+16:31:06 select * from images
+16:31:06 select type_id from articles where id='16'
+16:31:06 select * from articles where id='16'
+16:31:12 use a0122145834;
+16:31:12 set names utf8;
+16:31:12 select * from configs
+16:31:12 select * from admins where id=1
+16:31:12 select * from articles where id=16
+16:37:34 use a0122145834;
+16:37:34 set names utf8;
+16:37:34 select * from configs
+16:37:34 select * from admins where id=1
+16:37:34 select count(o.id) from articles as o left join article_type as u on u.id=o.type_id 
+16:37:34 select o.id,o.title,o.add_time,u.type_name from articles as o left join article_type as u on u.id=o.type_id  limit 0,20
+16:53:31 use a0122145834;
+16:53:31 set names utf8;
+16:53:31 select * from configs
+16:53:31 select * from users where id=35
+16:53:31 select count(id) from users where spreader_id='35'
+16:53:31 select * from images
+16:53:31 select * from article_type
+16:53:31 select * from article_type where id='0'
+16:53:31 select count(id) from articles where type_id='0' order by add_time desc
+16:53:31 select * from articles where type_id='0' order by add_time desc limit 0,5
+16:53:33 use a0122145834;
+16:53:33 set names utf8;
+16:53:33 select * from configs
+16:53:33 select * from users where id=35
+16:53:33 select count(id) from users where spreader_id='35'
+16:53:33 select * from images
+16:53:33 select * from article_type
+16:53:33 select * from article_type where id='0'
+16:53:33 select count(id) from articles where type_id='0' order by add_time desc
+16:53:33 select * from articles where type_id='0' order by add_time desc limit 5,5
+16:53:43 use a0122145834;
+16:53:43 set names utf8;
+16:53:43 select * from configs
+16:53:43 select * from admins where id=1
+16:53:43 select * from articles where id=11
+16:55:08 use a0122145834;
+16:55:08 set names utf8;
+16:55:08 select * from configs
+16:55:08 select * from admins where id=1
+16:55:08 update articles set type_id=0, content='<p style="text-align: left"><span style="font-size:14px">今天我们来分享一个流传甚广的故事：杰夫保罗的懒人创富法<br />
+&nbsp;<br />
+&nbsp;<br />
+&nbsp;<br />
+1991 年，杰夫保罗仍是一个无家可归、身无分文的彻底失败者，信用卡上有 10 万美元的债务赤字。他与老婆、3 个孩子，住在嫂子 家的地下室里。<br />
+&nbsp;<br />
+突然有一天，他发现了一本1931 年出版的古董书，书里揭示了一种极为简单的赚钱公式。使用这套不可思议的赚钱技巧，杰夫开始 快速赚钱了。到了1992年，他每个月的收入达到了5位数，此时的他，每天都穿着睡衣闲呆在家里&hellip;&hellip;<br />
+&nbsp;<br />
+&nbsp;<br />
+&nbsp;<br />
+其实，他的方法是很简单的，具体方法是：<br />
+&nbsp;<br />
+&nbsp;<br />
+他在本地报纸上，刊登廉价的分类广告，标题为&ldquo;免费索取《轻松烹饪美食的技巧》报告&rdquo;。吸引读者打电话给他，留下姓名和地址。<br />
+&nbsp;<br />
+&nbsp;<br />
+&nbsp;<br />
+然后杰夫就把免费报告连同其他商品的促销信邮寄给顾客。顾客 很可能不会立即买他所推荐的商品。不要紧，杰夫会每隔一段时间就 再邮寄一些有价值的报告、及商品促销信。<br />
+&nbsp;<br />
+&nbsp;<br />
+&nbsp;<br />
+而收信的顾客由于会持续受到杰夫寄来的资料，就逐渐增加了对 杰夫的信赖，把他当做懂得专业知识的专家，所以，在一段时间的持 续交流之后，一部分顾客就陆续开始购买他所推荐的商品。<br />
+&nbsp;<br />
+&nbsp;<br />
+这套技巧，帮杰夫在2 个月内就摆脱了银行的债务，并且很快就 成为在家工作的百万富翁&mdash;&mdash;这也是很多人梦想的生活。他的书《如 何穿着内衣坐在厨房边每天轻松赚取》&mdash;&mdash;销售给了15 万人，这些 人当中，很多人也成为了在家工作的百万富翁&mdash;&mdash;他们使用的，都是杰夫所教授的方法。<br />
+&nbsp;<br />
+&nbsp;<br />
+杰夫的财富故事，在欧美流传很广。为什么呢？因为它简单、易 学、有效。<br />
+&nbsp;<br />
+&nbsp;<br />
+他的整个操作步骤就是：<br />
+&nbsp;<br />
+&nbsp;<br />
+a 、寻找目标鱼塘（目标客户常活动的区域）释放鱼饵，吸引他们的 注意。<br />
+b 、用鱼饵换取顾客的联系方式，相当于把&ldquo;鱼&rdquo;钓入自己的鱼塘。<br />
+c 、通过持续的沟通来培育信赖感<br />
+d 、通过促销来提现。<br />
+&nbsp;<br />
+&nbsp;<br />
+&nbsp;<br />
+那这个故事的操作媒介是在报纸，如今是互联网世界，是否也是有效 的呢？<br />
+&nbsp;<br />
+&nbsp;<br />
+答案是肯定的，而且非常有效，并且比传统的报纸更具有操作性和更 低的实施成本。<br />
+&nbsp;<br />
+&nbsp;<br />
+&nbsp;<br />
+a 、具有网络广告的低廉成本，网络广告比传统广告更便宜、更容易 操作与控制。<br />
+b 、无任何印刷成本，网络就是万能复印机，增加浏览者，几乎不增加任何成本。<br />
+c 、发送邮件成本低廉，无邮件印刷和邮寄成本。<br />
+d 、可以全自动化，后续和用户沟通联系，全部都可以交给自动化邮 件发送系统处理。<br />
+&nbsp;<br />
+&nbsp;<br />
+&nbsp;&nbsp; 利用赠品先搜集客户，然后通过序列邮件培育客户，再在某个时间进行集中销，收到非常好的业绩，例如：今日英才，利用30 天的电邮口才教程，搜集大量的潜在客户，比如读经网，通过儿童读经 电子书搜集潜在客户名单，集中促销儿童早教类的产品，这样的例子 非常多。<br />
+&nbsp;<br />
+&nbsp;<br />
+这些客户和杰夫保罗一样，利用的都是同一个原理在赚钱，那就：是搜集客户&rarr;培育客户&rarr;促销赚钱<br />
+&nbsp;<br />
+&nbsp;<br />
+再如此循环。<br />
+&nbsp;<br />
+怎么样？有了一点点思路的启发了吗？<br />
+&nbsp;<br />
+我是自由人生，如果你想精通管道数据库营销</span></p>
+', title='0' where id=11
+16:55:10 use a0122145834;
+16:55:10 set names utf8;
+16:55:10 select * from configs
+16:55:10 select * from admins where id=1
+16:55:10 select * from articles where id=11
+16:55:51 use a0122145834;
+16:55:51 set names utf8;
+16:55:51 select * from configs
+16:55:51 select * from users where id=35
+16:55:51 select count(id) from users where spreader_id='35'
+16:55:51 select * from images
+16:55:51 select * from article_type
+16:55:51 select * from article_type where id='0'
+16:55:51 select count(id) from articles where type_id='0' order by add_time desc
+16:55:51 select * from articles where type_id='0' order by add_time desc limit 0,5
+16:55:55 use a0122145834;
+16:55:55 set names utf8;
+16:55:55 select * from configs
+16:55:55 select * from users where id=35
+16:55:55 select count(id) from users where spreader_id='35'
+16:55:55 select * from images
+16:55:55 select type_id from articles where id='14'
+16:55:55 select * from articles where id='14'
+16:58:51 use a0122145834;
+16:58:51 set names utf8;
+16:58:51 select * from configs
+16:58:51 select * from admins where id=1
+16:58:51 update articles set type_id=0, content='<p style="text-align: left"><span style="font-size:14px">今天我们来分享一个流传甚广的故事：杰夫保罗的懒人创富法<br />
+&nbsp;<img alt="" src="http://10nai.com/images/uplaod/a/a4.jpg" /></span><span style="font-size:14px">&nbsp;<br />
+&nbsp;<br />
+1991 年，杰夫保罗仍是一个无家可归、身无分文的彻底失败者，信用卡上有 10 万美元的债务赤字。他与老婆、3 个孩子，住在嫂子 家的地下室里。<br />
+&nbsp;<br />
+突然有一天，他发现了一本1931 年出版的古董书，书里揭示了一种极为简单的赚钱公式。使用这套不可思议的赚钱技巧，杰夫开始 快速赚钱了。到了1992年，他每个月的收入达到了5位数，此时的他，每天都穿着睡衣闲呆在家里&hellip;&hellip;<br />
+&nbsp;<br />
+&nbsp;<br />
+&nbsp;<br />
+其实，他的方法是很简单的，具体方法是：<br />
+&nbsp;<br />
+&nbsp;<br />
+他在本地报纸上，刊登廉价的分类广告，标题为&ldquo;免费索取《轻松烹饪美食的技巧》报告&rdquo;。吸引读者打电话给他，留下姓名和地址。<br />
+&nbsp;<br />
+&nbsp;<br />
+&nbsp;<br />
+然后杰夫就把免费报告连同其他商品的促销信邮寄给顾客。顾客 很可能不会立即买他所推荐的商品。不要紧，杰夫会每隔一段时间就 再邮寄一些有价值的报告、及商品促销信。<br />
+&nbsp;<br />
+&nbsp;<br />
+&nbsp;<br />
+而收信的顾客由于会持续受到杰夫寄来的资料，就逐渐增加了对 杰夫的信赖，把他当做懂得专业知识的专家，所以，在一段时间的持 续交流之后，一部分顾客就陆续开始购买他所推荐的商品。<br />
+&nbsp;<br />
+&nbsp;<br />
+这套技巧，帮杰夫在2 个月内就摆脱了银行的债务，并且很快就 成为在家工作的百万富翁&mdash;&mdash;这也是很多人梦想的生活。他的书《如 何穿着内衣坐在厨房边每天轻松赚取》&mdash;&mdash;销售给了15 万人，这些 人当中，很多人也成为了在家工作的百万富翁&mdash;&mdash;他们使用的，都是杰夫所教授的方法。<br />
+&nbsp;<br />
+&nbsp;<br />
+杰夫的财富故事，在欧美流传很广。为什么呢？因为它简单、易 学、有效。<br />
+&nbsp;<br />
+&nbsp;<br />
+他的整个操作步骤就是：<br />
+&nbsp;<br />
+&nbsp;<br />
+a 、寻找目标鱼塘（目标客户常活动的区域）释放鱼饵，吸引他们的 注意。<br />
+b 、用鱼饵换取顾客的联系方式，相当于把&ldquo;鱼&rdquo;钓入自己的鱼塘。<br />
+c 、通过持续的沟通来培育信赖感<br />
+d 、通过促销来提现。<br />
+&nbsp;<br />
+&nbsp;<br />
+&nbsp;<br />
+那这个故事的操作媒介是在报纸，如今是互联网世界，是否也是有效 的呢？<br />
+&nbsp;<br />
+&nbsp;<br />
+答案是肯定的，而且非常有效，并且比传统的报纸更具有操作性和更 低的实施成本。<br />
+&nbsp;<br />
+&nbsp;<br />
+&nbsp;<br />
+a 、具有网络广告的低廉成本，网络广告比传统广告更便宜、更容易 操作与控制。<br />
+b 、无任何印刷成本，网络就是万能复印机，增加浏览者，几乎不增加任何成本。<br />
+c 、发送邮件成本低廉，无邮件印刷和邮寄成本。<br />
+d 、可以全自动化，后续和用户沟通联系，全部都可以交给自动化邮 件发送系统处理。<br />
+&nbsp;<br />
+&nbsp;<br />
+&nbsp;&nbsp; 利用赠品先搜集客户，然后通过序列邮件培育客户，再在某个时间进行集中销，收到非常好的业绩，例如：今日英才，利用30 天的电邮口才教程，搜集大量的潜在客户，比如读经网，通过儿童读经 电子书搜集潜在客户名单，集中促销儿童早教类的产品，这样的例子 非常多。<br />
+&nbsp;<br />
+&nbsp;<br />
+这些客户和杰夫保罗一样，利用的都是同一个原理在赚钱，那就：是搜集客户&rarr;培育客户&rarr;促销赚钱<br />
+&nbsp;<br />
+&nbsp;<br />
+再如此循环。<br />
+&nbsp;<br />
+怎么样？有了一点点思路的启发了吗？<br />
+&nbsp;<br />
+我是自由人生，如果你想精通管道数据库营销</span></p>
+', title='0' where id=11
+16:58:53 use a0122145834;
+16:58:53 set names utf8;
+16:58:53 select * from configs
+16:58:53 select * from admins where id=1
+16:58:53 select * from articles where id=11
+16:59:22 use a0122145834;
+16:59:22 set names utf8;
+16:59:22 select * from configs
+16:59:22 select * from users where id=35
+16:59:22 select count(id) from users where spreader_id='35'
+16:59:22 select * from images
+16:59:22 select * from article_type
+16:59:22 select * from article_type where id='0'
+16:59:22 select count(id) from articles where type_id='0' order by add_time desc
+16:59:22 select * from articles where type_id='0' order by add_time desc limit 0,5
+16:59:26 use a0122145834;
+16:59:26 set names utf8;
+16:59:26 select * from configs
+16:59:26 select * from users where id=35
+16:59:26 select count(id) from users where spreader_id='35'
+16:59:26 select * from images
+16:59:26 select * from article_type
+16:59:26 select * from article_type where id='0'
+16:59:26 select count(id) from articles where type_id='0' order by add_time desc
+16:59:26 select * from articles where type_id='0' order by add_time desc limit 5,5
+16:59:28 use a0122145834;
+16:59:28 set names utf8;
+16:59:28 select * from configs
+16:59:28 select * from users where id=35
+16:59:28 select count(id) from users where spreader_id='35'
+16:59:28 select * from images
+16:59:28 select type_id from articles where id='11'
+16:59:28 select * from articles where id='11'
+16:59:36 use a0122145834;
+16:59:36 set names utf8;
+16:59:36 select * from configs
+16:59:36 select * from users where id=35
+16:59:36 select count(id) from users where spreader_id='35'
+16:59:36 select * from images
+16:59:36 select type_id from articles where id='11'
+16:59:36 select * from articles where id='11'
+17:03:49 use a0122145834;
+17:03:49 set names utf8;
+17:03:49 select * from configs
+17:03:49 select * from admins where id=1
+17:03:49 update articles set type_id=0, content='<p style="text-align: left"><span style="font-size:14px"><strong>今天我们来分享一个流传甚广的故事：杰夫保罗的懒人创富法</strong><br />
+&nbsp;<img alt="" src="http://10nai.com/images/uplaod/a/a4.jpg" style="height:333px; width:242px" /></span><span style="font-size:14px">&nbsp;<br />
+&nbsp;<br />
+1991 年，杰夫保罗仍是一个无家可归、身无分文的彻底失败者，信用卡上有 10 万美元的债务赤字。他与老婆、3 个孩子，住在嫂子 家的地下室里。<br />
+&nbsp;<br />
+突然有一天，他发现了一本1931 年出版的古董书，书里揭示了一种极为简单的赚钱公式。使用这套不可思议的赚钱技巧，杰夫开始 快速赚钱了。</span></p>
+
+<p style="text-align: left"><span style="font-size:14px">到了1992年，他每个月的收入达到了5位数，此时的他，每天都穿着睡衣闲呆在家里&hellip;&hellip;<br />
+&nbsp;<br />
+&nbsp;<br />
+&nbsp;<br />
+其实，他的方法是很简单的，具体方法是：<br />
+&nbsp;<br />
+&nbsp;<br />
+他在本地报纸上，刊登廉价的分类广告，标题为&ldquo;免费索取《轻松烹饪美食的技巧》报告&rdquo;。吸引读者打电话给他，留下姓名和地址。<br />
+&nbsp;<br />
+&nbsp;<br />
+&nbsp;<br />
+然后杰夫就把免费报告连同其他商品的促销信邮寄给顾客。顾客 很可能不会立即买他所推荐的商品。不要紧，杰夫会每隔一段时间就 再邮寄一些有</span></p>
+
+<p style="text-align: left"><span style="font-size:14px">价值的报告、及商品促销信。<br />
+&nbsp;<br />
+&nbsp;<br />
+&nbsp;<br />
+而收信的顾客由于会持续受到杰夫寄来的资料，就逐渐增加了对 杰夫的信赖，把他当做懂得专业知识的专家，所以，在一段时间的持 续交流之后，</span></p>
+
+<p style="text-align: left"><span style="font-size:14px">一部分顾客就陆续开始购买他所推荐的商品。<br />
+&nbsp;<br />
+&nbsp;<br />
+这套技巧，帮杰夫在2 个月内就摆脱了银行的债务，并且很快就 成为在家工作的百万富翁&mdash;&mdash;这也是很多人梦想的生活。他的书《如 何穿着内衣坐在</span></p>
+
+<p style="text-align: left"><span style="font-size:14px">厨房边每天轻松赚取》&mdash;&mdash;销售给了15 万人，这些 人当中，很多人也成为了在家工作的百万富翁&mdash;&mdash;他们使用的，都是杰夫所教授的方法。<br />
+&nbsp;<br />
+&nbsp;<br />
+杰夫的财富故事，在欧美流传很广。为什么呢？因为它简单、易 学、有效。<br />
+&nbsp;<br />
+&nbsp;<br />
+他的整个操作步骤就是：<br />
+&nbsp;<br />
+&nbsp;<br />
+a 、寻找目标鱼塘（目标客户常活动的区域）释放鱼饵，吸引他们的 注意。<br />
+b 、用鱼饵换取顾客的联系方式，相当于把&ldquo;鱼&rdquo;钓入自己的鱼塘。<br />
+c 、通过持续的沟通来培育信赖感<br />
+d 、通过促销来提现。<br />
+&nbsp;<br />
+&nbsp;<br />
+&nbsp;<br />
+那这个故事的操作媒介是在报纸，如今是互联网世界，是否也是有效 的呢？<br />
+&nbsp;<br />
+&nbsp;<br />
+答案是肯定的，而且非常有效，并且比传统的报纸更具有操作性和更 低的实施成本。<br />
+&nbsp;<br />
+&nbsp;<br />
+&nbsp;<br />
+a 、具有网络广告的低廉成本，网络广告比传统广告更便宜、更容易 操作与控制。<br />
+b 、无任何印刷成本，网络就是万能复印机，增加浏览者，几乎不增加任何成本。<br />
+c 、发送邮件成本低廉，无邮件印刷和邮寄成本。<br />
+d 、可以全自动化，后续和用户沟通联系，全部都可以交给自动化邮 件发送系统处理。<br />
+&nbsp;<br />
+&nbsp;<br />
+利用赠品先搜集客户，然后通过序列邮件培育客户，再在某个时间进行集中销，收到非常好的业绩，例如：今日英才，利用30 天的电邮口才教程，</span></p>
+
+<p style="text-align: left"><span style="font-size:14px">搜集大量的潜在客户，比如读经网，通过儿童读经 电子书搜集潜在客户名单，集中促销儿童早教类的产品，这样的例子 非常多。<br />
+&nbsp;<br />
+&nbsp;<br />
+这些客户和杰夫保罗一样，利用的都是同一个原理在赚钱，那就：是搜集客户&rarr;培育客户&rarr;促销赚钱<br />
+&nbsp;<br />
+&nbsp;<br />
+再如此循环。<br />
+&nbsp;<br />
+怎么样？有了一点点思路的启发了吗？<br />
+&nbsp;<br />
+<strong>我是小马，如果你想精通管道数据库营销，可以加入VIP与我进行系统学习!</strong></span></p>
+', title='0' where id=11
+17:03:50 use a0122145834;
+17:03:50 set names utf8;
+17:03:50 select * from configs
+17:03:50 select * from admins where id=1
+17:03:50 select * from articles where id=11
+17:04:15 use a0122145834;
+17:04:15 set names utf8;
+17:04:15 select * from configs
+17:04:15 select * from users where id=35
+17:04:15 select count(id) from users where spreader_id='35'
+17:04:15 select * from images
+17:04:15 select * from article_type
+17:04:15 select * from article_type where id='0'
+17:04:15 select count(id) from articles where type_id='0' order by add_time desc
+17:04:15 select * from articles where type_id='0' order by add_time desc limit 0,5
+17:04:17 use a0122145834;
+17:04:17 set names utf8;
+17:04:17 select * from configs
+17:04:17 select * from users where id=35
+17:04:17 select count(id) from users where spreader_id='35'
+17:04:17 select * from images
+17:04:17 select type_id from articles where id='14'
+17:04:17 select * from articles where id='14'
+17:05:05 use a0122145834;
+17:05:05 set names utf8;
+17:05:05 select * from configs
+17:05:05 select * from admins where id=1
+17:05:05 update articles set type_id=0, content='<p><strong><span style="font-size:20px"><span style="color:rgb(255,255,255)"><span style="background-color:rgb(255,0,0)">亲爱的朋友，你好！我是小马，欢迎来到久恒！</span></span></span></strong></p>
+
+<p style="text-align: center">&nbsp;</p>
+
+<hr />
+<p style="text-align: center">&nbsp;</p>
+
+<p style="text-align: left">&nbsp;</p>
+
+<p style="text-align: left"><span style="font-size:14px"><strong>今天我们来分享一个流传甚广的故事：杰夫保罗的懒人创富法</strong><br />
+&nbsp;<img alt="" src="http://10nai.com/images/uplaod/a/a4.jpg" style="height:333px; width:242px" /></span><span style="font-size:14px">&nbsp;<br />
+&nbsp;<br />
+1991 年，杰夫保罗仍是一个无家可归、身无分文的彻底失败者，信用卡上有 10 万美元的债务赤字。他与老婆、3 个孩子，住在嫂子 家的地下室里。<br />
+&nbsp;<br />
+突然有一天，他发现了一本1931 年出版的古董书，书里揭示了一种极为简单的赚钱公式。使用这套不可思议的赚钱技巧，杰夫开始 快速赚钱了。</span></p>
+
+<p style="text-align: left"><span style="font-size:14px">到了1992年，他每个月的收入达到了5位数，此时的他，每天都穿着睡衣闲呆在家里&hellip;&hellip;<br />
+&nbsp;<br />
+&nbsp;<br />
+&nbsp;<br />
+其实，他的方法是很简单的，具体方法是：<br />
+&nbsp;<br />
+&nbsp;<br />
+他在本地报纸上，刊登廉价的分类广告，标题为&ldquo;免费索取《轻松烹饪美食的技巧》报告&rdquo;。吸引读者打电话给他，留下姓名和地址。<br />
+&nbsp;<br />
+&nbsp;<br />
+&nbsp;<br />
+然后杰夫就把免费报告连同其他商品的促销信邮寄给顾客。顾客 很可能不会立即买他所推荐的商品。不要紧，杰夫会每隔一段时间就 再邮寄一些有</span></p>
+
+<p style="text-align: left"><span style="font-size:14px">价值的报告、及商品促销信。<br />
+&nbsp;<br />
+&nbsp;<br />
+&nbsp;<br />
+而收信的顾客由于会持续受到杰夫寄来的资料，就逐渐增加了对 杰夫的信赖，把他当做懂得专业知识的专家，所以，在一段时间的持 续交流之后，</span></p>
+
+<p style="text-align: left"><span style="font-size:14px">一部分顾客就陆续开始购买他所推荐的商品。<br />
+&nbsp;<br />
+&nbsp;<br />
+这套技巧，帮杰夫在2 个月内就摆脱了银行的债务，并且很快就 成为在家工作的百万富翁&mdash;&mdash;这也是很多人梦想的生活。他的书《如 何穿着内衣坐在</span></p>
+
+<p style="text-align: left"><span style="font-size:14px">厨房边每天轻松赚取》&mdash;&mdash;销售给了15 万人，这些 人当中，很多人也成为了在家工作的百万富翁&mdash;&mdash;他们使用的，都是杰夫所教授的方法。<br />
+&nbsp;<br />
+&nbsp;<br />
+杰夫的财富故事，在欧美流传很广。为什么呢？因为它简单、易 学、有效。<br />
+&nbsp;<br />
+&nbsp;<br />
+他的整个操作步骤就是：<br />
+&nbsp;<br />
+&nbsp;<br />
+a 、寻找目标鱼塘（目标客户常活动的区域）释放鱼饵，吸引他们的 注意。<br />
+b 、用鱼饵换取顾客的联系方式，相当于把&ldquo;鱼&rdquo;钓入自己的鱼塘。<br />
+c 、通过持续的沟通来培育信赖感<br />
+d 、通过促销来提现。<br />
+&nbsp;<br />
+&nbsp;<br />
+&nbsp;<br />
+那这个故事的操作媒介是在报纸，如今是互联网世界，是否也是有效 的呢？<br />
+&nbsp;<br />
+&nbsp;<br />
+答案是肯定的，而且非常有效，并且比传统的报纸更具有操作性和更 低的实施成本。<br />
+&nbsp;<br />
+&nbsp;<br />
+&nbsp;<br />
+<span style="color:#ff0000">a 、具有网络广告的低廉成本，网络广告比传统广告更便宜、更容易 操作与控制。<br />
+b 、无任何印刷成本，网络就是万能复印机，增加浏览者，几乎不增加任何成本。</span><br />
+c 、发送邮件成本低廉，无邮件印刷和邮寄成本。<br />
+d 、可以全自动化，后续和用户沟通联系，全部都可以交给自动化邮 件发送系统处理。<br />
+&nbsp;<br />
+&nbsp;<br />
+利用赠品先搜集客户，然后通过序列邮件培育客户，再在某个时间进行集中销，收到非常好的业绩，例如：今日英才，利用30 天的电邮口才教程，</span></p>
+
+<p style="text-align: left"><span style="font-size:14px">搜集大量的潜在客户，比如读经网，通过儿童读经 电子书搜集潜在客户名单，集中促销儿童早教类的产品，这样的例子 非常多。<br />
+&nbsp;<br />
+&nbsp;<br />
+这些客户和杰夫保罗一样，利用的都是同一个原理在赚钱，那就：是搜集客户&rarr;培育客户&rarr;促销赚钱<br />
+&nbsp;<br />
+&nbsp;<br />
+再如此循环。<br />
+&nbsp;<br />
+怎么样？有了一点点思路的启发了吗？<br />
+&nbsp;<br />
+<strong>我是小马，如果你想精通管道数据库营销，可以加入VIP与我进行系统学习!</strong></span></p>
+', title='0' where id=11
+17:05:06 use a0122145834;
+17:05:06 set names utf8;
+17:05:06 select * from configs
+17:05:06 select * from admins where id=1
+17:05:06 select * from articles where id=11
+17:05:46 use a0122145834;
+17:05:46 set names utf8;
+17:05:46 select * from configs
+17:05:46 select * from admins where id=1
+17:05:46 update articles set type_id=0, content='<p><strong><span style="font-size:20px"><span style="color:rgb(255,255,255)"><span style="background-color:rgb(255,0,0)">亲爱的朋友，你好！我是小马，欢迎来到久恒！</span></span></span></strong></p>
+
+<p style="text-align: center">&nbsp;</p>
+
+<hr />
+<p style="text-align: center">&nbsp;</p>
+
+<p style="text-align: left">&nbsp;</p>
+
+<p style="text-align: left"><span style="font-size:14px"><strong>今天我们来分享一个流传甚广的故事：杰夫保罗的懒人创富法</strong><br />
+&nbsp;<img alt="" src="http://10nai.com/images/uplaod/a/a4.jpg" style="height:333px; width:242px" /></span><span style="font-size:14px">&nbsp;<br />
+&nbsp;<br />
+1991 年，杰夫保罗仍是一个无家可归、身无分文的彻底失败者，信用卡上有 10 万美元的债务赤字。他与老婆、3 个孩子，住在嫂子 家的地下室里。<br />
+&nbsp;<br />
+突然有一天，他发现了一本1931 年出版的古董书，书里揭示了一种极为简单的赚钱公式。使用这套不可思议的赚钱技巧，杰夫开始 快速赚钱了。</span></p>
+
+<p style="text-align: left"><span style="font-size:14px">到了1992年，他每个月的收入达到了5位数，此时的他，每天都穿着睡衣闲呆在家里&hellip;&hellip;<br />
+&nbsp;<br />
+&nbsp;<br />
+&nbsp;<br />
+其实，他的方法是很简单的，具体方法是：<br />
+&nbsp;<br />
+&nbsp;<br />
+他在本地报纸上，刊登廉价的分类广告，标题为&ldquo;免费索取《轻松烹饪美食的技巧》报告&rdquo;。吸引读者打电话给他，留下姓名和地址。<br />
+&nbsp;<br />
+&nbsp;<br />
+&nbsp;<br />
+然后杰夫就把免费报告连同其他商品的促销信邮寄给顾客。顾客 很可能不会立即买他所推荐的商品。不要紧，杰夫会每隔一段时间就 再邮寄一些有</span></p>
+
+<p style="text-align: left"><span style="font-size:14px">价值的报告、及商品促销信。<br />
+&nbsp;<br />
+&nbsp;<br />
+&nbsp;<br />
+而收信的顾客由于会持续受到杰夫寄来的资料，就逐渐增加了对 杰夫的信赖，把他当做懂得专业知识的专家，所以，在一段时间的持 续交流之后，</span></p>
+
+<p style="text-align: left"><span style="font-size:14px">一部分顾客就陆续开始购买他所推荐的商品。<br />
+&nbsp;<br />
+&nbsp;<br />
+这套技巧，帮杰夫在2 个月内就摆脱了银行的债务，并且很快就 成为在家工作的百万富翁&mdash;&mdash;这也是很多人梦想的生活。他的书《如 何穿着内衣坐在</span></p>
+
+<p style="text-align: left"><span style="font-size:14px">厨房边每天轻松赚取》&mdash;&mdash;销售给了15 万人，这些 人当中，很多人也成为了在家工作的百万富翁&mdash;&mdash;他们使用的，都是杰夫所教授的方法。<br />
+&nbsp;<br />
+&nbsp;<br />
+杰夫的财富故事，在欧美流传很广。为什么呢？因为它简单、易 学、有效。<br />
+&nbsp;<br />
+&nbsp;<br />
+他的整个操作步骤就是：<br />
+&nbsp;<br />
+&nbsp;<br />
+<span style="color:#ff0000">a 、寻找目标鱼塘（目标客户常活动的区域）释放鱼饵，吸引他们的 注意。<br />
+b 、用鱼饵换取顾客的联系方式，相当于把&ldquo;鱼&rdquo;钓入自己的鱼塘。<br />
+c 、通过持续的沟通来培育信赖感<br />
+d 、通过促销来提现。</span><br />
+&nbsp;<br />
+&nbsp;<br />
+&nbsp;<br />
+那这个故事的操作媒介是在报纸，如今是互联网世界，是否也是有效 的呢？<br />
+&nbsp;<br />
+&nbsp;<br />
+答案是肯定的，而且非常有效，并且比传统的报纸更具有操作性和更 低的实施成本。<br />
+&nbsp;<br />
+&nbsp;<br />
+&nbsp;<br />
+<span style="color:#ff0000">a 、具有网络广告的低廉成本，网络广告比传统广告更便宜、更容易 操作与控制。<br />
+b 、无任何印刷成本，网络就是万能复印机，增加浏览者，几乎不增加任何成本。</span><br />
+c 、发送邮件成本低廉，无邮件印刷和邮寄成本。<br />
+d 、可以全自动化，后续和用户沟通联系，全部都可以交给自动化邮 件发送系统处理。<br />
+&nbsp;<br />
+&nbsp;<br />
+利用赠品先搜集客户，然后通过序列邮件培育客户，再在某个时间进行集中销，收到非常好的业绩，例如：今日英才，利用30 天的电邮口才教程，</span></p>
+
+<p style="text-align: left"><span style="font-size:14px">搜集大量的潜在客户，比如读经网，通过儿童读经 电子书搜集潜在客户名单，集中促销儿童早教类的产品，这样的例子 非常多。<br />
+&nbsp;<br />
+&nbsp;<br />
+这些客户和杰夫保罗一样，利用的都是同一个原理在赚钱，那就：是搜集客户&rarr;培育客户&rarr;促销赚钱<br />
+&nbsp;<br />
+&nbsp;<br />
+再如此循环。<br />
+&nbsp;<br />
+怎么样？有了一点点思路的启发了吗？<br />
+&nbsp;<br />
+<strong>我是小马，如果你想精通管道数据库营销，可以加入VIP与我进行系统学习!</strong></span></p>
+', title='0' where id=11
+17:05:48 use a0122145834;
+17:05:48 set names utf8;
+17:05:48 select * from configs
+17:05:48 select * from admins where id=1
+17:05:48 select * from articles where id=11
+17:09:08 use a0122145834;
+17:09:08 set names utf8;
+17:09:08 select * from configs
+17:09:08 select * from admins where id=1
+17:09:08 update articles set type_id=0, content='<p><strong><span style="font-size:20px"><span style="color:rgb(255,255,255)"><span style="background-color:rgb(255,0,0)">亲爱的朋友，你好！我是小马，欢迎来到久恒！</span></span></span></strong></p>
+
+<p style="text-align: center">&nbsp;</p>
+
+<hr />
+<p style="text-align: center">&nbsp;</p>
+
+<p style="text-align: left">&nbsp;</p>
+
+<p style="text-align: left"><span style="font-size:14px"><strong>今天我们来分享一个流传甚广的故事：杰夫保罗的懒人创富法</strong><br />
+&nbsp;<img alt="" src="http://10nai.com/images/uplaod/a/a4.jpg" style="height:333px; width:242px" /></span><span style="font-size:14px">&nbsp;<br />
+&nbsp;<br />
+1991 年，杰夫保罗仍是一个无家可归、身无分文的彻底失败者，信用卡上有 10 万美元的债务赤字。他与老婆、3 个孩子，住在嫂子 家的地下室里。<br />
+&nbsp;<br />
+突然有一天，他发现了一本1931 年出版的古董书，书里揭示了一种极为简单的赚钱公式。使用这套不可思议的赚钱技巧，杰夫开始 快速赚钱了。</span></p>
+
+<p style="text-align: left"><span style="font-size:14px">到了1992年，他每个月的收入达到了5位数，此时的他，每天都穿着睡衣闲呆在家里&hellip;&hellip;<br />
+&nbsp;<br />
+&nbsp;<br />
+&nbsp;<br />
+其实，他的方法是很简单的，具体方法是：<br />
+&nbsp;<br />
+&nbsp;<br />
+他在本地报纸上，刊登廉价的分类广告，标题为&ldquo;免费索取《轻松烹饪美食的技巧》报告&rdquo;。吸引读者打电话给他，留下姓名和地址。<br />
+&nbsp;<br />
+&nbsp;<br />
+&nbsp;<br />
+然后杰夫就把免费报告连同其他商品的促销信邮寄给顾客。顾客 很可能不会立即买他所推荐的商品。不要紧，杰夫会每隔一段时间就 再邮寄一些有</span></p>
+
+<p style="text-align: left"><span style="font-size:14px">价值的报告、及商品促销信。<br />
+&nbsp;<br />
+&nbsp;<br />
+&nbsp;<br />
+而收信的顾客由于会持续受到杰夫寄来的资料，就逐渐增加了对 杰夫的信赖，把他当做懂得专业知识的专家，所以，在一段时间的持 续交流之后，</span></p>
+
+<p style="text-align: left"><span style="font-size:14px">一部分顾客就陆续开始购买他所推荐的商品。<br />
+&nbsp;<br />
+&nbsp;<br />
+这套技巧，帮杰夫在2 个月内就摆脱了银行的债务，并且很快就 成为在家工作的百万富翁&mdash;&mdash;这也是很多人梦想的生活。他的书《如 何穿着内衣坐在</span></p>
+
+<p style="text-align: left"><span style="font-size:14px">厨房边每天轻松赚取》&mdash;&mdash;销售给了15 万人，这些 人当中，很多人也成为了在家工作的百万富翁&mdash;&mdash;他们使用的，都是杰夫所教授的方法。<br />
+&nbsp;<br />
+&nbsp;<br />
+杰夫的财富故事，在欧美流传很广。为什么呢？因为它简单、易 学、有效。<br />
+&nbsp;<br />
+&nbsp;<br />
+他的整个操作步骤就是：<br />
+&nbsp;<br />
+&nbsp;<br />
+<span style="color:#ff0000">a 、寻找目标鱼塘（目标客户常活动的区域）释放鱼饵，吸引他们的 注意。<br />
+b 、用鱼饵换取顾客的联系方式，相当于把&ldquo;鱼&rdquo;钓入自己的鱼塘。<br />
+c 、通过持续的沟通来培育信赖感<br />
+d 、通过促销来提现。</span><br />
+&nbsp;<br />
+&nbsp;<br />
+&nbsp;<br />
+那这个故事的操作媒介是在报纸，如今是互联网世界，是否也是有效 的呢？<br />
+&nbsp;<br />
+&nbsp;<br />
+答案是肯定的，而且非常有效，并且比传统的报纸更具有操作性和更 低的实施成本。<br />
+&nbsp;<br />
+&nbsp;<br />
+<span style="color:#ff0000">a 、具有网络广告的低廉成本，网络广告比传统广告更便宜、更容易 操作与控制。<br />
+b 、无任何印刷成本，网络就是万能复印机，增加浏览者，几乎不增加任何成本。&nbsp;</span></span></p>
+
+<p style="text-align: left"><span style="color:#ff0000"><span style="font-size:16px">c 、发送邮件成本低廉，无邮件印刷和邮寄成本。<br />
+d 、可以全自动化，后续和用户沟通联系，全部都可以交给自动化邮 件发送系统处理。</span></span><br />
+<span style="font-size:14px">&nbsp;<br />
+&nbsp;<br />
+利用赠品先搜集客户，然后通过序列邮件培育客户，再在某个时间进行集中销，收到非常好的业绩，例如：今日英才，利用30 天的电邮口才教程，</span></p>
+
+<p style="text-align: left"><span style="font-size:14px">搜集大量的潜在客户，比如读经网，通过儿童读经 电子书搜集潜在客户名单，集中促销儿童早教类的产品，这样的例子 非常多。<br />
+&nbsp;<br />
+&nbsp;<br />
+这些客户和杰夫保罗一样，利用的都是同一个原理在赚钱，那就：是搜集客户&rarr;培育客户&rarr;促销赚钱<br />
+&nbsp;<br />
+&nbsp;<br />
+再如此循环。<br />
+&nbsp;<br />
+<span style="color:#ff0000"><strong>怎么样？有了一点点思路的启发了吗？</strong></span></span></p>
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+
+<p style="text-align: center">&nbsp;</p>
+
+<hr />
+<p style="text-align: center">&nbsp;</p>
+
+<p style="text-align: center">&nbsp;</p>
+
+<p style="text-align: left"><span style="font-size:14px"><strong>我是小马，如果你想精通管道数据库营销，可以加入VIP与我进行系统学习!</strong></span></p>
+', title='【小马】—数据库营销，懒人创富法' where id=11
+17:09:09 use a0122145834;
+17:09:09 set names utf8;
+17:09:09 select * from configs
+17:09:09 select * from admins where id=1
+17:09:09 select * from articles where id=11
+17:09:12 use a0122145834;
+17:09:12 set names utf8;
+17:09:12 select * from configs
+17:09:12 select * from users where id=35
+17:09:12 select count(id) from users where spreader_id='35'
+17:09:12 select * from images
+17:09:12 select * from article_type
+17:09:12 select * from article_type where id='0'
+17:09:12 select count(id) from articles where type_id='0' order by add_time desc
+17:09:12 select * from articles where type_id='0' order by add_time desc limit 0,5
+17:09:15 use a0122145834;
+17:09:15 set names utf8;
+17:09:15 select * from configs
+17:09:15 select * from users where id=35
+17:09:15 select count(id) from users where spreader_id='35'
+17:09:15 select * from images
+17:09:15 select * from article_type
+17:09:15 select * from article_type where id='0'
+17:09:15 select count(id) from articles where type_id='0' order by add_time desc
+17:09:15 select * from articles where type_id='0' order by add_time desc limit 5,5
+17:09:18 use a0122145834;
+17:09:18 set names utf8;
+17:09:18 select * from configs
+17:09:18 select * from users where id=35
+17:09:18 select count(id) from users where spreader_id='35'
+17:09:18 select * from images
+17:09:18 select type_id from articles where id='11'
+17:09:18 select * from articles where id='11'
+17:10:45 use a0122145834;
+17:10:45 set names utf8;
+17:10:45 select * from configs
+17:10:45 select * from admins where id=1
+17:10:45 update articles set type_id=0, content='<p><strong><span style="font-size:20px"><span style="color:rgb(255,255,255)"><span style="background-color:rgb(255,0,0)">亲爱的朋友，你好！我是小马，欢迎来到久恒！</span></span></span></strong></p>
+
+<p style="text-align: center">&nbsp;</p>
+
+<hr />
+<p style="text-align: center">&nbsp;</p>
+
+<p style="text-align: left">&nbsp;</p>
+
+<p style="text-align: left"><span style="font-size:14px"><strong>今天我们来分享一个流传甚广的故事：杰夫保罗的懒人创富法</strong><br />
+&nbsp;<img alt="" src="http://10nai.com/images/uplaod/a/a4.jpg" style="height:333px; width:242px" /></span><span style="font-size:14px">&nbsp;<br />
+&nbsp;<br />
+1991 年，杰夫保罗仍是一个无家可归、身无分文的彻底失败者，信用卡上有 10 万美元的债务赤字。他与老婆、3 个孩子，住在嫂子 家的地下室里。<br />
+&nbsp;<br />
+突然有一天，他发现了一本1931 年出版的古董书，书里揭示了一种极为简单的赚钱公式。使用这套不可思议的赚钱技巧，杰夫开始 快速赚钱了。</span></p>
+
+<p style="text-align: left"><span style="font-size:14px">到了1992年，他每个月的收入达到了5位数，此时的他，每天都穿着睡衣闲呆在家里&hellip;&hellip;<br />
+&nbsp;<br />
+&nbsp;<br />
+&nbsp;<br />
+其实，他的方法是很简单的，具体方法是：<br />
+&nbsp;<br />
+&nbsp;<br />
+他在本地报纸上，刊登廉价的分类广告，标题为&ldquo;免费索取《轻松烹饪美食的技巧》报告&rdquo;。吸引读者打电话给他，留下姓名和地址。<br />
+&nbsp;<br />
+&nbsp;<br />
+&nbsp;<br />
+然后杰夫就把免费报告连同其他商品的促销信邮寄给顾客。顾客 很可能不会立即买他所推荐的商品。不要紧，杰夫会每隔一段时间就 再邮寄一些有</span></p>
+
+<p style="text-align: left"><span style="font-size:14px">价值的报告、及商品促销信。<br />
+&nbsp;<br />
+&nbsp;<br />
+&nbsp;<br />
+而收信的顾客由于会持续受到杰夫寄来的资料，就逐渐增加了对 杰夫的信赖，把他当做懂得专业知识的专家，所以，在一段时间的持 续交流之后，</span></p>
+
+<p style="text-align: left"><span style="font-size:14px">一部分顾客就陆续开始购买他所推荐的商品。<br />
+&nbsp;<br />
+&nbsp;<br />
+这套技巧，帮杰夫在2 个月内就摆脱了银行的债务，并且很快就 成为在家工作的百万富翁&mdash;&mdash;这也是很多人梦想的生活。他的书《如 何穿着内衣坐在</span></p>
+
+<p style="text-align: left"><span style="font-size:14px">厨房边每天轻松赚取》&mdash;&mdash;销售给了15 万人，这些 人当中，很多人也成为了在家工作的百万富翁&mdash;&mdash;他们使用的，都是杰夫所教授的方法。<br />
+&nbsp;<br />
+&nbsp;<br />
+杰夫的财富故事，在欧美流传很广。为什么呢？因为它简单、易 学、有效。<br />
+&nbsp;<br />
+&nbsp;<br />
+他的整个操作步骤就是：<br />
+&nbsp;<br />
+&nbsp;<br />
+<span style="color:#ff0000">a 、寻找目标鱼塘（目标客户常活动的区域）释放鱼饵，吸引他们的 注意。<br />
+b 、用鱼饵换取顾客的联系方式，相当于把&ldquo;鱼&rdquo;钓入自己的鱼塘。<br />
+c 、通过持续的沟通来培育信赖感<br />
+d 、通过促销来提现。</span><br />
+&nbsp;<br />
+&nbsp;<br />
+&nbsp;<br />
+那这个故事的操作媒介是在报纸，如今是互联网世界，是否也是有效 的呢？<br />
+&nbsp;<br />
+&nbsp;<br />
+答案是肯定的，而且非常有效，并且比传统的报纸更具有操作性和更 低的实施成本。<br />
+&nbsp;<br />
+&nbsp;<br />
+<span style="color:#ff0000">a 、具有网络广告的低廉成本，网络广告比传统广告更便宜、更容易 操作与控制。<br />
+b 、无任何印刷成本，网络就是万能复印机，增加浏览者，几乎不增加任何成本。&nbsp;</span></span></p>
+
+<p style="text-align: left"><span style="color:#ff0000"><span style="font-size:16px">c 、发送邮件成本低廉，无邮件印刷和邮寄成本。<br />
+d 、可以全自动化，后续和用户沟通联系，全部都可以交给自动化邮 件发送系统处理。</span></span><br />
+<span style="font-size:14px">&nbsp;<br />
+&nbsp;<br />
+利用赠品先搜集客户，然后通过序列邮件培育客户，再在某个时间进行集中销，收到非常好的业绩，例如：今日英才，利用30 天的电邮口才教程，</span></p>
+
+<p style="text-align: left"><span style="font-size:14px">搜集大量的潜在客户，比如读经网，通过儿童读经 电子书搜集潜在客户名单，集中促销儿童早教类的产品，这样的例子 非常多。<br />
+&nbsp;<br />
+&nbsp;<br />
+这些客户和杰夫保罗一样，利用的都是同一个原理在赚钱，那就：是搜集客户&rarr;培育客户&rarr;促销赚钱<br />
+&nbsp;<br />
+&nbsp;<br />
+再如此循环。<br />
+&nbsp;<br />
+<span style="color:#ff0000"><strong>怎么样？有了一点点思路的启发了吗？</strong></span></span></p>
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+
+<p style="text-align: center">&nbsp;</p>
+
+<hr />
+<p style="text-align: center">&nbsp;</p>
+
+<p style="text-align: center">&nbsp;</p>
+
+<p style="text-align: left"><span style="font-size:14px"><strong>我是小马，如果你也想精通数据库营销，可以加入VIP与我进行系统学习!</strong></span></p>
+
+<p style="text-align: left">&nbsp;</p>
+', title='【小马】—数据库营销，懒人创富法' where id=11
+17:10:46 use a0122145834;
+17:10:46 set names utf8;
+17:10:46 select * from configs
+17:10:46 select * from admins where id=1
+17:10:46 select * from articles where id=11
+17:11:17 use a0122145834;
+17:11:17 set names utf8;
+17:11:17 select * from configs
+17:11:17 select * from admins where id=1
+17:11:17 update articles set type_id=0, content='<p><strong><span style="font-size:20px"><span style="color:rgb(255,255,255)"><span style="background-color:rgb(255,0,0)">亲爱的朋友，你好！我是小马，欢迎来到久恒！</span></span></span></strong></p>
+
+<p style="text-align: center">&nbsp;</p>
+
+<hr />
+<p style="text-align: center">&nbsp;</p>
+
+<p style="text-align: left">&nbsp;</p>
+
+<p style="text-align: left"><span style="font-size:14px"><strong>今天我们来分享一个流传甚广的故事：杰夫保罗的懒人创富法</strong><br />
+&nbsp;<img alt="" src="http://10nai.com/images/uplaod/a/a4.jpg" style="height:333px; width:242px" /></span><span style="font-size:14px">&nbsp;<br />
+&nbsp;<br />
+1991 年，杰夫保罗仍是一个无家可归、身无分文的彻底失败者，信用卡上有 10 万美元的债务赤字。他与老婆、3 个孩子，住在嫂子 家的地下室里。<br />
+&nbsp;<br />
+突然有一天，他发现了一本1931 年出版的古董书，书里揭示了一种极为简单的赚钱公式。使用这套不可思议的赚钱技巧，杰夫开始 快速赚钱了。</span></p>
+
+<p style="text-align: left"><span style="font-size:14px">到了1992年，他每个月的收入达到了5位数，此时的他，每天都穿着睡衣闲呆在家里&hellip;&hellip;<br />
+&nbsp;<br />
+&nbsp;<br />
+&nbsp;<br />
+其实，他的方法是很简单的，具体方法是：<br />
+&nbsp;<br />
+&nbsp;<br />
+他在本地报纸上，刊登廉价的分类广告，标题为&ldquo;免费索取《轻松烹饪美食的技巧》报告&rdquo;。吸引读者打电话给他，留下姓名和地址。<br />
+&nbsp;<br />
+&nbsp;<br />
+&nbsp;<br />
+然后杰夫就把免费报告连同其他商品的促销信邮寄给顾客。顾客 很可能不会立即买他所推荐的商品。不要紧，杰夫会每隔一段时间就 再邮寄一些有</span></p>
+
+<p style="text-align: left"><span style="font-size:14px">价值的报告、及商品促销信。<br />
+&nbsp;<br />
+&nbsp;<br />
+&nbsp;<br />
+而收信的顾客由于会持续受到杰夫寄来的资料，就逐渐增加了对 杰夫的信赖，把他当做懂得专业知识的专家，所以，在一段时间的持 续交流之后，</span></p>
+
+<p style="text-align: left"><span style="font-size:14px">一部分顾客就陆续开始购买他所推荐的商品。<br />
+&nbsp;<br />
+&nbsp;<br />
+这套技巧，帮杰夫在2 个月内就摆脱了银行的债务，并且很快就 成为在家工作的百万富翁&mdash;&mdash;这也是很多人梦想的生活。他的书《如 何穿着内衣坐在</span></p>
+
+<p style="text-align: left"><span style="font-size:14px">厨房边每天轻松赚取》&mdash;&mdash;销售给了15 万人，这些 人当中，很多人也成为了在家工作的百万富翁&mdash;&mdash;他们使用的，都是杰夫所教授的方法。<br />
+&nbsp;<br />
+&nbsp;<br />
+杰夫的财富故事，在欧美流传很广。为什么呢？因为它简单、易 学、有效。<br />
+&nbsp;<br />
+&nbsp;<br />
+他的整个操作步骤就是：<br />
+&nbsp;<br />
+&nbsp;<br />
+<span style="color:#ff0000">a 、寻找目标鱼塘（目标客户常活动的区域）释放鱼饵，吸引他们的 注意。<br />
+b 、用鱼饵换取顾客的联系方式，相当于把&ldquo;鱼&rdquo;钓入自己的鱼塘。<br />
+c 、通过持续的沟通来培育信赖感<br />
+d 、通过促销来提现。</span><br />
+&nbsp;<br />
+&nbsp;<br />
+&nbsp;<br />
+那这个故事的操作媒介是在报纸，如今是互联网世界，是否也是有效 的呢？<br />
+&nbsp;<br />
+&nbsp;<br />
+答案是肯定的，而且非常有效，并且比传统的报纸更具有操作性和更 低的实施成本。<br />
+&nbsp;<br />
+&nbsp;<br />
+<span style="color:#ff0000">a 、具有网络广告的低廉成本，网络广告比传统广告更便宜、更容易 操作与控制。<br />
+b 、无任何印刷成本，网络就是万能复印机，增加浏览者，几乎不增加任何成本。&nbsp;</span></span></p>
+
+<p style="text-align: left"><span style="color:#ff0000"><span style="font-size:16px">c 、发送邮件成本低廉，无邮件印刷和邮寄成本。<br />
+d 、可以全自动化，后续和用户沟通联系，全部都可以交给自动化邮 件发送系统处理。</span></span><br />
+<span style="font-size:14px">&nbsp;<br />
+&nbsp;<br />
+利用赠品先搜集客户，然后通过序列邮件培育客户，再在某个时间进行集中销，收到非常好的业绩，例如：今日英才，利用30 天的电邮口才教程，</span></p>
+
+<p style="text-align: left"><span style="font-size:14px">搜集大量的潜在客户，比如读经网，通过儿童读经 电子书搜集潜在客户名单，集中促销儿童早教类的产品，这样的例子 非常多。<br />
+&nbsp;<br />
+&nbsp;<br />
+这些客户和杰夫保罗一样，利用的都是同一个原理在赚钱，那就：是搜集客户&rarr;培育客户&rarr;促销赚钱<br />
+&nbsp;<br />
+&nbsp;<br />
+再如此循环。<br />
+&nbsp;<br />
+<span style="color:#ff0000"><strong>怎么样？有了一点点思路的启发了吗？</strong></span></span></p>
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+
+<p style="text-align: center">&nbsp;</p>
+
+<hr />
+<p style="text-align: center">&nbsp;</p>
+
+<p style="text-align: center">&nbsp;</p>
+
+<p style="text-align: left"><span style="font-size:14px"><strong>我是小马，如果你也想精通数据库营销实现你的月入5位数，可以加入VIP与我进行系统学习!</strong></span></p>
+
+<p style="text-align: left">&nbsp;</p>
+', title='【小马】—数据库营销，懒人创富法' where id=11
+17:11:19 use a0122145834;
+17:11:19 set names utf8;
+17:11:19 select * from configs
+17:11:19 select * from admins where id=1
+17:11:19 select * from articles where id=11
+17:11:25 use a0122145834;
+17:11:25 set names utf8;
+17:11:25 select * from configs
+17:11:25 select * from users where id=35
+17:11:25 select count(id) from users where spreader_id='35'
+17:11:25 select * from images
+17:11:25 select type_id from articles where id='11'
+17:11:25 select * from articles where id='11'
+17:11:57 use a0122145834;
+17:11:57 set names utf8;
+17:11:57 select * from configs
+17:12:28 use a0122145834;
+17:12:28 set names utf8;
+17:12:28 select * from configs
+17:13:00 use a0122145834;
+17:13:00 set names utf8;
+17:13:00 select * from configs
+17:13:00 select * from admins where id=1
+17:13:00 select count(o.id) from articles as o left join article_type as u on u.id=o.type_id 
+17:13:00 select o.id,o.title,o.add_time,u.type_name from articles as o left join article_type as u on u.id=o.type_id  limit 0,20
+17:13:05 use a0122145834;
+17:13:05 set names utf8;
+17:13:05 select * from configs
+17:13:05 select * from admins where id=1
+17:13:05 select * from articles where id=16
+17:13:09 use a0122145834;
+17:13:09 set names utf8;
+17:13:09 select * from configs
+17:13:09 select * from users where id=35
+17:13:09 use a0122145834;
+17:13:09 set names utf8;
+17:13:09 select * from configs
+17:13:09 select * from users where id=35
+17:13:09 select count(id) from users where spreader_id='35'
+17:13:09 select * from images
+17:13:09 select * from goods where need_top=1 and need_hidden=0 order by id desc limit 0,5
+17:13:09 select count(id) from goods where need_top=0 and need_hidden=0 order by id desc
+17:13:09 select * from goods where need_top=0 and need_hidden=0 order by id desc limit 0,5
+17:13:12 use a0122145834;
+17:13:12 set names utf8;
+17:13:12 select * from configs
+17:13:12 select * from users where id=35
+17:13:12 select count(id) from users where spreader_id='35'
+17:13:12 select * from images
+17:13:12 select * from article_type
+17:13:12 select * from article_type where id='0'
+17:13:12 select count(id) from articles where type_id='0' order by add_time desc
+17:13:12 select * from articles where type_id='0' order by add_time desc limit 0,5
+17:21:14 use a0122145834;
+17:21:14 set names utf8;
+17:21:14 select * from configs
+17:21:14 select * from users where id=35
+17:21:14 select count(id) from users where spreader_id='35'
+17:21:14 select * from images
+17:21:14 select type_id from articles where id='15'
+17:21:14 select * from articles where id='15'
+17:22:35 use a0122145834;
+17:22:35 set names utf8;
+17:22:35 select * from configs
+17:22:35 select * from admins where id=1
+17:22:35 update articles set type_id=0, content='<p><strong><span style="font-size:20px"><span style="color:rgb(255,255,255)"><span style="background-color:rgb(255,0,0)">亲爱的朋友，你好！我是小马，欢迎来到久恒！</span></span></span></strong></p>
+
+<p style="text-align: center">&nbsp;</p>
+
+<hr />
+<p style="text-align: center">&nbsp;</p>
+
+<p><span style="font-size:14px"><strong>今天给大伙分享一个实打实的干货！内容是数据库营销！看看别人怎么借助大流量平台和大流量关键词的！</strong><br />
+<br />
+早前，我给大伙演示过的数据库营销的威力和原理相信大家已经看到过了！是很强大的！腾讯，360，百度他们都在用！</span></p>
+
+<p><span style="font-size:14px">有关数据库营销的威力和数据库如何挣钱！没有看过的哥们可以点击去看看<br />
+<br />
+<a href="http://10nai.com/user.php?act=vip_article_id&amp;id=11" target="_blank"><input name="点击阅读" size="45" style="width: 171px; height: 55px" type="button" value="点击阅读" /></a></span></p>
+
+<p>&nbsp;</p>
+
+<p><br />
+<span style="font-size:14px">数据库的原理和威力视频课程我详细讲解过了，在这里就不多扯了，下面直接入主题，小马不空谈了，直接结合案例讲！<br />
+<br />
+打开优酷视频：<a href="http://v.youku.com/v_show/id_XNjY1MTM3MTE2.html" target="_blank">http://v.youku.com/v_show/id_XNjY1MTM3MTE2.html</a>&nbsp; &nbsp; 亮点在1：39秒 &nbsp;<br />
+<br />
+&nbsp;</span></p>
+
+<p><span style="font-size:14px"><img src="http://r.photo.store.qq.com/psb?/V12IxwoK09cbpL/*1Kwbzyy1C1e5lam6nHh2E4PqNBMOZ.YOd.NOQnjWAE!/o/dPFas1H.EwAA&amp;bo=GAOAAnYDzAIBAAU!&amp;su=1151914417&amp;rf=2-9" /><br />
+<br />
+<br />
+<span style="color:#ff0000"><strong>我们讲他的引流方式！利用热门关键词搜索！</strong></span><br />
+<br />
+<strong>第一个关键词：报告老板</strong>&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<strong>第二个关键词是：万万没想到</strong><br />
+<img src="http://b135.photo.store.qq.com/psb?/V12IxwoK09cbpL/lV4EjwxXjZwEZUZRxAq1o1QklPMiHMjL*T7ryFO*qsg!/b/dPT*e1DOEwAA&amp;bo=swGHAQAAAAABABM!&amp;su=0221096193&amp;rf=2-9" />&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; <img src="http://b137.photo.store.qq.com/psb?/V12IxwoK09cbpL/CeHcw*Cue.EohFXYl5d.PD*rkoiEHwPSqfoLOpU67tg!/b/dJjQtFHtEwAA&amp;bo=PwFMAQAAAAABAFQ!&amp;su=0120443169&amp;rf=2-9" /><br />
+<br />
+<strong>第三个关键词：朴妮唛</strong> &nbsp;&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<strong>第四个关键词：周星驰</strong><br />
+<br />
+<img src="http://b136.photo.store.qq.com/psb?/V12IxwoK09cbpL/KaxwaSxMg4GYAhH7pXOJTA5vo9r9VV215TFCPfbFvzs!/b/dCoVE1HoEwAA&amp;bo=CgF0AQAAAAABAFk!&amp;su=091396433&amp;rf=2-9" />&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <img src="http://b137.photo.store.qq.com/psb?/V12IxwoK09cbpL/hM3uM99szdI*4WK*3Q7xoNPoR7agorPkvLnr9i52lSk!/b/dKfzt1HWEwAA&amp;bo=*wCMAQAAAAABAFU!&amp;su=03198017&amp;rf=2-9" /><br />
+<br />
+这四个关键词的搜索量都很大！但是这个家伙用的有点杂！用了效果不是很好！他借助搜索量高的关键词和优酷的站内流量引流！</span></p>
+
+<p>&nbsp;</p>
+
+<p><span style="font-size:14px"><strong>那些有特长有能力的哥们一样可以这样做！自己制造虚拟产品或者实体产品！这个哥们操作思路是对的，擅长视频营销的朋友可以借用学习一下！</strong></span></p>
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+
+<p style="text-align: center">&nbsp;</p>
+
+<p style="text-align: center">&nbsp;</p>
+
+<hr />
+<p style="text-align: center">&nbsp;</p>
+
+<p><span style="font-size:18px"><span style="color:rgb(255,255,255)"><span style="background-color:rgb(255,0,0)"><strong>这里是非会员区，普通文章只做分享，不作解答；希望对大家有所帮助。</strong></span></span></span></p>
+
+<p><span style="font-size:14px">&nbsp;</span></p>
+', title='3333' where id=16
+17:22:37 use a0122145834;
+17:22:37 set names utf8;
+17:22:37 select * from configs
+17:22:37 select * from admins where id=1
+17:22:37 select * from articles where id=16
+17:22:55 use a0122145834;
+17:22:55 set names utf8;
+17:22:55 select * from configs
+17:22:55 select * from admins where id=1
+17:22:55 update articles set type_id=0, content='<p><strong><span style="font-size:20px"><span style="color:rgb(255,255,255)"><span style="background-color:rgb(255,0,0)">亲爱的朋友，你好！我是小马，欢迎来到久恒！</span></span></span></strong></p>
+
+<p style="text-align: center">&nbsp;</p>
+
+<hr />
+<p style="text-align: center">&nbsp;</p>
+
+<p><span style="font-size:14px"><strong>今天给大伙分享一个实打实的干货！内容是数据库营销！看看别人怎么借助大流量平台和大流量关键词的！</strong><br />
+<br />
+早前，我给大伙演示过的数据库营销的威力和原理相信大家已经看到过了！是很强大的！腾讯，360，百度他们都在用！</span></p>
+
+<p><span style="font-size:14px">有关数据库营销的威力和数据库如何挣钱！没有看过的哥们可以点击去看看<br />
+<br />
+<a href="http://10nai.com/user.php?act=vip_article_id&amp;id=11" target="_blank"><input name="点击阅读" size="45" style="width: 171px; height: 55px" type="button" value="点击阅读" /></a></span></p>
+
+<p>&nbsp;</p>
+
+<p><br />
+<span style="font-size:14px">数据库的原理和威力视频课程我详细讲解过了，在这里就不多扯了，下面直接入主题，小马不空谈了，直接结合案例讲！<br />
+<br />
+打开优酷视频：<a href="http://v.youku.com/v_show/id_XNjY1MTM3MTE2.html" target="_blank">http://v.youku.com/v_show/id_XNjY1MTM3MTE2.html</a>&nbsp; &nbsp; 亮点在1：39秒 &nbsp;<br />
+<br />
+&nbsp;</span></p>
+
+<p><span style="font-size:14px"><img src="http://r.photo.store.qq.com/psb?/V12IxwoK09cbpL/*1Kwbzyy1C1e5lam6nHh2E4PqNBMOZ.YOd.NOQnjWAE!/o/dPFas1H.EwAA&amp;bo=GAOAAnYDzAIBAAU!&amp;su=1151914417&amp;rf=2-9" /><br />
+<br />
+<br />
+<span style="color:#ff0000"><strong>我们讲他的引流方式！利用热门关键词搜索！</strong></span><br />
+<br />
+<strong>第一个关键词：报告老板</strong>&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<strong>第二个关键词是：万万没想到</strong><br />
+<img src="http://b135.photo.store.qq.com/psb?/V12IxwoK09cbpL/lV4EjwxXjZwEZUZRxAq1o1QklPMiHMjL*T7ryFO*qsg!/b/dPT*e1DOEwAA&amp;bo=swGHAQAAAAABABM!&amp;su=0221096193&amp;rf=2-9" />&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; <img src="http://b137.photo.store.qq.com/psb?/V12IxwoK09cbpL/CeHcw*Cue.EohFXYl5d.PD*rkoiEHwPSqfoLOpU67tg!/b/dJjQtFHtEwAA&amp;bo=PwFMAQAAAAABAFQ!&amp;su=0120443169&amp;rf=2-9" /><br />
+<br />
+<strong>第三个关键词：朴妮唛</strong> &nbsp;&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<strong>第四个关键词：周星驰</strong><br />
+<br />
+<img src="http://b136.photo.store.qq.com/psb?/V12IxwoK09cbpL/KaxwaSxMg4GYAhH7pXOJTA5vo9r9VV215TFCPfbFvzs!/b/dCoVE1HoEwAA&amp;bo=CgF0AQAAAAABAFk!&amp;su=091396433&amp;rf=2-9" />&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <img src="http://b137.photo.store.qq.com/psb?/V12IxwoK09cbpL/hM3uM99szdI*4WK*3Q7xoNPoR7agorPkvLnr9i52lSk!/b/dKfzt1HWEwAA&amp;bo=*wCMAQAAAAABAFU!&amp;su=03198017&amp;rf=2-9" /><br />
+<br />
+这四个关键词的搜索量都很大！但是这个家伙用的有点杂！用了效果不是很好！他借助搜索量高的关键词和优酷的站内流量引流！</span></p>
+
+<p>&nbsp;</p>
+
+<p><span style="font-size:14px"><strong>那些有特长有能力的哥们一样可以这样做！自己制造虚拟产品或者实体产品！这个哥们操作思路是对的，擅长视频营销的朋友可以借用学习一下！</strong></span></p>
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+
+<p style="text-align: center">&nbsp;</p>
+
+<p style="text-align: center">&nbsp;</p>
+
+<hr />
+<p style="text-align: center">&nbsp;</p>
+
+<p><span style="font-size:18px"><span style="color:rgb(255,255,255)"><span style="background-color:rgb(255,0,0)"><strong>这里是非会员区，普通文章只做分享，不作解答；希望对大家有所帮助。</strong></span></span></span></p>
+
+<p><span style="font-size:14px">&nbsp;</span></p>
+', title='【小马】—借力大流量平台轻松月入3000' where id=16
+17:22:57 use a0122145834;
+17:22:57 set names utf8;
+17:22:57 select * from configs
+17:22:57 select * from admins where id=1
+17:22:57 select * from articles where id=16
+17:23:13 use a0122145834;
+17:23:13 set names utf8;
+17:23:13 select * from configs
+17:23:13 select * from users where id=35
+17:23:13 select count(id) from users where spreader_id='35'
+17:23:13 select * from images
+17:23:13 select * from article_type
+17:23:13 select * from article_type where id='0'
+17:23:13 select count(id) from articles where type_id='0' order by add_time desc
+17:23:13 select * from articles where type_id='0' order by add_time desc limit 0,5
+17:23:18 use a0122145834;
+17:23:18 set names utf8;
+17:23:18 select * from configs
+17:23:18 select * from users where id=35
+17:23:18 select count(id) from users where spreader_id='35'
+17:23:18 select * from images
+17:23:18 select type_id from articles where id='16'
+17:23:18 select * from articles where id='16'
+17:23:24 use a0122145834;
+17:23:24 set names utf8;
+17:23:24 select * from configs
+17:23:24 select * from users where id=35
+17:23:24 select count(id) from users where spreader_id='35'
+17:23:24 select * from images
+17:23:24 select type_id from articles where id='11'
+17:23:24 select * from articles where id='11'
+17:24:10 use a0122145834;
+17:24:10 set names utf8;
+17:24:10 select * from configs
+17:24:10 select * from users where id=35
+17:24:10 select count(id) from users where spreader_id='35'
+17:24:10 select * from images
+17:24:10 select * from article_type
+17:24:10 select * from article_type where id='0'
+17:24:10 select count(id) from articles where type_id='0' order by add_time desc
+17:24:10 select * from articles where type_id='0' order by add_time desc limit 0,5
+17:26:22 use a0122145834;
+17:26:22 set names utf8;
+17:26:22 select * from configs
+17:26:22 select * from users where id=35
+17:26:22 select count(id) from users where spreader_id='35'
+17:26:22 select * from images
+17:26:22 select type_id from articles where id='16'
+17:26:23 select * from articles where id='16'
+17:46:17 use a0122145834;
+17:46:17 set names utf8;
+17:46:17 select * from configs
+17:46:17 select * from users where id=35
+17:46:17 select count(id) from users where spreader_id='35'
+17:46:17 select * from images
+17:46:17 select * from article_type
+17:46:17 select * from article_type where id='0'
+17:46:17 select count(id) from articles where type_id='0' order by add_time desc
+17:46:17 select * from articles where type_id='0' order by add_time desc limit 0,5
+17:46:19 use a0122145834;
+17:46:19 set names utf8;
+17:46:19 select * from configs
+17:46:19 select * from users where id=35
+17:46:19 select count(id) from users where spreader_id='35'
+17:46:19 select * from images
+17:46:19 select type_id from articles where id='15'
+17:46:19 select * from articles where id='15'
+17:47:58 use a0122145834;
+17:47:58 set names utf8;
+17:47:58 select * from configs
+17:47:58 select * from users where id=35
+17:47:58 select count(id) from users where spreader_id='35'
+17:47:58 select * from images
+17:47:58 select * from article_type
+17:47:58 select * from article_type where id='0'
+17:47:58 select count(id) from articles where type_id='0' order by add_time desc
+17:47:58 select * from articles where type_id='0' order by add_time desc limit 0,5
+17:48:00 use a0122145834;
+17:48:00 set names utf8;
+17:48:00 select * from configs
+17:48:00 select * from users where id=35
+17:48:00 select count(id) from users where spreader_id='35'
+17:48:00 select * from images
+17:48:00 select type_id from articles where id='16'
+17:48:00 select * from articles where id='16'
+17:49:25 use a0122145834;
+17:49:25 set names utf8;
+17:49:25 select * from configs
+17:49:25 select * from admins where id=1
+17:49:25 update articles set type_id=0, content='<p><strong><span style="font-size:20px"><span style="color:rgb(255,255,255)"><span style="background-color:rgb(255,0,0)">亲爱的朋友，你好！我是小马，欢迎来到久恒！</span></span></span></strong></p>
+
+<p style="text-align: center">&nbsp;</p>
+
+<hr />
+<p style="text-align: center">&nbsp;</p>
+
+<p><span style="font-size:14px"><strong>今天给大伙分享一个实打实的干货！内容是数据库营销！看看别人怎么借助大流量平台和大流量关键词的！</strong><br />
+<br />
+早前，我给大伙演示过的数据库营销的威力和原理相信大家已经看到过了！是很强大的！腾讯，360，百度他们都在用！</span></p>
+
+<p><span style="font-size:14px">有关数据库营销的威力和数据库如何挣钱！没有看过的哥们可以点击去看看<br />
+<br />
+<a href="http://10nai.com/user.php?act=vip_article_id&amp;id=11" target="_blank"><input name="点击阅读" size="45" style="width: 171px; height: 55px" type="button" value="点击阅读" /></a></span></p>
+
+<p>&nbsp;</p>
+
+<p><br />
+<span style="font-size:14px">数据库的原理和威力视频课程我详细讲解过了，在这里就不多扯了，下面直接入主题，小马不空谈了，直接结合案例讲！<br />
+<br />
+打开优酷视频：<a href="http://v.youku.com/v_show/id_XNjY1MTM3MTE2.html" target="_blank">http://v.youku.com/v_show/id_XNjY1MTM3MTE2.html</a>&nbsp; &nbsp; 亮点在1：39秒 &nbsp;<br />
+<br />
+&nbsp;</span></p>
+
+<p><span style="font-size:14px"><img src="http://10nai.com/images/uplaod/d/d.jpg" style="height:716px; width:886px" /><br />
+<br />
+<br />
+<span style="color:#ff0000"><strong>我们讲他的引流方式！利用热门关键词搜索！</strong></span><br />
+<br />
+<strong>第一个关键词：报告老板</strong>&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <strong>第二个关键词是：万万没想到</strong><br />
+<img src="http://10nai.com/images/uplaod/d/d1.jpg" style="height:391px; width:369px" />&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; <img src="http://10nai.com/images/uplaod/d/d2.jpg" /><br />
+<br />
+<strong>第三个关键词：朴妮唛</strong> &nbsp;&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<strong>第四个关键词：周星驰</strong><br />
+<br />
+<img src="http://10nai.com/images/uplaod/d/d3.jpg" style="height:372px; width:266px" />&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <img src="http://10nai.com/images/uplaod/d/d4.jpg" style="height:396px; width:255px" /><br />
+<br />
+这四个关键词的搜索量都很大！但是这个家伙用的有点杂！用了效果不是很好！他借助搜索量高的关键词和优酷的站内流量引流！</span></p>
+
+<p>&nbsp;</p>
+
+<p><span style="font-size:14px"><strong>那些有特长有能力的哥们一样可以这样做！自己制造虚拟产品或者实体产品！这个哥们操作思路是对的，擅长视频营销的朋友可以借用学习一下！</strong></span></p>
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+
+<p style="text-align: center">&nbsp;</p>
+
+<p style="text-align: center">&nbsp;</p>
+
+<hr />
+<p style="text-align: center">&nbsp;</p>
+
+<p><span style="font-size:18px"><span style="color:rgb(255,255,255)"><span style="background-color:rgb(255,0,0)"><strong>这里是非会员区，普通文章只做分享，不作解答；希望对大家有所帮助。</strong></span></span></span></p>
+
+<p><span style="font-size:14px">&nbsp;</span></p>
+', title='【小马】—借力大流量平台轻松月入3000' where id=16
+17:49:26 use a0122145834;
+17:49:26 set names utf8;
+17:49:26 select * from configs
+17:49:26 select * from admins where id=1
+17:49:26 select * from articles where id=16
+17:49:29 use a0122145834;
+17:49:29 set names utf8;
+17:49:29 select * from configs
+17:49:29 select * from users where id=35
+17:49:29 select count(id) from users where spreader_id='35'
+17:49:29 select * from images
+17:49:29 select type_id from articles where id='16'
+17:49:29 select * from articles where id='16'
+17:50:34 use a0122145834;
+17:50:34 set names utf8;
+17:50:34 select * from configs
+17:50:34 select * from admins where id=1
+17:50:34 update articles set type_id=0, content='<p><strong><span style="font-size:20px"><span style="color:rgb(255,255,255)"><span style="background-color:rgb(255,0,0)">亲爱的朋友，你好！我是小马，欢迎来到久恒！</span></span></span></strong></p>
+
+<p style="text-align: center">&nbsp;</p>
+
+<hr />
+<p style="text-align: center">&nbsp;</p>
+
+<p><span style="font-size:14px"><strong>今天给大伙分享一个实打实的干货！内容是数据库营销！看看别人怎么借助大流量平台和大流量关键词的！</strong><br />
+<br />
+早前，我给大伙演示过的数据库营销的威力和原理相信大家已经看到过了！是很强大的！腾讯，360，百度他们都在用！</span></p>
+
+<p><span style="font-size:14px">有关数据库营销的威力和数据库如何挣钱！没有看过的哥们可以点击去看看<br />
+<br />
+<a href="http://10nai.com/user.php?act=vip_article_id&amp;id=11" target="_blank"><input name="点击阅读" size="45" style="width: 171px; height: 55px" type="button" value="点击阅读" /></a></span></p>
+
+<p>&nbsp;</p>
+
+<p><br />
+<span style="font-size:14px">数据库的原理和威力视频课程我详细讲解过了，在这里就不多扯了，下面直接入主题，小马不空谈了，直接结合案例讲！<br />
+<br />
+打开优酷视频：<a href="http://v.youku.com/v_show/id_XNjY1MTM3MTE2.html" target="_blank">http://v.youku.com/v_show/id_XNjY1MTM3MTE2.html</a>&nbsp; &nbsp; 亮点在1：39秒 &nbsp;<br />
+<br />
+&nbsp;</span></p>
+
+<p><span style="font-size:14px"><img src="http://10nai.com/images/uplaod/d/d.jpg" style="height:716px; width:886px" /><br />
+<br />
+<br />
+<span style="color:#ff0000"><strong>我们讲他的引流方式！利用热门关键词搜索！</strong></span><br />
+<br />
+<strong>第一个关键词：报告老板</strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <strong>第二个关键词是：万万没想到</strong><br />
+<img src="http://10nai.com/images/uplaod/d/d1.jpg" style="height:391px; width:369px" />&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; <img src="http://10nai.com/images/uplaod/d/d2.jpg" /><br />
+<br />
+<strong>第三个关键词：朴妮唛</strong> &nbsp;&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<strong>第四个关键词：周星驰</strong><br />
+<br />
+<img src="http://10nai.com/images/uplaod/d/d3.jpg" style="height:372px; width:266px" />&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <img src="http://10nai.com/images/uplaod/d/d4.jpg" style="height:396px; width:255px" /><br />
+<br />
+这四个关键词的搜索量都很大！但是这个家伙用的有点杂！用了效果不是很好！他借助搜索量高的关键词和优酷的站内流量引流！</span></p>
+
+<p>&nbsp;</p>
+
+<p><span style="font-size:14px"><strong>那些有特长有能力的哥们一样可以这样做！自己制造虚拟产品或者实体产品！这个哥们操作思路是对的，擅长视频营销的朋友可以借用学习一下！</strong></span></p>
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+
+<p style="text-align: center">&nbsp;</p>
+
+<p style="text-align: center">&nbsp;</p>
+
+<hr />
+<p style="text-align: center">&nbsp;</p>
+
+<p><span style="font-size:18px"><span style="color:rgb(255,255,255)"><span style="background-color:rgb(255,0,0)"><strong>这里是非会员区，普通文章只做分享，不作解答；希望对大家有所帮助。</strong></span></span></span></p>
+
+<p><span style="font-size:14px">&nbsp;</span></p>
+', title='【小马】—借力大流量平台轻松月入3000' where id=16
+17:50:35 use a0122145834;
+17:50:35 set names utf8;
+17:50:35 select * from configs
+17:50:35 select * from admins where id=1
+17:50:35 select * from articles where id=16
+17:50:37 use a0122145834;
+17:50:37 set names utf8;
+17:50:37 select * from configs
+17:50:37 select * from users where id=35
+17:50:37 select count(id) from users where spreader_id='35'
+17:50:37 select * from images
+17:50:37 select type_id from articles where id='16'
+17:50:37 select * from articles where id='16'
+17:52:19 use a0122145834;
+17:52:19 set names utf8;
+17:52:19 select * from configs
+17:52:19 select * from admins where id=1
+17:52:19 select count(o.id) from articles as o left join article_type as u on u.id=o.type_id 
+17:52:19 select o.id,o.title,o.add_time,u.type_name from articles as o left join article_type as u on u.id=o.type_id  limit 0,20
+17:53:21 use a0122145834;
+17:53:21 set names utf8;
+17:53:21 select * from configs
+17:53:21 select * from users where id=35
+17:53:21 select count(id) from users where spreader_id='35'
+17:53:21 select * from images
+17:53:21 select * from article_type
+17:53:21 select * from article_type where id='0'
+17:53:21 select count(id) from articles where type_id='0' order by add_time desc
+17:53:21 select * from articles where type_id='0' order by add_time desc limit 0,5
+17:53:28 use a0122145834;
+17:53:28 set names utf8;
+17:53:28 select * from configs
+17:53:28 select * from users where id=35
+17:53:28 select count(id) from users where spreader_id='35'
+17:53:28 select * from images
+17:53:28 select type_id from articles where id='16'
+17:53:28 select * from articles where id='16'
+17:53:35 use a0122145834;
+17:53:35 set names utf8;
+17:53:35 select * from configs
+17:53:35 select * from admins where id=1
+17:53:35 select * from articles where id=18
+17:54:22 use a0122145834;
+17:54:22 set names utf8;
+17:54:22 select * from configs
+17:54:22 select * from admins where id=1
+17:54:22 update articles set type_id=0, content='<p>前言：许多朋友都有加入好几十个、甚至上百个QQ群，然后在空间里写着说说和日志，可是很少有人想过通过QQ群和QQ空间能引来大量的流量。今天小马要给大家分享的就是如何利用QQ群和QQ空间日引2000个流量，最重要的是免费的哦。（当然缺点不用我多说了，需要强大的执行力）</p>
+
+<p>先给大家看两张图：</p>
+
+<p><img src="http://b163.photo.store.qq.com/psb?/V12vgOku2xDPE0/gDdZ1TfpLbq9y.Uin3dWuZ*4yEj.8e3RCYEJ6f5.UUs!/b/dAprKWEKIgAA&amp;bo=9gCDAQAAAAABAFM!&amp;su=0105002289&amp;rf=2-9" />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <img src="http://b166.photo.store.qq.com/psb?/V12vgOku2xDPE0/*X7DZ7AJW2XsrAJfWZo7MLdtbrxR22AfuIBo4r*f4WI!/b/dJMr9mL*DgAA&amp;bo=7AChAQAAAAABAGs!&amp;su=0151230241&amp;rf=2-9" /></p>
+
+<p>左图是7月31日的截图&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;右图是8月1日的截图</p>
+
+<p><img src="http://b164.photo.store.qq.com/psb?/V12vgOku2xDPE0/8ynQF8Pw1RO57fhAu8hYqvkJ3.DlPkgQgHn5T3ncs6U!/b/dN2KxmHnEgAA&amp;bo=AAN9AAAAAAABAFk!&amp;su=035880465&amp;rf=2-9" /></p>
+
+<p>这几张图有什么特别的地方呢，看上图的左下角，一个是1687，一个是1555.也就是说这个QQ空间，每天将近有1600的访问量。其实应该是三天时间就要突破6000了，因为我只是测试了3天，3天之前的访问量不足400。而下面的第三张图，是有12个赞，8条评论，30个转载，6个分享，除去我自己的应该有53条的互动，当我看到这一数字时，我是非常惊讶的：惊叹于QQ空间和QQ群的活跃度。</p>
+
+<p>好了，现在大家一定很想知道，这是怎么做到的吧。且容我细细道来。说出来大家一定觉得非常简单。</p>
+
+<p>先说下大概的思路，一句话总结就是，利用QQ空间写日志，然后群发到相关的QQ群即可。</p>
+
+<p>其实，真的别小看了QQ群，我用一个小号加了关于淘宝的群36个（每天最多只能加10个），然后把写好的文章就直接在每个群里发出来。发的内容如下图所示：</p>
+
+<p><img src="http://b277.photo.store.qq.com/psb?/V11E8DDM29I1kq/iWRJv1Xd9T23qGKUtISbuuS.rcl2QtOXJySuWBNBtGY!/b/dDsoKqXwEgAA&amp;bo=FwG.AAAAAAABAI8!&amp;su=0145845105&amp;rf=2-9" /></p>
+
+<p>发完之后，流量就哗哗哗的来了。而且不容易被T，因为毕竟这不是什么广告，是经验分享。</p>
+
+<p>就这么简单。</p>
+
+<p>有朋友问了，可以不可以用新浪博客等外部链接，我的建议是最好不用。要用就直接用QQ空间，为什么呢？因为QQ空间的链接在QQ群里被打开的机率是很高的。而且有一个安全的标志 <img src="http://b166.photo.store.qq.com/psb?/V12vgOku2xDPE0/eA7FZvrBj5ehw4F.wvld1kU9YXpL9PnDOoZnsx1nQGo!/b/dPtq*2IAEAAA&amp;bo=PwAcAAAAAAADAAY!&amp;su=0260110465&amp;rf=2-9" />。还有一个可以将大概内容介绍出来的，让感兴趣的人一看就想点击，而外部的链接基本上是没有这个功能的。特别是一些不知名的网站。当然小马还试了下，百度贴吧也可以。总之最好利用QQ空间了。</p>
+
+<p>用这个方法，其实每天花的时间很短，不超过1个小时。就可以将近引来1600个流量。</p>
+
+<p>如果我们是做其它产品的呢，比如是卖衣服的，是不是可以写一篇文章，关于如何搭配穿衣的文章，在你的文章里附上一个淘宝链接；如果我们是卖吃的东西，是不是也可以写一篇吃货大推荐的文章，最后在文章里放上一个你的淘宝链接；如果我们是卖旅游券的，是不是可以写一篇一生中你必须去的几个地方，最后在文章里放一个你的链接；如果我们是卖化妆品的，是不是可以写一篇&ldquo;杨幂也经常用的化妆品&rdquo;，在文章的结尾放上你的推广链接&hellip;&hellip;总之，您自己去想好了。<br />
+<br />
+写好日志之后，发到目标客户所在的QQ群，会不会有流量，会不会有销量，这个您只是想是肯定没有的，如果您去做了，实践了，我可以肯定的告诉您，绝对没问题。</p>
+
+<p>最近，阿里做了一系列改变，包括新规则，包括和新浪账号互通，包括屏蔽微信等，无非是来抗衡腾讯体系的。但是做为商家的我们，千万别只是把鸡蛋放在一个篮子里，就像小马之前给大家分享的一个观点：现在已经到了全网营销的时代了，切莫只是紧守一个平台了！</p>
+
+<p>当然，这个方法也有要注意的几点：</p>
+
+<p>第一点：内容非常重要，如果内容很差，哪怕引来了流量，转化率也会很一般的。</p>
+
+<p>第二点：因为腾讯对加QQ群，以及在QQ群发链接是有限制的，因此要有节奏的发，切忌一口吃成胖子的心态</p>
+
+<p>第三点：如果有条件去开通认证空间，因为认证空间有一个关注功能。至于认证空间，大家有不懂的可以去百度。</p>
+
+<p>好了，今天就和大家说这么多了，是纯干货，希望能帮到您的忙。</p>
+
+<p>最后用小米的例子来做结语（小米的红米手机和QQ认证空间玩了一场堪称顶级的社会化营销）。</p>
+
+<p>&ldquo;商人雷军，他懂得在用户最多的地方卖最合适的产品&mdash;&mdash;看到这里，就不难理解为啥红米手机为什么选择认证空间首发了。对小米来说，各种渠道都需要，而不同渠道有不同的价值：现场发布会是释放理想、汇聚米粉的场所，而新浪微博是传播品牌的阵地;微信是服务小米用户的售后中心;而QQ空间，则是汇聚6亿人群，用户群遍布三四线城市的一个庞大又精准的市场。&rdquo;</p>
+
+<p>我和小伙伴们都惊呆了！</p>
+
+<p><img src="http://b163.photo.store.qq.com/psb?/V12vgOku2xDPE0/rI51NOh3glDPorxrM*njkf2ckPy5EfU8I7fDq6rofAo!/b/dM4aNGECIwAA&amp;bo=XgHrAAAAAAABAJM!&amp;su=0210899377&amp;rf=2-9" /><br />
+300万乘以799，接近24个亿，1小时1亿，不服不行！</p>
+
+<p>&nbsp;</p>
+', title='【小马】—利用最简单的方法日引2000流量，你也可以！' where id=18
+17:54:24 use a0122145834;
+17:54:24 set names utf8;
+17:54:24 select * from configs
+17:54:24 select * from admins where id=1
+17:54:24 select * from articles where id=18
+17:57:44 use a0122145834;
+17:57:44 set names utf8;
+17:57:44 select * from configs
+17:57:44 select * from admins where id=1
+17:57:44 update articles set type_id=0, content='<p><span style="font-size:14px">前言：许多朋友都有加入好几十个、甚至上百个QQ群，然后在空间里写着说说和日志，可是很少有人想过通过QQ群和QQ空间能引来大量的流量。</span></p>
+
+<p><span style="font-size:14px">今天小马要给大家分享的就是如何利用QQ群和QQ空间日引2000个流量，最重要的是免费的哦。（当然缺点不用我多说了，需要强大的执行力）</span></p>
+
+<p><span style="font-size:14px">先给大家看两张图：</span></p>
+
+<p><img src="http://b163.photo.store.qq.com/psb?/V12vgOku2xDPE0/gDdZ1TfpLbq9y.Uin3dWuZ*4yEj.8e3RCYEJ6f5.UUs!/b/dAprKWEKIgAA&amp;bo=9gCDAQAAAAABAFM!&amp;su=0105002289&amp;rf=2-9" />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <img src="http://b166.photo.store.qq.com/psb?/V12vgOku2xDPE0/*X7DZ7AJW2XsrAJfWZo7MLdtbrxR22AfuIBo4r*f4WI!/b/dJMr9mL*DgAA&amp;bo=7AChAQAAAAABAGs!&amp;su=0151230241&amp;rf=2-9" /></p>
+
+<p><span style="font-size:14px">左图是7月31日的截图&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;右图是8月1日的截图</span></p>
+
+<p><img src="http://b164.photo.store.qq.com/psb?/V12vgOku2xDPE0/8ynQF8Pw1RO57fhAu8hYqvkJ3.DlPkgQgHn5T3ncs6U!/b/dN2KxmHnEgAA&amp;bo=AAN9AAAAAAABAFk!&amp;su=035880465&amp;rf=2-9" /></p>
+
+<p><span style="font-size:14px">这几张图有什么特别的地方呢，看上图的左下角，一个是1687，一个是1555.也就是说这个QQ空间，每天将近有1600的访问量。其实应该是三天时间就要突破6000了，</span></p>
+
+<p><span style="font-size:14px">因为我只是测试了3天，3天之前的访问量不足400。而下面的第三张图，是有12个赞，8条评论，30个转载，6个分享，除去我自己的应该有53条的互动，当我看到这一</span></p>
+
+<p><span style="font-size:14px">数字时，我是非常惊讶的：惊叹于QQ空间和QQ群的活跃度。</span></p>
+
+<p><span style="font-size:14px">好了，现在大家一定很想知道，这是怎么做到的吧。且容我细细道来。说出来大家一定觉得非常简单。</span></p>
+
+<p><span style="font-size:14px">先说下大概的思路，一句话总结就是，利用QQ空间写日志，然后群发到相关的QQ群即可。</span></p>
+
+<p><span style="font-size:14px">其实，真的别小看了QQ群，我用一个小号加了关于淘宝的群36个（每天最多只能加10个），然后把写好的文章就直接在每个群里发出来。发的内容如下图所示：</span></p>
+
+<p><img src="http://b277.photo.store.qq.com/psb?/V11E8DDM29I1kq/iWRJv1Xd9T23qGKUtISbuuS.rcl2QtOXJySuWBNBtGY!/b/dDsoKqXwEgAA&amp;bo=FwG.AAAAAAABAI8!&amp;su=0145845105&amp;rf=2-9" /></p>
+
+<p><span style="font-size:14px">发完之后，流量就哗哗哗的来了。而且不容易被T，因为毕竟这不是什么广告，是经验分享。</span></p>
+
+<p><span style="font-size:14px">就这么简单。</span></p>
+
+<p><span style="font-size:14px">有朋友问了，可以不可以用新浪博客等外部链接，我的建议是最好不用。要用就直接用QQ空间，为什么呢？因为QQ空间的链接在QQ群里被打开的机率是很高的。</span></p>
+
+<p><span style="font-size:14px">而且有一个安全的标志 。还有一个可以将大概内容介绍出来的，让感兴趣的人一看就想点击，而外部的链接基本上是没有这个功能的。特别是一些不知名的网站。</span></p>
+
+<p><span style="font-size:14px">当然小马还试了下，百度贴吧也可以。总之最好利用QQ空间了。</span></p>
+
+<p><span style="font-size:14px">用这个方法，其实每天花的时间很短，不超过1个小时。就可以将近引来1600个流量。</span></p>
+
+<p>&nbsp;</p>
+
+<p><span style="font-size:14px">如果我们是做其它产品的呢，比如是卖衣服的，是不是可以写一篇文章，关于如何搭配穿衣的文章，在你的文章里附上一个淘宝链接；如果我们是卖吃的东西，</span></p>
+
+<p><span style="font-size:14px">是不是也可以写一篇吃货大推荐的文章，最后在文章里放上一个你的淘宝链接；如果我们是卖旅游券的，是不是可以写一篇一生中你必须去的几个地方，最后在</span></p>
+
+<p><span style="font-size:14px">文章里放一个你的链接；如果我们是卖化妆品的，是不是可以写一篇&ldquo;杨幂也经常用的化妆品&rdquo;，在文章的结尾放上你的推广链接&hellip;&hellip;总之，您自己去想好了。<br />
+<br />
+写好日志之后，发到目标客户所在的QQ群，会不会有流量，会不会有销量，这个您只是想是肯定没有的，如果您去做了，实践了，我可以肯定的告诉您，绝对没问题。</span></p>
+
+<p><span style="font-size:14px">最近，阿里做了一系列改变，包括新规则，包括和新浪账号互通，包括屏蔽微信等，无非是来抗衡腾讯体系的。但是做为商家的我们，千万别只是把鸡蛋放在一个</span></p>
+
+<p><span style="font-size:14px">篮子里，就像小马之前给大家分享的一个观点：现在已经到了全网营销的时代了，切莫只是紧守一个平台了！</span></p>
+
+<p><span style="font-size:14px">当然，这个方法也有要注意的几点：</span></p>
+
+<p><span style="font-size:14px">第一点：内容非常重要，如果内容很差，哪怕引来了流量，转化率也会很一般的。</span></p>
+
+<p><span style="font-size:14px">第二点：因为腾讯对加QQ群，以及在QQ群发链接是有限制的，因此要有节奏的发，切忌一口吃成胖子的心态</span></p>
+
+<p>第三点：如果有条件去开通认证空间，因为认证空间有一个关注功能。至于认证空间，大家有不懂的可以去百度。</p>
+
+<p><span style="font-size:14px">好了，今天就和大家说这么多了，是纯干货，希望能帮到您的忙。</span></p>
+
+<p><span style="font-size:14px">最后用小米的例子来做结语（小米的红米手机和QQ认证空间玩了一场堪称顶级的社会化营销）。</span></p>
+
+<p><span style="font-size:14px">&ldquo;商人雷军，他懂得在用户最多的地方卖最合适的产品&mdash;&mdash;看到这里，就不难理解为啥红米手机为什么选择认证空间首发了。对小米来说，各种渠道都需要，</span></p>
+
+<p><span style="font-size:14px">而不同渠道有不同的价值：现场发布会是释放理想、汇聚米粉的场所，而新浪微博是传播品牌的阵地;微信是服务小米用户的售后中心;而QQ空间，则是汇聚</span></p>
+
+<p><span style="font-size:14px">6亿人群，用户群遍布三四线城市的一个庞大又精准的市场。&rdquo;</span></p>
+
+<p><span style="font-size:14px">我和小伙伴们都惊呆了！</span></p>
+
+<p><img src="http://b163.photo.store.qq.com/psb?/V12vgOku2xDPE0/rI51NOh3glDPorxrM*njkf2ckPy5EfU8I7fDq6rofAo!/b/dM4aNGECIwAA&amp;bo=XgHrAAAAAAABAJM!&amp;su=0210899377&amp;rf=2-9" /><br />
+<span style="font-size:14px">300万乘以799，接近24个亿，1小时1亿，不服不行！</span></p>
+
+<p>&nbsp;</p>
+', title='【小马】—利用最简单的方法日引2000流量，你也可以！' where id=18
+17:57:45 use a0122145834;
+17:57:46 set names utf8;
+17:57:46 select * from configs
+17:57:46 select * from admins where id=1
+17:57:46 select * from articles where id=18
+18:03:00 use a0122145834;
+18:03:00 set names utf8;
+18:03:00 select * from configs
+18:03:03 use a0122145834;
+18:03:03 set names utf8;
+18:03:03 select * from configs
+18:03:03 select * from admins where id=1
+18:03:03 update articles set type_id=0, content='<p><strong><span style="font-size:20px"><span style="color:rgb(255,255,255)"><span style="background-color:rgb(255,0,0)">亲爱的朋友，你好！我是小马，欢迎来到久恒！</span></span></span></strong></p>
+
+<p style="text-align: center">&nbsp;</p>
+
+<hr />
+<p style="text-align: center">&nbsp;</p>
+
+<p><strong><span style="font-size:14px">前言：许多朋友都有加入好几十个、甚至上百个QQ群，然后在空间里写着说说和日志，可是很少有人想过通过QQ群和QQ空间能引来大量的流量。</span></strong></p>
+
+<p><span style="font-size:14px">今天小马要给大家分享的就是如何利用QQ群和QQ空间日引2000个流量，最重要的是免费的哦。（<span style="color:#ff0000">当然缺点不用我多说了，需要强大的执行力</span>）</span></p>
+
+<p>&nbsp;</p>
+
+<p><strong><span style="font-size:14px">先给大家看两张图：</span></strong></p>
+
+<p><img src="http://b163.photo.store.qq.com/psb?/V12vgOku2xDPE0/gDdZ1TfpLbq9y.Uin3dWuZ*4yEj.8e3RCYEJ6f5.UUs!/b/dAprKWEKIgAA&amp;bo=9gCDAQAAAAABAFM!&amp;su=0105002289&amp;rf=2-9" />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <img src="http://b166.photo.store.qq.com/psb?/V12vgOku2xDPE0/*X7DZ7AJW2XsrAJfWZo7MLdtbrxR22AfuIBo4r*f4WI!/b/dJMr9mL*DgAA&amp;bo=7AChAQAAAAABAGs!&amp;su=0151230241&amp;rf=2-9" /></p>
+
+<p><strong><span style="font-size:14px">左图是7月31日的截图&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;右图是8月1日的截图</span></strong></p>
+
+<p><img src="http://b164.photo.store.qq.com/psb?/V12vgOku2xDPE0/8ynQF8Pw1RO57fhAu8hYqvkJ3.DlPkgQgHn5T3ncs6U!/b/dN2KxmHnEgAA&amp;bo=AAN9AAAAAAABAFk!&amp;su=035880465&amp;rf=2-9" /></p>
+
+<p>&nbsp;</p>
+
+<p><strong><span style="font-size:14px">这几张图有什么特别的地方呢，看上图的左下角，一个是1687，一个是1555.也就是说这个QQ空间，每天将近有1600的访问量。其实应该是三天时间就要突破6000了，</span></strong></p>
+
+<p><strong><span style="font-size:14px">因为我只是测试了3天，3天之前的访问量不足400。而下面的第三张图，是有12个赞，8条评论，30个转载，6个分享，除去我自己的应该有53条的互动，当我看到这一</span></strong></p>
+
+<p><strong><span style="font-size:14px">数字时，我是非常惊讶的：惊叹于QQ空间和QQ群的活跃度。</span></strong></p>
+
+<p>&nbsp;</p>
+
+<p><span style="font-size:14px">好了，现在大家一定很想知道，这是怎么做到的吧。且容我细细道来。说出来大家一定觉得非常简单。</span></p>
+
+<p><span style="font-size:14px">先说下大概的思路，一句话总结就是，利用QQ空间写日志，然后群发到相关的QQ群即可。</span></p>
+
+<p><span style="font-size:14px">其实，真的别小看了QQ群，我用一个小号加了关于淘宝的群36个（每天最多只能加10个），然后把写好的文章就直接在每个群里发出来。</span></p>
+
+<p>&nbsp;</p>
+
+<p><strong><span style="font-size:14px">发的内容如下图所示：</span></strong></p>
+
+<p><img src="http://b277.photo.store.qq.com/psb?/V11E8DDM29I1kq/iWRJv1Xd9T23qGKUtISbuuS.rcl2QtOXJySuWBNBtGY!/b/dDsoKqXwEgAA&amp;bo=FwG.AAAAAAABAI8!&amp;su=0145845105&amp;rf=2-9" /></p>
+
+<p><span style="font-size:14px">发完之后，流量就哗哗哗的来了。而且不容易被T，因为毕竟这不是什么广告，是经验分享。</span></p>
+
+<p>&nbsp;</p>
+
+<p><strong><span style="font-size:14px">就这么简单。</span></strong></p>
+
+<p><span style="font-size:14px">有朋友问了，可以不可以用新浪博客等外部链接，我的建议是最好不用。要用就直接用QQ空间，为什么呢？因为QQ空间的链接在QQ群里被打开的机率是很高的。</span></p>
+
+<p><span style="font-size:14px">而且有一个安全的标志 。还有一个可以将大概内容介绍出来的，让感兴趣的人一看就想点击，而外部的链接基本上是没有这个功能的。特别是一些不知名的网站。</span></p>
+
+<p><span style="font-size:14px">当然小马还试了下，百度贴吧也可以。总之最好利用QQ空间了。</span></p>
+
+<p><span style="font-size:14px">用这个方法，其实每天花的时间很短，不超过1个小时。就可以将近引来1600个流量。</span></p>
+
+<p>&nbsp;</p>
+
+<p><span style="font-size:14px">如果我们是做其它产品的呢，比如是卖衣服的，是不是可以写一篇文章，关于如何搭配穿衣的文章，在你的文章里附上一个淘宝链接；如果我们是卖吃的东西，</span></p>
+
+<p><span style="font-size:14px">是不是也可以写一篇吃货大推荐的文章，最后在文章里放上一个你的淘宝链接；如果我们是卖旅游券的，是不是可以写一篇一生中你必须去的几个地方，最后在</span></p>
+
+<p><span style="font-size:14px">文章里放一个你的链接；如果我们是卖化妆品的，是不是可以写一篇&ldquo;杨幂也经常用的化妆品&rdquo;，在文章的结尾放上你的推广链接&hellip;&hellip;总之，您自己去想好了。<br />
+<br />
+写好日志之后，发到目标客户所在的QQ群，会不会有流量，会不会有</span><span style="font-size:14px">销量，这个您只是想是肯定没有的，如果您去做了，实践了，我可以肯定的告诉您，绝对没问题。</span></p>
+
+<p><span style="font-size:14px">最近，阿里做了一系列改变，包括新规则，包括和新浪账号互通，包括屏蔽微信等，无非是来抗衡腾讯体系的。但是做为商家的我们，千万别只是把鸡蛋放在一个</span></p>
+
+<p><span style="font-size:14px">篮子里。</span></p>
+
+<p>&nbsp;</p>
+
+<p><strong><span style="color:#0000ff"><span style="font-size:14px">就像小马之前给大家分享的一个观点：现在已经到了全网营销的时代了，切莫只是紧守一个平台了！</span></span></strong></p>
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+
+<p><strong><span style="font-size:14px">当然，这个方法也有要注意的几点：</span></strong></p>
+
+<p><span style="color:#ff0000"><span style="font-size:14px">第一点：内容非常重要，如果内容很差，哪怕引来了流量，转化率也会很一般的。</span></span></p>
+
+<p><span style="font-size:14px">第二点：因为腾讯对加QQ群，以及在QQ群发链接是有限制的，因此要有节奏的发，切忌一口吃成胖子的心态</span></p>
+
+<p>第三点：如果有条件去开通认证空间，因为认证空间有一个关注功能。至于认证空间，大家有不懂的可以去百度。</p>
+
+<p><span style="font-size:14px">好了，今天就和大家说这么多了，是纯干货，希望能帮到您的忙。</span></p>
+
+<p><span style="font-size:14px">最后用小米的例子来做结语（小米的红米手机和QQ认证空间玩了一场堪称顶级的社会化营销）。</span></p>
+
+<p><span style="font-size:14px">&ldquo;商人雷军，他懂得在用户最多的地方卖最合适的产品&mdash;&mdash;看到这里，就不难理解为啥红米手机为什么选择认证空间首发了。对小米来说，各种渠道都需要，</span></p>
+
+<p><span style="font-size:14px">而不同渠道有不同的价值：现场发布会是释放理想、汇聚米粉的场所，而新浪微博是传播品牌的阵地;微信是服务小米用户的售后中心;而QQ空间，则是汇聚</span></p>
+
+<p><span style="font-size:14px">6亿人群，用户群遍布三四线城市的一个庞大又精准的市场。&rdquo;</span></p>
+
+<p><span style="font-size:14px">我和小伙伴们都惊呆了！</span></p>
+
+<p><img src="http://b163.photo.store.qq.com/psb?/V12vgOku2xDPE0/rI51NOh3glDPorxrM*njkf2ckPy5EfU8I7fDq6rofAo!/b/dM4aNGECIwAA&amp;bo=XgHrAAAAAAABAJM!&amp;su=0210899377&amp;rf=2-9" /><br />
+<span style="font-size:14px">300万乘以799，接近24个亿，1小时1亿，不服不行！</span></p>
+
+<p>&nbsp;</p>
+', title='【小马】—利用最简单的方法日引2000流量，你也可以！' where id=18
+18:03:04 use a0122145834;
+18:03:04 set names utf8;
+18:03:04 select * from configs
+18:03:04 select * from admins where id=1
+18:03:04 select * from articles where id=18
+18:08:09 use a0122145834;
+18:08:09 set names utf8;
+18:08:09 select * from configs
+18:08:09 select * from admins where id=1
+18:08:09 update articles set type_id=0, content='<p><strong><span style="font-size:20px"><span style="color:rgb(255,255,255)"><span style="background-color:rgb(255,0,0)">亲爱的朋友，你好！我是小马，欢迎来到久恒！</span></span></span></strong></p>
+
+<p style="text-align: center">&nbsp;</p>
+
+<hr />
+<p style="text-align: center">&nbsp;</p>
+
+<p><strong><span style="font-size:14px">前言：许多朋友都有加入好几十个、甚至上百个QQ群，然后在空间里写着说说和日志，可是很少有人想过通过QQ群和QQ空间能引来大量的流量。</span></strong></p>
+
+<p><span style="font-size:14px">今天小马要给大家分享的就是如何利用QQ群和QQ空间日引2000个流量，最重要的是免费的哦。（<span style="color:#ff0000">当然缺点不用我多说了，需要强大的执行力</span>）</span></p>
+
+<p>&nbsp;</p>
+
+<p><strong><span style="font-size:14px">先给大家看两张图：</span></strong></p>
+
+<p><img src="http://10nai.com/images/uplaod/b/b.jpg" style="height:387px; width:246px" />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <img src="http://10nai.com/images/uplaod/b/b1.jpg" /></p>
+
+<p><span style="color:#ff0000"><strong><span style="font-size:14px">左图是7月31日的截图&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 右图是8月1日的截图</span></strong></span></p>
+
+<p>&nbsp;</p>
+
+<p><img src="http://10nai.com/images/uplaod/b/b2.jpg" /></p>
+
+<p>&nbsp;</p>
+
+<p><strong><span style="font-size:14px">这几张图有什么特别的地方呢，看上图的左下角，一个是1687，一个是1555.也就是说这个QQ空间，每天将近有1600的访问量。其实应该是三天时间就要突破6000了，</span></strong></p>
+
+<p><strong><span style="font-size:14px">因为我只是测试了3天，3天之前的访问量不足400。而下面的第三张图，是有12个赞，8条评论，30个转载，6个分享，除去我自己的应该有53条的互动，当我看到这一</span></strong></p>
+
+<p><strong><span style="font-size:14px">数字时，我是非常惊讶的：惊叹于QQ空间和QQ群的活跃度。</span></strong></p>
+
+<p>&nbsp;</p>
+
+<p><span style="font-size:14px">好了，现在大家一定很想知道，这是怎么做到的吧。且容我细细道来。说出来大家一定觉得非常简单。</span></p>
+
+<p><span style="font-size:14px">先说下大概的思路，一句话总结就是，利用QQ空间写日志，然后群发到相关的QQ群即可。</span></p>
+
+<p><span style="font-size:14px">其实，真的别小看了QQ群，我用一个小号加了关于淘宝的群36个（每天最多只能加10个），然后把写好的文章就直接在每个群里发出来。</span></p>
+
+<p>&nbsp;</p>
+
+<p><strong><span style="font-size:14px">发的内容如下图所示：</span></strong></p>
+
+<p><img src="http://10nai.com/images/uplaod/b/b3.jpg" /></p>
+
+<p><span style="font-size:14px">发完之后，流量就哗哗哗的来了。而且不容易被T，因为毕竟这不是什么广告，是经验分享。</span></p>
+
+<p>&nbsp;</p>
+
+<p><strong><span style="font-size:14px">就这么简单。</span></strong></p>
+
+<p><span style="font-size:14px">有朋友问了，可以不可以用新浪博客等外部链接，我的建议是最好不用。要用就直接用QQ空间，为什么呢？因为QQ空间的链接在QQ群里被打开的机率是很高的。</span></p>
+
+<p><span style="font-size:14px">而且有一个安全的标志 。还有一个可以将大概内容介绍出来的，让感兴趣的人一看就想点击，而外部的链接基本上是没有这个功能的。特别是一些不知名的网站。</span></p>
+
+<p><span style="font-size:14px">当然小马还试了下，百度贴吧也可以。总之最好利用QQ空间了。</span></p>
+
+<p><span style="color:#ff0000"><span style="font-size:14px">用这个方法，其实每天花的时间很短，不超过1个小时。就可以将近引来1600个流量。</span></span></p>
+
+<p>&nbsp;</p>
+
+<p><span style="font-size:14px">如果我们是做其它产品的呢，比如是卖衣服的，是不是可以写一篇文章，关于如何搭配穿衣的文章，在你的文章里附上一个淘宝链接；如果我们是卖吃的东西，</span></p>
+
+<p><span style="font-size:14px">是不是也可以写一篇吃货大推荐的文章，最后在文章里放上一个你的淘宝链接；如果我们是卖旅游券的，是不是可以写一篇一生中你必须去的几个地方，最后在</span></p>
+
+<p><span style="font-size:14px">文章里放一个你的链接；如果我们是卖化妆品的，是不是可以写一篇&ldquo;杨幂也经常用的化妆品&rdquo;，在文章的结尾放上你的推广链接&hellip;&hellip;总之，您自己去想好了。<br />
+<br />
+写好日志之后，发到目标客户所在的QQ群，会不会有流量，会不会有</span><span style="font-size:14px">销量，这个您只是想是肯定没有的，如果您去做了，实践了，我可以肯定的告诉您，绝对没问题。</span></p>
+
+<p><span style="font-size:14px">最近，阿里做了一系列改变，包括新规则，包括和新浪账号互通，包括屏蔽微信等，无非是来抗衡腾讯体系的。但是做为商家的我们，千万别只是把鸡蛋放在一个</span></p>
+
+<p><span style="font-size:14px">篮子里。</span></p>
+
+<p>&nbsp;</p>
+
+<p><strong><span style="color:#0000ff"><span style="font-size:14px">就像小马之前给大家分享的一个观点：现在已经到了全网营销的时代了，切莫只是紧守一个平台了！</span></span></strong></p>
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+
+<p><strong><span style="font-size:14px">当然，这个方法也有要注意的几点：</span></strong></p>
+
+<p><span style="color:#ff0000"><span style="font-size:14px">第一点：内容非常重要，如果内容很差，哪怕引来了流量，转化率也会很一般的。</span></span></p>
+
+<p><span style="color:#ff0000"><span style="font-size:14px">第二点：因为腾讯对加QQ群，以及在QQ群发链接是有限制的，因此要有节奏的发，切忌一口吃成胖子的心态。</span></span></p>
+
+<p><span style="color:#ff0000"><span style="font-size:14px">第三点：如果有条件去开通认证空间，因为认证空间有一个关注功能。至于认证空间，大家有不懂的可以去百度。</span></span></p>
+
+<p>&nbsp;</p>
+
+<p><strong><span style="font-size:14px">好了，今天就和大家说这么多了，是纯干货，希望能帮到您的忙。</span></strong></p>
+
+<p>&nbsp;</p>
+
+<p><span style="font-size:14px">最后用小米的例子来做结语（小米的红米手机和QQ认证空间玩了一场堪称顶级的社会化营销）。</span></p>
+
+<p><span style="font-size:14px">&ldquo;商人雷军，他懂得在用户最多的地方卖最合适的产品&mdash;&mdash;看到这里，就不难理解为啥红米手机为什么选择认证空间首发了。对小米来说，各种渠道都需要，</span></p>
+
+<p><span style="font-size:14px">而不同渠道有不同的价值：现场发布会是释放理想、汇聚米粉的场所，而新浪微博是传播品牌的阵地;微信是服务小米用户的售后中心;而QQ空间，则是汇聚</span></p>
+
+<p><span style="font-size:14px">6亿人群，用户群遍布三四线城市的一个庞大又精准的市场。&rdquo;</span></p>
+
+<p><strong><span style="font-size:14px">我和小伙伴们都惊呆了！</span></strong></p>
+
+<p><img src="http://10nai.com/images/uplaod/b/b4.jpg" style="height:235px; width:350px" /><br />
+<strong><span style="font-size:14px">300万乘以799，接近24个亿，1小时1亿，不服不行！</span></strong></p>
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+
+<p style="text-align: center">&nbsp;</p>
+
+<p style="text-align: center">&nbsp;</p>
+
+<hr />
+<p style="text-align: center">&nbsp;</p>
+
+<p><span style="font-size:18px"><span style="color:rgb(255,255,255)"><span style="background-color:rgb(255,0,0)"><strong>这里是非会员区，普通文章只做分享，不作解答；希望对大家有所帮助。</strong></span></span></span></p>
+
+<p><span style="font-size:14px">&nbsp;</span></p>
+
+<p>&nbsp;</p>
+', title='【小马】—利用最简单的方法日引2000流量，你也可以！' where id=18
+18:08:10 use a0122145834;
+18:08:10 set names utf8;
+18:08:10 select * from configs
+18:08:10 select * from admins where id=1
+18:08:10 select * from articles where id=18
+18:08:16 use a0122145834;
+18:08:16 set names utf8;
+18:08:16 select * from configs
+18:08:16 select * from users where id=35
+18:08:16 select count(id) from users where spreader_id='35'
+18:08:16 select * from images
+18:08:16 select * from article_type
+18:08:16 select * from article_type where id='0'
+18:08:16 select count(id) from articles where type_id='0' order by add_time desc
+18:08:16 select * from articles where type_id='0' order by add_time desc limit 0,5
+18:08:18 use a0122145834;
+18:08:18 set names utf8;
+18:08:18 select * from configs
+18:08:18 select * from users where id=35
+18:08:18 select count(id) from users where spreader_id='35'
+18:08:18 select * from images
+18:08:18 select type_id from articles where id='18'
+18:08:18 select * from articles where id='18'
+18:09:38 use a0122145834;
+18:09:38 set names utf8;
+18:09:38 select * from configs
+18:09:38 select * from admins where id=1
+18:09:38 select * from articles where id=18
+18:09:53 use a0122145834;
+18:09:53 set names utf8;
+18:09:53 select * from configs
+18:09:53 select * from admins where id=1
+18:09:53 select * from articles where id=18
+18:10:21 use a0122145834;
+18:10:21 set names utf8;
+18:10:21 select * from configs
+18:10:21 select * from admins where id=1
+18:10:21 update articles set type_id=0, content='<p><strong><span style="font-size:20px"><span style="color:rgb(255,255,255)"><span style="background-color:rgb(255,0,0)">亲爱的朋友，你好！我是小马，欢迎来到久恒！</span></span></span></strong></p>
+
+<p style="text-align: center">&nbsp;</p>
+
+<hr />
+<p style="text-align: center">&nbsp;</p>
+
+<p><strong><span style="font-size:14px">前言：许多朋友都有加入好几十个、甚至上百个QQ群，然后在空间里写着说说和日志，可是很少有人想过通过QQ群和QQ空间能引来大量的流量。</span></strong></p>
+
+<p><span style="font-size:14px">今天小马要给大家分享的就是如何利用QQ群和QQ空间日引2000个流量，最重要的是免费的哦。（<span style="color:#ff0000">当然缺点不用我多说了，需要强大的执行力</span>）</span></p>
+
+<p>&nbsp;</p>
+
+<p><strong><span style="font-size:14px">先给大家看两张图：</span></strong></p>
+
+<p><img src="http://10nai.com/images/uplaod/b/b.jpg" style="height:387px; width:246px" />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <img src="http://10nai.com/images/uplaod/b/b1.jpg" /></p>
+
+<p><span style="color:#ff0000"><strong><span style="font-size:14px">左图是7月31日的截图&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 右图是8月1日的截图</span></strong></span></p>
+
+<p>&nbsp;</p>
+
+<p><img src="http://10nai.com/images/uplaod/b/b2.jpg" /></p>
+
+<p>&nbsp;</p>
+
+<p><strong><span style="font-size:14px">这几张图有什么特别的地方呢，看上图的左下角，一个是1687，一个是1555.也就是说这个QQ空间，每天将近有1600的访问量。其实应该是三天时间就要突破6000了，</span></strong></p>
+
+<p><strong><span style="font-size:14px">因为我只是测试了3天，3天之前的访问量不足400。而下面的第三张图，是有12个赞，8条评论，30个转载，6个分享，除去我自己的应该有53条的互动，当我看到这一</span></strong></p>
+
+<p><strong><span style="font-size:14px">数字时，我是非常惊讶的：惊叹于QQ空间和QQ群的活跃度。</span></strong></p>
+
+<p>&nbsp;</p>
+
+<p><span style="font-size:14px">好了，现在大家一定很想知道，这是怎么做到的吧。且容我细细道来。说出来大家一定觉得非常简单。</span></p>
+
+<p><span style="font-size:14px">先说下大概的思路，一句话总结就是，利用QQ空间写日志，然后群发到相关的QQ群即可。</span></p>
+
+<p><span style="font-size:14px">其实，真的别小看了QQ群，我用一个小号加了关于淘宝的群36个（每天最多只能加10个），然后把写好的文章就直接在每个群里发出来。</span></p>
+
+<p>&nbsp;</p>
+
+<p><strong><span style="font-size:14px">发的内容如下图所示：</span></strong></p>
+
+<p><img src="http://10nai.com/images/uplaod/b/b3.jpg" /></p>
+
+<p><span style="font-size:14px">发完之后，流量就哗哗哗的来了。而且不容易被T，因为毕竟这不是什么广告，是经验分享。</span></p>
+
+<p>&nbsp;</p>
+
+<p><strong><span style="font-size:14px">就这么简单。</span></strong></p>
+
+<p><span style="font-size:14px">有朋友问了，可以不可以用新浪博客等外部链接，我的建议是最好不用。要用就直接用QQ空间，为什么呢？因为QQ空间的链接在QQ群里被打开的机率是很高的。</span></p>
+
+<p><span style="font-size:14px">而且有一个安全的标志 。还有一个可以将大概内容介绍出来的，让感兴趣的人一看就想点击，而外部的链接基本上是没有这个功能的。特别是一些不知名的网站。</span></p>
+
+<p><span style="font-size:14px">当然小马还试了下，百度贴吧也可以。总之最好利用QQ空间了。</span></p>
+
+<p><span style="color:#ff0000"><span style="font-size:14px">用这个方法，其实每天花的时间很短，不超过1个小时。就可以将近引来1600个流量。</span></span></p>
+
+<p>&nbsp;</p>
+
+<p><span style="font-size:14px">如果我们是做其它产品的呢，比如是卖衣服的，是不是可以写一篇文章，关于如何搭配穿衣的文章，在你的文章里附上一个淘宝链接；如果我们是卖吃的东西，</span></p>
+
+<p><span style="font-size:14px">是不是也可以写一篇吃货大推荐的文章，最后在文章里放上一个你的淘宝链接；如果我们是卖旅游券的，是不是可以写一篇一生中你必须去的几个地方，最后在</span></p>
+
+<p><span style="font-size:14px">文章里放一个你的链接；如果我们是卖化妆品的，是不是可以写一篇&ldquo;杨幂也经常用的化妆品&rdquo;，在文章的结尾放上你的推广链接&hellip;&hellip;总之，您自己去想好了。<br />
+<br />
+写好日志之后，发到目标客户所在的QQ群，会不会有流量，会不会有</span><span style="font-size:14px">销量，这个您只是想是肯定没有的，如果您去做了，实践了，我可以肯定的告诉您，绝对没问题。</span></p>
+
+<p><span style="font-size:14px">最近，阿里做了一系列改变，包括新规则，包括和新浪账号互通，包括屏蔽微信等，无非是来抗衡腾讯体系的。但是做为商家的我们，千万别只是把鸡蛋放在一个</span></p>
+
+<p><span style="font-size:14px">篮子里。</span></p>
+
+<p>&nbsp;</p>
+
+<p><strong><span style="color:#0000ff"><span style="font-size:14px">就像小马之前给大家分享的一个观点：现在已经到了全网营销的时代了，切莫只是紧守一个平台了！</span></span></strong></p>
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+
+<p><strong><span style="font-size:14px">当然，这个方法也有要注意的几点：</span></strong></p>
+
+<p><span style="color:#ff0000"><span style="font-size:14px">第一点：内容非常重要，如果内容很差，哪怕引来了流量，转化率也会很一般的。</span></span></p>
+
+<p><span style="color:#ff0000"><span style="font-size:14px">第二点：因为腾讯对加QQ群，以及在QQ群发链接是有限制的，因此要有节奏的发，切忌一口吃成胖子的心态。</span></span></p>
+
+<p><span style="color:#ff0000"><span style="font-size:14px">第三点：如果有条件去开通认证空间，因为认证空间有一个关注功能。至于认证空间，大家有不懂的可以去百度。</span></span></p>
+
+<p>&nbsp;</p>
+
+<p><strong><span style="font-size:14px">好了，今天就和大家说这么多了，是纯干货，希望能帮到您的忙。</span></strong></p>
+
+<p>&nbsp;</p>
+
+<p><span style="font-size:14px">最后用小米的例子来做结语（小米的红米手机和QQ认证空间玩了一场堪称顶级的社会化营销）。</span></p>
+
+<p><span style="font-size:14px">&ldquo;商人雷军，他懂得在用户最多的地方卖最合适的产品&mdash;&mdash;看到这里，就不难理解为啥红米手机为什么选择认证空间首发了。对小米来说，各种渠道都需要，而不同渠道有不同的价值：现场发布会是释放理想、汇聚米粉的场所，而新浪微博是传播品牌的阵地;微信是服务小米用户的售后中心;而QQ空间，则是汇聚6亿人群，用户群遍布三四线城市的一个庞大又精准的市场。&rdquo;</span></p>
+
+<p>&nbsp;</p>
+
+<p><strong><span style="font-size:14px">我和小伙伴们都惊呆了！</span></strong></p>
+
+<p><img src="http://10nai.com/images/uplaod/b/b4.jpg" style="height:235px; width:350px" /><br />
+<strong><span style="font-size:14px">300万乘以799，接近24个亿，1小时1亿，不服不行！</span></strong></p>
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+
+<p style="text-align: center">&nbsp;</p>
+
+<p style="text-align: center">&nbsp;</p>
+
+<hr />
+<p style="text-align: center">&nbsp;</p>
+
+<p><span style="font-size:18px"><span style="color:rgb(255,255,255)"><span style="background-color:rgb(255,0,0)"><strong>这里是非会员区，普通文章只做分享，不作解答；希望对大家有所帮助。</strong></span></span></span></p>
+
+<p><span style="font-size:14px">&nbsp;</span></p>
+
+<p>&nbsp;</p>
+', title='【小马】—利用最简单的方法日引2000流量，你也可以！' where id=18
+18:10:22 use a0122145834;
+18:10:22 set names utf8;
+18:10:22 select * from configs
+18:10:22 select * from admins where id=1
+18:10:22 select * from articles where id=18
+18:10:26 use a0122145834;
+18:10:26 set names utf8;
+18:10:26 select * from configs
+18:10:26 select * from users where id=35
+18:10:26 select count(id) from users where spreader_id='35'
+18:10:26 select * from images
+18:10:26 select type_id from articles where id='18'
+18:10:26 select * from articles where id='18'
+18:13:30 use a0122145834;
+18:13:30 set names utf8;
+18:13:30 select * from configs
+18:13:30 select * from admins where id=1
+18:13:30 update articles set type_id=0, content='<p><strong><span style="font-size:20px"><span style="color:rgb(255,255,255)"><span style="background-color:rgb(255,0,0)">亲爱的朋友，你好！我是小马，欢迎来到久恒！</span></span></span></strong></p>
+
+<p style="text-align: center">&nbsp;</p>
+
+<hr />
+<p style="text-align: center">&nbsp;</p>
+
+<p><strong><span style="font-size:14px">前言：许多朋友都有加入好几十个、甚至上百个QQ群，然后在空间里写着说说和日志，可是很少有人想过通过QQ群和QQ空间能引来大量的流量。</span></strong></p>
+
+<p><span style="font-size:14px">今天小马要给大家分享的就是如何利用QQ群和QQ空间日引2000个流量，最重要的是免费的哦。（<span style="color:#ff0000">当然缺点不用我多说了，需要强大的执行力</span>）</span></p>
+
+<p>&nbsp;</p>
+
+<p><strong><span style="font-size:14px">先给大家看两张图：</span></strong></p>
+
+<p><img src="http://10nai.com/images/uplaod/b/b.jpg" style="height:387px; width:246px" />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <img src="http://10nai.com/images/uplaod/b/b1.jpg" /></p>
+
+<p><span style="color:#ff0000"><strong><span style="font-size:14px">左图是7月31日的截图&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 右图是8月1日的截图</span></strong></span></p>
+
+<p>&nbsp;</p>
+
+<p><img src="http://10nai.com/images/uplaod/b/b2.jpg" /></p>
+
+<p>&nbsp;</p>
+
+<p><strong><span style="font-size:14px">这几张图有什么特别的地方呢，看上图的左下角，一个是1687，一个是1555.也就是说这个QQ空间，</span></strong></p>
+
+<p><strong><span style="font-size:14px">每天将近有1600的访问量。其实应该是三天时间就要突破6000了，</span></strong><strong><span style="font-size:14px">因为我只是测试了3天，3天之前</span></strong></p>
+
+<p><strong><span style="font-size:14px">的访问量不足400。而下面的第三张图，是有12个赞，8条评论，30个转载，6个分享，除去我自己的</span></strong></p>
+
+<p><strong><span style="font-size:14px">应该有53条的互动，当我看到这一</span></strong><strong><span style="font-size:14px">数字时，我是非常惊讶的：惊叹于QQ空间和QQ群的活跃度。</span></strong></p>
+
+<p>&nbsp;</p>
+
+<p><span style="font-size:14px">好了，现在大家一定很想知道，这是怎么做到的吧。且容我细细道来。说出来大家一定觉得非常简单。</span><span style="font-size:14px">先说</span></p>
+
+<p><span style="font-size:14px">下大概的思路，一句话总结就是，利用QQ空间写日志，然后群发到相关的QQ群即可。</span><span style="font-size:14px">其实，真的别小</span><span style="font-size:14px">看了</span></p>
+
+<p><span style="font-size:14px">QQ群，我用一个小号加了关于淘宝的群36个（每天最多只能加10个），然后把写好</span><span style="font-size:14px">的文章就直接在每个群里发出来。</span></p>
+
+<p>&nbsp;</p>
+
+<p><strong><span style="font-size:14px">发的内容如下图所示：</span></strong></p>
+
+<p><img src="http://10nai.com/images/uplaod/b/b3.jpg" /></p>
+
+<p><span style="font-size:14px">发完之后，流量就哗哗哗的来了。而且不容易被T，因为毕竟这不是什么广告，是经验分享。</span></p>
+
+<p>&nbsp;</p>
+
+<p><strong><span style="font-size:14px">就这么简单。</span></strong></p>
+
+<p><span style="font-size:14px">有朋友问了，可以不可以用新浪博客等外部链接，我的建议是最好不用。要用就直接用QQ空间，为什么呢？</span></p>
+
+<p><span style="font-size:14px">因为QQ空间的链接在QQ群里被打开的机率是很高的。</span><span style="font-size:14px">而且有一个安全的标志 。还有一个可以将大概内容介</span></p>
+
+<p><span style="font-size:14px">绍出来的，让感兴趣的人一看就想点击，而外部的链接基本上是没有这个功能的。特别是一些不知名的网站。</span></p>
+
+<p><span style="font-size:14px">当然小马还试了下，百度贴吧也可以。总之最好利用QQ空间了。</span></p>
+
+<p><span style="color:#ff0000"><span style="font-size:14px">用这个方法，其实每天花的时间很短，不超过1个小时。就可以将近引来1600个流量。</span></span></p>
+
+<p>&nbsp;</p>
+
+<p><span style="font-size:14px">如果我们是做其它产品的呢，比如是卖衣服的，是不是可以写一篇文章，关于如何搭配穿衣的文章，在你的</span></p>
+
+<p><span style="font-size:14px">文章里附上一个淘宝链接；如果我们是卖吃的东西，</span><span style="font-size:14px">是不是也可以写一篇吃货大推荐的文章，最后在文章里</span></p>
+
+<p><span style="font-size:14px">放上一个你的淘宝链接；如果我们是卖旅游券的，是不是可以写一篇一生中你必须去的几个地方，最后在</span><span style="font-size:14px">文</span></p>
+
+<p><span style="font-size:14px">章里放一个你的链接；如果我们是卖化妆品的，是不是可以写一篇&ldquo;杨幂也经常用的化妆品&rdquo;，在文章的结尾放</span></p>
+
+<p><span style="font-size:14px">上你的推广链接&hellip;&hellip;总之，您自己去想好了。写好日志之后，发到目标客户所在的QQ群，会不会有流量，会</span></p>
+
+<p><span style="font-size:14px">不会有</span><span style="font-size:14px">销量，这个您只是想是肯定没有的，如果您去做了，实践了，我可以肯定的告诉您，绝对没问题。</span></p>
+
+<p><span style="font-size:14px">最近，阿里做了一系列改变，包括新规则，包括和新浪账号互通，包括屏蔽微信等，无非是来抗衡腾讯体系</span></p>
+
+<p><span style="font-size:14px">的。但是做为商家的我们，千万别只是把鸡蛋放在一个</span><span style="font-size:14px">篮子里。</span></p>
+
+<p>&nbsp;</p>
+
+<p><strong><span style="color:#0000ff"><span style="font-size:14px">就像小马之前给大家分享的一个观点：现在已经到了全网营销的时代了，切莫只是紧守一个平台了！</span></span></strong></p>
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+
+<p><strong><span style="font-size:14px">当然，这个方法也有要注意的几点：</span></strong></p>
+
+<p><span style="color:#ff0000"><span style="font-size:14px">第一点：内容非常重要，如果内容很差，哪怕引来了流量，转化率也会很一般的。</span></span></p>
+
+<p><span style="color:#ff0000"><span style="font-size:14px">第二点：因为腾讯对加QQ群，以及在QQ群发链接是有限制的，因此要有节奏的发，切忌一口吃成胖子的心态。</span></span></p>
+
+<p><span style="color:#ff0000"><span style="font-size:14px">第三点：如果有条件去开通认证空间，因为认证空间有一个关注功能。至于认证空间，大家有不懂的可以去百度。</span></span></p>
+
+<p>&nbsp;</p>
+
+<p><strong><span style="font-size:14px">好了，今天就和大家说这么多了，是纯干货，希望能帮到您的忙。</span></strong></p>
+
+<p>&nbsp;</p>
+
+<p><span style="font-size:14px">最后用小米的例子来做结语（小米的红米手机和QQ认证空间玩了一场堪称顶级的社会化营销）。</span></p>
+
+<p><span style="font-size:14px">&ldquo;商人雷军，他懂得在用户最多的地方卖最合适的产品&mdash;&mdash;看到这里，就不难理解为啥红米手机为什么选择认证</span></p>
+
+<p><span style="font-size:14px">空间首发了。对小米来说，各种渠道都需要，而不同渠道有不同的价值：现场发布会是释放理想、汇聚米粉的</span></p>
+
+<p><span style="font-size:14px">场所，而新浪微博是传播品牌的阵地;微信是服务小米用户的售后中心;而QQ空间，则是汇聚6亿人群，用户群</span><span style="font-size:14px">遍</span></p>
+
+<p><span style="font-size:14px">布三四线城市的一个庞大又精准的市场。&rdquo;</span></p>
+
+<p>&nbsp;</p>
+
+<p><strong><span style="font-size:14px">我和小伙伴们都惊呆了！</span></strong></p>
+
+<p><img src="http://10nai.com/images/uplaod/b/b4.jpg" style="height:235px; width:350px" /><br />
+<strong><span style="font-size:14px">300万乘以799，接近24个亿，1小时1亿，不服不行！</span></strong></p>
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+
+<p style="text-align: center">&nbsp;</p>
+
+<p style="text-align: center">&nbsp;</p>
+
+<hr />
+<p style="text-align: center">&nbsp;</p>
+
+<p><span style="font-size:18px"><span style="color:rgb(255,255,255)"><span style="background-color:rgb(255,0,0)"><strong>这里是非会员区，普通文章只做分享，不作解答；希望对大家有所帮助。</strong></span></span></span></p>
+
+<p><span style="font-size:14px">&nbsp;</span></p>
+
+<p>&nbsp;</p>
+', title='【小马】—利用最简单的方法日引2000流量，你也可以！' where id=18
+18:13:31 use a0122145834;
+18:13:31 set names utf8;
+18:13:31 select * from configs
+18:13:31 select * from admins where id=1
+18:13:32 select * from articles where id=18
+18:13:35 use a0122145834;
+18:13:35 set names utf8;
+18:13:35 select * from configs
+18:13:35 select * from users where id=35
+18:13:35 select count(id) from users where spreader_id='35'
+18:13:35 select * from images
+18:13:35 select type_id from articles where id='18'
+18:13:35 select * from articles where id='18'
+18:15:18 use a0122145834;
+18:15:18 set names utf8;
+18:15:18 select * from configs
+18:15:18 select * from admins where id=1
+18:15:18 update articles set type_id=0, content='<p><strong><span style="font-size:20px"><span style="color:rgb(255,255,255)"><span style="background-color:rgb(255,0,0)">亲爱的朋友，你好！我是小马，欢迎来到久恒！</span></span></span></strong></p>
+
+<p style="text-align: center">&nbsp;</p>
+
+<hr />
+<p style="text-align: center">&nbsp;</p>
+
+<p><strong><span style="font-size:14px">前言：许多朋友都有加入好几十个、甚至上百个QQ群，然后在空间里写着说说和日志，可是很少有人想过通过QQ群和QQ空间能引来大量的流量。</span></strong></p>
+
+<p>&nbsp;</p>
+
+<p><span style="font-size:14px">今天小马要给大家分享的就是如何利用QQ群和QQ空间日引2000个流量，最重要的是免费的哦。（<span style="color:#ff0000">当然缺点不用我多说了，需要强大的执行力</span>）</span></p>
+
+<p>&nbsp;</p>
+
+<p><strong><span style="font-size:14px">先给大家看两张图：</span></strong></p>
+
+<p><img src="http://10nai.com/images/uplaod/b/b.jpg" style="height:387px; width:246px" />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <img src="http://10nai.com/images/uplaod/b/b1.jpg" /></p>
+
+<p><span style="color:#ff0000"><strong><span style="font-size:14px">左图是7月31日的截图&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 右图是8月1日的截图</span></strong></span></p>
+
+<p>&nbsp;</p>
+
+<p><img src="http://10nai.com/images/uplaod/b/b2.jpg" /></p>
+
+<p>&nbsp;</p>
+
+<p><strong><span style="font-size:14px">这几张图有什么特别的地方呢，看上图的左下角，一个是1687，一个是1555.也就是说这个QQ空间，</span></strong></p>
+
+<p><strong><span style="font-size:14px">每天将近有1600的访问量。其实应该是三天时间就要突破6000了，</span></strong><strong><span style="font-size:14px">因为我只是测试了3天，3天之前</span></strong></p>
+
+<p><strong><span style="font-size:14px">的访问量不足400。而下面的第三张图，是有12个赞，8条评论，30个转载，6个分享，除去我自己的</span></strong></p>
+
+<p><strong><span style="font-size:14px">应该有53条的互动，当我看到这一</span></strong><strong><span style="font-size:14px">数字时，我是非常惊讶的：惊叹于QQ空间和QQ群的活跃度。</span></strong></p>
+
+<p>&nbsp;</p>
+
+<p><span style="font-size:14px">好了，现在大家一定很想知道，这是怎么做到的吧。且容我细细道来。说出来大家一定觉得非常简单。</span><span style="font-size:14px">先说</span></p>
+
+<p><span style="font-size:14px">下大概的思路，一句话总结就是，利用QQ空间写日志，然后群发到相关的QQ群即可。</span><span style="font-size:14px">其实，真的别小</span><span style="font-size:14px">看了</span></p>
+
+<p><span style="font-size:14px">QQ群，我用一个小号加了关于淘宝的群36个（每天最多只能加10个），然后把写好</span><span style="font-size:14px">的文章就直接在每个群里发出来。</span></p>
+
+<p>&nbsp;</p>
+
+<p><strong><span style="font-size:14px">发的内容如下图所示：</span></strong></p>
+
+<p><img src="http://10nai.com/images/uplaod/b/b3.jpg" /></p>
+
+<p><span style="font-size:14px">发完之后，流量就哗哗哗的来了。而且不容易被T，因为毕竟这不是什么广告，是经验分享。</span></p>
+
+<p>&nbsp;</p>
+
+<p><strong><span style="font-size:14px">就这么简单。</span></strong></p>
+
+<p><span style="font-size:14px">有朋友问了，可以不可以用新浪博客等外部链接，我的建议是最好不用。要用就直接用QQ空间，为什么呢？</span></p>
+
+<p><span style="font-size:14px">因为QQ空间的链接在QQ群里被打开的机率是很高的。</span><span style="font-size:14px">而且有一个安全的标志 。还有一个可以将大概内容介</span></p>
+
+<p><span style="font-size:14px">绍出来的，让感兴趣的人一看就想点击，而外部的链接基本上是没有这个功能的。特别是一些不知名的网站。</span></p>
+
+<p><span style="font-size:14px">当然小马还试了下，百度贴吧也可以。总之最好利用QQ空间了。</span></p>
+
+<p><span style="color:#ff0000"><span style="font-size:14px">用这个方法，其实每天花的时间很短，不超过1个小时。就可以将近引来1600个流量。</span></span></p>
+
+<p>&nbsp;</p>
+
+<p><span style="font-size:14px">如果我们是做其它产品的呢，比如是卖衣服的，是不是可以写一篇文章，关于如何搭配穿衣的文章，在你的</span></p>
+
+<p><span style="font-size:14px">文章里附上一个淘宝链接；如果我们是卖吃的东西，</span><span style="font-size:14px">是不是也可以写一篇吃货大推荐的文章，最后在文章里</span></p>
+
+<p><span style="font-size:14px">放上一个你的淘宝链接；如果我们是卖旅游券的，是不是可以写一篇一生中你必须去的几个地方，最后在</span><span style="font-size:14px">文</span></p>
+
+<p><span style="font-size:14px">章里放一个你的链接；如果我们是卖化妆品的，是不是可以写一篇&ldquo;杨幂也经常用的化妆品&rdquo;，在文章的结尾放</span></p>
+
+<p><span style="font-size:14px">上你的推广链接&hellip;&hellip;总之，您自己去想好了。写好日志之后，发到目标客户所在的QQ群，会不会有流量，会</span></p>
+
+<p><span style="font-size:14px">不会有</span><span style="font-size:14px">销量，这个您只是想是肯定没有的，如果您去做了，实践了，我可以肯定的告诉您，绝对没问题。</span></p>
+
+<p><span style="font-size:14px">最近，阿里做了一系列改变，包括新规则，包括和新浪账号互通，包括屏蔽微信等，无非是来抗衡腾讯体系</span></p>
+
+<p><span style="font-size:14px">的。但是做为商家的我们，千万别只是把鸡蛋放在一个</span><span style="font-size:14px">篮子里。</span></p>
+
+<p>&nbsp;</p>
+
+<p><strong><span style="color:#0000ff"><span style="font-size:14px">就像小马之前给大家分享的一个观点：现在已经到了全网营销的时代了，切莫只是紧守一个平台了！</span></span></strong></p>
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+
+<p><strong><span style="font-size:14px">当然，这个方法也有要注意的几点：</span></strong></p>
+
+<p><span style="color:#ff0000"><span style="font-size:14px">第一点：内容非常重要，如果内容很差，哪怕引来了流量，转化率也会很一般的。</span></span></p>
+
+<p><span style="color:#ff0000"><span style="font-size:14px">第二点：因为腾讯对加QQ群，以及在QQ群发链接是有限制的，因此要有节奏的发，切忌一口吃成胖子的心态。</span></span></p>
+
+<p><span style="color:#ff0000"><span style="font-size:14px">第三点：如果有条件去开通认证空间，因为认证空间有一个关注功能。至于认证空间，大家有不懂的可以去百度。</span></span></p>
+
+<p>&nbsp;</p>
+
+<p><strong><span style="font-size:14px">好了，今天就和大家说这么多了，是纯干货，希望能帮到您的忙。</span></strong></p>
+
+<p>&nbsp;</p>
+
+<p><span style="font-size:14px">最后用小米的例子来做结语（小米的红米手机和QQ认证空间玩了一场堪称顶级的社会化营销）。</span></p>
+
+<p><span style="font-size:14px">&ldquo;商人雷军，他懂得在用户最多的地方卖最合适的产品&mdash;&mdash;看到这里，就不难理解为啥红米手机为什么选择认证</span></p>
+
+<p><span style="font-size:14px">空间首发了。对小米来说，各种渠道都需要，而不同渠道有不同的价值：现场发布会是释放理想、汇聚米粉的</span></p>
+
+<p><span style="font-size:14px">场所，而新浪微博是传播品牌的阵地;微信是服务小米用户的售后中心;而QQ空间，则是汇聚6亿人群，用户群</span><span style="font-size:14px">遍</span></p>
+
+<p><span style="font-size:14px">布三四线城市的一个庞大又精准的市场。&rdquo;</span></p>
+
+<p>&nbsp;</p>
+
+<p><strong><span style="font-size:14px">我和小伙伴们都惊呆了！</span></strong></p>
+
+<p><img src="http://10nai.com/images/uplaod/b/b4.jpg" style="height:235px; width:350px" /><br />
+<strong><span style="font-size:14px">300万乘以799，接近24个亿，1小时1亿，不服不行！</span></strong></p>
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+
+<p style="text-align: center">&nbsp;</p>
+
+<p style="text-align: center">&nbsp;</p>
+
+<hr />
+<p style="text-align: center">&nbsp;</p>
+
+<p><span style="font-size:18px"><span style="color:rgb(255,255,255)"><span style="background-color:rgb(255,0,0)"><strong>这里是非会员区，普通文章只做分享，不作解答；希望对大家有所帮助。</strong></span></span></span></p>
+
+<p><span style="font-size:14px">&nbsp;</span></p>
+
+<p>&nbsp;</p>
+', title='【小马】—利用最简单的方法日引2000流量，你也可以！' where id=18
+18:15:19 use a0122145834;
+18:15:19 set names utf8;
+18:15:19 select * from configs
+18:15:19 select * from admins where id=1
+18:15:19 select * from articles where id=18
+18:15:22 use a0122145834;
+18:15:22 set names utf8;
+18:15:22 select * from configs
+18:15:22 select * from users where id=35
+18:15:22 select count(id) from users where spreader_id='35'
+18:15:22 select * from images
+18:15:22 select type_id from articles where id='18'
+18:15:22 select * from articles where id='18'
+18:16:19 use a0122145834;
+18:16:19 set names utf8;
+18:16:19 select * from configs
+18:16:19 select * from users where id=35
+18:16:19 select count(id) from users where spreader_id='35'
+18:16:19 select * from images
+18:16:19 select * from article_type
+18:16:19 select * from article_type where id='0'
+18:16:19 select count(id) from articles where type_id='0' order by add_time desc
+18:16:19 select * from articles where type_id='0' order by add_time desc limit 0,5
+18:16:38 use a0122145834;
+18:16:38 set names utf8;
+18:16:38 select * from configs
+18:16:38 select * from users where id=35
+18:16:38 select count(id) from users where spreader_id='35'
+18:16:38 select * from images
+18:16:38 select * from article_type
+18:16:38 select * from article_type where id='0'
+18:16:38 select count(id) from articles where type_id='0' order by add_time desc
+18:16:38 select * from articles where type_id='0' order by add_time desc limit 5,5
+18:16:52 use a0122145834;
+18:16:52 set names utf8;
+18:16:52 select * from configs
+18:16:52 select * from users where id=35
+18:16:52 use a0122145834;
+18:16:52 set names utf8;
+18:16:52 select * from configs
+18:16:52 select * from users where id=35
+18:16:52 select count(id) from users where spreader_id='35'
+18:16:52 select * from images
+18:16:52 select * from goods where need_top=1 and need_hidden=0 order by id desc limit 0,5
+18:16:52 select count(id) from goods where need_top=0 and need_hidden=0 order by id desc
+18:16:52 select * from goods where need_top=0 and need_hidden=0 order by id desc limit 0,5
+18:17:40 use a0122145834;
+18:17:40 set names utf8;
+18:17:40 select * from configs
+18:17:40 select * from admins where id=1
+18:17:40 select count(o.id) from articles as o left join article_type as u on u.id=o.type_id 
+18:17:40 select o.id,o.title,o.add_time,u.type_name from articles as o left join article_type as u on u.id=o.type_id  limit 0,20
+18:18:54 use a0122145834;
+18:18:54 set names utf8;
+18:18:54 select * from configs
+18:18:54 select * from users where id=35
+18:18:54 select count(id) from users where spreader_id='35'
+18:18:54 select * from images
+18:18:54 select * from article_type
+18:18:54 select * from article_type where id='0'
+18:18:54 select count(id) from articles where type_id='0' order by add_time desc
+18:18:54 select * from articles where type_id='0' order by add_time desc limit 0,5
+18:18:57 use a0122145834;
+18:18:57 set names utf8;
+18:18:57 select * from configs
+18:18:57 select * from users where id=35
+18:18:57 use a0122145834;
+18:18:57 set names utf8;
+18:18:57 select * from configs
+18:18:57 select * from users where id=35
+18:18:57 select count(id) from users where spreader_id='35'
+18:18:57 select * from images
+18:18:57 select * from goods where need_top=1 and need_hidden=0 order by id desc limit 0,5
+18:18:57 select count(id) from goods where need_top=0 and need_hidden=0 order by id desc
+18:18:57 select * from goods where need_top=0 and need_hidden=0 order by id desc limit 0,5
+18:20:37 use a0122145834;
+18:20:37 set names utf8;
+18:20:37 select * from configs
+18:20:37 select * from users where id=35
+18:20:37 select count(id) from users where spreader_id='35'
+18:20:37 select * from images
+18:20:37 select * from article_type
+18:20:37 select * from article_type where id='0'
+18:20:37 select count(id) from articles where type_id='0' order by add_time desc
+18:20:37 select * from articles where type_id='0' order by add_time desc limit 0,5
+18:20:48 use a0122145834;
+18:20:48 set names utf8;
+18:20:48 select * from configs
+18:20:48 select * from users where id=35
+18:20:48 select count(id) from users where spreader_id='35'
+18:20:48 select * from images
+18:20:48 select * from article_type
+18:20:48 select * from article_type where id='0'
+18:20:48 select count(id) from articles where type_id='0' order by add_time desc
+18:20:48 select * from articles where type_id='0' order by add_time desc limit 5,5
+18:24:06 use a0122145834;
+18:24:06 set names utf8;
+18:24:06 select * from configs
+18:24:06 select * from admins where id=1
+18:24:06 select * from articles where id=17
+18:24:20 use a0122145834;
+18:24:20 set names utf8;
+18:24:20 select * from configs
+18:24:20 select * from users where id=35
+18:24:20 select count(id) from users where spreader_id='35'
+18:24:20 select * from images
+18:24:20 select * from article_type
+18:24:20 select count(id) from articles order by add_time desc
+18:24:20 select * from articles order by add_time desc limit 0,5
+18:24:56 use a0122145834;
+18:24:56 set names utf8;
+18:24:56 select * from configs
+18:24:56 select * from admins where id=1
+18:24:56 update articles set type_id=10, content='<p style="text-align: center"><span style="font-size:18px"><strong>第一课：播放密码1xi2icnk0a</strong></span></p>
+
+<p style="text-align: center">&nbsp;</p>
+
+<p style="text-align: center"><object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,40,0" height="521" width="684"><param name="quality" value="high" /><param name="movie" value="http://player.youku.com/player.php/sid/XMzE2NTQ5NzI0/v.swf" /><embed height="521" pluginspage="http://www.macromedia.com/go/getflashplayer" quality="high" src="http://player.youku.com/player.php/sid/XMzE2NTQ5NzI0/v.swf" type="application/x-shockwave-flash" width="684"></embed></object></p>
+
+<p style="text-align: center">&nbsp;</p>
+
+<hr />
+<p style="text-align: center"><strong><span style="font-size:18px">第二课：播放密码1xi2icnk0a</span></strong></p>
+
+<p style="text-align: center">&nbsp;</p>
+
+<p style="text-align: center">&nbsp;</p>
+
+<hr />
+<p style="text-align: center"><strong><span style="font-size:18px">第三课：播放密码O9upc13jY4</span></strong></p>
+
+<p style="text-align: center">&nbsp;</p>
+
+<p style="text-align: center">&nbsp;</p>
+
+<hr />
+<p style="text-align: center"><strong><span style="font-size:18px">第三课：播放密码O9upc13jY4</span></strong><span style="font-size:18px"><strong>第一课：播放密码1xi2icnk0a第一课：播放密码1xi2icnk0a第一课：播放密码1xi2icnk0a第一课：播放密码1xi2icnk0a第一课：播放密码1xi2icnk0a第一课：播放密码1xi2icnk0a第一课：播放密码1xi2icnk0a第一课：播放密码1xi2icnk0a第一课：播放密码1xi2icnk0a第一课：播放密码1xi2icnk0a第一课：播放密码1xi2icnk0a第一课：播放密码1xi2icnk0a第一课：播放密码1xi2icnk0a第一课：播放密码1xi2icnk0a第一课：播放密码1xi2icnk0a第一课：播放密码1xi2icnk0a第一课：播放密码1xi2icnk0a第一课：播放密码1xi2icnk0a</strong></span></p>
+
+<p style="text-align: center">&nbsp;</p>
+
+<p style="text-align: center"><span style="font-size:18px"><strong>第一课：播放密码1xi2icnk0a第一课：播放密码1xi2icnk0a第一课：播放密码1xi2icnk0a第一课：播放密码1xi2icnk0a第一课：播放密码1xi2icnk0a</strong></span></p>
+
+<p style="text-align: center"><span style="font-size:18px"><strong>第一课：播放密码1xi2icnk0a第一课：播放密码1xi2icnk0a第一课：播放密码1xi2icnk0a</strong></span></p>
+
+<p style="text-align: center">&nbsp;</p>
+
+<p style="text-align: center"><span style="font-size:18px"><strong>第一课：播放密码1xi2icnk0a第一课：播放密码1xi2icnk0a第一课：播放密码1xi2icnk0a第一课：播放密码1xi2icnk0a</strong></span></p>
+
+<p style="text-align: center"><span style="font-size:18px"><strong>第一课：播放密码1xi2icnk0a第一课：播放密码1xi2icnk0a第一课：播放密码1xi2icnk0a第一课：播放密码1xi2icnk0a第一课：播放密码1xi2icnk0a</strong></span></p>
+
+<p style="text-align: center">&nbsp;</p>
+
+<p style="text-align: center">&nbsp;</p>
+', title='流量秘密1' where id=17
+18:24:58 use a0122145834;
+18:24:58 set names utf8;
+18:24:58 select * from configs
+18:24:58 select * from admins where id=1
+18:24:58 select * from articles where id=17
+18:25:01 use a0122145834;
+18:25:01 set names utf8;
+18:25:01 select * from configs
+18:25:01 select * from admins where id=1
+18:25:01 select count(o.id) from articles as o left join article_type as u on u.id=o.type_id 
+18:25:01 select o.id,o.title,o.add_time,u.type_name from articles as o left join article_type as u on u.id=o.type_id  limit 0,20
+18:25:04 use a0122145834;
+18:25:04 set names utf8;
+18:25:04 select * from configs
+18:25:04 select * from admins where id=1
+18:25:04 select * from articles where id=12
+18:25:13 use a0122145834;
+18:25:13 set names utf8;
+18:25:13 select * from configs
+18:25:13 select * from admins where id=1
+18:25:13 update articles set type_id=0, content='<p>00000</p>
+', title='流量秘密2' where id=12
+18:25:15 use a0122145834;
+18:25:15 set names utf8;
+18:25:15 select * from configs
+18:25:15 select * from admins where id=1
+18:25:15 select * from articles where id=12
+18:25:23 use a0122145834;
+18:25:23 set names utf8;
+18:25:23 select * from configs
+18:25:23 select * from admins where id=1
+18:25:23 select count(o.id) from articles as o left join article_type as u on u.id=o.type_id 
+18:25:23 select o.id,o.title,o.add_time,u.type_name from articles as o left join article_type as u on u.id=o.type_id  limit 0,20
+18:25:29 use a0122145834;
+18:25:29 set names utf8;
+18:25:29 select * from configs
+18:25:29 select * from admins where id=1
+18:25:29 select count(o.id) from articles as o left join article_type as u on u.id=o.type_id 
+18:25:29 select o.id,o.title,o.add_time,u.type_name from articles as o left join article_type as u on u.id=o.type_id  limit 20,20
+18:25:34 use a0122145834;
+18:25:34 set names utf8;
+18:25:34 select * from configs
+18:25:34 select * from admins where id=1
+18:25:34 select count(o.id) from articles as o left join article_type as u on u.id=o.type_id 
+18:25:34 select o.id,o.title,o.add_time,u.type_name from articles as o left join article_type as u on u.id=o.type_id  limit 0,20
+18:25:36 use a0122145834;
+18:25:36 set names utf8;
+18:25:36 select * from configs
+18:25:36 select * from admins where id=1
+18:25:43 use a0122145834;
+18:25:43 set names utf8;
+18:25:43 select * from configs
+18:25:43 select * from admins where id=1
+18:25:43 select count(id) from article_type 
+18:25:43 select * from article_type  limit 0,20
+18:25:48 use a0122145834;
+18:25:48 set names utf8;
+18:25:48 select * from configs
+18:25:48 select * from admins where id=1
+18:25:48 select count(o.id) from articles as o left join article_type as u on u.id=o.type_id 
+18:25:48 select o.id,o.title,o.add_time,u.type_name from articles as o left join article_type as u on u.id=o.type_id  limit 0,20
+18:25:50 use a0122145834;
+18:25:50 set names utf8;
+18:25:50 select * from configs
+18:25:50 select * from admins where id=1
+18:26:07 use a0122145834;
+18:26:07 set names utf8;
+18:26:07 select * from configs
+18:26:07 select * from admins where id=1
+18:26:07 insert into articles (type_id,title,content,add_time) values ('11','产品开发1','<p>11</p>
+','1391855167') ;
+18:26:09 use a0122145834;
+18:26:09 set names utf8;
+18:26:09 select * from configs
+18:26:09 select * from admins where id=1
+18:26:09 select count(o.id) from articles as o left join article_type as u on u.id=o.type_id 
+18:26:09 select o.id,o.title,o.add_time,u.type_name from articles as o left join article_type as u on u.id=o.type_id  limit 0,20
+18:26:14 use a0122145834;
+18:26:14 set names utf8;
+18:26:14 select * from configs
+18:26:14 select * from admins where id=1
+18:26:14 select count(o.id) from articles as o left join article_type as u on u.id=o.type_id 
+18:26:14 select o.id,o.title,o.add_time,u.type_name from articles as o left join article_type as u on u.id=o.type_id  limit 0,20
+18:26:17 use a0122145834;
+18:26:17 set names utf8;
+18:26:17 select * from configs
+18:26:17 select * from admins where id=1
+18:26:28 use a0122145834;
+18:26:28 set names utf8;
+18:26:28 select * from configs
+18:26:28 select * from admins where id=1
+18:26:28 insert into articles (type_id,title,content,add_time) values ('11','产品开发2','','1391855188') ;
+18:26:29 use a0122145834;
+18:26:29 set names utf8;
+18:26:29 select * from configs
+18:26:29 select * from admins where id=1
+18:26:29 select count(o.id) from articles as o left join article_type as u on u.id=o.type_id 
+18:26:29 select o.id,o.title,o.add_time,u.type_name from articles as o left join article_type as u on u.id=o.type_id  limit 0,20
+18:26:33 use a0122145834;
+18:26:33 set names utf8;
+18:26:33 select * from configs
+18:26:33 select * from admins where id=1
+18:26:33 select count(o.id) from articles as o left join article_type as u on u.id=o.type_id 
+18:26:33 select o.id,o.title,o.add_time,u.type_name from articles as o left join article_type as u on u.id=o.type_id  limit 0,20
+18:26:40 use a0122145834;
+18:26:40 set names utf8;
+18:26:40 select * from configs
+18:26:40 select * from admins where id=1
+18:26:57 use a0122145834;
+18:26:57 set names utf8;
+18:26:57 select * from configs
+18:26:57 select * from admins where id=1
+18:26:57 insert into articles (type_id,title,content,add_time) values ('11','产品开发3','<p>产品开发3</p>
+','1391855217') ;
+18:26:59 use a0122145834;
+18:26:59 set names utf8;
+18:26:59 select * from configs
+18:26:59 select * from admins where id=1
+18:26:59 select count(o.id) from articles as o left join article_type as u on u.id=o.type_id 
+18:26:59 select o.id,o.title,o.add_time,u.type_name from articles as o left join article_type as u on u.id=o.type_id  limit 0,20
+18:27:01 use a0122145834;
+18:27:01 set names utf8;
+18:27:01 select * from configs
+18:27:01 select * from admins where id=1
+18:27:01 select count(id) from article_type 
+18:27:01 select * from article_type  limit 0,20
+18:27:10 use a0122145834;
+18:27:10 set names utf8;
+18:27:10 select * from configs
+18:27:10 select * from admins where id=1
+18:27:10 select count(o.id) from articles as o left join article_type as u on u.id=o.type_id 
+18:27:10 select o.id,o.title,o.add_time,u.type_name from articles as o left join article_type as u on u.id=o.type_id  limit 0,20
+18:27:16 use a0122145834;
+18:27:16 set names utf8;
+18:27:16 select * from configs
+18:27:16 select * from admins where id=1
+18:27:16 select * from articles where id=12
+18:27:21 use a0122145834;
+18:27:21 set names utf8;
+18:27:21 select * from configs
+18:27:21 select * from admins where id=1
+18:27:21 update articles set type_id=5, content='<p>00000</p>
+', title='流量秘密2' where id=12
+18:27:27 use a0122145834;
+18:27:27 set names utf8;
+18:27:27 select * from configs
+18:27:27 select * from admins where id=1
+18:27:27 select * from articles where id=12
+18:27:30 use a0122145834;
+18:27:30 set names utf8;
+18:27:30 select * from configs
+18:27:30 select * from admins where id=1
+18:27:30 select count(o.id) from articles as o left join article_type as u on u.id=o.type_id 
+18:27:30 select o.id,o.title,o.add_time,u.type_name from articles as o left join article_type as u on u.id=o.type_id  limit 0,20
+18:27:35 use a0122145834;
+18:27:35 set names utf8;
+18:27:35 select * from configs
+18:27:35 select * from admins where id=1
+18:27:35 select * from articles where id=17
+18:27:41 use a0122145834;
+18:27:41 set names utf8;
+18:27:41 select * from configs
+18:27:41 select * from admins where id=1
+18:27:41 update articles set type_id=5, content='<p style="text-align: center"><span style="font-size:18px"><strong>第一课：播放密码1xi2icnk0a</strong></span></p>
+
+<p style="text-align: center">&nbsp;</p>
+
+<p style="text-align: center"><object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,40,0" height="521" width="684"><param name="quality" value="high" /><param name="movie" value="http://player.youku.com/player.php/sid/XMzE2NTQ5NzI0/v.swf" /><embed height="521" pluginspage="http://www.macromedia.com/go/getflashplayer" quality="high" src="http://player.youku.com/player.php/sid/XMzE2NTQ5NzI0/v.swf" type="application/x-shockwave-flash" width="684"></embed></object></p>
+
+<p style="text-align: center">&nbsp;</p>
+
+<hr />
+<p style="text-align: center"><strong><span style="font-size:18px">第二课：播放密码1xi2icnk0a</span></strong></p>
+
+<p style="text-align: center">&nbsp;</p>
+
+<p style="text-align: center">&nbsp;</p>
+
+<hr />
+<p style="text-align: center"><strong><span style="font-size:18px">第三课：播放密码O9upc13jY4</span></strong></p>
+
+<p style="text-align: center">&nbsp;</p>
+
+<p style="text-align: center">&nbsp;</p>
+
+<hr />
+<p style="text-align: center"><strong><span style="font-size:18px">第三课：播放密码O9upc13jY4</span></strong><span style="font-size:18px"><strong>第一课：播放密码1xi2icnk0a第一课：播放密码1xi2icnk0a第一课：播放密码1xi2icnk0a第一课：播放密码1xi2icnk0a第一课：播放密码1xi2icnk0a第一课：播放密码1xi2icnk0a第一课：播放密码1xi2icnk0a第一课：播放密码1xi2icnk0a第一课：播放密码1xi2icnk0a第一课：播放密码1xi2icnk0a第一课：播放密码1xi2icnk0a第一课：播放密码1xi2icnk0a第一课：播放密码1xi2icnk0a第一课：播放密码1xi2icnk0a第一课：播放密码1xi2icnk0a第一课：播放密码1xi2icnk0a第一课：播放密码1xi2icnk0a第一课：播放密码1xi2icnk0a</strong></span></p>
+
+<p style="text-align: center">&nbsp;</p>
+
+<p style="text-align: center"><span style="font-size:18px"><strong>第一课：播放密码1xi2icnk0a第一课：播放密码1xi2icnk0a第一课：播放密码1xi2icnk0a第一课：播放密码1xi2icnk0a第一课：播放密码1xi2icnk0a</strong></span></p>
+
+<p style="text-align: center"><span style="font-size:18px"><strong>第一课：播放密码1xi2icnk0a第一课：播放密码1xi2icnk0a第一课：播放密码1xi2icnk0a</strong></span></p>
+
+<p style="text-align: center">&nbsp;</p>
+
+<p style="text-align: center"><span style="font-size:18px"><strong>第一课：播放密码1xi2icnk0a第一课：播放密码1xi2icnk0a第一课：播放密码1xi2icnk0a第一课：播放密码1xi2icnk0a</strong></span></p>
+
+<p style="text-align: center"><span style="font-size:18px"><strong>第一课：播放密码1xi2icnk0a第一课：播放密码1xi2icnk0a第一课：播放密码1xi2icnk0a第一课：播放密码1xi2icnk0a第一课：播放密码1xi2icnk0a</strong></span></p>
+
+<p style="text-align: center">&nbsp;</p>
+
+<p style="text-align: center">&nbsp;</p>
+', title='流量秘密1' where id=17
+18:27:42 use a0122145834;
+18:27:42 set names utf8;
+18:27:42 select * from configs
+18:27:42 select * from admins where id=1
+18:27:42 select * from articles where id=17
+18:28:17 use a0122145834;
+18:28:17 set names utf8;
+18:28:17 select * from configs
+18:28:17 select * from admins where id=1
+18:28:17 select count(o.id) from articles as o left join article_type as u on u.id=o.type_id 
+18:28:17 select o.id,o.title,o.add_time,u.type_name from articles as o left join article_type as u on u.id=o.type_id  limit 0,20
+18:28:28 use a0122145834;
+18:28:28 set names utf8;
+18:28:28 select * from configs
+18:28:28 select * from admins where id=1
+18:28:48 use a0122145834;
+18:28:48 set names utf8;
+18:28:48 select * from configs
+18:28:48 select * from admins where id=1
+18:28:48 insert into articles (type_id,title,content,add_time) values ('6','网站系统1','','1391855328') ;
+18:28:50 use a0122145834;
+18:28:50 set names utf8;
+18:28:50 select * from configs
+18:28:50 select * from admins where id=1
+18:28:50 select count(o.id) from articles as o left join article_type as u on u.id=o.type_id 
+18:28:50 select o.id,o.title,o.add_time,u.type_name from articles as o left join article_type as u on u.id=o.type_id  limit 0,20
+18:28:54 use a0122145834;
+18:28:54 set names utf8;
+18:28:54 select * from configs
+18:28:54 select * from admins where id=1
+18:29:05 use a0122145834;
+18:29:05 set names utf8;
+18:29:05 select * from configs
+18:29:05 select * from admins where id=1
+18:29:05 insert into articles (type_id,title,content,add_time) values ('6','网站系统2','<p>1</p>
+','1391855345') ;
+18:29:06 use a0122145834;
+18:29:06 set names utf8;
+18:29:06 select * from configs
+18:29:06 select * from admins where id=1
+18:29:06 select count(o.id) from articles as o left join article_type as u on u.id=o.type_id 
+18:29:06 select o.id,o.title,o.add_time,u.type_name from articles as o left join article_type as u on u.id=o.type_id  limit 0,20
+18:29:24 use a0122145834;
+18:29:24 set names utf8;
+18:29:24 select * from configs
+18:29:24 select * from users where id=35
+18:29:24 select count(id) from users where spreader_id='35'
+18:29:24 select * from images
+18:29:24 select * from article_type
+18:29:24 select count(id) from articles order by add_time desc
+18:29:24 select * from articles order by add_time desc limit 0,5
+18:29:28 use a0122145834;
+18:29:28 set names utf8;
+18:29:28 select * from configs
+18:29:28 select * from users where id=35
+18:29:28 select count(id) from users where spreader_id='35'
+18:29:28 select * from images
+18:29:28 select * from article_type
+18:29:28 select count(id) from articles order by add_time desc
+18:29:28 select * from articles order by add_time desc limit 25,5
+18:29:30 use a0122145834;
+18:29:30 set names utf8;
+18:29:30 select * from configs
+18:29:30 select * from users where id=35
+18:29:30 select count(id) from users where spreader_id='35'
+18:29:30 select * from images
+18:29:30 select * from article_type
+18:29:30 select count(id) from articles order by add_time desc
+18:29:30 select * from articles order by add_time desc limit 0,5
+18:29:38 use a0122145834;
+18:29:38 set names utf8;
+18:29:38 select * from configs
+18:29:38 select * from users where id=35
+18:29:38 select count(id) from users where spreader_id='35'
+18:29:38 select * from images
+18:29:38 select * from article_type
+18:29:38 select count(id) from articles order by add_time desc
+18:29:38 select * from articles order by add_time desc limit 5,5
+18:29:43 use a0122145834;
+18:29:43 set names utf8;
+18:29:43 select * from configs
+18:29:43 select * from users where id=35
+18:29:43 select count(id) from users where spreader_id='35'
+18:29:43 select * from images
+18:29:43 select * from article_type
+18:29:43 select count(id) from articles order by add_time desc
+18:29:43 select * from articles order by add_time desc limit 10,5
+18:29:52 use a0122145834;
+18:29:52 set names utf8;
+18:29:52 select * from configs
+18:29:52 select * from users where id=35
+18:29:52 select count(id) from users where spreader_id='35'
+18:29:52 select * from images
+18:29:52 select * from article_type
+18:29:52 select count(id) from articles order by add_time desc
+18:29:52 select * from articles order by add_time desc limit 15,5
+18:29:57 use a0122145834;
+18:29:57 set names utf8;
+18:29:57 select * from configs
+18:29:57 select * from users where id=35
+18:29:57 select count(id) from users where spreader_id='35'
+18:29:57 select * from images
+18:29:57 select * from article_type
+18:29:57 select count(id) from articles order by add_time desc
+18:29:57 select * from articles order by add_time desc limit 20,5
+18:30:00 use a0122145834;
+18:30:00 set names utf8;
+18:30:00 select * from configs
+18:30:00 select * from users where id=35
+18:30:00 select count(id) from users where spreader_id='35'
+18:30:00 select * from images
+18:30:00 select * from article_type
+18:30:00 select count(id) from articles order by add_time desc
+18:30:00 select * from articles order by add_time desc limit 25,5
+18:30:03 use a0122145834;
+18:30:03 set names utf8;
+18:30:03 select * from configs
+18:30:03 select * from users where id=35
+18:30:03 select count(id) from users where spreader_id='35'
+18:30:03 select * from images
+18:30:03 select type_id from articles where id='6'
+18:30:03 select * from articles where id='6'
+18:30:06 use a0122145834;
+18:30:06 set names utf8;
+18:30:06 select * from configs
+18:30:06 select * from users where id=35
+18:30:06 select count(id) from users where spreader_id='35'
+18:30:06 select * from images
+18:30:06 select * from article_type
+18:30:06 select count(id) from articles order by add_time desc
+18:30:06 select * from articles order by add_time desc limit 0,5
+18:30:19 use a0122145834;
+18:30:19 set names utf8;
+18:30:19 select * from configs
+18:30:19 select * from admins where id=1
+18:30:19 select * from articles where id=6
+18:31:10 use a0122145834;
+18:31:10 set names utf8;
+18:31:10 select * from configs
+18:31:10 select * from admins where id=1
+18:31:10 update articles set type_id=3, content='<p>阿萨德萨阿斯顿</p>
+', title='建站基础' where id=6
+18:31:11 use a0122145834;
+18:31:11 set names utf8;
+18:31:11 select * from configs
+18:31:12 select * from admins where id=1
+18:31:12 select * from articles where id=6
+18:31:22 use a0122145834;
+18:31:22 set names utf8;
+18:31:22 select * from configs
+18:31:22 select * from admins where id=1
+18:31:22 select count(o.id) from articles as o left join article_type as u on u.id=o.type_id 
+18:31:22 select o.id,o.title,o.add_time,u.type_name from articles as o left join article_type as u on u.id=o.type_id  limit 0,20
+18:31:48 use a0122145834;
+18:31:48 set names utf8;
+18:31:48 select * from configs
+18:31:48 select * from admins where id=1
+18:31:49 use a0122145834;
+18:31:49 set names utf8;
+18:31:49 select * from configs
+18:31:49 select * from admins where id=1
+18:31:49 select count(id) from article_type 
+18:31:49 select * from article_type  limit 0,20
+18:31:56 use a0122145834;
+18:31:56 set names utf8;
+18:31:56 select * from configs
+18:31:56 select * from admins where id=1
+18:31:56 select count(o.id) from articles as o left join article_type as u on u.id=o.type_id 
+18:31:56 select o.id,o.title,o.add_time,u.type_name from articles as o left join article_type as u on u.id=o.type_id  limit 0,20
+18:31:57 use a0122145834;
+18:31:57 set names utf8;
+18:31:57 select * from configs
+18:31:57 select * from admins where id=1
+18:32:20 use a0122145834;
+18:32:20 set names utf8;
+18:32:20 select * from configs
+18:32:20 select * from admins where id=1
+18:32:20 insert into articles (type_id,title,content,add_time) values ('8','百度竞价1','<p>2</p>
+','1391855540') ;
+18:32:22 use a0122145834;
+18:32:22 set names utf8;
+18:32:22 select * from configs
+18:32:22 select * from admins where id=1
+18:32:22 select count(o.id) from articles as o left join article_type as u on u.id=o.type_id 
+18:32:22 select o.id,o.title,o.add_time,u.type_name from articles as o left join article_type as u on u.id=o.type_id  limit 0,20
+18:32:24 use a0122145834;
+18:32:24 set names utf8;
+18:32:24 select * from configs
+18:32:24 select * from admins where id=1
+18:32:24 select count(o.id) from articles as o left join article_type as u on u.id=o.type_id 
+18:32:24 select o.id,o.title,o.add_time,u.type_name from articles as o left join article_type as u on u.id=o.type_id  limit 0,20
+18:32:42 use a0122145834;
+18:32:42 set names utf8;
+18:32:42 select * from configs
+18:32:42 select * from admins where id=1
+18:32:54 use a0122145834;
+18:32:54 set names utf8;
+18:32:54 select * from configs
+18:32:54 select * from admins where id=1
+18:32:54 insert into articles (type_id,title,content,add_time) values ('8','百度竞价2','<p>22</p>
+','1391855574') ;
+18:32:55 use a0122145834;
+18:32:55 set names utf8;
+18:32:55 select * from configs
+18:32:55 select * from admins where id=1
+18:32:55 select count(o.id) from articles as o left join article_type as u on u.id=o.type_id 
+18:32:55 select o.id,o.title,o.add_time,u.type_name from articles as o left join article_type as u on u.id=o.type_id  limit 0,20
+18:32:58 use a0122145834;
+18:32:58 set names utf8;
+18:32:58 select * from configs
+18:32:58 select * from admins where id=1
+18:33:18 use a0122145834;
+18:33:18 set names utf8;
+18:33:18 select * from configs
+18:33:18 select * from admins where id=1
+18:33:18 insert into articles (type_id,title,content,add_time) values ('8','百度竞价3','<p>23</p>
+','1391855598') ;
+18:33:19 use a0122145834;
+18:33:19 set names utf8;
+18:33:19 select * from configs
+18:33:19 select * from admins where id=1
+18:33:19 select count(o.id) from articles as o left join article_type as u on u.id=o.type_id 
+18:33:19 select o.id,o.title,o.add_time,u.type_name from articles as o left join article_type as u on u.id=o.type_id  limit 0,20
+18:33:22 use a0122145834;
+18:33:22 set names utf8;
+18:33:22 select * from configs
+18:33:22 select * from admins where id=1
+18:33:22 select count(id) from article_type 
+18:33:22 select * from article_type  limit 0,20
+18:33:28 use a0122145834;
+18:33:28 set names utf8;
+18:33:28 select * from configs
+18:33:28 select * from admins where id=1
+18:33:28 select count(o.id) from articles as o left join article_type as u on u.id=o.type_id 
+18:33:28 select o.id,o.title,o.add_time,u.type_name from articles as o left join article_type as u on u.id=o.type_id  limit 0,20
+18:33:30 use a0122145834;
+18:33:30 set names utf8;
+18:33:30 select * from configs
+18:33:30 select * from admins where id=1
+18:34:00 use a0122145834;
+18:34:00 set names utf8;
+18:34:00 select * from configs
+18:34:00 select * from admins where id=1
+18:34:00 insert into articles (type_id,title,content,add_time) values ('9','营销实战1','<p>323</p>
+','1391855640') ;
+18:34:02 use a0122145834;
+18:34:02 set names utf8;
+18:34:02 select * from configs
+18:34:02 select * from admins where id=1
+18:34:02 select count(o.id) from articles as o left join article_type as u on u.id=o.type_id 
+18:34:02 select o.id,o.title,o.add_time,u.type_name from articles as o left join article_type as u on u.id=o.type_id  limit 0,20
+18:34:06 use a0122145834;
+18:34:06 set names utf8;
+18:34:06 select * from configs
+18:34:06 select * from admins where id=1
+18:34:19 use a0122145834;
+18:34:19 set names utf8;
+18:34:19 select * from configs
+18:34:19 select * from admins where id=1
+18:34:19 insert into articles (type_id,title,content,add_time) values ('9','营销实战2','<p>3434</p>
+','1391855659') ;
+18:34:20 use a0122145834;
+18:34:20 set names utf8;
+18:34:20 select * from configs
+18:34:20 select * from admins where id=1
+18:34:20 select count(o.id) from articles as o left join article_type as u on u.id=o.type_id 
+18:34:20 select o.id,o.title,o.add_time,u.type_name from articles as o left join article_type as u on u.id=o.type_id  limit 0,20
+18:34:22 use a0122145834;
+18:34:22 set names utf8;
+18:34:22 select * from configs
+18:34:22 select * from admins where id=1
+18:34:35 use a0122145834;
+18:34:35 set names utf8;
+18:34:35 select * from configs
+18:34:35 select * from admins where id=1
+18:34:35 insert into articles (type_id,title,content,add_time) values ('9','营销实战3','<p>545</p>
+','1391855675') ;
+18:34:37 use a0122145834;
+18:34:37 set names utf8;
+18:34:37 select * from configs
+18:34:37 select * from admins where id=1
+18:34:37 select count(o.id) from articles as o left join article_type as u on u.id=o.type_id 
+18:34:37 select o.id,o.title,o.add_time,u.type_name from articles as o left join article_type as u on u.id=o.type_id  limit 0,20
+18:34:41 use a0122145834;
+18:34:41 set names utf8;
+18:34:41 select * from configs
+18:34:41 select * from admins where id=1
+18:34:59 use a0122145834;
+18:34:59 set names utf8;
+18:34:59 select * from configs
+18:34:59 select * from admins where id=1
+18:34:59 insert into articles (type_id,title,content,add_time) values ('9','营销实战4','<p>344</p>
+','1391855699') ;
+18:35:00 use a0122145834;
+18:35:00 set names utf8;
+18:35:00 select * from configs
+18:35:00 select * from admins where id=1
+18:35:00 select count(o.id) from articles as o left join article_type as u on u.id=o.type_id 
+18:35:00 select o.id,o.title,o.add_time,u.type_name from articles as o left join article_type as u on u.id=o.type_id  limit 0,20
+18:35:05 use a0122145834;
+18:35:05 set names utf8;
+18:35:05 select * from configs
+18:35:05 select * from users where id=35
+18:35:05 select count(id) from users where spreader_id='35'
+18:35:05 select * from images
+18:35:05 select * from article_type
+18:35:05 select count(id) from articles order by add_time desc
+18:35:05 select * from articles order by add_time desc limit 0,5
+18:35:33 use a0122145834;
+18:35:33 set names utf8;
+18:35:33 select * from configs
+18:35:33 select * from admins where id=1
+18:35:40 use a0122145834;
+18:35:40 set names utf8;
+18:35:40 select * from configs
+18:35:40 select * from admins where id=1
+18:35:40 select count(o.id) from articles as o left join article_type as u on u.id=o.type_id 
+18:35:40 select o.id,o.title,o.add_time,u.type_name from articles as o left join article_type as u on u.id=o.type_id  limit 0,20
+18:35:42 use a0122145834;
+18:35:42 set names utf8;
+18:35:42 select * from configs
+18:35:42 select * from admins where id=1
+18:35:42 select count(id) from article_type 
+18:35:42 select * from article_type  limit 0,20
+18:35:49 use a0122145834;
+18:35:49 set names utf8;
+18:35:49 select * from configs
+18:35:49 select * from admins where id=1
+18:35:49 select count(o.id) from articles as o left join article_type as u on u.id=o.type_id 
+18:35:49 select o.id,o.title,o.add_time,u.type_name from articles as o left join article_type as u on u.id=o.type_id  limit 0,20
+18:35:57 use a0122145834;
+18:35:57 set names utf8;
+18:35:57 select * from configs
+18:35:57 select * from admins where id=1
+18:35:57 select count(o.id) from articles as o left join article_type as u on u.id=o.type_id 
+18:35:57 select o.id,o.title,o.add_time,u.type_name from articles as o left join article_type as u on u.id=o.type_id  limit 20,20
+18:36:06 use a0122145834;
+18:36:06 set names utf8;
+18:36:06 select * from configs
+18:36:06 select * from admins where id=1
+18:36:06 select * from articles where id=35
+18:36:25 use a0122145834;
+18:36:25 set names utf8;
+18:36:25 select * from configs
+18:36:25 select * from admins where id=1
+18:36:25 update articles set type_id=5, content='<p>323</p>
+', title='流量秘密3' where id=35
+18:36:27 use a0122145834;
+18:36:27 set names utf8;
+18:36:27 select * from configs
+18:36:27 select * from admins where id=1
+18:36:27 select * from articles where id=35
+18:36:30 use a0122145834;
+18:36:30 set names utf8;
+18:36:30 select * from configs
+18:36:30 select * from admins where id=1
+18:36:30 select count(o.id) from articles as o left join article_type as u on u.id=o.type_id 
+18:36:30 select o.id,o.title,o.add_time,u.type_name from articles as o left join article_type as u on u.id=o.type_id  limit 0,20
+18:36:33 use a0122145834;
+18:36:33 set names utf8;
+18:36:33 select * from configs
+18:36:33 select * from admins where id=1
+18:36:33 select count(o.id) from articles as o left join article_type as u on u.id=o.type_id 
+18:36:33 select o.id,o.title,o.add_time,u.type_name from articles as o left join article_type as u on u.id=o.type_id  limit 20,20
+18:36:37 use a0122145834;
+18:36:37 set names utf8;
+18:36:37 select * from configs
+18:36:37 select * from admins where id=1
+18:36:37 select * from articles where id=36
+18:36:51 use a0122145834;
+18:36:51 set names utf8;
+18:36:51 select * from configs
+18:36:51 select * from admins where id=1
+18:36:51 update articles set type_id=5, content='<p>3434</p>
+', title='流量秘密4' where id=36
+18:36:52 use a0122145834;
+18:36:52 set names utf8;
+18:36:52 select * from configs
+18:36:52 select * from admins where id=1
+18:36:52 select * from articles where id=36
+18:36:55 use a0122145834;
+18:36:55 set names utf8;
+18:36:55 select * from configs
+18:36:55 select * from admins where id=1
+18:36:55 select count(o.id) from articles as o left join article_type as u on u.id=o.type_id 
+18:36:55 select o.id,o.title,o.add_time,u.type_name from articles as o left join article_type as u on u.id=o.type_id  limit 0,20
+18:36:58 use a0122145834;
+18:36:58 set names utf8;
+18:36:58 select * from configs
+18:36:58 select * from admins where id=1
+18:36:58 select count(o.id) from articles as o left join article_type as u on u.id=o.type_id 
+18:36:58 select o.id,o.title,o.add_time,u.type_name from articles as o left join article_type as u on u.id=o.type_id  limit 20,20
+18:37:08 use a0122145834;
+18:37:08 set names utf8;
+18:37:08 select * from configs
+18:37:08 select * from admins where id=1
+18:37:08 select * from articles where id=37
+18:37:22 use a0122145834;
+18:37:22 set names utf8;
+18:37:22 select * from configs
+18:37:22 select * from admins where id=1
+18:37:22 update articles set type_id=5, content='<p>545</p>
+', title='流量秘密5' where id=37
+18:37:23 use a0122145834;
+18:37:23 set names utf8;
+18:37:23 select * from configs
+18:37:23 select * from admins where id=1
+18:37:23 select * from articles where id=37
+18:37:26 use a0122145834;
+18:37:26 set names utf8;
+18:37:26 select * from configs
+18:37:26 select * from admins where id=1
+18:37:26 select count(o.id) from articles as o left join article_type as u on u.id=o.type_id 
+18:37:26 select o.id,o.title,o.add_time,u.type_name from articles as o left join article_type as u on u.id=o.type_id  limit 0,20
+18:37:29 use a0122145834;
+18:37:29 set names utf8;
+18:37:29 select * from configs
+18:37:29 select * from admins where id=1
+18:37:29 select count(o.id) from articles as o left join article_type as u on u.id=o.type_id 
+18:37:29 select o.id,o.title,o.add_time,u.type_name from articles as o left join article_type as u on u.id=o.type_id  limit 20,20
+18:38:00 use a0122145834;
+18:38:00 set names utf8;
+18:38:00 select * from configs
+18:38:00 select * from admins where id=1
+18:38:00 select * from articles where id=38
+18:38:11 use a0122145834;
+18:38:11 set names utf8;
+18:38:11 select * from configs
+18:38:11 select * from admins where id=1
+18:38:11 update articles set type_id=5, content='<p>344</p>
+', title='流量秘密54' where id=38
+18:38:12 use a0122145834;
+18:38:12 set names utf8;
+18:38:12 select * from configs
+18:38:12 select * from admins where id=1
+18:38:12 select * from articles where id=38
+18:38:15 use a0122145834;
+18:38:15 set names utf8;
+18:38:15 select * from configs
+18:38:15 select * from admins where id=1
+18:38:15 select count(o.id) from articles as o left join article_type as u on u.id=o.type_id 
+18:38:15 select o.id,o.title,o.add_time,u.type_name from articles as o left join article_type as u on u.id=o.type_id  limit 0,20
+18:38:24 use a0122145834;
+18:38:24 set names utf8;
+18:38:24 select * from configs
+18:38:24 select * from admins where id=1
+18:38:24 select count(o.id) from articles as o left join article_type as u on u.id=o.type_id 
+18:38:24 select o.id,o.title,o.add_time,u.type_name from articles as o left join article_type as u on u.id=o.type_id  limit 20,20
+18:38:31 use a0122145834;
+18:38:31 set names utf8;
+18:38:31 select * from configs
+18:38:31 select * from admins where id=1
+18:38:31 select * from articles where id=38
+18:38:37 use a0122145834;
+18:38:37 set names utf8;
+18:38:37 select * from configs
+18:38:37 select * from admins where id=1
+18:38:37 update articles set type_id=5, content='<p>344</p>
+', title='流量秘密5' where id=38
+18:38:38 use a0122145834;
+18:38:38 set names utf8;
+18:38:38 select * from configs
+18:38:38 select * from admins where id=1
+18:38:38 select * from articles where id=38
+18:38:39 use a0122145834;
+18:38:39 set names utf8;
+18:38:39 select * from configs
+18:38:39 select * from admins where id=1
+18:38:39 select count(id) from article_type 
+18:38:39 select * from article_type  limit 0,20
+18:38:46 use a0122145834;
+18:38:46 set names utf8;
+18:38:46 select * from configs
+18:38:46 select * from admins where id=1
+18:38:46 select count(id) from article_type 
+18:38:46 select * from article_type  limit 0,20
+18:38:49 use a0122145834;
+18:38:49 set names utf8;
+18:38:49 select * from configs
+18:38:49 select * from admins where id=1
+18:38:49 select count(o.id) from articles as o left join article_type as u on u.id=o.type_id 
+18:38:49 select o.id,o.title,o.add_time,u.type_name from articles as o left join article_type as u on u.id=o.type_id  limit 0,20
+18:38:58 use a0122145834;
+18:38:58 set names utf8;
+18:38:58 select * from configs
+18:38:58 select * from users where id=35
+18:38:58 select count(id) from users where spreader_id='35'
+18:38:58 select * from images
+18:38:58 select * from article_type
+18:38:58 select count(id) from articles order by add_time desc
+18:38:58 select * from articles order by add_time desc limit 5,5
+18:39:03 use a0122145834;
+18:39:03 set names utf8;
+18:39:03 select * from configs
+18:39:03 select * from users where id=35
+18:39:03 select count(id) from users where spreader_id='35'
+18:39:03 select * from images
+18:39:03 select * from article_type
+18:39:03 select count(id) from articles order by add_time desc
+18:39:03 select * from articles order by add_time desc limit 10,5
+18:39:10 use a0122145834;
+18:39:10 set names utf8;
+18:39:10 select * from configs
+18:39:10 select * from users where id=35
+18:39:10 select count(id) from users where spreader_id='35'
+18:39:10 select * from images
+18:39:10 select * from article_type
+18:39:10 select count(id) from articles order by add_time desc
+18:39:10 select * from articles order by add_time desc limit 15,5
+18:39:15 use a0122145834;
+18:39:15 set names utf8;
+18:39:15 select * from configs
+18:39:15 select * from users where id=35
+18:39:15 select count(id) from users where spreader_id='35'
+18:39:15 select * from images
+18:39:15 select * from article_type
+18:39:15 select * from article_type where id='8'
+18:39:15 select count(id) from articles where type_id='8' order by add_time desc
+18:39:15 select * from articles where type_id='8' order by add_time desc limit 0,5
+18:39:18 use a0122145834;
+18:39:18 set names utf8;
+18:39:18 select * from configs
+18:39:18 select * from users where id=35
+18:39:18 select count(id) from users where spreader_id='35'
+18:39:18 select * from images
+18:39:18 select * from article_type
+18:39:18 select * from article_type where id='7'
+18:39:18 select count(id) from articles where type_id='7' order by add_time desc
+18:39:18 select * from articles where type_id='7' order by add_time desc limit 0,5
+18:39:20 use a0122145834;
+18:39:20 set names utf8;
+18:39:20 select * from configs
+18:39:20 select * from users where id=35
+18:39:20 select count(id) from users where spreader_id='35'
+18:39:20 select * from images
+18:39:20 select * from article_type
+18:39:20 select * from article_type where id='5'
+18:39:20 select count(id) from articles where type_id='5' order by add_time desc
+18:39:20 select * from articles where type_id='5' order by add_time desc limit 0,5
+18:39:26 use a0122145834;
+18:39:26 set names utf8;
+18:39:26 select * from configs
+18:39:26 select * from users where id=35
+18:39:26 select count(id) from users where spreader_id='35'
+18:39:26 select * from images
+18:39:26 select * from article_type
+18:39:26 select * from article_type where id='5'
+18:39:26 select count(id) from articles where type_id='5' order by add_time desc
+18:39:26 select * from articles where type_id='5' order by add_time desc limit 5,5
+18:39:29 use a0122145834;
+18:39:29 set names utf8;
+18:39:29 select * from configs
+18:39:29 select * from users where id=35
+18:39:29 select count(id) from users where spreader_id='35'
+18:39:29 select * from images
+18:39:29 select * from article_type
+18:39:29 select * from article_type where id='5'
+18:39:29 select count(id) from articles where type_id='5' order by add_time desc
+18:39:29 select * from articles where type_id='5' order by add_time desc limit 0,5
+18:39:45 use a0122145834;
+18:39:45 set names utf8;
+18:39:45 select * from configs
+18:39:45 select * from admins where id=1
+18:39:45 select count(o.id) from articles as o left join article_type as u on u.id=o.type_id 
+18:39:45 select o.id,o.title,o.add_time,u.type_name from articles as o left join article_type as u on u.id=o.type_id  limit 20,20
+18:39:49 use a0122145834;
+18:39:49 set names utf8;
+18:39:49 select * from configs
+18:39:49 select * from admins where id=1
+18:39:49 select * from articles where id=38
+18:40:06 use a0122145834;
+18:40:06 set names utf8;
+18:40:06 select * from configs
+18:40:06 select * from admins where id=1
+18:40:06 update articles set type_id=9, content='<p>344</p>
+', title='营销实战1' where id=38
+18:40:07 use a0122145834;
+18:40:07 set names utf8;
+18:40:07 select * from configs
+18:40:07 select * from admins where id=1
+18:40:07 select * from articles where id=38
+18:40:09 use a0122145834;
+18:40:09 set names utf8;
+18:40:09 select * from configs
+18:40:09 select * from admins where id=1
+18:40:09 select count(o.id) from articles as o left join article_type as u on u.id=o.type_id 
+18:40:09 select o.id,o.title,o.add_time,u.type_name from articles as o left join article_type as u on u.id=o.type_id  limit 0,20
+18:40:12 use a0122145834;
+18:40:12 set names utf8;
+18:40:12 select * from configs
+18:40:12 select * from admins where id=1
+18:40:12 select count(o.id) from articles as o left join article_type as u on u.id=o.type_id 
+18:40:12 select o.id,o.title,o.add_time,u.type_name from articles as o left join article_type as u on u.id=o.type_id  limit 20,20
+18:40:19 use a0122145834;
+18:40:19 set names utf8;
+18:40:19 select * from configs
+18:40:19 select * from admins where id=1
+18:40:30 use a0122145834;
+18:40:30 set names utf8;
+18:40:30 select * from configs
+18:40:30 select * from admins where id=1
+18:40:30 insert into articles (type_id,title,content,add_time) values ('9','营销实战2','<p>434</p>
+','1391856030') ;
+18:40:34 use a0122145834;
+18:40:34 set names utf8;
+18:40:34 select * from configs
+18:40:34 select * from admins where id=1
+18:40:34 select count(o.id) from articles as o left join article_type as u on u.id=o.type_id 
+18:40:34 select o.id,o.title,o.add_time,u.type_name from articles as o left join article_type as u on u.id=o.type_id  limit 0,20
+18:40:41 use a0122145834;
+18:40:41 set names utf8;
+18:40:41 select * from configs
+18:40:41 select * from users where id=35
+18:40:41 select count(id) from users where spreader_id='35'
+18:40:41 select * from images
+18:40:41 select * from article_type
+18:40:41 select * from article_type where id='5'
+18:40:41 select count(id) from articles where type_id='5' order by add_time desc
+18:40:41 select * from articles where type_id='5' order by add_time desc limit 0,5
+18:40:48 use a0122145834;
+18:40:48 set names utf8;
+18:40:48 select * from configs
+18:40:48 select * from users where id=35
+18:40:48 select count(id) from users where spreader_id='35'
+18:40:48 select * from images
+18:40:48 select * from article_type
+18:40:48 select count(id) from articles order by add_time desc
+18:40:48 select * from articles order by add_time desc limit 0,5
+18:40:58 use a0122145834;
+18:40:58 set names utf8;
+18:40:58 select * from configs
+18:40:58 select * from admins where id=1
+18:41:09 use a0122145834;
+18:41:09 set names utf8;
+18:41:09 select * from configs
+18:41:09 select * from admins where id=1
+18:41:09 insert into articles (type_id,title,content,add_time) values ('9','营销实战3','<p>456</p>
+','1391856069') ;
+18:41:11 use a0122145834;
+18:41:11 set names utf8;
+18:41:11 select * from configs
+18:41:11 select * from admins where id=1
+18:41:11 select count(o.id) from articles as o left join article_type as u on u.id=o.type_id 
+18:41:11 select o.id,o.title,o.add_time,u.type_name from articles as o left join article_type as u on u.id=o.type_id  limit 0,20
+18:41:15 use a0122145834;
+18:41:15 set names utf8;
+18:41:15 select * from configs
+18:41:15 select * from admins where id=1
+18:41:26 use a0122145834;
+18:41:26 set names utf8;
+18:41:26 select * from configs
+18:41:26 select * from admins where id=1
+18:41:26 insert into articles (type_id,title,content,add_time) values ('9','营销实战4','<p>哈哈</p>
+','1391856086') ;
+18:41:28 use a0122145834;
+18:41:28 set names utf8;
+18:41:28 select * from configs
+18:41:28 select * from admins where id=1
+18:41:28 select count(o.id) from articles as o left join article_type as u on u.id=o.type_id 
+18:41:28 select o.id,o.title,o.add_time,u.type_name from articles as o left join article_type as u on u.id=o.type_id  limit 0,20
+18:41:30 use a0122145834;
+18:41:30 set names utf8;
+18:41:30 select * from configs
+18:41:30 select * from admins where id=1
+18:41:40 use a0122145834;
+18:41:40 set names utf8;
+18:41:40 select * from configs
+18:41:40 select * from admins where id=1
+18:41:40 insert into articles (type_id,title,content,add_time) values ('9','营销实战5','<p>热熔</p>
+','1391856100') ;
+18:41:42 use a0122145834;
+18:41:42 set names utf8;
+18:41:42 select * from configs
+18:41:42 select * from admins where id=1
+18:41:42 select count(o.id) from articles as o left join article_type as u on u.id=o.type_id 
+18:41:42 select o.id,o.title,o.add_time,u.type_name from articles as o left join article_type as u on u.id=o.type_id  limit 0,20
+18:41:45 use a0122145834;
+18:41:45 set names utf8;
+18:41:45 select * from configs
+18:41:45 select * from users where id=35
+18:41:45 select count(id) from users where spreader_id='35'
+18:41:45 select * from images
+18:41:45 select * from article_type
+18:41:45 select count(id) from articles order by add_time desc
+18:41:45 select * from articles order by add_time desc limit 0,5
+18:41:49 use a0122145834;
+18:41:49 set names utf8;
+18:41:49 select * from configs
+18:41:49 select * from users where id=35
+18:41:49 select count(id) from users where spreader_id='35'
+18:41:49 select * from images
+18:41:49 select * from article_type
+18:41:49 select count(id) from articles order by add_time desc
+18:41:49 select * from articles order by add_time desc limit 5,5
+18:41:54 use a0122145834;
+18:41:54 set names utf8;
+18:41:54 select * from configs
+18:41:54 select * from users where id=35
+18:41:54 select count(id) from users where spreader_id='35'
+18:41:54 select * from images
+18:41:54 select * from article_type
+18:41:54 select count(id) from articles order by add_time desc
+18:41:54 select * from articles order by add_time desc limit 10,5
+18:42:01 use a0122145834;
+18:42:01 set names utf8;
+18:42:01 select * from configs
+18:42:01 select * from users where id=35
+18:42:01 select count(id) from users where spreader_id='35'
+18:42:01 select * from images
+18:42:01 select * from article_type
+18:42:01 select count(id) from articles order by add_time desc
+18:42:01 select * from articles order by add_time desc limit 15,5
+18:42:07 use a0122145834;
+18:42:07 set names utf8;
+18:42:07 select * from configs
+18:42:07 select * from users where id=35
+18:42:07 select count(id) from users where spreader_id='35'
+18:42:07 select * from images
+18:42:07 select * from article_type
+18:42:07 select count(id) from articles order by add_time desc
+18:42:07 select * from articles order by add_time desc limit 20,5
+18:42:13 use a0122145834;
+18:42:13 set names utf8;
+18:42:13 select * from configs
+18:42:13 select * from users where id=35
+18:42:13 select count(id) from users where spreader_id='35'
+18:42:13 select * from images
+18:42:13 select * from article_type
+18:42:13 select count(id) from articles order by add_time desc
+18:42:13 select * from articles order by add_time desc limit 25,5
+18:42:17 use a0122145834;
+18:42:17 set names utf8;
+18:42:17 select * from configs
+18:42:17 select * from users where id=35
+18:42:17 select count(id) from users where spreader_id='35'
+18:42:17 select * from images
+18:42:17 select * from article_type
+18:42:17 select count(id) from articles order by add_time desc
+18:42:17 select * from articles order by add_time desc limit 30,5
+18:42:21 use a0122145834;
+18:42:21 set names utf8;
+18:42:21 select * from configs
+18:42:21 select * from users where id=35
+18:42:21 select count(id) from users where spreader_id='35'
+18:42:21 select * from images
+18:42:21 select * from article_type
+18:42:21 select count(id) from articles order by add_time desc
+18:42:21 select * from articles order by add_time desc limit 35,5
+18:42:25 use a0122145834;
+18:42:25 set names utf8;
+18:42:25 select * from configs
+18:42:25 select * from users where id=35
+18:42:25 select count(id) from users where spreader_id='35'
+18:42:25 select * from images
+18:42:25 select * from article_type
+18:42:25 select count(id) from articles order by add_time desc
+18:42:25 select * from articles order by add_time desc limit 0,5
+18:42:33 use a0122145834;
+18:42:33 set names utf8;
+18:42:33 select * from configs
+18:42:33 select * from users where id=35
+18:42:33 use a0122145834;
+18:42:33 set names utf8;
+18:42:33 select * from configs
+18:42:33 select * from users where id=35
+18:42:33 select count(id) from users where spreader_id='35'
+18:42:33 select * from images
+18:42:33 select * from goods where need_top=1 and need_hidden=0 order by id desc limit 0,5
+18:42:33 select count(id) from goods where need_top=0 and need_hidden=0 order by id desc
+18:42:33 select * from goods where need_top=0 and need_hidden=0 order by id desc limit 0,5
+18:42:35 use a0122145834;
+18:42:35 set names utf8;
+18:42:35 select * from configs
+18:42:35 select * from users where id=35
+18:42:35 select count(id) from users where spreader_id='35'
+18:42:35 select * from images
+18:42:35 select * from article_type
+18:42:35 select * from article_type where id='0'
+18:42:35 select count(id) from articles where type_id='0' order by add_time desc
+18:42:35 select * from articles where type_id='0' order by add_time desc limit 0,5
+18:42:42 use a0122145834;
+18:42:42 set names utf8;
+18:42:42 select * from configs
+18:42:42 select * from users where id=35
+18:42:42 select count(id) from users where spreader_id='35'
+18:42:42 select * from images
+18:42:42 select * from article_type
+18:42:42 select * from article_type where id='0'
+18:42:42 select count(id) from articles where type_id='0' order by add_time desc
+18:42:42 select * from articles where type_id='0' order by add_time desc limit 5,5
+18:42:47 use a0122145834;
+18:42:47 set names utf8;
+18:42:47 select * from configs
+18:42:47 select * from users where id=35
+18:42:47 select count(id) from users where spreader_id='35'
+18:42:47 select * from images
+18:42:47 select * from article_type
+18:42:47 select * from article_type where id='0'
+18:42:47 select count(id) from articles where type_id='0' order by add_time desc
+18:42:47 select * from articles where type_id='0' order by add_time desc limit 0,5
+18:43:09 use a0122145834;
+18:43:09 set names utf8;
+18:43:09 select * from configs
+18:43:09 select * from users where id=35
+18:43:09 select count(id) from users where spreader_id='35'
+18:43:09 select * from images
+18:43:09 select count(id) from expense where user_id=35
+18:43:09 select * from expense where user_id=35 limit 0,5
+18:43:16 use a0122145834;
+18:43:16 set names utf8;
+18:43:16 select * from configs
+18:43:16 select * from users where id=35
+18:43:16 use a0122145834;
+18:43:16 set names utf8;
+18:43:16 select * from configs
+18:43:16 select * from users where id=35
+18:43:16 select count(id) from users where spreader_id='35'
+18:43:16 select * from images
+18:43:16 select * from goods where need_top=1 and need_hidden=0 order by id desc limit 0,5
+18:43:16 select count(id) from goods where need_top=0 and need_hidden=0 order by id desc
+18:43:16 select * from goods where need_top=0 and need_hidden=0 order by id desc limit 0,5
+18:43:19 use a0122145834;
+18:43:19 set names utf8;
+18:43:19 select * from configs
+18:43:19 select * from users where id=35
+18:43:19 select count(id) from users where spreader_id='35'
+18:43:19 select * from images
+18:43:19 select * from article_type
+18:43:19 select count(id) from articles order by add_time desc
+18:43:19 select * from articles order by add_time desc limit 0,5
+18:43:25 use a0122145834;
+18:43:25 set names utf8;
+18:43:25 select * from configs
+18:43:25 select * from users where id=35
+18:43:25 use a0122145834;
+18:43:25 set names utf8;
+18:43:25 select * from configs
+18:43:25 select * from users where id=35
+18:43:25 select count(id) from users where spreader_id='35'
+18:43:25 select * from images
+18:43:25 select * from goods where need_top=1 and need_hidden=0 order by id desc limit 0,5
+18:43:25 select count(id) from goods where need_top=0 and need_hidden=0 order by id desc
+18:43:25 select * from goods where need_top=0 and need_hidden=0 order by id desc limit 0,5
+18:43:46 use a0122145834;
+18:43:46 set names utf8;
+18:43:46 select * from configs
+18:43:46 select * from admins where id=1
+18:43:47 use a0122145834;
+18:43:47 set names utf8;
+18:43:47 select * from configs
+18:43:47 select * from admins where id=1
+18:43:47 select count(id) from goods
+18:43:47 select * from goods limit 0,20
+18:43:49 use a0122145834;
+18:43:49 set names utf8;
+18:43:49 select * from configs
+18:43:49 select * from admins where id=1
+18:43:50 use a0122145834;
+18:43:50 set names utf8;
+18:43:51 select * from configs
+18:43:51 select * from admins where id=1
+18:43:51 select count(id) from goods
+18:43:51 select * from goods limit 0,20
+18:44:11 use a0122145834;
+18:44:11 set names utf8;
+18:44:11 select * from configs
+18:44:11 select * from admins where id=1
+18:44:11 Delete from goods where id in (9,11)
+18:44:20 use a0122145834;
+18:44:20 set names utf8;
+18:44:20 select * from configs
+18:44:20 select * from users where id=35
+18:44:20 use a0122145834;
+18:44:20 set names utf8;
+18:44:20 select * from configs
+18:44:20 select * from users where id=35
+18:44:20 select count(id) from users where spreader_id='35'
+18:44:20 select * from images
+18:44:20 select * from goods where need_top=1 and need_hidden=0 order by id desc limit 0,5
+18:44:20 select count(id) from goods where need_top=0 and need_hidden=0 order by id desc
+18:44:20 select * from goods where need_top=0 and need_hidden=0 order by id desc limit 0,5
+18:44:34 use a0122145834;
+18:44:34 set names utf8;
+18:44:34 select * from configs
+18:44:34 select * from users where id=35
+18:44:34 select count(id) from users where spreader_id='35'
+18:44:34 select * from images
+18:44:34 select * from article_type
+18:44:34 select * from article_type where id='0'
+18:44:34 select count(id) from articles where type_id='0' order by add_time desc
+18:44:34 select * from articles where type_id='0' order by add_time desc limit 0,5
+18:44:42 use a0122145834;
+18:44:42 set names utf8;
+18:44:42 select * from configs
+18:44:42 select * from users where id=35
+18:44:43 use a0122145834;
+18:44:43 set names utf8;
+18:44:43 select * from configs
+18:44:43 select * from users where id=35
+18:44:43 select count(id) from users where spreader_id='35'
+18:44:43 select * from images
+18:44:43 select * from goods where need_top=1 and need_hidden=0 order by id desc limit 0,5
+18:44:43 select count(id) from goods where need_top=0 and need_hidden=0 order by id desc
+18:44:43 select * from goods where need_top=0 and need_hidden=0 order by id desc limit 0,5
+18:45:22 use a0122145834;
+18:45:22 set names utf8;
+18:45:22 select * from configs
+18:45:22 select * from users where id=35
+18:45:22 select count(id) from users where spreader_id='35'
+18:45:22 select * from images
+18:45:22 select * from article_type
+18:45:22 select count(id) from articles order by add_time desc
+18:45:22 select * from articles order by add_time desc limit 0,5
+18:45:27 use a0122145834;
+18:45:27 set names utf8;
+18:45:27 select * from configs
+18:45:27 select * from users where id=35
+18:45:27 select count(id) from users where spreader_id='35'
+18:45:27 select * from images
+18:45:27 select * from article_type
+18:45:27 select * from article_type where id='7'
+18:45:27 select count(id) from articles where type_id='7' order by add_time desc
+18:45:27 select * from articles where type_id='7' order by add_time desc limit 0,5
+18:45:30 use a0122145834;
+18:45:30 set names utf8;
+18:45:30 select * from configs
+18:45:30 select * from users where id=35
+18:45:30 select count(id) from users where spreader_id='35'
+18:45:30 select * from images
+18:45:30 select * from article_type
+18:45:30 select * from article_type where id='4'
+18:45:30 select count(id) from articles where type_id='4' order by add_time desc
+18:45:30 select * from articles where type_id='4' order by add_time desc limit 0,5
+18:45:33 use a0122145834;
+18:45:33 set names utf8;
+18:45:33 select * from configs
+18:45:33 select * from users where id=35
+18:45:33 select count(id) from users where spreader_id='35'
+18:45:33 select * from images
+18:45:33 select type_id from articles where id='19'
+18:45:33 select * from articles where id='19'
+18:45:36 use a0122145834;
+18:45:36 set names utf8;
+18:45:36 select * from configs
+18:45:36 select * from users where id=35
+18:45:36 select count(id) from users where spreader_id='35'
+18:45:36 select * from images
+18:45:36 select type_id from articles where id='7'
+18:45:36 select * from articles where id='7'

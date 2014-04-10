@@ -1,0 +1,143 @@
+<?php
+
+define("MadMan",true);
+require_once("./init.php");
+require_once("./lib_admin.php");
+$act="";
+if(isset($_REQUEST['act']))
+{
+	$act=$_REQUEST['act'];
+}
+
+if($act=='edit')
+{
+	if(empty($_REQUEST['id'])||!(is_numeric($_REQUEST['id'])))
+	{
+		JsAlertAndJump("修改失败!请重新尝试!","main.php?menu=users");
+	}
+	else
+	{
+		if(empty($_POST))
+		{
+				JsJump("main.php?menu=users");
+		}
+		$fields=array();
+		$data=array();
+
+		$users=getUserInfo($_REQUEST['id']);
+		if(!empty($_SESSION['agencies_id']))
+		{
+			$fields=array('nick_name','pay_email','pay_name','address');
+			$data=array($_POST['nick_name'],$_POST['pay_email'],$_POST['pay_name'],$_POST['address']);
+				if(!empty($_POST['user_pass']))
+			{
+				$fields[]="user_word";
+				$data[]=MD5($_POST['user_pass']);
+			}
+			if($_POST['vip_level']!=$users['vip_level'])
+			{
+				if($_POST['vip_level']>=2)
+				{
+					CanPass();
+				}
+				$fields[]="vip_level";
+				$data[]=$_POST['vip_level'];
+			}
+		}else
+		{
+				$fields[]="user_name";
+		$data[]=$_POST['user_name'];
+		$fields[]="nick_name";
+		$data[]=$_POST['nick_name'];
+		if(!empty($_POST['user_pass']))
+		{
+			$fields[]="user_word";
+			$data[]=MD5($_POST['user_pass']);
+		}
+		$fields[]="credits";
+		$data[]=$_POST['credits'];
+		$fields[]="money";
+		$data[]=$_POST['money'];
+		$fields[]="pay_email";
+		$data[]=$_POST['pay_email'];
+		$fields[]="pay_name";
+		$data[]=$_POST['pay_name'];
+		$fields[]="address";
+		$data[]=$_POST['address'];
+		$fields[]="vip_level";
+		$data[]=$_POST['vip_level'];
+		if($_POST['spreader_rate']!=$GLOBALS['configs']['spreader_rate'])
+		{
+			$fields[]="spreader_rate";
+			$data[]=floatval($_POST['spreader_rate']);
+		}
+		}
+
+
+		$res=$db->autoExcute("users","id=".intval($_REQUEST['id'])." ",$fields,$data,"update");
+		if(!$res)
+		{
+			JsAlertAndJump("修改失败!请重新尝试!","main.php?menu=users");
+		}
+		else
+		{
+			JsAlertAndJump("修改成功!","main.php?menu=users&target=edit&user_id=".$_REQUEST['id']);
+		}
+	}
+}
+elseif($act=="recove")
+{
+	CanPass();
+	if(isset($_REQUEST['id'])&&isset($_REQUEST['msg'])&&isset($_REQUEST['recove']))
+	{
+		$fields=array("user_msg","recove");
+		$data=array($_REQUEST['msg'],$_REQUEST['recove']);
+		$res=$db->autoExcute("vipmsg","id='".$_REQUEST['id']."'",$fields,$data,"update");
+		if($res)
+		{
+			JsAlertAndJump("保存成功!","main.php?menu=users&target=usermsg");
+		}else
+		{
+			JsAlertAndJump("保存失败,请稍候尝试!","main.php?menu=users&target=usermsg");
+		}
+	}
+}
+elseif ($act=='picedit')
+{
+	CanPass();
+	$pics=array(
+		$_REQUEST["pic1"],
+		$_REQUEST["pic2"],
+		$_REQUEST["pic3"],
+		$_REQUEST["pic4"],
+		);
+	$links=array(
+		$_REQUEST["link1"],
+		$_REQUEST["link2"],
+		$_REQUEST["link3"],
+		$_REQUEST["link4"],
+		);
+	$pics=json_encode($pics);
+	$links=json_encode($links);
+	$sql="truncate images";
+	$db->query($sql);
+	$sql="insert into images(pics,links) values('".$pics."','".$links."')";
+	$res=$db->query($sql);
+	if($db->GetAffectedRows()>0)
+	{
+		JsAlertAndJump("保存成功!","main.php?menu=users&target=pics");
+	}
+	else
+	{
+		JsAlertAndJump("保存失败,请稍候尝试!","main.php?menu=users&target=pics");
+	}
+}
+else
+{
+	JsJump("main.php?menu=users");
+}
+
+
+
+
+?>

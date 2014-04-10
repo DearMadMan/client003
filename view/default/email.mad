@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+    <meta charset="utf-8">
+    <title>课程已发送至您邮箱！</title>
+    <script type="text/javascript" src="{$vp}/js/jquery-1.9.0.js"></script>
+    <script type="text/javascript" src="{$vp}/js/email.js"></script>
+</head>
+<body>
+<form action="http://list.qq.com/cgi-bin/qf_compose_send" target="_self" method="post" id="ac" name="ac" onSubmit="javascript:return true">
+
+<input type="hidden" name="t" value="qf_booked_feedback">
+
+<input type="hidden" name="id" value="{$mad_configs.email_code}">
+
+<input id="to" name="to" type="hidden" class="mailtxt" value="{$user.email}">
+
+<div style="display:none"><input type="submit" value="sss "></div>
+
+</form>
+
+</body>
+</html>

@@ -1,0 +1,41 @@
+*{margin:0;padding:0}
+body{font:normal 12px/1.6 Tahoma,simsun, Verdana, Lucida, Arial, Helvetica, sans-serif;color:#636363;background:#fff;}
+.t-vip{color:red; margin-right:40px;border: 1px solid red;padding: 1px;float: right;}
+.cl{clear: both;}
+
+.red{color:red;}
+a:link{text-decoration:none;}
+
+a:hover{color:#39F;text-decoration:none;}
+img{border:0}
+ul,li{list-style-type: none;}
+h1,h2,h3{font-size:14px;font-weight:bold;}
+.clear{ width:100%; height:1px; clear:both}
+.wids{width:100%;}
+.wid{width:900px; margin:auto}
+.l{float:left;}
+.r{float:right;}
+
+
+.index-header{width: 100%;margin: 0 auto;height: 100px;overflow: hidden;border-bottom: 1px solid #111;}
+.wrap{width: 980px;height: 200px;background-color: #fff;margin: 0 auto;}
+.index-header .space{height: 1px; border-bottom: 1px solid #ccc;width: 100%;position: absolute;z-index: 2;top:20px; }
+.wrap .top{background: #fff; height: 20px;padding: 1px;}
+.top .save {margin-left: 5px;height: 20px;width: 60px;}
+.top .save a{color: #fff;background-color: #0049ff;height: 20px;width: 69px;padding:0 10px;display: block;background: url("../images/save_desktop.gif") no-repeat;}
+.body{height: 180px;overflow: hidden;}
+.logo{width:264px;height: 76px;float: left; }
+.nav{float: right;height: 264px;margin-right: 80px;}
+.fill{width: 100%;height: 10px;background: url("../images/i5.gif");}
+.content{width: 100%;height: 400px;background: url("../images/i7.jpg") no-repeat center center;position: relative;}
+.youku{width: 760px; height: 460px; margin-left: -400px; left: 50%; position: absolute;background: #111;top:30px;padding:20px 20px 0px 20px;background: url("../images/1d.gif");}
+.youku-shadow{width: 800px; height: 15px; margin-left: -400px; left: 50%; position: absolute;background: #111;top:510px;background: url("../images/yw.gif");}
+.footer{width: 960px; margin: 0 auto;text-align: center;}
+.surprise{font-size: 20px;color:#1d1d1d;font-weight: bold;}
+.footer a {display: block; color:#fff;background: red; width: 960px;overflow: hidden; font-size: 30px;line-height: 40px;}
+
+.register{height: 60px;font-size: 14px; color: red;margin-top:140px;text-align: center;}
+.register input{width: 300px; margin: 2px 30px;height: 20px;font-size: 13px;}
+.register .submit{height:26px;width: 80px; margin-left: -30px;}
+.user_0{color: #3F3F3F;}
+.user_1{color: #000;}

@@ -1,0 +1,74 @@
+<div id="recovemain">
+<div id="recove">
+<p class="close" title='关闭'>X</p>
+</div>
+<div id="recovemsg">
+		<textarea name="usermsg" id="usermsg" cols="30" rows="10"></textarea>
+		<textarea name="adminmsg" id="adminmsg" cols="30" rows="10"></textarea>
+		<input id='btnrecove' type="button" value="回复">
+</div>
+</div>
+<!--  快速转换位置按钮  -->
+<table width="98%" border="0" cellpadding="0" cellspacing="1" bgcolor="#D1DDAA" align="center">
+<tr>
+ <td height="26" background="{$vp}/images/newlinebg3.gif">
+  <table width="98%" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+  <td align="center">
+    <input type='button' class="coolbg" onClick="location='main.php?menu=users&target=usermsg';" value='VIP留言列表' />
+
+ </td>
+ </tr>
+</table>
+</td>
+</tr>
+</table>
+
+<!--  内容列表   -->
+<form name="checkboxform" method="post" action="?type=del">
+
+<table width="98%" border="0" cellpadding="2" cellspacing="1" bgcolor="#D1DDAA" align="center" style="margin-top:8px">
+<tr bgcolor="#E7E7E7">
+	<td height="24" colspan="10" background="{$vp}/images/tbg.gif">&nbsp;VIP留言列表&nbsp;</td>
+</tr>
+<tr align="center" bgcolor="#FAFAF1" height="22">
+	<td width="6%">ID</td>
+	<td width="6%">用户ID</td>
+	<td width="11%">称呼</td>
+    <td width="58%">留言</td>
+	<td width="11%">时间</td>
+	<td width="4%">回复</td>
+	<td width="4%">审核</td>
+</tr>
+{foreach $rows as $v}
+<tr align='center' bgcolor="#FFFFFF" onMouseMove="javascript:this.bgColor='#FCFDEE';" onMouseOut="javascript:this.bgColor='#FFFFFF';" height="22" >
+	<td>{$v.id}<input name="checkboxid[]"  type="checkbox" value="{$v.id}" class="np"></td>
+	<td><a href="main.php?menu=users&amp;target=edit&amp;user_id={$v.username}">{$v.username}</a></td>
+	<td><span style="color:#ff0000">{$v.nick_name}[{if $v.vip_level eq '0'}普会{elseif $v.vip_level eq '1'}推广{elseif $v.vip_level eq '2'}VIP{elseif $v.vip_level eq '3'}VIP{else}违规{/if}]</span></td>
+	<td style="text-align: left;" ><p>{$v.user_msg}</p>
+		<p style="color:red;">管理员回复：{$v.recove}</p>
+	</td>
+    <td>{$v.add_time|date_format:"%Y/%m/%d"}</td>
+    <td><a class='recovelink' style="color:red;" href="main.php?menu=users&target=recove&id={$v.id}">回复</a></td>
+    <td>{if $v.can_see eq 1}已审核{else} <a style="color:red;" href="javascript:;" onclick="pass('{$v.id}',this)">审核</a>{/if}</td>
+</tr>
+{/foreach}
+<tr bgcolor="#FAFAF1">
+<td height="28" colspan="10">
+	&nbsp;
+  <a href="javascript:SelectAll()" class="coolbg">全选</a>
+	<a href="javascript:CancelAll()" class="coolbg">取消</a>
+
+	<a href="javascript:Delete('ajax_user.php?act=DeleteMsg');" class="coolbg">&nbsp;删除&nbsp;</a>
+</td>
+</tr>
+
+<tr align="right" bgcolor="#EEF4EA">
+	<td height="36" colspan="10" align="right">
+		<div class="pagetool">{$pagetool}</div>
+	</td>
+
+</tr>
+</table>
+
+</form>

@@ -1,0 +1,27 @@
+
+<!--  快速转换位置按钮  -->
+<script type="text/javascript" src='{$vp}/js/goods_vip.js'></script>
+
+<!--  内容列表   -->
+<form  method="POST" action="goods.php?act=vipEdit">
+<div class='goods-vip' >
+	<p>开通VIP所需金钱:<input type="text" name='vip_money' value="{$mad_configs.vip_money}"></p>
+	<p>开通VIP赠送积分:<input type="text" name='vip_credits' value="{$mad_configs.vip_credits}"></p>
+	<p>VIP默认佣金比率:<input type="text" name='vip_spreader' value="{$mad_configs.vip_spreader}"></p>
+	<p>加盟商Vip佣金比率:<input type="text" name='agency_spreader' value="{$mad_configs.agency_spreader}"></p>
+	<p>加盟商商品佣金比率:<input type="text" name='agency_goods' value="{$mad_configs.agency_goods}"></p>
+	<p>是否允许用户手动开通VIP <input type="checkbox"  value='{$mad_configs.vip_is_open}'{if $mad_configs.vip_is_open eq 1}checked{else}{/if} >
+	<input type="hidden" name='vip_is_open' value='{$mad_configs.vip_is_open}'>
+	</p>
+		<p>是否开启只送固定积分 <input type="checkbox"  value='{$mad_configs.spreader_mode}'{if $mad_configs.spreader_mode eq 1}checked{else}{/if} >
+			<input type="hidden" name='spreader_mode' value='{$mad_configs.spreader_mode}'>
+		</p>
+	<p>推广产品送固定积分数：<input type="text" name='spreader_add' value='{$mad_configs.spreader_add}'></p>
+	<p>禁止手动开通VIP留言：<input type="text" name='vip_msg' value='{$mad_configs.vip_msg}'></p>
+	<p>邮件订阅代码：<input type="text" name='email_code' value='{$mad_configs.email_code}'></p>
+	<p>推广登录送积分：<input type="text" name='login_credits' value='{$mad_configs.login_credits}'></p>
+	<p>网站公告：<input type="text" name='notice' value='{$mad_configs.notice}'></p>
+	<p><input type="submit" value="保存"></p>
+</div>
+</form>
+

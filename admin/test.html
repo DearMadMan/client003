@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+    <meta charset="utf-8">
+    <title>html:5文档</title>
+   	<script type="text/javascript">
+   	var uploadIframe=document.getElementById("#uploadIframe");
+   	function iframeOnLoad()
+{
+   var upload=document.getElementById("uploadIframe");
+   var text=upload.contentWindow.document.body.innerText;
+   if(/ok/.test(text))
+   {
+   		alert("!!!");
+   }
+
+}
+   	</script>
+</head>
+<body>
+   <form id="up-from" action="test.php" method="POST" enctype="multipart/form-data" target="uploadIframe" >
+   <input type="file" name="pic">
+   <input type="submit" id='btn_up' value='上传'>
+   <form id="up-from2" action="test.php" method="POST" enctype="multipart/form-data" target="uploadIframe" >
+   <input type="file" name="pic">
+   <input type="submit" id='btn_up' value='上传'>
+   </form>
+   </form>
+ <iframe name="uploadIframe" id="uploadIframe" onload='iframeOnLoad();' style="width:80px; height:80px;">
+</iframe>
+</body>
+</html>
