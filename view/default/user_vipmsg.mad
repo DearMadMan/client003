@@ -1,0 +1,29 @@
+<div class="wid" id="main">
+	<h3><span>VIP留言</span>&nbsp;&nbsp;&nbsp;&nbsp;<a href="user.php" style=" font-weight:100"><u>返回主页</u></a></h3>
+    <div id="main_all">
+
+
+
+        {foreach $rows as $v}
+        <div class="msg">
+        <div class='username'><p><span class='spanleft'>{$v.nick_name}:</span><span class='spanright'>{$v.add_time|date_format:"%Y-%m-%d %H:%M:%S"}</span><span class='cl'>&nbsp;</span></p></div><div class='usermsg'><p>{$v.user_msg}</p></div><div class='adminmsg'><span class='admin'>管理员回复:</span><span class='admin'>{$v.recove}</span></div></div>
+        {/foreach}
+
+
+
+
+
+
+    </div>
+    <td height="36" colspan="10" align="right">
+        <div class="pagetool">{$pagetool}</div>
+    </td>
+ <div class="writemsg">
+        <form action="user.php?act=add_msg" method='POST'>
+        <p>填写留言:</p>
+        <p><textarea name='msg' class='msgtxt'></textarea></p>
+        <p><input type="submit" class="submit" value='提交留言'/></p>
+        </form>
+    </div>
+
+</div>

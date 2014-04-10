@@ -1,0 +1,3654 @@
+16:20:09 use a0122145834;
+16:20:09 set names utf8;
+16:20:09 select * from configs
+16:20:09 select * from users where id=36
+16:20:09 select count(id) from users where spreader_id='36'
+16:20:09 select * from images
+16:20:09 select * from goods where need_top=1 and need_hidden=0 order by id desc limit 0,5
+16:20:09 select count(id) from goods where need_top=0 and need_hidden=0 order by id desc
+16:20:09 select * from goods where need_top=0 and need_hidden=0 order by id desc limit 0,5
+16:20:09 use a0122145834;
+16:20:09 set names utf8;
+16:20:09 select * from configs
+16:20:09 select * from users where id=36
+16:20:09 select count(id) from users where spreader_id='36'
+16:20:09 select * from images
+16:20:10 select * from goods where need_top=1 and need_hidden=0 order by id desc limit 0,5
+16:20:10 select count(id) from goods where need_top=0 and need_hidden=0 order by id desc
+16:20:10 select * from goods where need_top=0 and need_hidden=0 order by id desc limit 0,5
+16:20:10 use a0122145834;
+16:20:10 set names utf8;
+16:20:10 select * from configs
+16:20:10 select * from users where id=36
+16:20:10 select count(id) from users where spreader_id='36'
+16:20:10 select * from images
+16:20:10 select * from goods where need_top=1 and need_hidden=0 order by id desc limit 0,5
+16:20:10 select count(id) from goods where need_top=0 and need_hidden=0 order by id desc
+16:20:10 select * from goods where need_top=0 and need_hidden=0 order by id desc limit 0,5
+16:20:17 use a0122145834;
+16:20:17 set names utf8;
+16:20:17 select * from configs
+16:20:19 select * from users where id=44
+16:20:19 select count(id) from users where spreader_id=''
+16:20:19 select * from images
+16:20:20 select count(v.id) from vipmsg as v left join users as u on v.user_id=u.id where v.can_see=1 order by v.id desc
+16:20:20 select v.id,u.nick_name,v.user_id,v.user_msg,v.recove,v.add_time from vipmsg as v left join users as u on v.user_id=u.id where v.can_see=1 order by v.id desc limit 0,5
+16:20:21 use a0122145834;
+16:20:21 set names utf8;
+16:20:21 select * from configs
+16:20:35 use a0122145834;
+16:20:35 set names utf8;
+16:20:35 select * from configs
+16:20:35 select * from users where id=36
+16:20:35 select count(id) from users where spreader_id='36'
+16:20:35 select * from images
+16:20:35 select * from goods where need_top=1 and need_hidden=0 order by id desc limit 0,5
+16:20:35 select count(id) from goods where need_top=0 and need_hidden=0 order by id desc
+16:20:35 select * from goods where need_top=0 and need_hidden=0 order by id desc limit 0,5
+16:20:37 use a0122145834;
+16:20:37 set names utf8;
+16:20:37 select * from configs
+16:20:37 select * from users where id=36
+16:20:37 select count(id) from users where spreader_id='36'
+16:20:37 select * from images
+16:20:37 select * from goods where need_top=1 and need_hidden=0 order by id desc limit 0,5
+16:20:37 select count(id) from goods where need_top=0 and need_hidden=0 order by id desc
+16:20:37 select * from goods where need_top=0 and need_hidden=0 order by id desc limit 0,5
+16:20:44 use a0122145834;
+16:20:44 set names utf8;
+16:20:44 select * from configs
+16:20:44 select * from users where id=36
+16:20:44 select count(id) from users where spreader_id='36'
+16:20:44 select * from images
+16:20:44 select * from goods where need_top=1 and need_hidden=0 order by id desc limit 0,5
+16:20:44 select count(id) from goods where need_top=0 and need_hidden=0 order by id desc
+16:20:44 select * from goods where need_top=0 and need_hidden=0 order by id desc limit 0,5
+16:20:54 use a0122145834;
+16:20:54 set names utf8;
+16:20:54 select * from configs
+16:20:54 select * from users where id=36
+16:20:54 select count(id) from users where spreader_id='36'
+16:20:54 select * from images
+16:20:54 select * from goods where need_top=1 and need_hidden=0 order by id desc limit 0,5
+16:20:54 select count(id) from goods where need_top=0 and need_hidden=0 order by id desc
+16:20:54 select * from goods where need_top=0 and need_hidden=0 order by id desc limit 0,5
+16:20:57 use a0122145834;
+16:20:57 set names utf8;
+16:20:57 select * from configs
+16:20:57 select * from users where id=36
+16:20:57 select count(id) from users where spreader_id='36'
+16:20:57 select * from images
+16:20:57 select * from goods where need_top=1 and need_hidden=0 order by id desc limit 0,5
+16:20:57 select count(id) from goods where need_top=0 and need_hidden=0 order by id desc
+16:20:57 select * from goods where need_top=0 and need_hidden=0 order by id desc limit 0,5
+16:21:00 use a0122145834;
+16:21:00 set names utf8;
+16:21:00 select * from configs
+16:21:00 select * from users where id=36
+16:21:00 select count(id) from users where spreader_id='36'
+16:21:00 select * from images
+16:21:00 select * from goods where need_top=1 and need_hidden=0 order by id desc limit 0,5
+16:21:00 select count(id) from goods where need_top=0 and need_hidden=0 order by id desc
+16:21:00 select * from goods where need_top=0 and need_hidden=0 order by id desc limit 0,5
+16:21:07 use a0122145834;
+16:21:07 set names utf8;
+16:21:07 select * from configs
+16:21:07 select * from users where id=44
+16:21:07 select count(id) from users where spreader_id=''
+16:21:07 select * from images
+16:21:07 select count(v.id) from vipmsg as v left join users as u on v.user_id=u.id where v.can_see=1 order by v.id desc
+16:21:07 select v.id,u.nick_name,v.user_id,v.user_msg,v.recove,v.add_time from vipmsg as v left join users as u on v.user_id=u.id where v.can_see=1 order by v.id desc limit 0,5
+16:21:10 use a0122145834;
+16:21:10 set names utf8;
+16:21:10 select * from configs
+16:21:10 select * from users where id=44
+16:21:10 select count(id) from users where spreader_id=''
+16:21:10 select * from images
+16:21:10 select count(v.id) from vipmsg as v left join users as u on v.user_id=u.id where v.can_see=1 order by v.id desc
+16:21:10 select v.id,u.nick_name,v.user_id,v.user_msg,v.recove,v.add_time from vipmsg as v left join users as u on v.user_id=u.id where v.can_see=1 order by v.id desc limit 0,5
+16:21:11 use a0122145834;
+16:21:11 set names utf8;
+16:21:11 select * from configs
+16:21:11 select * from users where id=44
+16:21:11 select count(id) from users where spreader_id=''
+16:21:11 select * from images
+16:21:11 select count(v.id) from vipmsg as v left join users as u on v.user_id=u.id where v.can_see=1 order by v.id desc
+16:21:11 select v.id,u.nick_name,v.user_id,v.user_msg,v.recove,v.add_time from vipmsg as v left join users as u on v.user_id=u.id where v.can_see=1 order by v.id desc limit 0,5
+16:21:15 use a0122145834;
+16:21:15 set names utf8;
+16:21:15 select * from configs
+16:21:15 select * from users where id=44
+16:21:15 select count(id) from users where spreader_id=''
+16:21:15 select * from images
+16:21:15 select count(v.id) from vipmsg as v left join users as u on v.user_id=u.id where v.can_see=1 order by v.id desc
+16:21:15 select v.id,u.nick_name,v.user_id,v.user_msg,v.recove,v.add_time from vipmsg as v left join users as u on v.user_id=u.id where v.can_see=1 order by v.id desc limit 0,5
+16:21:30 use a0122145834;
+16:21:30 set names utf8;
+16:21:30 select * from configs
+16:21:30 select count(id) from users where register_ip='113.233.61.87' or last_ip='113.233.61.87' and add_time>1389860490
+16:21:31 select * from users where user_name='2049917091'
+16:21:31 insert into users (user_name,nick_name,user_word,email,spreader_id,add_time,register_ip) values ('2049917091','求昵称','e99a18c428cb38d5f260853678922e03','2049917091@qq.com',0,'1392452491','113.233.61.87') ;
+16:21:31 use a0122145834;
+16:21:31 set names utf8;
+16:21:31 select * from configs
+16:21:31 select * from users where id=51
+16:21:31 select count(id) from users where spreader_id='51'
+16:21:31 select * from images
+16:21:37 use a0122145834;
+16:21:37 set names utf8;
+16:21:38 select * from configs
+16:21:38 select * from users where id=44
+16:21:38 select count(id) from users where spreader_id=''
+16:21:38 select * from images
+16:21:38 select count(v.id) from vipmsg as v left join users as u on v.user_id=u.id where v.can_see=1 order by v.id desc
+16:21:38 select v.id,u.nick_name,v.user_id,v.user_msg,v.recove,v.add_time from vipmsg as v left join users as u on v.user_id=u.id where v.can_see=1 order by v.id desc limit 0,5
+16:21:39 use a0122145834;
+16:21:39 set names utf8;
+16:21:39 select * from configs
+16:21:39 select * from admins where id=1
+16:21:39 select count(id) from users
+16:21:39 select * from users limit 0,20
+16:21:42 use a0122145834;
+16:21:42 set names utf8;
+16:21:42 select * from configs
+16:21:42 select * from users where id=51
+16:21:42 select count(id) from users where spreader_id='51'
+16:21:42 select * from images
+16:21:42 use a0122145834;
+16:21:42 set names utf8;
+16:21:42 select * from configs
+16:21:42 select * from users where id=51
+16:21:42 select count(id) from users where spreader_id='51'
+16:21:42 select * from images
+16:21:42 select * from goods where need_top=1 and need_hidden=0 order by id desc limit 0,5
+16:21:42 select count(id) from goods where need_top=0 and need_hidden=0 order by id desc
+16:21:42 select * from goods where need_top=0 and need_hidden=0 order by id desc limit 0,5
+16:22:41 use a0122145834;
+16:22:41 set names utf8;
+16:22:41 select * from configs
+16:22:41 select * from users where id=44
+16:22:41 select count(id) from users where spreader_id=''
+16:22:41 select * from images
+16:22:41 select count(v.id) from vipmsg as v left join users as u on v.user_id=u.id where v.can_see=1 order by v.id desc
+16:22:41 select v.id,u.nick_name,v.user_id,v.user_msg,v.recove,v.add_time from vipmsg as v left join users as u on v.user_id=u.id where v.can_see=1 order by v.id desc limit 0,5
+16:22:45 use a0122145834;
+16:22:45 set names utf8;
+16:22:45 select * from configs
+16:22:45 select * from users where id=44
+16:22:45 select count(id) from users where spreader_id=''
+16:22:45 select * from images
+16:22:45 select count(v.id) from vipmsg as v left join users as u on v.user_id=u.id where v.can_see=1 order by v.id desc
+16:22:45 select v.id,u.nick_name,v.user_id,v.user_msg,v.recove,v.add_time from vipmsg as v left join users as u on v.user_id=u.id where v.can_see=1 order by v.id desc limit 0,5
+16:22:45 use a0122145834;
+16:22:45 set names utf8;
+16:22:45 select * from configs
+16:22:45 select * from users where id=44
+16:22:45 select count(id) from users where spreader_id=''
+16:22:45 select * from images
+16:22:45 select count(v.id) from vipmsg as v left join users as u on v.user_id=u.id where v.can_see=1 order by v.id desc
+16:22:45 select v.id,u.nick_name,v.user_id,v.user_msg,v.recove,v.add_time from vipmsg as v left join users as u on v.user_id=u.id where v.can_see=1 order by v.id desc limit 0,5
+16:22:46 use a0122145834;
+16:22:46 set names utf8;
+16:22:46 select * from configs
+16:22:46 select * from users where id=44
+16:22:46 select count(id) from users where spreader_id=''
+16:22:46 select * from images
+16:22:46 select count(v.id) from vipmsg as v left join users as u on v.user_id=u.id where v.can_see=1 order by v.id desc
+16:22:46 select v.id,u.nick_name,v.user_id,v.user_msg,v.recove,v.add_time from vipmsg as v left join users as u on v.user_id=u.id where v.can_see=1 order by v.id desc limit 0,5
+16:22:46 use a0122145834;
+16:22:46 set names utf8;
+16:22:46 select * from configs
+16:22:46 select * from users where id=44
+16:22:46 select count(id) from users where spreader_id=''
+16:22:46 select * from images
+16:22:46 select count(v.id) from vipmsg as v left join users as u on v.user_id=u.id where v.can_see=1 order by v.id desc
+16:22:46 select v.id,u.nick_name,v.user_id,v.user_msg,v.recove,v.add_time from vipmsg as v left join users as u on v.user_id=u.id where v.can_see=1 order by v.id desc limit 0,5
+16:22:46 use a0122145834;
+16:22:46 set names utf8;
+16:22:46 select * from configs
+16:22:46 select * from users where id=44
+16:22:46 select count(id) from users where spreader_id=''
+16:22:46 select * from images
+16:22:46 select count(v.id) from vipmsg as v left join users as u on v.user_id=u.id where v.can_see=1 order by v.id desc
+16:22:46 select v.id,u.nick_name,v.user_id,v.user_msg,v.recove,v.add_time from vipmsg as v left join users as u on v.user_id=u.id where v.can_see=1 order by v.id desc limit 0,5
+16:22:46 use a0122145834;
+16:22:46 set names utf8;
+16:22:46 select * from configs
+16:22:46 select * from users where id=51
+16:22:46 select count(id) from users where spreader_id='51'
+16:22:46 select * from images
+16:24:23 use a0122145834;
+16:24:23 set names utf8;
+16:24:23 select * from configs
+16:24:24 use a0122145834;
+16:24:24 set names utf8;
+16:24:24 select * from configs
+16:24:30 use a0122145834;
+16:24:30 set names utf8;
+16:24:30 select * from configs
+16:24:30 select * from users where user_name='555555' and user_word='5b1b68a9abf4d2cd155c81a9225fd158'
+16:24:30 use a0122145834;
+16:24:30 set names utf8;
+16:24:30 select * from configs
+16:24:30 select * from users where id=38
+16:24:30 select count(id) from users where spreader_id='38'
+16:24:30 select * from images
+16:24:30 select * from goods where need_top=1 and need_hidden=0 order by id desc limit 0,5
+16:24:30 select count(id) from goods where need_top=0 and need_hidden=0 order by id desc
+16:24:30 select * from goods where need_top=0 and need_hidden=0 order by id desc limit 0,5
+16:24:39 use a0122145834;
+16:24:39 set names utf8;
+16:24:39 select * from configs
+16:24:39 select * from users where id=38
+16:24:39 select count(id) from users where spreader_id='38'
+16:24:39 select * from images
+16:24:39 select * from article_type
+16:24:39 select * from article_type where id='0'
+16:24:39 select count(id) from articles where type_id='0' order by add_time desc
+16:24:39 select * from articles where type_id='0' order by add_time desc limit 0,5
+16:24:41 use a0122145834;
+16:24:41 set names utf8;
+16:24:41 select * from configs
+16:24:41 select * from users where id=38
+16:24:41 select count(id) from users where spreader_id='38'
+16:24:41 select * from images
+16:24:41 select type_id from articles where id='16'
+16:24:41 select * from articles where id='16'
+16:24:45 use a0122145834;
+16:24:45 set names utf8;
+16:24:45 select * from configs
+16:24:45 select * from users where id=51
+16:24:45 select count(id) from users where spreader_id='51'
+16:24:45 select * from images
+16:24:45 update users set nick_name='安琪',pay_name='张宝珠',pay_email='baozhu0405@126.com',address='2049917091@qq.com',user_word='e99a18c428cb38d5f260853678922e03' where id=51
+16:24:46 use a0122145834;
+16:24:46 set names utf8;
+16:24:46 select * from configs
+16:24:46 select * from users where id=51
+16:24:46 select count(id) from users where spreader_id='51'
+16:24:46 select * from images
+16:25:05 use a0122145834;
+16:25:05 set names utf8;
+16:25:05 select * from configs
+16:25:06 use a0122145834;
+16:25:06 set names utf8;
+16:25:06 select * from configs
+16:25:13 use a0122145834;
+16:25:13 set names utf8;
+16:25:13 select * from configs
+16:25:13 select * from users where user_name='2049917091' and user_word='e99a18c428cb38d5f260853678922e03'
+16:25:13 update users set first_login='1',last_ip='113.233.61.87' where id='51'
+16:25:13 use a0122145834;
+16:25:13 set names utf8;
+16:25:13 select * from configs
+16:25:13 select * from users where id=51
+16:25:13 select count(id) from users where spreader_id='51'
+16:25:13 select * from images
+16:25:13 select * from goods where need_top=1 and need_hidden=0 order by id desc limit 0,5
+16:25:13 select count(id) from goods where need_top=0 and need_hidden=0 order by id desc
+16:25:13 select * from goods where need_top=0 and need_hidden=0 order by id desc limit 0,5
+16:25:20 use a0122145834;
+16:25:20 set names utf8;
+16:25:20 select * from configs
+16:25:20 select * from users where id=51
+16:25:21 select count(id) from users where spreader_id='51'
+16:25:21 select * from images
+16:25:21 select type_id from articles where id='8'
+16:25:21 select * from articles where id='8'
+16:25:31 use a0122145834;
+16:25:31 set names utf8;
+16:25:31 select * from configs
+16:25:31 select * from users where id=51
+16:25:31 select count(id) from users where spreader_id='51'
+16:25:31 select * from images
+16:25:31 select type_id from articles where id='16'
+16:25:31 select * from articles where id='16'
+16:25:54 use a0122145834;
+16:25:54 set names utf8;
+16:25:54 select * from configs
+16:26:29 use a0122145834;
+16:26:29 set names utf8;
+16:26:29 select * from configs
+16:26:29 select * from admins where id=1
+16:26:32 use a0122145834;
+16:26:32 set names utf8;
+16:26:32 select * from configs
+16:26:32 select * from admins where id=1
+16:26:32 select count(id) from goods
+16:26:32 select * from goods limit 0,20
+16:26:37 use a0122145834;
+16:26:37 set names utf8;
+16:26:37 select * from configs
+16:26:37 select * from admins where id=1
+16:26:37 select count(o.id) from articles as o left join article_type as u on u.id=o.type_id 
+16:26:37 select o.id,o.title,o.add_time,u.type_name from articles as o left join article_type as u on u.id=o.type_id  limit 0,20
+16:26:41 use a0122145834;
+16:26:41 set names utf8;
+16:26:41 select * from configs
+16:26:41 select * from admins where id=1
+16:26:42 select * from articles where id=16
+16:27:17 use a0122145834;
+16:27:17 set names utf8;
+16:27:17 select * from configs
+16:27:17 select * from users where id=36
+16:27:17 select count(id) from users where spreader_id='36'
+16:27:17 select * from images
+16:27:20 select * from goods where need_top=1 and need_hidden=0 order by id desc limit 0,5
+16:27:20 select count(id) from goods where need_top=0 and need_hidden=0 order by id desc
+16:27:20 select * from goods where need_top=0 and need_hidden=0 order by id desc limit 0,5
+16:27:21 use a0122145834;
+16:27:21 set names utf8;
+16:27:21 select * from configs
+16:27:21 select * from users where id=36
+16:27:21 select count(id) from users where spreader_id='36'
+16:27:21 select * from images
+16:27:21 select * from goods where need_top=1 and need_hidden=0 order by id desc limit 0,5
+16:27:21 select count(id) from goods where need_top=0 and need_hidden=0 order by id desc
+16:27:21 select * from goods where need_top=0 and need_hidden=0 order by id desc limit 0,5
+16:27:28 use a0122145834;
+16:27:28 set names utf8;
+16:27:28 select * from configs
+16:27:28 select * from users where id=36
+16:27:28 select count(id) from users where spreader_id='36'
+16:27:28 select * from images
+16:27:28 select * from goods where need_top=1 and need_hidden=0 order by id desc limit 0,5
+16:27:28 select count(id) from goods where need_top=0 and need_hidden=0 order by id desc
+16:27:28 select * from goods where need_top=0 and need_hidden=0 order by id desc limit 0,5
+16:27:33 use a0122145834;
+16:27:33 set names utf8;
+16:27:33 select * from configs
+16:27:33 select * from users where id=36
+16:27:33 select count(id) from users where spreader_id='36'
+16:27:33 select * from images
+16:27:33 select * from goods where need_top=1 and need_hidden=0 order by id desc limit 0,5
+16:27:33 select count(id) from goods where need_top=0 and need_hidden=0 order by id desc
+16:27:33 select * from goods where need_top=0 and need_hidden=0 order by id desc limit 0,5
+16:27:36 use a0122145834;
+16:27:36 set names utf8;
+16:27:36 select * from configs
+16:27:36 select * from users where id=36
+16:27:36 select count(id) from users where spreader_id='36'
+16:27:36 select * from images
+16:27:36 select * from goods where need_top=1 and need_hidden=0 order by id desc limit 0,5
+16:27:36 select count(id) from goods where need_top=0 and need_hidden=0 order by id desc
+16:27:36 select * from goods where need_top=0 and need_hidden=0 order by id desc limit 0,5
+16:27:36 use a0122145834;
+16:27:36 set names utf8;
+16:27:36 select * from configs
+16:27:36 select * from users where id=36
+16:27:36 select count(id) from users where spreader_id='36'
+16:27:36 select * from images
+16:27:36 select * from goods where need_top=1 and need_hidden=0 order by id desc limit 0,5
+16:27:36 select count(id) from goods where need_top=0 and need_hidden=0 order by id desc
+16:27:36 select * from goods where need_top=0 and need_hidden=0 order by id desc limit 0,5
+16:27:47 use a0122145834;
+16:27:47 set names utf8;
+16:27:47 select * from configs
+16:27:47 select * from admins where id=1
+16:27:47 update articles set type_id=0, content='<p><strong><span style="font-size:20px"><span style="color:rgb(255,255,255)"><span style="background-color:rgb(255,0,0)">亲爱的朋友，你好！我是小马，欢迎来到久恒！</span></span></span></strong></p>
+
+<p style="text-align: center">&nbsp;</p>
+
+<hr />
+<p style="text-align: center">&nbsp;</p>
+
+<p><span style="font-size:14px"><strong>今天给大伙分享一个实打实的干货！内容是数据库营销！看看别人怎么借助大流量平台和大流量关键词的！</strong><br />
+<br />
+早前，我给大伙演示过的数据库营销的威力和原理相信大家已经看到过了！是很强大的！腾讯，360，百度他们都在用！</span></p>
+
+<p><span style="font-size:14px">有关数据库营销的威力和数据库如何挣钱！没有看过的哥们可以点击去看看<br />
+<br />
+<a href="user.php?act=vip_article_id&amp;id=11" target="_blank"><input name="点击阅读" size="45" style="width: 171px; height: 55px" type="button" value="点击阅读" /></a></span></p>
+
+<p>&nbsp;</p>
+
+<p><br />
+<span style="font-size:14px">数据库的原理和威力视频课程我详细讲解过了，在这里就不多扯了，下面直接入主题，小马不空谈了，直接结合案例讲！<br />
+<br />
+打开优酷视频：<a href="http://v.youku.com/v_show/id_XNjY1MTM3MTE2.html" target="_blank">http://v.youku.com/v_show/id_XNjY1MTM3MTE2.html</a>&nbsp; &nbsp; 亮点在1：39秒 &nbsp;<br />
+<br />
+&nbsp;</span></p>
+
+<p><span style="font-size:14px"><img src="http://10nai.com/images/uplaod/d/d.jpg" style="height:716px; width:886px" /><br />
+<br />
+<br />
+<span style="color:#ff0000"><strong>我们讲他的引流方式！利用热门关键词搜索！</strong></span><br />
+<br />
+<strong>第一个关键词：报告老板</strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <strong>第二个关键词是：万万没想到</strong><br />
+<img src="http://10nai.com/images/uplaod/d/d1.jpg" style="height:391px; width:369px" />&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; <img src="http://10nai.com/images/uplaod/d/d2.jpg" /><br />
+<br />
+<strong>第三个关键词：朴妮唛</strong> &nbsp;&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<strong>第四个关键词：周星驰</strong><br />
+<br />
+<img src="http://10nai.com/images/uplaod/d/d3.jpg" style="height:372px; width:266px" />&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <img src="http://10nai.com/images/uplaod/d/d4.jpg" style="height:396px; width:255px" /><br />
+<br />
+这四个关键词的搜索量都很大！但是这个家伙用的有点杂！用了效果不是很好！他借助搜索量高的关键词和优酷的站内流量引流！</span></p>
+
+<p>&nbsp;</p>
+
+<p><span style="font-size:14px"><strong>那些有特长有能力的哥们一样可以这样做！自己制造虚拟产品或者实体产品！这个哥们操作思路是对的，擅长视频营销的朋友可以借用学习一下！</strong></span></p>
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+
+<p style="text-align: center">&nbsp;</p>
+
+<p style="text-align: center">&nbsp;</p>
+
+<hr />
+<p style="text-align: center">&nbsp;</p>
+
+<p><span style="font-size:18px"><span style="color:rgb(255,255,255)"><span style="background-color:rgb(255,0,0)"><strong>这里是非会员区，普通文章只做分享，不作解答；希望对大家有所帮助。</strong></span></span></span></p>
+
+<p><span style="font-size:14px">&nbsp;</span></p>
+', title='【小马】—借力大流量平台轻松月入3000' where id=16
+16:27:48 use a0122145834;
+16:27:48 set names utf8;
+16:27:48 select * from configs
+16:27:48 select * from admins where id=1
+16:27:48 select * from articles where id=16
+16:28:40 use a0122145834;
+16:28:40 set names utf8;
+16:28:40 select * from configs
+16:28:55 use a0122145834;
+16:28:55 set names utf8;
+16:28:55 select * from configs
+16:29:53 use a0122145834;
+16:29:53 set names utf8;
+16:29:53 select * from configs
+16:29:53 select * from admins where id=1
+16:29:53 update articles set type_id=0, content='<p><strong><span style="font-size:20px"><span style="color:rgb(255,255,255)"><span style="background-color:rgb(255,0,0)">亲爱的朋友，你好！我是小马，欢迎来到久恒！</span></span></span></strong></p>
+
+<p style="text-align: center">&nbsp;</p>
+
+<hr />
+<p style="text-align: center">&nbsp;</p>
+
+<p><span style="font-size:14px"><strong>今天给大伙分享一个实打实的干货！内容是数据库营销！看看别人怎么借助大流量平台和大流量关键词的！</strong><br />
+<br />
+早前，我给大伙演示过的数据库营销的威力和原理相信大家已经看到过了！是很强大的！腾讯，360，百度他们都在用！</span></p>
+
+<p><span style="font-size:14px">有关数据库营销的威力和数据库如何挣钱！没有看过的哥们可以点击去看看</span><br />
+&nbsp;</p>
+
+<p><span style="font-size:14px"><span style="font-size:16px"><strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="user.php?act=vip_article_id&amp;id=11" target="_blank">点击阅读</a></strong></span><br />
+<a href="user.php?act=vip_article_id&amp;id=11" target="_blank"><input name="点击阅读" size="45" style="width: 171px; height: 55px" type="button" value="点击阅读" /></a></span></p>
+
+<p>&nbsp;</p>
+
+<p><br />
+<span style="font-size:14px">数据库的原理和威力视频课程我详细讲解过了，在这里就不多扯了，下面直接入主题，小马不空谈了，直接结合案例讲！<br />
+<br />
+打开优酷视频：<a href="http://v.youku.com/v_show/id_XNjY1MTM3MTE2.html" target="_blank">http://v.youku.com/v_show/id_XNjY1MTM3MTE2.html</a>&nbsp; &nbsp; 亮点在1：39秒 &nbsp;<br />
+<br />
+&nbsp;</span></p>
+
+<p><span style="font-size:14px"><img src="http://10nai.com/images/uplaod/d/d.jpg" style="height:716px; width:886px" /><br />
+<br />
+<br />
+<span style="color:#ff0000"><strong>我们讲他的引流方式！利用热门关键词搜索！</strong></span><br />
+<br />
+<strong>第一个关键词：报告老板</strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <strong>第二个关键词是：万万没想到</strong><br />
+<img src="http://10nai.com/images/uplaod/d/d1.jpg" style="height:391px; width:369px" />&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; <img src="http://10nai.com/images/uplaod/d/d2.jpg" /><br />
+<br />
+<strong>第三个关键词：朴妮唛</strong> &nbsp;&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<strong>第四个关键词：周星驰</strong><br />
+<br />
+<img src="http://10nai.com/images/uplaod/d/d3.jpg" style="height:372px; width:266px" />&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <img src="http://10nai.com/images/uplaod/d/d4.jpg" style="height:396px; width:255px" /><br />
+<br />
+这四个关键词的搜索量都很大！但是这个家伙用的有点杂！用了效果不是很好！他借助搜索量高的关键词和优酷的站内流量引流！</span></p>
+
+<p>&nbsp;</p>
+
+<p><span style="font-size:14px"><strong>那些有特长有能力的哥们一样可以这样做！自己制造虚拟产品或者实体产品！这个哥们操作思路是对的，擅长视频营销的朋友可以借用学习一下！</strong></span></p>
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+
+<p style="text-align: center">&nbsp;</p>
+
+<p style="text-align: center">&nbsp;</p>
+
+<hr />
+<p style="text-align: center">&nbsp;</p>
+
+<p><span style="font-size:18px"><span style="color:rgb(255,255,255)"><span style="background-color:rgb(255,0,0)"><strong>这里是非会员区，普通文章只做分享，不作解答；希望对大家有所帮助。</strong></span></span></span></p>
+
+<p><span style="font-size:14px">&nbsp;</span></p>
+', title='【小马】—借力大流量平台轻松月入3000' where id=16
+16:29:55 use a0122145834;
+16:29:55 set names utf8;
+16:29:55 select * from configs
+16:29:55 select * from admins where id=1
+16:29:55 select * from articles where id=16
+16:30:20 use a0122145834;
+16:30:20 set names utf8;
+16:30:20 select * from configs
+16:30:20 select * from users where id=38
+16:30:20 select count(id) from users where spreader_id='38'
+16:30:20 select * from images
+16:30:20 select type_id from articles where id='16'
+16:30:20 select * from articles where id='16'
+16:30:28 use a0122145834;
+16:30:28 set names utf8;
+16:30:28 select * from configs
+16:30:28 select * from users where id=38
+16:30:28 select count(id) from users where spreader_id='38'
+16:30:28 select * from images
+16:30:28 select type_id from articles where id='11'
+16:30:28 select * from articles where id='11'
+16:30:36 use a0122145834;
+16:30:36 set names utf8;
+16:30:36 select * from configs
+16:30:36 select * from users where id=38
+16:30:36 select count(id) from users where spreader_id='38'
+16:30:36 select * from images
+16:30:36 select type_id from articles where id='11'
+16:30:37 select * from articles where id='11'
+16:30:44 use a0122145834;
+16:30:44 set names utf8;
+16:30:44 select * from configs
+16:30:44 select * from users where id=38
+16:30:44 select count(id) from users where spreader_id='38'
+16:30:44 select * from images
+16:30:44 select type_id from articles where id='11'
+16:30:44 select * from articles where id='11'
+16:31:06 use a0122145834;
+16:31:06 set names utf8;
+16:31:06 select * from configs
+16:31:06 select * from admins where id=1
+16:31:06 update articles set type_id=0, content='<p><strong><span style="font-size:20px"><span style="color:rgb(255,255,255)"><span style="background-color:rgb(255,0,0)">亲爱的朋友，你好！我是小马，欢迎来到久恒！</span></span></span></strong></p>
+
+<p style="text-align: center">&nbsp;</p>
+
+<hr />
+<p style="text-align: center">&nbsp;</p>
+
+<p><span style="font-size:14px"><strong>今天给大伙分享一个实打实的干货！内容是数据库营销！看看别人怎么借助大流量平台和大流量关键词的！</strong><br />
+<br />
+早前，我给大伙演示过的数据库营销的威力和原理相信大家已经看到过了！是很强大的！腾讯，360，百度他们都在用！</span></p>
+
+<p><span style="font-size:14px">有关数据库营销的威力和数据库如何挣钱！没有看过的哥们可以点击去看看</span><br />
+&nbsp;</p>
+
+<p><span style="font-size:14px"><span style="font-size:16px"><strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="user.php?act=vip_article_id&amp;id=11" target="_blank">点击阅读</a></strong></span><br />
+<a href="user.php?act=vip_article_id&amp;id=11" target="_blank"><input name="点击阅读" size="45" style="width: 171px; height: 55px" type="button" value="点击阅读" /></a></span></p>
+
+<p>&nbsp;</p>
+
+<p><br />
+<span style="font-size:14px">数据库的原理和威力视频课程我详细讲解过了，在这里就不多扯了，下面直接入主题，小马不空谈了，直接结合案例讲！<br />
+<br />
+打开优酷视频：<a href="http://v.youku.com/v_show/id_XNjY1MTM3MTE2.html" target="_blank">http://v.youku.com/v_show/id_XNjY1MTM3MTE2.html</a>&nbsp; &nbsp; 亮点在1：39秒 &nbsp;<br />
+<br />
+&nbsp;</span></p>
+
+<p><span style="font-size:14px"><img src="http://10nai.com/images/uplaod/d/d.jpg" style="height:716px; width:886px" /><br />
+<br />
+<br />
+<span style="color:#ff0000"><strong>我们讲他的引流方式！利用热门关键词搜索！</strong></span><br />
+<br />
+<strong>第一个关键词：报告老板</strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <strong>第二个关键词是：万万没想到</strong><br />
+<img src="http://10nai.com/images/uplaod/d/d1.jpg" style="height:391px; width:369px" />&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; <img src="http://10nai.com/images/uplaod/d/d2.jpg" /><br />
+<br />
+<strong>第三个关键词：朴妮唛</strong> &nbsp;&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<strong>第四个关键词：周星驰</strong><br />
+<br />
+<img src="http://10nai.com/images/uplaod/d/d3.jpg" style="height:372px; width:266px" />&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <img src="http://10nai.com/images/uplaod/d/d4.jpg" style="height:396px; width:255px" /><br />
+<br />
+这四个关键词的搜索量都很大！但是这个家伙用的有点杂！用了效果不是很好！他借助搜索量高的关键词和优酷的站内流量引流！</span></p>
+
+<p>&nbsp;</p>
+
+<p><span style="font-size:14px"><strong>那些有特长有能力的哥们一样可以这样做！自己制造虚拟产品或者实体产品！这个哥们操作思路是对的，擅长视频营销的朋友可以借用学习一下！</strong></span></p>
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+
+<p style="text-align: center">&nbsp;</p>
+
+<p style="text-align: center">&nbsp;</p>
+
+<hr />
+<p style="text-align: center">&nbsp;</p>
+
+<p><span style="font-size:18px"><span style="color:rgb(255,255,255)"><span style="background-color:rgb(255,0,0)"><strong>这里是非会员区，普通文章只做分享，不作解答；希望对大家有所帮助。</strong></span></span></span></p>
+
+<p><span style="font-size:14px">&nbsp;</span></p>
+', title='【小马】—借力大流量平台轻松月入3000' where id=16
+16:31:07 use a0122145834;
+16:31:07 set names utf8;
+16:31:07 select * from configs
+16:31:07 select * from admins where id=1
+16:31:07 select * from articles where id=16
+16:31:12 use a0122145834;
+16:31:12 set names utf8;
+16:31:12 select * from configs
+16:31:12 select * from users where id=38
+16:31:12 select count(id) from users where spreader_id='38'
+16:31:12 select * from images
+16:31:12 select type_id from articles where id='16'
+16:31:13 use a0122145834;
+16:31:13 set names utf8;
+16:31:13 select * from configs
+16:31:13 select * from users where id=51
+16:31:13 select count(id) from users where spreader_id='51'
+16:31:13 select * from images
+16:31:13 select type_id from articles where id='16'
+16:31:13 select * from articles where id='16'
+16:31:13 select * from articles where id='16'
+16:31:18 use a0122145834;
+16:31:18 set names utf8;
+16:31:18 select * from configs
+16:31:18 select * from users where id=51
+16:31:18 select count(id) from users where spreader_id='51'
+16:31:18 select * from images
+16:31:18 select type_id from articles where id='11'
+16:31:18 select * from articles where id='11'
+16:31:33 use a0122145834;
+16:31:33 set names utf8;
+16:31:33 select * from configs
+16:31:33 select * from users where id=38
+16:31:33 select count(id) from users where spreader_id='38'
+16:31:33 select * from images
+16:31:33 select * from article_type
+16:31:33 select * from article_type where id='0'
+16:31:33 select count(id) from articles where type_id='0' order by add_time desc
+16:31:33 select * from articles where type_id='0' order by add_time desc limit 0,5
+16:31:39 use a0122145834;
+16:31:39 set names utf8;
+16:31:39 select * from configs
+16:31:39 select * from users where id=51
+16:31:39 select count(id) from users where spreader_id='51'
+16:31:39 select * from images
+16:31:43 use a0122145834;
+16:31:43 set names utf8;
+16:31:43 select * from configs
+16:31:43 select * from users where id=38
+16:31:43 use a0122145834;
+16:31:43 set names utf8;
+16:31:43 select * from configs
+16:31:43 select * from users where id=38
+16:31:43 select count(id) from users where spreader_id='38'
+16:31:43 select * from images
+16:31:43 select * from goods where need_top=1 and need_hidden=0 order by id desc limit 0,5
+16:31:43 select count(id) from goods where need_top=0 and need_hidden=0 order by id desc
+16:31:43 select * from goods where need_top=0 and need_hidden=0 order by id desc limit 0,5
+16:32:04 use a0122145834;
+16:32:04 set names utf8;
+16:32:04 select * from configs
+16:32:04 select * from users where id=38
+16:32:04 select * from goods where need_hidden=0 and id=8
+16:32:04 select * from orders where user_id=38 and goods_id=8 
+16:32:49 use a0122145834;
+16:32:49 set names utf8;
+16:32:49 select * from configs
+16:32:49 select * from users where id=51
+16:32:50 use a0122145834;
+16:32:50 set names utf8;
+16:32:50 select * from configs
+16:32:50 select * from users where id=51
+16:32:50 select count(id) from users where spreader_id='51'
+16:32:50 select * from images
+16:32:50 select * from goods where need_top=1 and need_hidden=0 order by id desc limit 0,5
+16:32:50 select count(id) from goods where need_top=0 and need_hidden=0 order by id desc
+16:32:50 select * from goods where need_top=0 and need_hidden=0 order by id desc limit 0,5
+16:32:52 use a0122145834;
+16:32:52 set names utf8;
+16:32:52 select * from configs
+16:32:52 select * from users where id=38
+16:32:52 select count(id) from users where spreader_id='38'
+16:32:52 select * from images
+16:32:52 select * from goods where need_top=1 and need_hidden=0 order by id desc limit 0,5
+16:32:52 select count(id) from goods where need_top=0 and need_hidden=0 order by id desc
+16:32:52 select * from goods where need_top=0 and need_hidden=0 order by id desc limit 0,5
+16:32:57 use a0122145834;
+16:32:57 set names utf8;
+16:32:57 select * from configs
+16:32:58 select * from users where id=38
+16:32:58 select * from goods where need_hidden=0 and id=12
+16:32:58 select * from orders where user_id=38 and goods_id=12 
+16:33:07 use a0122145834;
+16:33:07 set names utf8;
+16:33:07 select * from configs
+16:33:07 select * from admins where id=1
+16:33:07 select count(id) from goods
+16:33:07 select * from goods limit 0,20
+16:33:10 use a0122145834;
+16:33:10 set names utf8;
+16:33:10 select * from configs
+16:33:10 select * from admins where id=1
+16:33:10 select * from goods where id='12'
+16:33:35 use a0122145834;
+16:33:35 set names utf8;
+16:33:35 select * from configs
+16:33:35 select * from users where id=51
+16:33:36 use a0122145834;
+16:33:36 set names utf8;
+16:33:36 select * from configs
+16:33:36 select * from users where id=51
+16:33:36 select count(id) from users where spreader_id='51'
+16:33:36 select * from images
+16:33:36 select * from goods where need_top=1 and need_hidden=0 order by id desc limit 0,5
+16:33:36 select count(id) from goods where need_top=0 and need_hidden=0 order by id desc
+16:33:36 select * from goods where need_top=0 and need_hidden=0 order by id desc limit 0,5
+16:33:42 use a0122145834;
+16:33:42 set names utf8;
+16:33:42 select * from configs
+16:33:42 select * from users where id=51
+16:33:42 select * from goods where need_hidden=0 and id=8
+16:33:42 select * from orders where user_id=51 and goods_id=8 
+16:33:46 use a0122145834;
+16:33:46 set names utf8;
+16:33:46 select * from configs
+16:33:46 select * from users where id=51
+16:33:46 select count(id) from users where spreader_id='51'
+16:33:46 select * from images
+16:33:46 select * from goods where need_top=1 and need_hidden=0 order by id desc limit 0,5
+16:33:46 select count(id) from goods where need_top=0 and need_hidden=0 order by id desc
+16:33:46 select * from goods where need_top=0 and need_hidden=0 order by id desc limit 0,5
+16:33:49 use a0122145834;
+16:33:49 set names utf8;
+16:33:49 select * from configs
+16:33:49 select * from users where id=51
+16:33:49 select * from goods where need_hidden=0 and id=12
+16:33:49 select * from orders where user_id=51 and goods_id=12 
+16:33:55 use a0122145834;
+16:33:55 set names utf8;
+16:33:55 select * from configs
+16:33:55 select * from users where id=51
+16:33:55 select count(id) from users where spreader_id='51'
+16:33:55 select * from images
+16:33:56 select * from goods where need_top=1 and need_hidden=0 order by id desc limit 0,5
+16:33:56 select count(id) from goods where need_top=0 and need_hidden=0 order by id desc
+16:33:56 select * from goods where need_top=0 and need_hidden=0 order by id desc limit 0,5
+16:34:02 use a0122145834;
+16:34:02 set names utf8;
+16:34:02 select * from configs
+16:34:02 select * from users where id=51
+16:34:02 select * from goods where need_hidden=0 and id=8
+16:34:02 select * from orders where user_id=51 and goods_id=8 
+16:34:16 use a0122145834;
+16:34:16 set names utf8;
+16:34:17 select * from configs
+16:34:17 select * from admins where id=1
+16:34:17 update goods set goods_name='VIP自助充值教程',goods_pic='/images/20140209/139193777903059692.jpg',goods_dis='如何自助开通VIP课程演示',need_credits='0',need_money='0',need_top='0',need_hidden='0',goods_data='亲爱的会员_你好',goods_content='<p>&nbsp;<object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,40,0" height="502" width="844"><param name="quality" value="high" /><param name="movie" value="http://cloud.video.taobao.com/play/u/1/e/1/t/1/p/1/11176799.swf" /><embed height="502" pluginspage="http://www.macromedia.com/go/getflashplayer" quality="high" src="http://cloud.video.taobao.com/play/u/1/e/1/t/1/p/1/11176799.swf" type="application/x-shockwave-flash" width="844"></embed></object></p>
+
+<p style="text-align: center">&nbsp;</p>
+
+<p style="text-align: center"><a href="user.php?act=prepayment"><u><span style="font-size:18px"><strong>点击开通VIP&nbsp;</strong></span></u></a></p>
+
+<p style="text-align: center"><a href="user.php?act=prepayment"><input name="点击开通VIP" size="37" style="width: 189px; height: 64px" type="button" value="点击开通VIP" /></a></p>
+' where id=12
+16:34:18 use a0122145834;
+16:34:18 set names utf8;
+16:34:18 select * from configs
+16:34:18 select * from admins where id=1
+16:34:18 select * from goods where id='12'
+16:34:23 use a0122145834;
+16:34:23 set names utf8;
+16:34:23 select * from configs
+16:34:23 select * from users where id=38
+16:34:23 select * from goods where need_hidden=0 and id=12
+16:34:23 select * from orders where user_id=38 and goods_id=12 
+16:34:27 use a0122145834;
+16:34:27 set names utf8;
+16:34:27 select * from configs
+16:34:27 select * from users where id=51
+16:34:28 use a0122145834;
+16:34:28 set names utf8;
+16:34:28 select * from configs
+16:34:28 select * from users where id=51
+16:34:28 select count(id) from users where spreader_id='51'
+16:34:28 select * from images
+16:34:28 select * from goods where need_top=1 and need_hidden=0 order by id desc limit 0,5
+16:34:28 select count(id) from goods where need_top=0 and need_hidden=0 order by id desc
+16:34:28 select * from goods where need_top=0 and need_hidden=0 order by id desc limit 0,5
+16:36:02 use a0122145834;
+16:36:02 set names utf8;
+16:36:02 select * from configs
+16:36:02 select * from users where id=50
+16:36:02 select count(id) from users where spreader_id='50'
+16:36:02 select * from images
+16:36:02 select * from goods where need_top=1 and need_hidden=0 order by id desc limit 0,5
+16:36:02 select count(id) from goods where need_top=0 and need_hidden=0 order by id desc
+16:36:02 select * from goods where need_top=0 and need_hidden=0 order by id desc limit 0,5
+16:36:31 use a0122145834;
+16:36:31 set names utf8;
+16:36:31 select * from configs
+16:36:45 use a0122145834;
+16:36:45 set names utf8;
+16:36:45 select * from configs
+16:36:45 select * from users where id=50
+16:36:45 select * from goods where need_hidden=0 and id=8
+16:36:45 select * from orders where user_id=50 and goods_id=8 
+16:37:01 use a0122145834;
+16:37:01 set names utf8;
+16:37:01 select * from configs
+16:37:01 select * from users where id=50
+16:37:01 select count(id) from users where spreader_id='50'
+16:37:01 select * from images
+16:37:06 use a0122145834;
+16:37:06 set names utf8;
+16:37:06 select * from configs
+16:37:06 select * from users where id=38
+16:37:06 select count(id) from users where spreader_id='38'
+16:37:06 select * from images
+16:37:06 select * from goods where need_top=1 and need_hidden=0 order by id desc limit 0,5
+16:37:06 select count(id) from goods where need_top=0 and need_hidden=0 order by id desc
+16:37:06 select * from goods where need_top=0 and need_hidden=0 order by id desc limit 0,5
+16:37:12 use a0122145834;
+16:37:12 set names utf8;
+16:37:12 select * from configs
+16:37:12 select * from users where id=38
+16:37:14 use a0122145834;
+16:37:14 set names utf8;
+16:37:14 select * from configs
+16:37:14 select * from users where id=38
+16:37:14 select count(id) from users where spreader_id='38'
+16:37:14 select * from images
+16:37:14 select count(id) from income where user_id=38
+16:37:14 select * from income where user_id=38 limit 0,5
+16:37:16 use a0122145834;
+16:37:16 set names utf8;
+16:37:16 select * from configs
+16:37:16 select * from users where id=38
+16:37:16 select count(id) from users where spreader_id='38'
+16:37:16 select * from images
+16:37:16 select count(id) from expense where user_id=38
+16:37:16 select * from expense where user_id=38 limit 0,5
+16:37:18 use a0122145834;
+16:37:18 set names utf8;
+16:37:18 select * from configs
+16:37:18 select * from users where id=38
+16:37:19 use a0122145834;
+16:37:19 set names utf8;
+16:37:19 select * from configs
+16:37:19 select * from users where id=38
+16:37:19 select count(id) from users where spreader_id='38'
+16:37:19 select * from images
+16:37:19 select count(id) from expense where user_id=38
+16:37:19 select * from expense where user_id=38 limit 0,5
+16:37:24 use a0122145834;
+16:37:24 set names utf8;
+16:37:24 select * from configs
+16:37:24 select * from users where id=38
+16:37:25 use a0122145834;
+16:37:25 set names utf8;
+16:37:25 select * from configs
+16:37:25 select * from users where id=38
+16:37:26 select count(id) from users where spreader_id='38'
+16:37:26 select * from images
+16:37:26 select count(id) from expense where user_id=38
+16:37:26 select * from expense where user_id=38 limit 0,5
+16:37:30 use a0122145834;
+16:37:30 set names utf8;
+16:37:30 select * from configs
+16:37:30 select * from users where id=38
+16:37:31 use a0122145834;
+16:37:31 set names utf8;
+16:37:31 select * from configs
+16:37:31 select * from users where id=38
+16:37:31 select count(id) from users where spreader_id='38'
+16:37:31 select * from images
+16:37:31 select count(id) from expense where user_id=38
+16:37:31 select * from expense where user_id=38 limit 0,5
+16:37:34 use a0122145834;
+16:37:34 set names utf8;
+16:37:34 select * from configs
+16:37:34 select * from users where id=38
+16:37:34 select count(id) from users where spreader_id='38'
+16:37:34 select * from images
+16:37:34 select count(id) from income where user_id=38
+16:37:34 select * from income where user_id=38 limit 0,5
+16:37:40 use a0122145834;
+16:37:40 set names utf8;
+16:37:40 select * from configs
+16:37:40 select * from users where id=50
+16:37:40 select count(id) from users where spreader_id='50'
+16:37:40 select * from images
+16:37:41 use a0122145834;
+16:37:41 set names utf8;
+16:37:41 select * from configs
+16:37:41 select * from users where id=50
+16:37:41 select count(id) from users where spreader_id='50'
+16:37:41 select * from images
+16:37:41 select * from goods where need_top=1 and need_hidden=0 order by id desc limit 0,5
+16:37:41 select count(id) from goods where need_top=0 and need_hidden=0 order by id desc
+16:37:41 select * from goods where need_top=0 and need_hidden=0 order by id desc limit 0,5
+16:37:44 use a0122145834;
+16:37:44 set names utf8;
+16:37:44 select * from configs
+16:37:50 use a0122145834;
+16:37:50 set names utf8;
+16:37:50 select * from configs
+16:37:56 use a0122145834;
+16:37:56 set names utf8;
+16:37:56 select * from configs
+16:37:56 select * from users where id=50
+16:37:56 select count(id) from users where spreader_id='50'
+16:37:56 select * from images
+16:38:00 use a0122145834;
+16:38:00 set names utf8;
+16:38:00 select * from configs
+16:38:00 select * from users where id=50
+16:38:00 select count(id) from users where spreader_id='50'
+16:38:00 select * from images
+16:38:00 select * from goods where need_top=1 and need_hidden=0 order by id desc limit 0,5
+16:38:00 select count(id) from goods where need_top=0 and need_hidden=0 order by id desc
+16:38:00 select * from goods where need_top=0 and need_hidden=0 order by id desc limit 0,5
+16:38:04 use a0122145834;
+16:38:04 set names utf8;
+16:38:04 select * from configs
+16:38:04 use a0122145834;
+16:38:04 set names utf8;
+16:38:04 select * from configs
+16:38:05 use a0122145834;
+16:38:05 set names utf8;
+16:38:05 select * from configs
+16:38:05 select * from users where id=50
+16:38:05 select count(id) from users where spreader_id='50'
+16:38:05 select * from images
+16:38:05 select * from users where spreader_id='50'
+16:38:28 use a0122145834;
+16:38:28 set names utf8;
+16:38:28 select * from configs
+16:38:33 use a0122145834;
+16:38:33 set names utf8;
+16:38:33 select * from configs
+16:39:19 use a0122145834;
+16:39:19 set names utf8;
+16:39:19 select * from configs
+16:39:19 select * from users where user_name='644649746' and user_word='fe008700f25cb28940ca8ed91b23b354'
+16:39:19 update users set first_login='1',last_ip='120.35.219.150' where id='50'
+16:39:19 use a0122145834;
+16:39:19 set names utf8;
+16:39:19 select * from configs
+16:39:19 select * from users where id=50
+16:39:19 select count(id) from users where spreader_id='50'
+16:39:19 select * from images
+16:39:19 select * from goods where need_top=1 and need_hidden=0 order by id desc limit 0,5
+16:39:19 select count(id) from goods where need_top=0 and need_hidden=0 order by id desc
+16:39:19 select * from goods where need_top=0 and need_hidden=0 order by id desc limit 0,5
+16:39:46 use a0122145834;
+16:39:46 set names utf8;
+16:39:46 select * from configs
+16:40:42 use a0122145834;
+16:40:42 set names utf8;
+16:40:42 select * from configs
+16:40:42 select * from users where id=50
+16:40:42 select * from goods where need_hidden=0 and id=12
+16:40:42 select * from orders where user_id=50 and goods_id=12 
+16:41:51 use a0122145834;
+16:41:51 set names utf8;
+16:41:51 select * from configs
+16:41:51 select * from users where id=50
+16:41:51 select count(id) from users where spreader_id='50'
+16:41:51 select * from images
+16:41:54 use a0122145834;
+16:41:54 set names utf8;
+16:41:54 select * from configs
+16:41:54 select * from users where id=50
+16:41:54 select count(id) from users where spreader_id='50'
+16:41:54 select * from images
+16:41:57 use a0122145834;
+16:41:57 set names utf8;
+16:41:57 select * from configs
+16:41:57 select * from users where id=50
+16:41:57 select count(id) from users where spreader_id='50'
+16:41:57 select * from images
+16:41:57 select count(id) from income where user_id=50
+16:41:57 select * from income where user_id=50 limit 0,5
+16:42:06 use a0122145834;
+16:42:06 set names utf8;
+16:42:06 select * from configs
+16:42:06 select * from users where id=50
+16:42:06 insert into income (user_id,income_money,order_sn,add_time,pay_status) values ('50','10','139245372644522','1392453726','0') ;
+16:42:22 use a0122145834;
+16:42:22 set names utf8;
+16:42:22 select * from configs
+16:42:38 use a0122145834;
+16:42:38 set names utf8;
+16:42:38 select * from configs
+16:42:59 use a0122145834;
+16:42:59 set names utf8;
+16:42:59 select * from configs
+16:42:59 select * from users where id=50
+16:42:59 select count(id) from users where spreader_id='50'
+16:42:59 select * from images
+16:43:02 use a0122145834;
+16:43:02 set names utf8;
+16:43:02 select * from configs
+16:43:02 select * from users where id=50
+16:43:02 select count(id) from users where spreader_id='50'
+16:43:02 select * from images
+16:43:02 select * from goods where need_top=1 and need_hidden=0 order by id desc limit 0,5
+16:43:02 select count(id) from goods where need_top=0 and need_hidden=0 order by id desc
+16:43:02 select * from goods where need_top=0 and need_hidden=0 order by id desc limit 0,5
+16:43:15 use a0122145834;
+16:43:15 set names utf8;
+16:43:15 select * from configs
+16:43:15 select * from users where id=50
+16:43:23 use a0122145834;
+16:43:23 set names utf8;
+16:43:23 select * from configs
+16:43:23 select * from users where id=50
+16:43:23 select count(id) from users where spreader_id='50'
+16:43:23 select * from images
+16:43:23 select count(id) from income where user_id=50
+16:43:23 select * from income where user_id=50 limit 0,5
+16:43:41 use a0122145834;
+16:43:41 set names utf8;
+16:43:41 select * from configs
+16:43:41 select * from users where id=50
+16:43:42 use a0122145834;
+16:43:42 set names utf8;
+16:43:42 select * from configs
+16:43:42 select * from users where id=50
+16:43:42 select count(id) from users where spreader_id='50'
+16:43:42 select * from images
+16:43:42 select * from goods where need_top=1 and need_hidden=0 order by id desc limit 0,5
+16:43:42 select count(id) from goods where need_top=0 and need_hidden=0 order by id desc
+16:43:42 select * from goods where need_top=0 and need_hidden=0 order by id desc limit 0,5
+16:43:48 use a0122145834;
+16:43:48 set names utf8;
+16:43:48 select * from configs
+16:43:48 select * from users where id=50
+16:43:48 select count(id) from users where spreader_id='50'
+16:43:48 select * from images
+16:43:48 select count(id) from income where user_id=50
+16:43:48 select * from income where user_id=50 limit 0,5
+16:44:03 use a0122145834;
+16:44:03 set names utf8;
+16:44:03 select * from configs
+16:44:03 select * from users where id=50
+16:44:03 select count(id) from users where spreader_id='50'
+16:44:03 select * from images
+16:44:18 use a0122145834;
+16:44:18 set names utf8;
+16:44:18 select * from configs
+16:44:18 select * from users where id=50
+16:44:18 select count(id) from users where spreader_id='50'
+16:44:18 select * from images
+16:44:18 select * from goods where need_top=1 and need_hidden=0 order by id desc limit 0,5
+16:44:18 select count(id) from goods where need_top=0 and need_hidden=0 order by id desc
+16:44:18 select * from goods where need_top=0 and need_hidden=0 order by id desc limit 0,5
+16:44:36 use a0122145834;
+16:44:36 set names utf8;
+16:44:36 select * from configs
+16:44:36 select * from users where id=38
+16:44:36 select count(id) from users where spreader_id='38'
+16:44:36 select * from images
+16:44:36 select count(id) from income where user_id=38
+16:44:36 select * from income where user_id=38 limit 0,5
+16:44:43 use a0122145834;
+16:44:43 set names utf8;
+16:44:43 select * from configs
+16:44:43 select * from users where id=50
+16:44:44 use a0122145834;
+16:44:44 set names utf8;
+16:44:44 select * from configs
+16:44:44 select * from users where id=50
+16:44:44 select count(id) from users where spreader_id='50'
+16:44:44 select * from images
+16:44:44 select * from goods where need_top=1 and need_hidden=0 order by id desc limit 0,5
+16:44:44 select count(id) from goods where need_top=0 and need_hidden=0 order by id desc
+16:44:44 select * from goods where need_top=0 and need_hidden=0 order by id desc limit 0,5
+16:44:47 use a0122145834;
+16:44:47 set names utf8;
+16:44:47 select * from configs
+16:44:47 select * from users where id=38
+16:44:47 use a0122145834;
+16:44:47 set names utf8;
+16:44:47 select * from configs
+16:44:47 select * from users where id=38
+16:44:47 select count(id) from users where spreader_id='38'
+16:44:47 select * from images
+16:44:47 select * from goods where need_top=1 and need_hidden=0 order by id desc limit 0,5
+16:44:47 select count(id) from goods where need_top=0 and need_hidden=0 order by id desc
+16:44:47 select * from goods where need_top=0 and need_hidden=0 order by id desc limit 0,5
+16:44:51 use a0122145834;
+16:44:51 set names utf8;
+16:44:51 select * from configs
+16:44:51 select * from admins where id=1
+16:44:54 use a0122145834;
+16:44:54 set names utf8;
+16:44:54 select * from configs
+16:44:54 select * from admins where id=1
+16:44:54 select count(id) from users
+16:44:54 select * from users limit 0,20
+16:44:58 use a0122145834;
+16:44:58 set names utf8;
+16:44:58 select * from configs
+16:44:58 select * from users where id=50
+16:44:58 select * from goods where need_hidden=0 and id=12
+16:44:58 select * from orders where user_id=50 and goods_id=12 
+16:44:59 use a0122145834;
+16:44:59 set names utf8;
+16:44:59 select * from configs
+16:44:59 select * from admins where id=1
+16:45:00 use a0122145834;
+16:45:00 set names utf8;
+16:45:00 select * from configs
+16:45:00 select * from admins where id=1
+16:45:00 select count(id) from users
+16:45:00 select * from users limit 0,20
+16:45:09 use a0122145834;
+16:45:09 set names utf8;
+16:45:09 select * from configs
+16:45:09 select * from admins where id=1
+16:45:09 select * from users where id=51
+16:45:21 use a0122145834;
+16:45:21 set names utf8;
+16:45:21 select * from configs
+16:45:21 select * from admins where id=1
+16:45:21 update users set user_name='2049917091',nick_name='安琪',credits='0',money='0',pay_email='baozhu0405@126.com',pay_name='张宝珠',address='2049917091@qq.com',vip_level='1',spreader_rate='0.6' where id=51 
+16:45:23 use a0122145834;
+16:45:23 set names utf8;
+16:45:23 select * from configs
+16:45:23 select * from admins where id=1
+16:45:23 select * from users where id=51
+16:45:31 use a0122145834;
+16:45:31 set names utf8;
+16:45:31 select * from configs
+16:45:31 select * from admins where id=1
+16:45:32 use a0122145834;
+16:45:32 set names utf8;
+16:45:32 select * from configs
+16:45:32 select * from admins where id=1
+16:45:32 select count(id) from users
+16:45:32 select * from users limit 0,20
+16:45:59 use a0122145834;
+16:45:59 set names utf8;
+16:45:59 select * from configs
+16:45:59 select * from users where id=38
+16:45:59 select count(id) from users where spreader_id='38'
+16:45:59 select * from images
+16:45:59 select * from goods where need_top=1 and need_hidden=0 order by id desc limit 0,5
+16:45:59 select count(id) from goods where need_top=0 and need_hidden=0 order by id desc
+16:45:59 select * from goods where need_top=0 and need_hidden=0 order by id desc limit 0,5
+16:46:17 use a0122145834;
+16:46:17 set names utf8;
+16:46:17 select * from configs
+16:46:17 select * from users where id=38
+16:46:17 select count(id) from users where spreader_id='38'
+16:46:17 select * from images
+16:46:17 select * from article_type
+16:46:17 select * from article_type where id='0'
+16:46:17 select count(id) from articles where type_id='0' order by add_time desc
+16:46:17 select * from articles where type_id='0' order by add_time desc limit 0,5
+16:46:38 use a0122145834;
+16:46:38 set names utf8;
+16:46:38 select * from configs
+16:46:38 select * from users where id=50
+16:46:38 select count(id) from users where spreader_id='50'
+16:46:38 select * from images
+16:46:38 select * from goods where need_top=1 and need_hidden=0 order by id desc limit 0,5
+16:46:38 select count(id) from goods where need_top=0 and need_hidden=0 order by id desc
+16:46:38 select * from goods where need_top=0 and need_hidden=0 order by id desc limit 0,5
+16:46:58 use a0122145834;
+16:46:58 set names utf8;
+16:46:58 select * from configs
+16:46:58 select * from users where id=50
+16:46:58 select * from goods where need_hidden=0 and id=12
+16:46:58 select * from orders where user_id=50 and goods_id=12 
+16:47:44 use a0122145834;
+16:47:44 set names utf8;
+16:47:44 select * from configs
+16:47:44 select * from users where id=50
+16:47:44 select count(id) from users where spreader_id='50'
+16:47:44 select * from images
+16:47:44 select * from goods where need_top=1 and need_hidden=0 order by id desc limit 0,5
+16:47:44 select count(id) from goods where need_top=0 and need_hidden=0 order by id desc
+16:47:44 select * from goods where need_top=0 and need_hidden=0 order by id desc limit 0,5
+16:48:22 use a0122145834;
+16:48:22 set names utf8;
+16:48:22 select * from configs
+16:48:22 select * from users where id=50
+16:48:22 select count(id) from users where spreader_id='50'
+16:48:22 select * from images
+16:48:22 select * from goods where need_top=1 and need_hidden=0 order by id desc limit 0,5
+16:48:22 select count(id) from goods where need_top=0 and need_hidden=0 order by id desc
+16:48:22 select * from goods where need_top=0 and need_hidden=0 order by id desc limit 0,5
+16:49:02 use a0122145834;
+16:49:02 set names utf8;
+16:49:02 select * from configs
+16:49:02 select * from users where id=50
+16:49:05 use a0122145834;
+16:49:05 set names utf8;
+16:49:05 select * from configs
+16:49:05 select * from users where id=50
+16:49:05 select count(id) from users where spreader_id='50'
+16:49:05 select * from images
+16:49:05 select * from goods where need_top=1 and need_hidden=0 order by id desc limit 0,5
+16:49:05 select count(id) from goods where need_top=0 and need_hidden=0 order by id desc
+16:49:05 select * from goods where need_top=0 and need_hidden=0 order by id desc limit 0,5
+16:49:13 use a0122145834;
+16:49:13 set names utf8;
+16:49:13 select * from configs
+16:49:13 select * from users where id=50
+16:49:14 use a0122145834;
+16:49:14 set names utf8;
+16:49:14 select * from configs
+16:49:14 select * from users where id=50
+16:49:14 select count(id) from users where spreader_id='50'
+16:49:14 select * from images
+16:49:14 select * from goods where need_top=1 and need_hidden=0 order by id desc limit 0,5
+16:49:14 select count(id) from goods where need_top=0 and need_hidden=0 order by id desc
+16:49:14 select * from goods where need_top=0 and need_hidden=0 order by id desc limit 0,5
+16:49:17 use a0122145834;
+16:49:17 set names utf8;
+16:49:17 select * from configs
+16:49:17 select * from users where id=50
+16:49:17 select count(id) from users where spreader_id='50'
+16:49:17 select * from images
+16:49:18 use a0122145834;
+16:49:18 set names utf8;
+16:49:18 select * from configs
+16:51:58 use a0122145834;
+16:51:58 set names utf8;
+16:51:58 select * from configs
+16:51:58 select * from admins where id=1
+16:51:58 select count(id) from users
+16:51:58 select * from users limit 0,20
+16:52:00 use a0122145834;
+16:52:00 set names utf8;
+16:52:00 select * from configs
+16:52:00 select * from admins where id=1
+16:52:00 select count(id) from users
+16:52:00 select * from users limit 0,20
+16:52:05 use a0122145834;
+16:52:05 set names utf8;
+16:52:05 select * from configs
+16:52:05 select * from admins where id=1
+16:52:05 use a0122145834;
+16:52:05 set names utf8;
+16:52:05 select * from configs
+16:52:05 select * from admins where id=1
+16:52:05 select count(id) from users
+16:52:05 select * from users limit 0,20
+16:52:08 use a0122145834;
+16:52:08 set names utf8;
+16:52:08 select * from configs
+16:52:08 select * from admins where id=1
+16:52:18 use a0122145834;
+16:52:18 set names utf8;
+16:52:18 select * from configs
+16:53:14 use a0122145834;
+16:53:14 set names utf8;
+16:53:14 select * from configs
+16:53:14 select * from admins where id=1
+16:53:14 use a0122145834;
+16:53:14 set names utf8;
+16:53:15 select * from configs
+16:53:15 select * from admins where id=1
+16:53:15 select count(id) from users
+16:53:15 select * from users limit 0,20
+16:53:23 use a0122145834;
+16:53:23 set names utf8;
+16:53:23 select * from configs
+16:53:23 select * from admins where id=1
+16:53:23 select * from users where id=38
+16:53:28 use a0122145834;
+16:53:28 set names utf8;
+16:53:28 select * from configs
+16:53:28 select * from admins where id=1
+16:53:28 update users set user_name='555555',nick_name='求昵称',credits='0',money='0',pay_email='',pay_name='',address='',vip_level='0' where id=38 
+16:53:29 use a0122145834;
+16:53:29 set names utf8;
+16:53:29 select * from configs
+16:53:29 select * from admins where id=1
+16:53:29 select * from users where id=38
+16:53:33 use a0122145834;
+16:53:33 set names utf8;
+16:53:33 select * from configs
+16:53:33 select * from users where id=38
+16:53:33 select count(id) from users where spreader_id='38'
+16:53:33 select * from images
+16:53:33 select * from article_type
+16:53:33 select * from article_type where id='0'
+16:53:33 select count(id) from articles where type_id='0' order by add_time desc
+16:53:33 select * from articles where type_id='0' order by add_time desc limit 0,5
+16:53:41 use a0122145834;
+16:53:41 set names utf8;
+16:53:41 select * from configs
+16:53:41 select * from users where id=38
+16:53:41 select count(id) from users where spreader_id='38'
+16:53:41 select * from images
+16:53:41 select type_id from articles where id='16'
+16:53:41 select * from articles where id='16'
+16:53:47 use a0122145834;
+16:53:47 set names utf8;
+16:53:47 select * from configs
+16:53:47 select * from users where id=38
+16:53:47 select count(id) from users where spreader_id='38'
+16:53:47 select * from images
+16:53:47 select * from article_type
+16:53:47 select * from article_type where id='0'
+16:53:47 select count(id) from articles where type_id='0' order by add_time desc
+16:53:47 select * from articles where type_id='0' order by add_time desc limit 0,5
+16:53:52 use a0122145834;
+16:53:52 set names utf8;
+16:53:52 select * from configs
+16:53:52 select * from users where id=38
+16:53:53 use a0122145834;
+16:53:53 set names utf8;
+16:53:53 select * from configs
+16:53:53 select * from users where id=38
+16:53:53 select count(id) from users where spreader_id='38'
+16:53:53 select * from images
+16:53:53 select * from goods where need_top=1 and need_hidden=0 order by id desc limit 0,5
+16:53:53 select count(id) from goods where need_top=0 and need_hidden=0 order by id desc
+16:53:53 select * from goods where need_top=0 and need_hidden=0 order by id desc limit 0,5
+16:53:59 use a0122145834;
+16:53:59 set names utf8;
+16:53:59 select * from configs
+16:53:59 select * from users where id=38
+16:53:59 select * from goods where need_hidden=0 and id=8
+16:53:59 select * from orders where user_id=38 and goods_id=8 
+16:54:03 use a0122145834;
+16:54:03 set names utf8;
+16:54:03 select * from configs
+16:54:03 select * from users where id=38
+16:54:03 select count(id) from users where spreader_id='38'
+16:54:03 select * from images
+16:54:03 select * from goods where need_top=1 and need_hidden=0 order by id desc limit 0,5
+16:54:03 select count(id) from goods where need_top=0 and need_hidden=0 order by id desc
+16:54:03 select * from goods where need_top=0 and need_hidden=0 order by id desc limit 0,5
+16:54:05 use a0122145834;
+16:54:05 set names utf8;
+16:54:05 select * from configs
+16:54:05 select * from users where id=38
+16:54:05 select count(id) from users where spreader_id='38'
+16:54:05 select * from images
+16:54:05 select * from article_type
+16:54:05 select * from article_type where id='0'
+16:54:05 select count(id) from articles where type_id='0' order by add_time desc
+16:54:05 select * from articles where type_id='0' order by add_time desc limit 0,5
+16:54:09 use a0122145834;
+16:54:09 set names utf8;
+16:54:09 select * from configs
+16:54:09 select * from users where id=38
+16:54:09 select count(id) from users where spreader_id='38'
+16:54:09 select * from images
+16:54:09 select * from article_type
+16:54:09 select * from article_type where id='0'
+16:54:09 select count(id) from articles where type_id='0' order by add_time desc
+16:54:09 select * from articles where type_id='0' order by add_time desc limit 5,5
+16:54:13 use a0122145834;
+16:54:13 set names utf8;
+16:54:13 select * from configs
+16:54:13 select * from users where id=38
+16:54:13 select count(id) from users where spreader_id='38'
+16:54:13 select * from images
+16:54:13 select type_id from articles where id='9'
+16:54:13 select * from articles where id='9'
+16:54:21 use a0122145834;
+16:54:21 set names utf8;
+16:54:21 select * from configs
+16:54:21 select * from users where id=38
+16:54:21 select count(id) from users where spreader_id='38'
+16:54:21 select * from images
+16:54:21 select * from article_type
+16:54:21 select * from article_type where id='0'
+16:54:21 select count(id) from articles where type_id='0' order by add_time desc
+16:54:22 select * from articles where type_id='0' order by add_time desc limit 0,5
+16:54:24 use a0122145834;
+16:54:24 set names utf8;
+16:54:24 select * from configs
+16:54:24 select * from users where id=38
+16:54:24 select count(id) from users where spreader_id='38'
+16:54:24 select * from images
+16:54:24 select * from article_type
+16:54:24 select * from article_type where id='0'
+16:54:24 select count(id) from articles where type_id='0' order by add_time desc
+16:54:24 select * from articles where type_id='0' order by add_time desc limit 5,5
+16:54:27 use a0122145834;
+16:54:27 set names utf8;
+16:54:27 select * from configs
+16:54:27 select * from users where id=38
+16:54:27 select count(id) from users where spreader_id='38'
+16:54:27 select * from images
+16:54:27 select type_id from articles where id='11'
+16:54:27 select * from articles where id='11'
+16:56:19 use a0122145834;
+16:56:19 set names utf8;
+16:56:19 select * from configs
+16:56:19 select * from admins where id=1
+16:56:21 use a0122145834;
+16:56:21 set names utf8;
+16:56:21 select * from configs
+16:56:21 select * from admins where id=1
+16:56:21 select count(id) from goods
+16:56:21 select * from goods limit 0,20
+16:56:29 use a0122145834;
+16:56:29 set names utf8;
+16:56:29 select * from configs
+16:56:29 select * from users where id=1
+16:56:31 use a0122145834;
+16:56:31 set names utf8;
+16:56:31 select * from configs
+16:58:40 use a0122145834;
+16:58:40 set names utf8;
+16:58:40 select * from configs
+17:06:08 use a0122145834;
+17:06:08 set names utf8;
+17:06:08 select * from configs
+17:06:08 select * from users where id=50
+17:06:08 select count(id) from users where spreader_id='50'
+17:06:08 select * from images
+17:06:09 use a0122145834;
+17:06:09 set names utf8;
+17:06:09 select * from configs
+17:06:09 select * from users where id=50
+17:06:09 select count(id) from users where spreader_id='50'
+17:06:09 select * from images
+17:06:09 select * from goods where need_top=1 and need_hidden=0 order by id desc limit 0,5
+17:06:09 select count(id) from goods where need_top=0 and need_hidden=0 order by id desc
+17:06:09 select * from goods where need_top=0 and need_hidden=0 order by id desc limit 0,5
+17:06:24 use a0122145834;
+17:06:24 set names utf8;
+17:06:24 select * from configs
+17:06:24 select * from users where id=50
+17:06:24 select count(id) from users where spreader_id='50'
+17:06:24 select * from images
+17:06:25 use a0122145834;
+17:06:25 set names utf8;
+17:06:25 select * from configs
+17:12:08 use a0122145834;
+17:12:08 set names utf8;
+17:12:08 select * from configs
+17:13:52 use a0122145834;
+17:13:52 set names utf8;
+17:13:52 select * from configs
+17:17:08 use a0122145834;
+17:17:08 set names utf8;
+17:17:08 select * from configs
+17:17:17 use a0122145834;
+17:17:17 set names utf8;
+17:17:17 select * from configs
+17:17:29 use a0122145834;
+17:17:29 set names utf8;
+17:17:29 select * from configs
+17:47:38 use a0122145834;
+17:47:38 set names utf8;
+17:47:38 select * from configs
+17:47:54 use a0122145834;
+17:47:54 set names utf8;
+17:47:54 select * from configs
+18:01:19 use a0122145834;
+18:01:19 set names utf8;
+18:01:19 select * from configs
+18:03:01 use a0122145834;
+18:03:01 set names utf8;
+18:03:01 select * from configs
+18:03:05 use a0122145834;
+18:03:05 set names utf8;
+18:03:05 select * from configs
+18:03:05 use a0122145834;
+18:03:05 set names utf8;
+18:03:06 select * from configs
+18:05:51 use a0122145834;
+18:05:51 set names utf8;
+18:05:51 select * from configs
+18:06:19 use a0122145834;
+18:06:19 set names utf8;
+18:06:19 select * from configs
+18:07:30 use a0122145834;
+18:07:30 set names utf8;
+18:07:30 select * from configs
+18:07:52 use a0122145834;
+18:07:52 set names utf8;
+18:07:52 select * from configs
+18:08:15 use a0122145834;
+18:08:15 set names utf8;
+18:08:15 select * from configs
+18:10:03 use a0122145834;
+18:10:03 set names utf8;
+18:10:04 select * from configs
+18:10:12 use a0122145834;
+18:10:12 set names utf8;
+18:10:12 select * from configs
+18:10:50 use a0122145834;
+18:10:50 set names utf8;
+18:10:50 select * from configs
+18:11:35 use a0122145834;
+18:11:35 set names utf8;
+18:11:35 select * from configs
+18:12:40 use a0122145834;
+18:12:40 set names utf8;
+18:12:40 select * from configs
+18:13:22 use a0122145834;
+18:13:22 set names utf8;
+18:13:22 select * from configs
+18:13:46 use a0122145834;
+18:13:46 set names utf8;
+18:13:46 select * from configs
+18:13:47 use a0122145834;
+18:13:47 set names utf8;
+18:13:47 select * from configs
+18:14:00 use a0122145834;
+18:14:00 set names utf8;
+18:14:00 select * from configs
+18:14:00 select * from users where user_name='2049917091' and user_word='e99a18c428cb38d5f260853678922e03'
+18:14:01 use a0122145834;
+18:14:01 set names utf8;
+18:14:01 select * from configs
+18:14:01 select * from users where id=51
+18:14:01 select count(id) from users where spreader_id='51'
+18:14:01 select * from images
+18:14:01 select * from goods where need_top=1 and need_hidden=0 order by id desc limit 0,5
+18:14:01 select count(id) from goods where need_top=0 and need_hidden=0 order by id desc
+18:14:01 select * from goods where need_top=0 and need_hidden=0 order by id desc limit 0,5
+18:14:25 use a0122145834;
+18:14:25 set names utf8;
+18:14:25 select * from configs
+18:14:25 select * from users where id=51
+18:14:25 select count(id) from users where spreader_id='51'
+18:14:25 select * from images
+18:14:41 use a0122145834;
+18:14:41 set names utf8;
+18:14:41 select * from configs
+18:14:41 select * from users where id=51
+18:14:41 select count(id) from users where spreader_id='51'
+18:14:41 select * from images
+18:14:48 use a0122145834;
+18:14:48 set names utf8;
+18:14:48 select * from configs
+18:14:48 select * from users where id=51
+18:14:48 select count(id) from users where spreader_id='51'
+18:14:48 select * from images
+18:14:48 select * from goods where need_top=1 and need_hidden=0 order by id desc limit 0,5
+18:14:48 select count(id) from goods where need_top=0 and need_hidden=0 order by id desc
+18:14:48 select * from goods where need_top=0 and need_hidden=0 order by id desc limit 0,5
+18:15:10 use a0122145834;
+18:15:10 set names utf8;
+18:15:10 select * from configs
+18:15:10 select * from users where id=51
+18:15:10 select count(id) from users where spreader_id='51'
+18:15:10 select * from images
+18:15:10 select * from article_type
+18:15:10 select * from article_type where id='0'
+18:15:10 select count(id) from articles where type_id='0' order by add_time desc
+18:15:10 select * from articles where type_id='0' order by add_time desc limit 0,5
+18:15:23 use a0122145834;
+18:15:23 set names utf8;
+18:15:23 select * from configs
+18:15:23 select * from users where id=51
+18:15:23 use a0122145834;
+18:15:23 set names utf8;
+18:15:23 select * from configs
+18:15:23 select * from users where id=51
+18:15:23 select count(id) from users where spreader_id='51'
+18:15:23 select * from images
+18:15:23 select * from goods where need_top=1 and need_hidden=0 order by id desc limit 0,5
+18:15:23 select count(id) from goods where need_top=0 and need_hidden=0 order by id desc
+18:15:23 select * from goods where need_top=0 and need_hidden=0 order by id desc limit 0,5
+18:15:26 use a0122145834;
+18:15:26 set names utf8;
+18:15:26 select * from configs
+18:15:26 select * from users where id=51
+18:15:26 select * from goods where need_hidden=0 and id=8
+18:15:26 select * from orders where user_id=51 and goods_id=8 
+18:26:57 use a0122145834;
+18:26:57 set names utf8;
+18:26:57 select * from configs
+18:27:03 use a0122145834;
+18:27:03 set names utf8;
+18:27:03 select * from configs
+18:27:03 use a0122145834;
+18:27:03 set names utf8;
+18:27:03 select * from configs
+18:27:10 use a0122145834;
+18:27:10 set names utf8;
+18:27:10 select * from configs
+18:27:10 select * from users where user_name='2049917091' and user_word='e99a18c428cb38d5f260853678922e03'
+18:27:10 use a0122145834;
+18:27:10 set names utf8;
+18:27:10 select * from configs
+18:27:10 select * from users where id=51
+18:27:10 select count(id) from users where spreader_id='51'
+18:27:10 select * from images
+18:27:10 select * from goods where need_top=1 and need_hidden=0 order by id desc limit 0,5
+18:27:10 select count(id) from goods where need_top=0 and need_hidden=0 order by id desc
+18:27:10 select * from goods where need_top=0 and need_hidden=0 order by id desc limit 0,5
+18:27:15 use a0122145834;
+18:27:15 set names utf8;
+18:27:15 select * from configs
+18:27:15 select * from users where id=51
+18:27:15 select * from goods where need_hidden=0 and id=8
+18:27:15 select * from orders where user_id=51 and goods_id=8 
+18:27:19 use a0122145834;
+18:27:19 set names utf8;
+18:27:19 select * from configs
+18:27:31 use a0122145834;
+18:27:31 set names utf8;
+18:27:31 select * from configs
+18:31:20 use a0122145834;
+18:31:20 set names utf8;
+18:31:20 select * from configs
+18:31:50 use a0122145834;
+18:31:50 set names utf8;
+18:31:50 select * from configs
+18:36:23 use a0122145834;
+18:36:23 set names utf8;
+18:36:23 select * from configs
+18:36:23 select * from users where id=51
+18:36:23 select count(id) from users where spreader_id='51'
+18:36:23 select * from images
+18:36:23 select * from goods where need_top=1 and need_hidden=0 order by id desc limit 0,5
+18:36:23 select count(id) from goods where need_top=0 and need_hidden=0 order by id desc
+18:36:23 select * from goods where need_top=0 and need_hidden=0 order by id desc limit 0,5
+18:36:34 use a0122145834;
+18:36:35 set names utf8;
+18:36:35 select * from configs
+18:36:35 select * from users where id=51
+18:36:35 select * from goods where need_hidden=0 and id=12
+18:36:35 select * from orders where user_id=51 and goods_id=12 
+18:36:41 use a0122145834;
+18:36:41 set names utf8;
+18:36:41 select * from configs
+18:36:41 select * from users where id=51
+18:36:41 select count(id) from users where spreader_id='51'
+18:36:41 select * from images
+18:36:41 select count(id) from income where user_id=51
+18:36:41 select * from income where user_id=51 limit 0,5
+18:36:49 use a0122145834;
+18:36:49 set names utf8;
+18:36:49 select * from configs
+18:36:49 select * from users where id=51
+18:36:49 select count(id) from users where spreader_id='51'
+18:36:49 select * from images
+18:36:49 select * from goods where need_top=1 and need_hidden=0 order by id desc limit 0,5
+18:36:49 select count(id) from goods where need_top=0 and need_hidden=0 order by id desc
+18:36:49 select * from goods where need_top=0 and need_hidden=0 order by id desc limit 0,5
+18:40:21 use a0122145834;
+18:40:21 set names utf8;
+18:40:21 select * from configs
+18:47:20 use a0122145834;
+18:47:20 set names utf8;
+18:47:20 select * from configs
+19:01:09 use a0122145834;
+19:01:09 set names utf8;
+19:01:09 select * from configs
+19:01:10 use a0122145834;
+19:01:10 set names utf8;
+19:01:10 select * from configs
+19:02:52 use a0122145834;
+19:02:52 set names utf8;
+19:02:52 select * from configs
+19:03:50 use a0122145834;
+19:03:50 set names utf8;
+19:03:50 select * from configs
+19:04:14 use a0122145834;
+19:04:14 set names utf8;
+19:04:14 select * from configs
+19:04:46 use a0122145834;
+19:04:46 set names utf8;
+19:04:46 select * from configs
+19:21:42 use a0122145834;
+19:21:42 set names utf8;
+19:21:42 select * from configs
+19:23:26 use a0122145834;
+19:23:26 set names utf8;
+19:23:26 select * from configs
+19:53:23 use a0122145834;
+19:53:23 set names utf8;
+19:53:23 select * from configs
+19:54:02 use a0122145834;
+19:54:02 set names utf8;
+19:54:02 select * from configs
+19:54:47 use a0122145834;
+19:54:47 set names utf8;
+19:54:47 select * from configs
+19:55:13 use a0122145834;
+19:55:13 set names utf8;
+19:55:13 select * from configs
+19:57:16 use a0122145834;
+19:57:16 set names utf8;
+19:57:16 select * from configs
+19:59:00 use a0122145834;
+19:59:00 set names utf8;
+19:59:00 select * from configs
+20:01:55 use a0122145834;
+20:01:55 set names utf8;
+20:01:55 select * from configs
+20:02:34 use a0122145834;
+20:02:34 set names utf8;
+20:02:34 select * from configs
+20:08:22 use a0122145834;
+20:08:22 set names utf8;
+20:08:22 select * from configs
+20:17:54 use a0122145834;
+20:17:54 set names utf8;
+20:17:54 select * from configs
+20:21:26 use a0122145834;
+20:21:26 set names utf8;
+20:21:26 select * from configs
+20:31:15 use a0122145834;
+20:31:15 set names utf8;
+20:31:15 select * from configs
+20:31:35 use a0122145834;
+20:31:35 set names utf8;
+20:31:35 select * from configs
+20:31:35 use a0122145834;
+20:31:35 set names utf8;
+20:31:35 select * from configs
+20:31:54 use a0122145834;
+20:31:54 set names utf8;
+20:31:54 select * from configs
+20:31:56 use a0122145834;
+20:31:56 set names utf8;
+20:31:56 select * from configs
+20:34:35 use a0122145834;
+20:34:35 set names utf8;
+20:34:35 select * from configs
+20:34:37 use a0122145834;
+20:34:37 set names utf8;
+20:34:37 select * from configs
+20:34:44 use a0122145834;
+20:34:44 set names utf8;
+20:34:44 select * from configs
+20:34:44 select * from users where user_name='555555' and user_word='5b1b68a9abf4d2cd155c81a9225fd158'
+20:34:44 use a0122145834;
+20:34:44 set names utf8;
+20:34:44 select * from configs
+20:34:44 select * from users where id=38
+20:34:44 select count(id) from users where spreader_id='38'
+20:34:44 select * from images
+20:34:44 select * from goods where need_top=1 and need_hidden=0 order by id desc limit 0,5
+20:34:44 select count(id) from goods where need_top=0 and need_hidden=0 order by id desc
+20:34:44 select * from goods where need_top=0 and need_hidden=0 order by id desc limit 0,5
+20:34:54 use a0122145834;
+20:34:54 set names utf8;
+20:34:54 select * from configs
+20:34:54 select * from users where id=38
+20:34:54 select count(id) from users where spreader_id='38'
+20:34:54 select * from images
+20:34:54 select count(id) from income where user_id=38
+20:34:54 select * from income where user_id=38 limit 0,5
+20:35:02 use a0122145834;
+20:35:02 set names utf8;
+20:35:02 select * from configs
+20:35:02 select * from users where id=38
+20:35:02 insert into income (user_id,income_money,order_sn,add_time,pay_status) values ('38','1','139246770237875','1392467702','0') ;
+20:36:19 use a0122145834;
+20:36:19 set names utf8;
+20:36:19 select * from configs
+20:36:19 select * from users where id=38
+20:36:19 select count(id) from users where spreader_id='38'
+20:36:19 select * from images
+20:36:19 select count(id) from income where user_id=38
+20:36:19 select * from income where user_id=38 limit 0,5
+20:36:39 use a0122145834;
+20:36:39 set names utf8;
+20:36:39 select * from configs
+20:36:39 select * from users where id=38
+20:36:39 select count(id) from users where spreader_id='38'
+20:36:39 select * from images
+20:36:40 select count(id) from income where user_id=38
+20:36:40 select * from income where user_id=38 limit 0,5
+20:36:54 use a0122145834;
+20:36:54 set names utf8;
+20:36:54 select * from configs
+20:36:54 select * from users where id=38
+20:36:54 select count(id) from users where spreader_id='38'
+20:36:54 select * from images
+20:36:54 select count(id) from income where user_id=38
+20:36:54 select * from income where user_id=38 limit 0,5
+20:41:02 use a0122145834;
+20:41:02 set names utf8;
+20:41:02 select * from configs
+20:42:44 use a0122145834;
+20:42:44 set names utf8;
+20:42:44 select * from configs
+20:42:50 use a0122145834;
+20:42:50 set names utf8;
+20:42:50 select * from configs
+20:42:52 use a0122145834;
+20:42:52 set names utf8;
+20:42:52 select * from configs
+20:43:00 use a0122145834;
+20:43:00 set names utf8;
+20:43:00 select * from configs
+20:43:00 select * from users where user_name='2049917091' and user_word='e99a18c428cb38d5f260853678922e03'
+20:43:00 use a0122145834;
+20:43:00 set names utf8;
+20:43:00 select * from configs
+20:43:00 select * from users where id=51
+20:43:00 select count(id) from users where spreader_id='51'
+20:43:00 select * from images
+20:43:00 select * from goods where need_top=1 and need_hidden=0 order by id desc limit 0,5
+20:43:00 select count(id) from goods where need_top=0 and need_hidden=0 order by id desc
+20:43:00 select * from goods where need_top=0 and need_hidden=0 order by id desc limit 0,5
+20:43:23 use a0122145834;
+20:43:23 set names utf8;
+20:43:23 select * from configs
+20:59:26 use a0122145834;
+20:59:26 set names utf8;
+20:59:26 select * from configs
+20:59:56 use a0122145834;
+20:59:56 set names utf8;
+20:59:56 select * from configs
+21:00:14 use a0122145834;
+21:00:14 set names utf8;
+21:00:14 select * from configs
+21:00:14 select * from users where id=38
+21:00:14 select count(id) from users where spreader_id='38'
+21:00:14 select * from images
+21:00:14 use a0122145834;
+21:00:14 set names utf8;
+21:00:14 select * from configs
+21:02:55 use a0122145834;
+21:02:55 set names utf8;
+21:02:55 select * from configs
+21:13:16 use a0122145834;
+21:13:16 set names utf8;
+21:13:16 select * from configs
+21:13:16 use a0122145834;
+21:13:16 set names utf8;
+21:13:16 select * from configs
+21:13:17 use a0122145834;
+21:13:17 set names utf8;
+21:13:17 select * from configs
+21:13:18 use a0122145834;
+21:13:18 set names utf8;
+21:13:18 select * from configs
+21:13:53 use a0122145834;
+21:13:53 set names utf8;
+21:13:53 select * from configs
+21:13:53 select * from admins where user_name='admin' and user_word='21232f297a57a5a743894a0e4a801fc3'
+21:13:53 use a0122145834;
+21:13:53 set names utf8;
+21:13:53 select * from configs
+21:13:53 select * from admins where id=1
+21:13:58 use a0122145834;
+21:13:58 set names utf8;
+21:13:58 select * from configs
+21:13:58 select * from users where user_name='555555' and user_word='5b1b68a9abf4d2cd155c81a9225fd158'
+21:14:28 use a0122145834;
+21:14:28 set names utf8;
+21:14:28 select * from configs
+21:14:28 select * from admins where id=1
+21:14:29 use a0122145834;
+21:14:29 set names utf8;
+21:14:29 select * from configs
+21:14:29 select * from admins where id=1
+21:14:29 select count(id) from users
+21:14:29 select * from users limit 0,20
+21:15:02 use a0122145834;
+21:15:02 set names utf8;
+21:15:02 select * from configs
+21:15:02 select * from users where id=38
+21:15:02 select count(id) from users where spreader_id='38'
+21:15:02 select * from images
+21:17:14 use a0122145834;
+21:17:14 set names utf8;
+21:17:14 select * from configs
+21:17:22 use a0122145834;
+21:17:22 set names utf8;
+21:17:22 select * from configs
+21:17:22 select * from users where id=38
+21:17:22 select count(id) from users where spreader_id='38'
+21:17:22 select * from images
+21:17:22 select * from goods where need_top=1 and need_hidden=0 order by id desc limit 0,5
+21:17:22 select count(id) from goods where need_top=0 and need_hidden=0 order by id desc
+21:17:22 select * from goods where need_top=0 and need_hidden=0 order by id desc limit 0,5
+21:17:22 use a0122145834;
+21:17:22 set names utf8;
+21:17:22 select * from configs
+21:17:22 select * from users where id=38
+21:17:22 use a0122145834;
+21:17:22 set names utf8;
+21:17:22 select * from configs
+21:17:22 select * from users where id=38
+21:17:22 select count(id) from users where spreader_id='38'
+21:17:22 select * from images
+21:17:22 select * from goods where need_top=1 and need_hidden=0 order by id desc limit 0,5
+21:17:23 select count(id) from goods where need_top=0 and need_hidden=0 order by id desc
+21:17:23 select * from goods where need_top=0 and need_hidden=0 order by id desc limit 0,5
+21:17:56 use a0122145834;
+21:17:56 set names utf8;
+21:17:56 select * from configs
+21:17:56 select * from users where id=38
+21:17:56 select count(id) from users where spreader_id='38'
+21:17:56 select * from images
+21:17:56 select type_id from articles where id='8'
+21:17:56 select * from articles where id='8'
+21:17:58 use a0122145834;
+21:17:58 set names utf8;
+21:17:58 select * from configs
+21:17:58 select * from admins where id=1
+21:17:59 use a0122145834;
+21:17:59 set names utf8;
+21:17:59 select * from configs
+21:17:59 select * from admins where id=1
+21:17:59 select count(id) from goods
+21:17:59 select * from goods limit 0,20
+21:18:27 use a0122145834;
+21:18:27 set names utf8;
+21:18:27 select * from configs
+21:18:27 select * from users where id=38
+21:18:27 select count(id) from users where spreader_id='38'
+21:18:27 select * from images
+21:18:27 select * from article_type
+21:18:27 select * from article_type where id='0'
+21:18:27 select count(id) from articles where type_id='0' order by add_time desc
+21:18:28 select * from articles where type_id='0' order by add_time desc limit 0,5
+21:18:31 use a0122145834;
+21:18:31 set names utf8;
+21:18:31 select * from configs
+21:18:31 select * from users where id=38
+21:18:31 select count(id) from users where spreader_id='38'
+21:18:31 select * from images
+21:18:31 select type_id from articles where id='18'
+21:18:31 select * from articles where id='18'
+21:18:39 use a0122145834;
+21:18:39 set names utf8;
+21:18:39 select * from configs
+21:18:39 select * from users where id=38
+21:18:39 select count(id) from users where spreader_id='38'
+21:18:39 select * from images
+21:18:39 select * from article_type
+21:18:39 select * from article_type where id='0'
+21:18:39 select count(id) from articles where type_id='0' order by add_time desc
+21:18:39 select * from articles where type_id='0' order by add_time desc limit 0,5
+21:18:43 use a0122145834;
+21:18:43 set names utf8;
+21:18:43 select * from configs
+21:18:43 select * from users where id=38
+21:18:43 select count(id) from users where spreader_id='38'
+21:18:43 select * from images
+21:18:52 use a0122145834;
+21:18:52 set names utf8;
+21:18:52 select * from configs
+21:18:52 select * from admins where id=1
+21:18:52 use a0122145834;
+21:18:52 set names utf8;
+21:18:52 select * from configs
+21:18:52 select * from admins where id=1
+21:18:52 select count(id) from users
+21:18:52 select * from users limit 0,20
+21:18:57 use a0122145834;
+21:18:57 set names utf8;
+21:18:57 select * from configs
+21:18:57 select * from admins where id=1
+21:19:01 use a0122145834;
+21:19:01 set names utf8;
+21:19:01 select * from configs
+21:19:01 select * from admins where id=1
+21:19:01 use a0122145834;
+21:19:01 set names utf8;
+21:19:01 select * from configs
+21:19:01 select * from admins where id=1
+21:19:01 select count(id) from goods
+21:19:01 select * from goods limit 0,20
+21:26:38 use a0122145834;
+21:26:38 set names utf8;
+21:26:38 select * from configs
+21:26:47 use a0122145834;
+21:26:47 set names utf8;
+21:26:47 select * from configs
+21:26:47 select * from admins where id=1
+21:26:51 use a0122145834;
+21:26:51 set names utf8;
+21:26:51 select * from configs
+21:26:51 select * from admins where id=1
+21:26:51 use a0122145834;
+21:26:51 set names utf8;
+21:26:51 select * from configs
+21:26:54 use a0122145834;
+21:26:54 set names utf8;
+21:26:54 select * from configs
+21:26:54 select * from admins where id=1
+21:26:54 select count(id) from users
+21:26:54 select * from users limit 0,20
+21:27:04 use a0122145834;
+21:27:04 set names utf8;
+21:27:04 select * from configs
+21:27:04 use a0122145834;
+21:27:04 set names utf8;
+21:27:04 select * from configs
+21:27:05 use a0122145834;
+21:27:05 set names utf8;
+21:27:05 select * from configs
+21:29:44 use a0122145834;
+21:29:44 set names utf8;
+21:29:44 select * from configs
+21:31:32 use a0122145834;
+21:31:32 set names utf8;
+21:31:32 select * from configs
+21:31:32 select * from admins where id=1
+21:31:32 use a0122145834;
+21:31:32 set names utf8;
+21:31:32 select * from configs
+21:31:33 use a0122145834;
+21:31:33 set names utf8;
+21:31:33 select * from configs
+21:31:33 select * from admins where id=1
+21:31:33 select count(id) from users
+21:31:33 select * from users limit 0,20
+21:31:42 use a0122145834;
+21:31:42 set names utf8;
+21:31:42 select * from configs
+21:31:42 select * from admins where id=1
+21:31:42 select count(id) from users
+21:31:42 select * from users limit 0,20
+21:32:18 use a0122145834;
+21:32:18 set names utf8;
+21:32:18 select * from configs
+21:32:30 use a0122145834;
+21:32:30 set names utf8;
+21:32:30 select * from configs
+21:32:30 select * from admins where id=1
+21:32:30 use a0122145834;
+21:32:30 set names utf8;
+21:32:30 select * from configs
+21:32:30 select * from admins where id=1
+21:32:30 select count(id) from users
+21:32:31 select * from users limit 0,20
+21:32:41 use a0122145834;
+21:32:41 set names utf8;
+21:32:41 select * from configs
+21:34:01 use a0122145834;
+21:34:01 set names utf8;
+21:34:01 select * from configs
+21:34:01 select * from admins where id=1
+21:34:01 select count(id) from users
+21:34:01 select * from users limit 0,20
+21:38:48 use a0122145834;
+21:38:48 set names utf8;
+21:38:48 select * from configs
+21:38:51 use a0122145834;
+21:38:51 set names utf8;
+21:38:51 select * from configs
+21:38:52 use a0122145834;
+21:38:52 set names utf8;
+21:38:52 select * from configs
+21:38:57 use a0122145834;
+21:38:57 set names utf8;
+21:38:57 select * from configs
+21:39:02 use a0122145834;
+21:39:02 set names utf8;
+21:39:02 select * from configs
+21:39:03 use a0122145834;
+21:39:03 set names utf8;
+21:39:03 select * from configs
+21:39:30 use a0122145834;
+21:39:30 set names utf8;
+21:39:30 select * from configs
+21:39:36 use a0122145834;
+21:39:36 set names utf8;
+21:39:36 select * from configs
+21:39:37 use a0122145834;
+21:39:37 set names utf8;
+21:39:37 select * from configs
+21:39:38 use a0122145834;
+21:39:38 set names utf8;
+21:39:38 select * from configs
+21:39:38 select * from admins where id=1
+21:39:38 select count(id) from users
+21:39:38 select * from users limit 0,20
+21:39:40 use a0122145834;
+21:39:40 set names utf8;
+21:39:40 select * from configs
+21:39:46 use a0122145834;
+21:39:46 set names utf8;
+21:39:46 select * from configs
+21:39:46 select * from admins where id=1
+21:39:46 select count(id) from users
+21:39:46 select * from users limit 0,20
+21:39:49 use a0122145834;
+21:39:49 set names utf8;
+21:39:49 select * from configs
+21:39:50 use a0122145834;
+21:39:50 set names utf8;
+21:39:50 select * from configs
+21:40:41 use a0122145834;
+21:40:41 set names utf8;
+21:40:41 select * from configs
+21:40:41 select * from users where id=38
+21:40:41 select count(id) from users where spreader_id='38'
+21:40:41 select * from images
+21:40:41 use a0122145834;
+21:40:41 set names utf8;
+21:40:41 select * from configs
+21:41:02 use a0122145834;
+21:41:02 set names utf8;
+21:41:02 select * from configs
+21:41:39 use a0122145834;
+21:41:39 set names utf8;
+21:41:39 select * from configs
+21:41:39 select count(id) from users where register_ip='111.79.181.222' or last_ip='111.79.181.222' and add_time>1389879699
+21:41:39 select * from users where user_name='7710688'
+21:41:39 insert into users (user_name,nick_name,user_word,email,spreader_id,add_time,register_ip) values ('7710688','求昵称','aa787bc9cc97ba5d27cc042ecffe1489','7710688@qq.com',0,'1392471699','111.79.181.222') ;
+21:41:40 use a0122145834;
+21:41:40 set names utf8;
+21:41:40 select * from configs
+21:41:40 select * from users where id=52
+21:41:40 select count(id) from users where spreader_id='52'
+21:41:40 select * from images
+21:42:37 use a0122145834;
+21:42:37 set names utf8;
+21:42:37 select * from configs
+21:42:37 select * from admins where id=1
+21:42:38 use a0122145834;
+21:42:38 set names utf8;
+21:42:38 select * from configs
+21:42:38 select * from admins where id=1
+21:42:38 select count(id) from users
+21:42:38 select * from users limit 0,20
+21:42:48 use a0122145834;
+21:42:48 set names utf8;
+21:42:48 select * from configs
+21:42:48 select * from admins where id=1
+21:42:48 select * from users where id=52
+21:43:02 use a0122145834;
+21:43:02 set names utf8;
+21:43:02 select * from configs
+21:43:02 select * from users where id=52
+21:43:02 select count(id) from users where spreader_id='52'
+21:43:02 select * from images
+21:43:02 select * from goods where need_top=1 and need_hidden=0 order by id desc limit 0,5
+21:43:02 select count(id) from goods where need_top=0 and need_hidden=0 order by id desc
+21:43:02 select * from goods where need_top=0 and need_hidden=0 order by id desc limit 0,5
+21:43:16 use a0122145834;
+21:43:16 set names utf8;
+21:43:16 select * from configs
+21:43:16 select * from admins where id=1
+21:43:16 update users set user_name='7710688',nick_name='求昵称',credits='0',money='0',pay_email='',pay_name='',address='',vip_level='1',spreader_rate='0.7' where id=52 
+21:43:17 use a0122145834;
+21:43:17 set names utf8;
+21:43:17 select * from configs
+21:43:17 select * from admins where id=1
+21:43:17 select * from users where id=52
+21:43:41 use a0122145834;
+21:43:41 set names utf8;
+21:43:41 select * from configs
+21:43:42 use a0122145834;
+21:43:42 set names utf8;
+21:43:42 select * from configs
+21:43:47 use a0122145834;
+21:43:47 set names utf8;
+21:43:47 select * from configs
+21:43:47 select * from users where id=52
+21:43:47 use a0122145834;
+21:43:47 set names utf8;
+21:43:47 select * from configs
+21:43:47 select * from users where id=52
+21:43:47 select count(id) from users where spreader_id='52'
+21:43:47 select * from images
+21:43:47 select * from goods where need_top=1 and need_hidden=0 order by id desc limit 0,5
+21:43:47 select count(id) from goods where need_top=0 and need_hidden=0 order by id desc
+21:43:47 select * from goods where need_top=0 and need_hidden=0 order by id desc limit 0,5
+21:43:50 use a0122145834;
+21:43:50 set names utf8;
+21:43:50 select * from configs
+21:43:50 select * from users where user_name='555555' and user_word='5b1b68a9abf4d2cd155c81a9225fd158'
+21:43:50 use a0122145834;
+21:43:50 set names utf8;
+21:43:50 select * from configs
+21:43:50 select * from users where id=38
+21:43:50 select count(id) from users where spreader_id='38'
+21:43:50 select * from images
+21:43:50 select * from goods where need_top=1 and need_hidden=0 order by id desc limit 0,5
+21:43:50 select count(id) from goods where need_top=0 and need_hidden=0 order by id desc
+21:43:50 select * from goods where need_top=0 and need_hidden=0 order by id desc limit 0,5
+21:44:30 use a0122145834;
+21:44:30 set names utf8;
+21:44:30 select * from configs
+21:44:30 select * from users where id=52
+21:44:30 use a0122145834;
+21:44:30 set names utf8;
+21:44:30 select * from configs
+21:44:30 select * from users where id=52
+21:44:30 select count(id) from users where spreader_id='52'
+21:44:30 select * from images
+21:44:30 select * from goods where need_top=1 and need_hidden=0 order by id desc limit 0,5
+21:44:30 select count(id) from goods where need_top=0 and need_hidden=0 order by id desc
+21:44:30 select * from goods where need_top=0 and need_hidden=0 order by id desc limit 0,5
+21:44:47 use a0122145834;
+21:44:47 set names utf8;
+21:44:47 select * from configs
+21:45:02 use a0122145834;
+21:45:02 set names utf8;
+21:45:02 select * from configs
+21:45:09 use a0122145834;
+21:45:09 set names utf8;
+21:45:09 select * from configs
+21:58:14 use a0122145834;
+21:58:14 set names utf8;
+21:58:14 select * from configs
+21:58:23 use a0122145834;
+21:58:23 set names utf8;
+21:58:23 select * from configs
+22:01:10 use a0122145834;
+22:01:10 set names utf8;
+22:01:10 select * from configs
+22:02:04 use a0122145834;
+22:02:04 set names utf8;
+22:02:04 select * from configs
+22:03:44 use a0122145834;
+22:03:44 set names utf8;
+22:03:44 select * from configs
+22:03:44 select * from admins where id=1
+22:03:45 use a0122145834;
+22:03:45 set names utf8;
+22:03:45 select * from configs
+22:03:45 select * from admins where id=1
+22:03:45 select count(id) from users
+22:03:45 select * from users limit 0,20
+22:05:57 use a0122145834;
+22:05:57 set names utf8;
+22:05:57 select * from configs
+22:05:57 select count(id) from users where register_ip='116.11.185.147' or last_ip='116.11.185.147' and add_time>1389881157
+22:05:57 select * from users where user_name='348598162'
+22:05:57 insert into users (user_name,nick_name,user_word,email,spreader_id,add_time,register_ip) values ('348598162','求昵称','25d55ad283aa400af464c76d713c07ad','348598162@qq.com',0,'1392473157','116.11.185.147') ;
+22:05:58 use a0122145834;
+22:05:58 set names utf8;
+22:05:58 select * from configs
+22:05:58 select * from users where id=53
+22:05:58 select count(id) from users where spreader_id='53'
+22:05:58 select * from images
+22:07:14 use a0122145834;
+22:07:14 set names utf8;
+22:07:14 select * from configs
+22:07:14 select * from users where id=38
+22:07:14 select count(id) from users where spreader_id='38'
+22:07:14 select * from images
+22:07:14 select * from goods where need_top=1 and need_hidden=0 order by id desc limit 0,5
+22:07:14 select count(id) from goods where need_top=0 and need_hidden=0 order by id desc
+22:07:14 select * from goods where need_top=0 and need_hidden=0 order by id desc limit 0,5
+22:07:21 use a0122145834;
+22:07:21 set names utf8;
+22:07:21 select * from configs
+22:07:21 select * from users where id=38
+22:07:21 select count(id) from users where spreader_id='38'
+22:07:21 select * from images
+22:07:21 select * from article_type
+22:07:21 select * from article_type where id='0'
+22:07:21 select count(id) from articles where type_id='0' order by add_time desc
+22:07:21 select * from articles where type_id='0' order by add_time desc limit 0,5
+22:07:28 use a0122145834;
+22:07:28 set names utf8;
+22:07:28 select * from configs
+22:07:28 select * from users where id=38
+22:07:28 select count(id) from users where spreader_id='38'
+22:07:28 select * from images
+22:07:28 select * from article_type
+22:07:28 select * from article_type where id='0'
+22:07:28 select count(id) from articles where type_id='0' order by add_time desc
+22:07:28 select * from articles where type_id='0' order by add_time desc limit 5,5
+22:07:34 use a0122145834;
+22:07:34 set names utf8;
+22:07:34 select * from configs
+22:07:34 select * from users where id=38
+22:07:34 select count(id) from users where spreader_id='38'
+22:07:34 select * from images
+22:07:34 select * from article_type
+22:07:34 select * from article_type where id='0'
+22:07:35 select count(id) from articles where type_id='0' order by add_time desc
+22:07:35 select * from articles where type_id='0' order by add_time desc limit 0,5
+22:07:44 use a0122145834;
+22:07:44 set names utf8;
+22:07:44 select * from configs
+22:07:44 select * from users where id=38
+22:07:44 select count(id) from users where spreader_id='38'
+22:07:44 select * from images
+22:07:44 select * from article_type
+22:07:44 select * from article_type where id='0'
+22:07:44 select count(id) from articles where type_id='0' order by add_time desc
+22:07:45 select * from articles where type_id='0' order by add_time desc limit 0,5
+22:07:48 use a0122145834;
+22:07:48 set names utf8;
+22:07:48 select * from configs
+22:07:48 select * from users where id=38
+22:07:48 select count(id) from users where spreader_id='38'
+22:07:48 select * from images
+22:07:48 select * from article_type
+22:07:48 select * from article_type where id='0'
+22:07:48 select count(id) from articles where type_id='0' order by add_time desc
+22:07:48 select * from articles where type_id='0' order by add_time desc limit 5,5
+22:07:51 use a0122145834;
+22:07:51 set names utf8;
+22:07:51 select * from configs
+22:07:51 select * from users where id=38
+22:07:51 use a0122145834;
+22:07:51 set names utf8;
+22:07:51 select * from configs
+22:07:51 select * from users where id=38
+22:07:51 select count(id) from users where spreader_id='38'
+22:07:51 select * from images
+22:07:51 select * from goods where need_top=1 and need_hidden=0 order by id desc limit 0,5
+22:07:51 select count(id) from goods where need_top=0 and need_hidden=0 order by id desc
+22:07:51 select * from goods where need_top=0 and need_hidden=0 order by id desc limit 0,5
+22:07:55 use a0122145834;
+22:07:55 set names utf8;
+22:07:55 select * from configs
+22:07:55 select * from users where id=38
+22:07:55 select count(id) from users where spreader_id='38'
+22:07:55 select * from images
+22:07:56 use a0122145834;
+22:07:56 set names utf8;
+22:07:56 select * from configs
+22:07:56 select * from users where id=38
+22:07:56 select count(id) from users where spreader_id='38'
+22:07:56 select * from images
+22:07:56 select * from goods where need_top=1 and need_hidden=0 order by id desc limit 0,5
+22:07:56 select count(id) from goods where need_top=0 and need_hidden=0 order by id desc
+22:07:56 select * from goods where need_top=0 and need_hidden=0 order by id desc limit 0,5
+22:07:59 use a0122145834;
+22:07:59 set names utf8;
+22:07:59 select * from configs
+22:07:59 select * from users where id=38
+22:07:59 select count(id) from users where spreader_id='38'
+22:07:59 select * from images
+22:08:02 use a0122145834;
+22:08:02 set names utf8;
+22:08:02 select * from configs
+22:08:02 select * from users where id=38
+22:08:02 select count(id) from users where spreader_id='38'
+22:08:02 select * from images
+22:08:02 select * from goods where need_top=1 and need_hidden=0 order by id desc limit 0,5
+22:08:02 select count(id) from goods where need_top=0 and need_hidden=0 order by id desc
+22:08:02 select * from goods where need_top=0 and need_hidden=0 order by id desc limit 0,5
+22:08:11 use a0122145834;
+22:08:11 set names utf8;
+22:08:11 select * from configs
+22:08:11 select * from users where id=38
+22:08:11 select count(id) from users where spreader_id='38'
+22:08:11 select * from images
+22:08:11 select type_id from articles where id='8'
+22:08:11 select * from articles where id='8'
+22:08:16 use a0122145834;
+22:08:16 set names utf8;
+22:08:16 select * from configs
+22:08:16 select * from users where id=38
+22:08:16 select count(id) from users where spreader_id='38'
+22:08:16 select * from images
+22:08:18 use a0122145834;
+22:08:18 set names utf8;
+22:08:18 select * from configs
+22:08:18 select * from users where id=38
+22:08:18 select count(id) from users where spreader_id='38'
+22:08:18 select * from images
+22:08:18 select * from goods where need_top=1 and need_hidden=0 order by id desc limit 0,5
+22:08:18 select count(id) from goods where need_top=0 and need_hidden=0 order by id desc
+22:08:18 select * from goods where need_top=0 and need_hidden=0 order by id desc limit 0,5
+22:08:22 use a0122145834;
+22:08:22 set names utf8;
+22:08:22 select * from configs
+22:08:22 select * from users where id=38
+22:08:22 select count(id) from users where spreader_id='38'
+22:08:22 select * from images
+22:08:22 select * from article_type
+22:08:22 select * from article_type where id='0'
+22:08:22 select count(id) from articles where type_id='0' order by add_time desc
+22:08:22 select * from articles where type_id='0' order by add_time desc limit 0,5
+22:08:25 use a0122145834;
+22:08:25 set names utf8;
+22:08:25 select * from configs
+22:08:25 select * from users where id=38
+22:08:25 select count(id) from users where spreader_id='38'
+22:08:25 select * from images
+22:08:25 select * from article_type
+22:08:25 select * from article_type where id='0'
+22:08:25 select count(id) from articles where type_id='0' order by add_time desc
+22:08:25 select * from articles where type_id='0' order by add_time desc limit 5,5
+22:08:29 use a0122145834;
+22:08:29 set names utf8;
+22:08:29 select * from configs
+22:08:29 select * from users where id=38
+22:08:29 select count(id) from users where spreader_id='38'
+22:08:29 select * from images
+22:08:29 select type_id from articles where id='9'
+22:08:29 select * from articles where id='9'
+22:08:36 use a0122145834;
+22:08:36 set names utf8;
+22:08:36 select * from configs
+22:08:36 select * from users where id=38
+22:08:36 select count(id) from users where spreader_id='38'
+22:08:36 select * from images
+22:08:38 use a0122145834;
+22:08:38 set names utf8;
+22:08:38 select * from configs
+22:08:38 select * from users where id=38
+22:08:38 select count(id) from users where spreader_id='38'
+22:08:38 select * from images
+22:08:38 select * from goods where need_top=1 and need_hidden=0 order by id desc limit 0,5
+22:08:38 select count(id) from goods where need_top=0 and need_hidden=0 order by id desc
+22:08:38 select * from goods where need_top=0 and need_hidden=0 order by id desc limit 0,5
+22:08:41 use a0122145834;
+22:08:41 set names utf8;
+22:08:41 select * from configs
+22:08:41 select * from users where id=38
+22:08:41 select count(id) from users where spreader_id='38'
+22:08:41 select * from images
+22:08:43 use a0122145834;
+22:08:43 set names utf8;
+22:08:43 select * from configs
+22:08:43 select * from users where id=38
+22:08:43 select count(id) from users where spreader_id='38'
+22:08:43 select * from images
+22:08:43 select * from goods where need_top=1 and need_hidden=0 order by id desc limit 0,5
+22:08:43 select count(id) from goods where need_top=0 and need_hidden=0 order by id desc
+22:08:43 select * from goods where need_top=0 and need_hidden=0 order by id desc limit 0,5
+22:08:47 use a0122145834;
+22:08:47 set names utf8;
+22:08:47 select * from configs
+22:08:47 select * from users where id=38
+22:08:47 select * from goods where need_hidden=0 and id=8
+22:08:47 select * from orders where user_id=38 and goods_id=8 
+22:08:55 use a0122145834;
+22:08:55 set names utf8;
+22:08:55 select * from configs
+22:08:55 select * from users where id=38
+22:08:55 select count(id) from users where spreader_id='38'
+22:08:55 select * from images
+22:08:55 select * from goods where need_top=1 and need_hidden=0 order by id desc limit 0,5
+22:08:55 select count(id) from goods where need_top=0 and need_hidden=0 order by id desc
+22:08:55 select * from goods where need_top=0 and need_hidden=0 order by id desc limit 0,5
+22:08:58 use a0122145834;
+22:08:58 set names utf8;
+22:08:58 select * from configs
+22:08:58 select * from users where id=38
+22:08:58 select count(id) from users where spreader_id='38'
+22:08:58 select * from images
+22:09:04 use a0122145834;
+22:09:04 set names utf8;
+22:09:04 select * from configs
+22:09:04 select * from users where id=38
+22:09:04 select count(id) from users where spreader_id='38'
+22:09:04 select * from images
+22:09:04 select * from goods where need_top=1 and need_hidden=0 order by id desc limit 0,5
+22:09:04 select count(id) from goods where need_top=0 and need_hidden=0 order by id desc
+22:09:04 select * from goods where need_top=0 and need_hidden=0 order by id desc limit 0,5
+22:09:06 use a0122145834;
+22:09:06 set names utf8;
+22:09:06 select * from configs
+22:09:06 select * from users where id=38
+22:09:06 select count(id) from users where spreader_id='38'
+22:09:06 select * from images
+22:09:06 select * from article_type
+22:09:06 select * from article_type where id='0'
+22:09:06 select count(id) from articles where type_id='0' order by add_time desc
+22:09:06 select * from articles where type_id='0' order by add_time desc limit 0,5
+22:09:08 use a0122145834;
+22:09:08 set names utf8;
+22:09:08 select * from configs
+22:09:08 select * from users where id=38
+22:09:08 select count(id) from users where spreader_id='38'
+22:09:08 select * from images
+22:09:08 select * from article_type
+22:09:08 select * from article_type where id='0'
+22:09:08 select count(id) from articles where type_id='0' order by add_time desc
+22:09:08 select * from articles where type_id='0' order by add_time desc limit 5,5
+22:09:11 use a0122145834;
+22:09:11 set names utf8;
+22:09:11 select * from configs
+22:09:11 select * from users where id=38
+22:09:11 select count(id) from users where spreader_id='38'
+22:09:11 select * from images
+22:09:11 select type_id from articles where id='9'
+22:09:12 select * from articles where id='9'
+22:09:34 use a0122145834;
+22:09:34 set names utf8;
+22:09:34 select * from configs
+22:09:34 select * from users where id=38
+22:09:34 select count(id) from users where spreader_id='38'
+22:09:34 select * from images
+22:09:34 select * from users where spreader_id='38'
+22:13:44 use a0122145834;
+22:13:44 set names utf8;
+22:13:44 select * from configs
+22:13:44 select * from users where id=38
+22:13:44 select count(id) from users where spreader_id='38'
+22:13:44 select * from images
+22:13:44 select * from goods where need_top=1 and need_hidden=0 order by id desc limit 0,5
+22:13:44 select count(id) from goods where need_top=0 and need_hidden=0 order by id desc
+22:13:44 select * from goods where need_top=0 and need_hidden=0 order by id desc limit 0,5
+22:13:46 use a0122145834;
+22:13:46 set names utf8;
+22:13:46 select * from configs
+22:13:46 select * from users where id=38
+22:13:46 select count(id) from users where spreader_id='38'
+22:13:46 select * from images
+22:13:46 select type_id from articles where id='9'
+22:13:46 select * from articles where id='9'
+22:13:50 use a0122145834;
+22:13:50 set names utf8;
+22:13:50 select * from configs
+22:13:50 select * from users where id=38
+22:13:50 select count(id) from users where spreader_id='38'
+22:13:50 select * from images
+22:13:50 select count(id) from income where user_id=38
+22:13:50 select * from income where user_id=38 limit 0,5
+22:13:57 use a0122145834;
+22:13:57 set names utf8;
+22:13:57 select * from configs
+22:14:11 use a0122145834;
+22:14:11 set names utf8;
+22:14:11 select * from configs
+22:14:11 select * from admins where id=1
+22:14:12 use a0122145834;
+22:14:12 set names utf8;
+22:14:12 select * from configs
+22:14:12 select * from admins where id=1
+22:14:12 select count(id) from users
+22:14:12 select * from users limit 0,20
+22:14:53 use a0122145834;
+22:14:53 set names utf8;
+22:14:53 select * from configs
+22:14:53 select * from admins where id=1
+22:14:53 select count(id) from users
+22:14:53 select * from users limit 0,20
+22:16:01 use a0122145834;
+22:16:01 set names utf8;
+22:16:01 select * from configs
+22:16:01 select * from admins where id=1
+22:16:01 select count(id) from users
+22:16:01 select * from users limit 0,20
+22:16:04 use a0122145834;
+22:16:04 set names utf8;
+22:16:04 select * from configs
+22:16:04 select * from admins where id=1
+22:16:04 select count(id) from users
+22:16:04 select * from users limit 0,20
+22:16:15 use a0122145834;
+22:16:15 set names utf8;
+22:16:15 select * from configs
+22:16:15 select * from users where id=38
+22:16:15 select count(id) from users where spreader_id='38'
+22:16:15 select * from images
+22:16:15 select * from goods where need_top=1 and need_hidden=0 order by id desc limit 0,5
+22:16:15 select count(id) from goods where need_top=0 and need_hidden=0 order by id desc
+22:16:15 select * from goods where need_top=0 and need_hidden=0 order by id desc limit 0,5
+22:16:18 use a0122145834;
+22:16:18 set names utf8;
+22:16:18 select * from configs
+22:16:18 select * from users where id=38
+22:16:18 select count(id) from users where spreader_id='38'
+22:16:18 select * from images
+22:16:18 select * from goods where need_top=1 and need_hidden=0 order by id desc limit 0,5
+22:16:18 select count(id) from goods where need_top=0 and need_hidden=0 order by id desc
+22:16:18 select * from goods where need_top=0 and need_hidden=0 order by id desc limit 0,5
+22:16:19 use a0122145834;
+22:16:19 set names utf8;
+22:16:19 select * from configs
+22:16:19 select * from users where id=38
+22:16:19 select count(id) from users where spreader_id='38'
+22:16:19 select * from images
+22:16:19 select * from goods where need_top=1 and need_hidden=0 order by id desc limit 0,5
+22:16:19 select count(id) from goods where need_top=0 and need_hidden=0 order by id desc
+22:16:19 select * from goods where need_top=0 and need_hidden=0 order by id desc limit 0,5
+22:16:21 use a0122145834;
+22:16:21 set names utf8;
+22:16:21 select * from configs
+22:16:21 select * from users where id=38
+22:16:21 use a0122145834;
+22:16:21 set names utf8;
+22:16:21 select * from configs
+22:16:22 select * from users where id=38
+22:16:22 select count(id) from users where spreader_id='38'
+22:16:22 select * from images
+22:16:22 select * from goods where need_top=1 and need_hidden=0 order by id desc limit 0,5
+22:16:22 select count(id) from goods where need_top=0 and need_hidden=0 order by id desc
+22:16:22 select * from goods where need_top=0 and need_hidden=0 order by id desc limit 0,5
+22:16:31 use a0122145834;
+22:16:31 set names utf8;
+22:16:31 select * from configs
+22:16:32 use a0122145834;
+22:16:32 set names utf8;
+22:16:32 select * from configs
+22:16:34 use a0122145834;
+22:16:34 set names utf8;
+22:16:34 select * from configs
+22:16:34 select * from users where id=53
+22:16:36 use a0122145834;
+22:16:36 set names utf8;
+22:16:36 select * from configs
+22:16:36 select * from users where id=53
+22:16:36 select count(id) from users where spreader_id='53'
+22:16:36 select * from images
+22:16:36 select * from goods where need_top=1 and need_hidden=0 order by id desc limit 0,5
+22:16:36 select count(id) from goods where need_top=0 and need_hidden=0 order by id desc
+22:16:36 select * from goods where need_top=0 and need_hidden=0 order by id desc limit 0,5
+22:16:43 use a0122145834;
+22:16:43 set names utf8;
+22:16:43 select * from configs
+22:16:58 use a0122145834;
+22:16:58 set names utf8;
+22:16:58 select * from configs
+22:16:58 use a0122145834;
+22:16:58 set names utf8;
+22:16:58 select * from configs
+22:16:58 select * from users where id=53
+22:16:58 select count(id) from users where spreader_id='53'
+22:16:58 select * from images
+22:17:39 use a0122145834;
+22:17:39 set names utf8;
+22:17:39 select * from configs
+22:17:39 select * from users where id=53
+22:17:39 select count(id) from users where spreader_id='53'
+22:17:39 select * from images
+22:17:39 update users set nick_name='梦想广西',pay_name='',pay_email='',address='',user_word='25d55ad283aa400af464c76d713c07ad' where id=53
+22:17:40 use a0122145834;
+22:17:40 set names utf8;
+22:17:40 select * from configs
+22:17:40 select * from admins where id=1
+22:17:40 select count(id) from users
+22:17:40 select * from users limit 0,20
+22:17:46 use a0122145834;
+22:17:46 set names utf8;
+22:17:46 select * from configs
+22:17:46 select * from users where id=53
+22:17:46 select count(id) from users where spreader_id='53'
+22:17:46 select * from images
+22:18:35 use a0122145834;
+22:18:35 set names utf8;
+22:18:35 select * from configs
+22:18:35 select * from users where id=53
+22:18:35 select count(id) from users where spreader_id='53'
+22:18:35 select * from images
+22:18:35 select * from goods where need_top=1 and need_hidden=0 order by id desc limit 0,5
+22:18:35 select count(id) from goods where need_top=0 and need_hidden=0 order by id desc
+22:18:35 select * from goods where need_top=0 and need_hidden=0 order by id desc limit 0,5
+22:18:42 use a0122145834;
+22:18:42 set names utf8;
+22:18:42 select * from configs
+22:18:42 select * from users where id=53
+22:18:42 select count(id) from users where spreader_id='53'
+22:18:42 select * from images
+22:18:42 select * from article_type
+22:18:42 select * from article_type where id='0'
+22:18:42 select count(id) from articles where type_id='0' order by add_time desc
+22:18:42 select * from articles where type_id='0' order by add_time desc limit 0,5
+22:18:56 use a0122145834;
+22:18:56 set names utf8;
+22:18:56 select * from configs
+22:18:57 select * from users where id=53
+22:18:57 select count(id) from users where spreader_id='53'
+22:18:57 select * from images
+22:18:57 select type_id from articles where id='16'
+22:18:57 select * from articles where id='16'
+22:19:13 use a0122145834;
+22:19:13 set names utf8;
+22:19:13 select * from configs
+22:19:13 select * from users where id=53
+22:19:13 select count(id) from users where spreader_id='53'
+22:19:13 select * from images
+22:19:13 select type_id from articles where id='11'
+22:19:13 select * from articles where id='11'
+22:22:33 use a0122145834;
+22:22:33 set names utf8;
+22:22:33 select * from configs
+22:22:33 select * from users where id=53
+22:22:39 use a0122145834;
+22:22:39 set names utf8;
+22:22:39 select * from configs
+22:22:39 select * from users where id=53
+22:22:39 select count(id) from users where spreader_id='53'
+22:22:39 select * from images
+22:22:39 select count(id) from income where user_id=53
+22:22:39 select * from income where user_id=53 limit 0,5
+22:22:43 use a0122145834;
+22:22:43 set names utf8;
+22:22:43 select * from configs
+22:22:43 select * from users where id=53
+22:22:43 select count(id) from users where spreader_id='53'
+22:22:43 select * from images
+22:22:43 select count(v.id) from vipmsg as v left join users as u on v.user_id=u.id where v.can_see=1 order by v.id desc
+22:22:43 select v.id,u.nick_name,v.user_id,v.user_msg,v.recove,v.add_time from vipmsg as v left join users as u on v.user_id=u.id where v.can_see=1 order by v.id desc limit 0,5
+22:23:05 use a0122145834;
+22:23:05 set names utf8;
+22:23:05 select * from configs
+22:23:05 select * from admins where id=1
+22:23:05 select count(id) from users
+22:23:05 select * from users limit 0,20
+22:26:32 use a0122145834;
+22:26:32 set names utf8;
+22:26:32 select * from configs
+22:28:57 use a0122145834;
+22:28:57 set names utf8;
+22:28:57 select * from configs
+22:28:57 select * from admins where id=1
+22:28:57 select count(v.id) from vipmsg as v left join users as u on u.id=v.user_id 
+22:28:57 select u.id as username,v.id,v.user_msg,v.recove,v.add_time,v.can_see,u.nick_name,u.vip_level from vipmsg as v left join users as u on u.id=v.user_id  limit 0,20
+22:29:08 use a0122145834;
+22:29:08 set names utf8;
+22:29:08 select * from configs
+22:29:08 select * from admins where id=1
+22:29:08 Delete from vipmsg where id in (17)
+22:29:22 use a0122145834;
+22:29:22 set names utf8;
+22:29:22 select * from configs
+22:29:22 select * from users where id=38
+22:29:22 select count(id) from users where spreader_id='38'
+22:29:22 select * from images
+22:29:22 select count(v.id) from vipmsg as v left join users as u on v.user_id=u.id where v.can_see=1 order by v.id desc
+22:29:22 select v.id,u.nick_name,v.user_id,v.user_msg,v.recove,v.add_time from vipmsg as v left join users as u on v.user_id=u.id where v.can_see=1 order by v.id desc limit 0,5
+22:29:28 use a0122145834;
+22:29:28 set names utf8;
+22:29:28 select * from configs
+22:29:28 select * from users where id=38
+22:29:28 select count(id) from users where spreader_id='38'
+22:29:28 select * from images
+22:29:28 select count(v.id) from vipmsg as v left join users as u on v.user_id=u.id where v.can_see=1 order by v.id desc
+22:29:28 select v.id,u.nick_name,v.user_id,v.user_msg,v.recove,v.add_time from vipmsg as v left join users as u on v.user_id=u.id where v.can_see=1 order by v.id desc limit 5,5
+22:29:57 use a0122145834;
+22:29:57 set names utf8;
+22:29:57 select * from configs
+22:29:57 select * from users where id=38
+22:29:57 select count(id) from users where spreader_id='38'
+22:29:57 select * from images
+22:29:57 select * from vipmsg where user_id='38' order by add_time desc
+22:29:57 insert into vipmsg (user_id,user_msg,add_time,can_see) values ('38','1212','1392474597','0') ;
+22:29:59 use a0122145834;
+22:29:59 set names utf8;
+22:29:59 select * from configs
+22:29:59 select * from users where id=38
+22:29:59 select count(id) from users where spreader_id='38'
+22:29:59 select * from images
+22:29:59 select count(v.id) from vipmsg as v left join users as u on v.user_id=u.id where v.can_see=1 order by v.id desc
+22:29:59 select v.id,u.nick_name,v.user_id,v.user_msg,v.recove,v.add_time from vipmsg as v left join users as u on v.user_id=u.id where v.can_see=1 order by v.id desc limit 0,5
+22:30:10 use a0122145834;
+22:30:10 set names utf8;
+22:30:10 select * from configs
+22:30:10 select * from users where id=38
+22:30:10 select count(id) from users where spreader_id='38'
+22:30:10 select * from images
+22:30:10 select count(v.id) from vipmsg as v left join users as u on v.user_id=u.id where v.can_see=1 order by v.id desc
+22:30:10 select v.id,u.nick_name,v.user_id,v.user_msg,v.recove,v.add_time from vipmsg as v left join users as u on v.user_id=u.id where v.can_see=1 order by v.id desc limit 5,5
+22:31:42 use a0122145834;
+22:31:42 set names utf8;
+22:31:42 select * from configs
+22:31:42 select * from users where id=38
+22:31:42 select count(id) from users where spreader_id='38'
+22:31:42 select * from images
+22:31:42 select type_id from articles where id='9'
+22:31:42 select * from articles where id='9'
+22:31:46 use a0122145834;
+22:31:46 set names utf8;
+22:31:46 select * from configs
+22:31:46 select * from users where id=38
+22:31:46 select count(id) from users where spreader_id='38'
+22:31:46 select * from images
+22:31:46 select * from article_type
+22:31:46 select * from article_type where id='0'
+22:31:46 select count(id) from articles where type_id='0' order by add_time desc
+22:31:46 select * from articles where type_id='0' order by add_time desc limit 0,5
+22:31:51 use a0122145834;
+22:31:51 set names utf8;
+22:31:51 select * from configs
+22:31:51 select * from users where id=38
+22:31:51 use a0122145834;
+22:31:51 set names utf8;
+22:31:51 select * from configs
+22:31:51 select * from users where id=38
+22:31:51 select count(id) from users where spreader_id='38'
+22:31:51 select * from images
+22:31:51 select * from goods where need_top=1 and need_hidden=0 order by id desc limit 0,5
+22:31:51 select count(id) from goods where need_top=0 and need_hidden=0 order by id desc
+22:31:51 select * from goods where need_top=0 and need_hidden=0 order by id desc limit 0,5
+22:31:53 use a0122145834;
+22:31:53 set names utf8;
+22:31:53 select * from configs
+22:31:53 select * from users where id=38
+22:31:53 select count(id) from users where spreader_id='38'
+22:31:53 select * from images
+22:31:53 select type_id from articles where id='8'
+22:31:53 select * from articles where id='8'
+22:35:29 use a0122145834;
+22:35:29 set names utf8;
+22:35:29 select * from configs
+22:35:29 select * from users where id=38
+22:35:29 select count(id) from users where spreader_id='38'
+22:35:29 select * from images
+22:35:29 select count(v.id) from vipmsg as v left join users as u on v.user_id=u.id where v.can_see=1 order by v.id desc
+22:35:29 select v.id,u.nick_name,v.user_id,v.user_msg,v.recove,v.add_time from vipmsg as v left join users as u on v.user_id=u.id where v.can_see=1 order by v.id desc limit 0,5
+22:36:53 use a0122145834;
+22:36:53 set names utf8;
+22:36:53 select * from configs
+22:36:53 select * from users where id=53
+22:36:53 select count(id) from users where spreader_id='53'
+22:36:53 select * from images
+22:36:53 select type_id from articles where id='9'
+22:36:53 select * from articles where id='9'
+22:36:54 use a0122145834;
+22:36:54 set names utf8;
+22:36:54 select * from configs
+22:37:23 use a0122145834;
+22:37:23 set names utf8;
+22:37:23 select * from configs
+22:38:15 use a0122145834;
+22:38:15 set names utf8;
+22:38:15 select * from configs
+22:38:17 use a0122145834;
+22:38:17 set names utf8;
+22:38:17 select * from configs
+22:38:30 use a0122145834;
+22:38:30 set names utf8;
+22:38:30 select * from configs
+22:39:51 use a0122145834;
+22:39:51 set names utf8;
+22:39:51 select * from configs
+22:39:51 select * from users where id=38
+22:39:51 select count(id) from users where spreader_id='38'
+22:39:52 select * from images
+22:39:52 select type_id from articles where id='9'
+22:39:52 select * from articles where id='9'
+22:41:15 use a0122145834;
+22:41:15 set names utf8;
+22:41:15 select * from configs
+22:41:24 use a0122145834;
+22:41:24 set names utf8;
+22:41:24 select * from configs
+22:41:39 use a0122145834;
+22:41:39 set names utf8;
+22:41:39 select * from configs
+22:41:54 use a0122145834;
+22:41:54 set names utf8;
+22:41:54 select * from configs
+22:42:04 use a0122145834;
+22:42:04 set names utf8;
+22:42:04 select * from configs
+22:42:43 use a0122145834;
+22:42:44 set names utf8;
+22:42:44 select * from configs
+22:43:34 use a0122145834;
+22:43:34 set names utf8;
+22:43:34 select * from configs
+22:43:34 select * from admins where id=1
+22:43:35 use a0122145834;
+22:43:35 set names utf8;
+22:43:35 select * from configs
+22:43:35 select * from admins where id=1
+22:43:35 select count(id) from users
+22:43:35 select * from users limit 0,20
+22:43:39 use a0122145834;
+22:43:39 set names utf8;
+22:43:39 select * from configs
+22:43:39 select * from admins where id=1
+22:43:39 select * from users where id=53
+22:43:44 use a0122145834;
+22:43:44 set names utf8;
+22:43:44 select * from configs
+22:43:44 select * from admins where id=1
+22:43:44 update users set user_name='348598162',nick_name='梦想广西',credits='0',money='0',pay_email='',pay_name='',address='',vip_level='1' where id=53 
+22:43:45 use a0122145834;
+22:43:45 set names utf8;
+22:43:45 select * from configs
+22:43:45 select * from admins where id=1
+22:43:45 select * from users where id=53
+22:45:22 use a0122145834;
+22:45:22 set names utf8;
+22:45:22 select * from configs
+22:46:19 use a0122145834;
+22:46:19 set names utf8;
+22:46:19 select * from configs
+22:46:19 select * from admins where id=1
+22:46:19 use a0122145834;
+22:46:19 set names utf8;
+22:46:19 select * from configs
+22:46:19 select * from admins where id=1
+22:46:19 select count(id) from users
+22:46:19 select * from users limit 0,20
+22:46:37 use a0122145834;
+22:46:37 set names utf8;
+22:46:37 select * from configs
+22:46:53 use a0122145834;
+22:46:53 set names utf8;
+22:46:53 select * from configs
+22:47:23 use a0122145834;
+22:47:23 set names utf8;
+22:47:23 select * from configs
+22:47:35 use a0122145834;
+22:47:35 set names utf8;
+22:47:35 select * from configs
+22:47:38 use a0122145834;
+22:47:38 set names utf8;
+22:47:39 select * from configs
+22:47:51 use a0122145834;
+22:47:51 set names utf8;
+22:47:51 select * from configs
+22:47:51 select * from users where user_name='870431059' and user_word='ea78babd8a40c8f8b07264fb4a6552a1'
+22:47:55 use a0122145834;
+22:47:55 set names utf8;
+22:47:55 select * from configs
+22:47:57 use a0122145834;
+22:47:57 set names utf8;
+22:47:57 select * from configs
+22:47:59 use a0122145834;
+22:47:59 set names utf8;
+22:47:59 select * from configs
+22:48:00 use a0122145834;
+22:48:00 set names utf8;
+22:48:00 select * from configs
+22:48:03 use a0122145834;
+22:48:03 set names utf8;
+22:48:03 select * from configs
+22:48:24 use a0122145834;
+22:48:24 set names utf8;
+22:48:24 select * from configs
+22:49:13 use a0122145834;
+22:49:13 set names utf8;
+22:49:13 select * from configs
+22:49:13 select count(id) from users where register_ip='171.107.195.244' or last_ip='171.107.195.244' and add_time>1389883753
+22:49:13 select * from users where user_name='870431059'
+22:49:13 insert into users (user_name,nick_name,user_word,email,spreader_id,add_time,register_ip) values ('870431059','求昵称','ea78babd8a40c8f8b07264fb4a6552a1','870431059@qq.com',0,'1392475753','171.107.195.244') ;
+22:49:13 use a0122145834;
+22:49:13 set names utf8;
+22:49:13 select * from configs
+22:49:13 select * from users where id=54
+22:49:13 select count(id) from users where spreader_id='54'
+22:49:13 select * from images
+22:49:24 use a0122145834;
+22:49:24 set names utf8;
+22:49:24 select * from configs
+22:49:24 select * from users where id=54
+22:49:24 select count(id) from users where spreader_id='54'
+22:49:24 select * from images
+22:49:25 use a0122145834;
+22:49:25 set names utf8;
+22:49:25 select * from configs
+22:49:25 select * from users where id=54
+22:49:25 select count(id) from users where spreader_id='54'
+22:49:25 select * from images
+22:49:25 select * from goods where need_top=1 and need_hidden=0 order by id desc limit 0,5
+22:49:25 select count(id) from goods where need_top=0 and need_hidden=0 order by id desc
+22:49:25 select * from goods where need_top=0 and need_hidden=0 order by id desc limit 0,5
+22:50:05 use a0122145834;
+22:50:05 set names utf8;
+22:50:05 select * from configs
+22:50:05 select * from users where id=54
+22:50:05 select count(id) from users where spreader_id='54'
+22:50:05 select * from images
+22:50:05 select * from goods where need_top=1 and need_hidden=0 order by id desc limit 0,5
+22:50:05 select count(id) from goods where need_top=0 and need_hidden=0 order by id desc
+22:50:05 select * from goods where need_top=0 and need_hidden=0 order by id desc limit 0,5
+22:50:27 use a0122145834;
+22:50:27 set names utf8;
+22:50:27 select * from configs
+22:50:31 use a0122145834;
+22:50:31 set names utf8;
+22:50:31 select * from configs
+22:50:42 use a0122145834;
+22:50:42 set names utf8;
+22:50:42 select * from configs
+22:50:53 use a0122145834;
+22:50:53 set names utf8;
+22:50:53 select * from configs
+22:50:53 select * from users where id=54
+22:50:53 select count(id) from users where spreader_id='54'
+22:50:53 select * from images
+22:50:53 select type_id from articles where id='9'
+22:50:53 select * from articles where id='9'
+22:50:55 use a0122145834;
+22:50:55 set names utf8;
+22:50:55 select * from configs
+22:51:52 use a0122145834;
+22:51:52 set names utf8;
+22:51:52 select * from configs
+22:51:52 select * from users where id=38
+22:51:52 select count(id) from users where spreader_id='38'
+22:51:52 select * from images
+22:51:52 select type_id from articles where id='9'
+22:51:52 select * from articles where id='9'
+22:52:05 use a0122145834;
+22:52:05 set names utf8;
+22:52:05 select * from configs
+22:52:06 use a0122145834;
+22:52:06 set names utf8;
+22:52:06 select * from configs
+22:52:16 use a0122145834;
+22:52:16 set names utf8;
+22:52:16 select * from configs
+22:52:16 select * from users where id=54
+22:52:16 select count(id) from users where spreader_id='54'
+22:52:16 select * from images
+22:52:16 select type_id from articles where id='9'
+22:52:16 select * from articles where id='9'
+22:52:34 use a0122145834;
+22:52:34 set names utf8;
+22:52:34 select * from configs
+22:52:34 select * from admins where id=1
+22:52:35 use a0122145834;
+22:52:35 set names utf8;
+22:52:35 select * from configs
+22:52:35 select * from admins where id=1
+22:52:35 select count(id) from users
+22:52:35 select * from users limit 0,20
+22:52:43 use a0122145834;
+22:52:43 set names utf8;
+22:52:43 select * from configs
+22:52:43 select * from admins where id=1
+22:52:43 select * from users where id=54
+22:52:50 use a0122145834;
+22:52:50 set names utf8;
+22:52:50 select * from configs
+22:52:50 select * from admins where id=1
+22:52:50 update users set user_name='870431059',nick_name='求昵称',credits='0',money='0',pay_email='',pay_name='',address='',vip_level='1',spreader_rate='0.6' where id=54 
+22:52:52 use a0122145834;
+22:52:52 set names utf8;
+22:52:52 select * from configs
+22:52:52 select * from admins where id=1
+22:52:52 select * from users where id=54
+22:53:30 use a0122145834;
+22:53:30 set names utf8;
+22:53:30 select * from configs
+22:53:30 select * from users where id=54
+22:53:30 select count(id) from users where spreader_id='54'
+22:53:30 select * from images
+22:53:30 select type_id from articles where id='9'
+22:53:30 select * from articles where id='9'
+22:53:51 use a0122145834;
+22:53:51 set names utf8;
+22:53:51 select * from configs
+22:56:40 use a0122145834;
+22:56:40 set names utf8;
+22:56:40 select * from configs
+22:57:18 use a0122145834;
+22:57:18 set names utf8;
+22:57:18 select * from configs
+22:57:42 use a0122145834;
+22:57:42 set names utf8;
+22:57:42 select * from configs
+22:58:36 use a0122145834;
+22:58:36 set names utf8;
+22:58:36 select * from configs
+22:59:57 use a0122145834;
+22:59:57 set names utf8;
+22:59:57 select * from configs
+23:01:10 use a0122145834;
+23:01:10 set names utf8;
+23:01:10 select * from configs
+23:03:34 use a0122145834;
+23:03:34 set names utf8;
+23:03:34 select * from configs
+23:05:34 use a0122145834;
+23:05:34 set names utf8;
+23:05:34 select * from configs
+23:05:36 use a0122145834;
+23:05:36 set names utf8;
+23:05:36 select * from configs
+23:05:58 use a0122145834;
+23:05:58 set names utf8;
+23:05:58 select * from configs
+23:05:58 use a0122145834;
+23:05:58 set names utf8;
+23:05:58 select * from configs
+23:06:44 use a0122145834;
+23:06:44 set names utf8;
+23:06:44 select * from configs
+23:06:46 use a0122145834;
+23:06:46 set names utf8;
+23:06:46 select * from configs
+23:06:51 use a0122145834;
+23:06:51 set names utf8;
+23:06:51 select * from configs
+23:07:09 use a0122145834;
+23:07:09 set names utf8;
+23:07:09 select * from configs
+23:07:09 select * from users where id=54
+23:07:09 select * from goods where need_hidden=0 and id=8
+23:07:09 select * from orders where user_id=54 and goods_id=8 
+23:07:15 use a0122145834;
+23:07:15 set names utf8;
+23:07:15 select * from configs
+23:07:15 select * from users where id=54
+23:07:15 select count(id) from users where spreader_id='54'
+23:07:15 select * from images
+23:07:15 select * from goods where need_top=1 and need_hidden=0 order by id desc limit 0,5
+23:07:15 select count(id) from goods where need_top=0 and need_hidden=0 order by id desc
+23:07:15 select * from goods where need_top=0 and need_hidden=0 order by id desc limit 0,5
+23:07:16 use a0122145834;
+23:07:16 set names utf8;
+23:07:16 select * from configs
+23:07:19 use a0122145834;
+23:07:19 set names utf8;
+23:07:19 select * from configs
+23:07:19 select * from users where id=54
+23:07:19 select * from goods where need_hidden=0 and id=8
+23:07:19 select * from orders where user_id=54 and goods_id=8 
+23:07:22 use a0122145834;
+23:07:22 set names utf8;
+23:07:22 select * from configs
+23:07:22 select * from users where id=54
+23:07:22 select count(id) from users where spreader_id='54'
+23:07:22 select * from images
+23:07:22 select * from goods where need_top=1 and need_hidden=0 order by id desc limit 0,5
+23:07:22 select count(id) from goods where need_top=0 and need_hidden=0 order by id desc
+23:07:22 select * from goods where need_top=0 and need_hidden=0 order by id desc limit 0,5
+23:07:28 use a0122145834;
+23:07:28 set names utf8;
+23:07:28 select * from configs
+23:07:34 use a0122145834;
+23:07:34 set names utf8;
+23:07:34 select * from configs
+23:07:40 use a0122145834;
+23:07:40 set names utf8;
+23:07:40 select * from configs
+23:08:37 use a0122145834;
+23:08:37 set names utf8;
+23:08:37 select * from configs
+23:08:37 select * from users where id=54
+23:08:37 select count(id) from users where spreader_id='54'
+23:08:37 select * from images
+23:08:37 select * from users where spreader_id='54'
+23:08:41 use a0122145834;
+23:08:41 set names utf8;
+23:08:41 select * from configs
+23:08:41 select * from users where id=54
+23:08:41 select count(id) from users where spreader_id='54'
+23:08:41 select * from images
+23:08:47 use a0122145834;
+23:08:47 set names utf8;
+23:08:47 select * from configs
+23:08:47 select * from users where id=54
+23:08:47 select count(id) from users where spreader_id='54'
+23:08:47 select * from images
+23:09:50 use a0122145834;
+23:09:50 set names utf8;
+23:09:50 select * from configs
+23:09:50 select * from users where id=54
+23:09:50 select count(id) from users where spreader_id='54'
+23:09:50 select * from images
+23:09:50 update users set nick_name='财富人生--元香',pay_name='卢文彬',pay_email='18677226312',address='' where id=54
+23:09:51 use a0122145834;
+23:09:51 set names utf8;
+23:09:51 select * from configs
+23:09:51 use a0122145834;
+23:09:51 set names utf8;
+23:09:51 select * from configs
+23:09:51 select * from users where id=54
+23:09:51 select count(id) from users where spreader_id='54'
+23:09:51 select * from images
+23:09:54 use a0122145834;
+23:09:54 set names utf8;
+23:09:54 select * from configs
+23:09:54 select * from users where id=54
+23:09:54 select count(id) from users where spreader_id='54'
+23:09:54 select * from images
+23:10:00 use a0122145834;
+23:10:00 set names utf8;
+23:10:00 select * from configs
+23:10:00 select * from users where id=54
+23:10:00 select count(id) from users where spreader_id='54'
+23:10:00 select * from images
+23:10:07 use a0122145834;
+23:10:07 set names utf8;
+23:10:07 select * from configs
+23:10:07 select * from users where id=54
+23:10:07 select count(id) from users where spreader_id='54'
+23:10:07 select * from images
+23:10:07 select * from users where spreader_id='54'
+23:10:14 use a0122145834;
+23:10:14 set names utf8;
+23:10:14 select * from configs
+23:10:14 select * from users where id=54
+23:10:14 select count(id) from users where spreader_id='54'
+23:10:14 select * from images
+23:10:14 select count(v.id) from vipmsg as v left join users as u on v.user_id=u.id where v.can_see=1 order by v.id desc
+23:10:14 select v.id,u.nick_name,v.user_id,v.user_msg,v.recove,v.add_time from vipmsg as v left join users as u on v.user_id=u.id where v.can_see=1 order by v.id desc limit 0,5
+23:10:37 use a0122145834;
+23:10:37 set names utf8;
+23:10:37 select * from configs
+23:10:37 select * from users where id=38
+23:10:37 select count(id) from users where spreader_id='38'
+23:10:37 select * from images
+23:10:37 select type_id from articles where id='9'
+23:10:37 select * from articles where id='9'
+23:11:04 use a0122145834;
+23:11:04 set names utf8;
+23:11:04 select * from configs
+23:11:05 select * from users where id=38
+23:11:05 select count(id) from users where spreader_id='38'
+23:11:05 select * from images
+23:11:35 use a0122145834;
+23:11:35 set names utf8;
+23:11:35 select * from configs
+23:11:48 use a0122145834;
+23:11:48 set names utf8;
+23:11:48 select * from configs
+23:11:48 select * from users where id=54
+23:11:48 select count(id) from users where spreader_id='54'
+23:11:48 select * from images
+23:11:48 select * from vipmsg where user_id='54' order by add_time desc
+23:11:48 insert into vipmsg (user_id,user_msg,add_time,can_see) values ('54','俗话说，跟对人，离成功就不远了，很感谢小马你给我的帮助，让我学到了很多东西','1392477108','0') ;
+23:11:50 use a0122145834;
+23:11:50 set names utf8;
+23:11:50 select * from configs
+23:11:50 select * from users where id=54
+23:11:50 select count(id) from users where spreader_id='54'
+23:11:50 select * from images
+23:11:50 select count(v.id) from vipmsg as v left join users as u on v.user_id=u.id where v.can_see=1 order by v.id desc
+23:11:50 select v.id,u.nick_name,v.user_id,v.user_msg,v.recove,v.add_time from vipmsg as v left join users as u on v.user_id=u.id where v.can_see=1 order by v.id desc limit 0,5
+23:11:58 use a0122145834;
+23:11:58 set names utf8;
+23:11:58 select * from configs
+23:11:58 select * from users where id=54
+23:11:58 select count(id) from users where spreader_id='54'
+23:11:58 select * from images
+23:11:58 select count(v.id) from vipmsg as v left join users as u on v.user_id=u.id where v.can_see=1 order by v.id desc
+23:11:58 select v.id,u.nick_name,v.user_id,v.user_msg,v.recove,v.add_time from vipmsg as v left join users as u on v.user_id=u.id where v.can_see=1 order by v.id desc limit 5,5
+23:12:10 use a0122145834;
+23:12:10 set names utf8;
+23:12:10 select * from configs
+23:12:10 select * from users where id=54
+23:12:10 select count(id) from users where spreader_id='54'
+23:12:10 select * from images
+23:12:10 select count(v.id) from vipmsg as v left join users as u on v.user_id=u.id where v.can_see=1 order by v.id desc
+23:12:10 select v.id,u.nick_name,v.user_id,v.user_msg,v.recove,v.add_time from vipmsg as v left join users as u on v.user_id=u.id where v.can_see=1 order by v.id desc limit 0,5
+23:12:17 use a0122145834;
+23:12:17 set names utf8;
+23:12:17 select * from configs
+23:12:17 select * from admins where id=1
+23:12:17 use a0122145834;
+23:12:17 set names utf8;
+23:12:17 select * from configs
+23:12:17 select * from admins where id=1
+23:12:17 select count(id) from users
+23:12:17 select * from users limit 0,20
+23:12:39 use a0122145834;
+23:12:39 set names utf8;
+23:12:39 select * from configs
+23:12:39 select * from admins where id=1
+23:12:39 select count(id) from users
+23:12:39 select * from users limit 0,20
+23:12:45 use a0122145834;
+23:12:45 set names utf8;
+23:12:45 select * from configs
+23:13:06 use a0122145834;
+23:13:06 set names utf8;
+23:13:06 select * from configs
+23:13:06 select * from admins where id=1
+23:13:09 use a0122145834;
+23:13:09 set names utf8;
+23:13:09 select * from configs
+23:13:09 select * from admins where id=1
+23:13:09 use a0122145834;
+23:13:09 set names utf8;
+23:13:09 select * from configs
+23:13:09 select * from admins where id=1
+23:13:09 select count(id) from users
+23:13:09 select * from users limit 0,20
+23:13:16 use a0122145834;
+23:13:16 set names utf8;
+23:13:16 select * from configs
+23:13:16 select * from admins where id=1
+23:13:16 select count(v.id) from vipmsg as v left join users as u on u.id=v.user_id 
+23:13:16 select u.id as username,v.id,v.user_msg,v.recove,v.add_time,v.can_see,u.nick_name,u.vip_level from vipmsg as v left join users as u on u.id=v.user_id  limit 0,20
+23:13:26 use a0122145834;
+23:13:26 set names utf8;
+23:13:26 select * from configs
+23:13:30 use a0122145834;
+23:13:30 set names utf8;
+23:13:30 select * from configs
+23:13:30 select * from admins where id=1
+23:13:30 select * from vipmsg where id='19'
+23:13:57 use a0122145834;
+23:13:57 set names utf8;
+23:13:57 select * from configs
+23:13:57 select * from admins where id=1
+23:13:57 update vipmsg set user_msg='俗话说，跟对人，离成功就不远了，很感谢小马你给我的帮助，让我学到了很多东西',recove='谢谢' where id='19'
+23:13:59 use a0122145834;
+23:13:59 set names utf8;
+23:13:59 select * from configs
+23:13:59 select * from admins where id=1
+23:13:59 select count(v.id) from vipmsg as v left join users as u on u.id=v.user_id 
+23:13:59 select u.id as username,v.id,v.user_msg,v.recove,v.add_time,v.can_see,u.nick_name,u.vip_level from vipmsg as v left join users as u on u.id=v.user_id  limit 0,20
+23:14:04 use a0122145834;
+23:14:04 set names utf8;
+23:14:04 select * from configs
+23:14:04 select * from admins where id=1
+23:14:04 update vipmsg set can_see=1 where id=19
+23:14:46 use a0122145834;
+23:14:46 set names utf8;
+23:14:46 select * from configs
+23:14:46 select * from users where id=38
+23:14:46 select count(id) from users where spreader_id='38'
+23:14:46 select * from images
+23:14:46 select count(v.id) from vipmsg as v left join users as u on v.user_id=u.id where v.can_see=1 order by v.id desc
+23:14:46 select v.id,u.nick_name,v.user_id,v.user_msg,v.recove,v.add_time from vipmsg as v left join users as u on v.user_id=u.id where v.can_see=1 order by v.id desc limit 0,5
+23:14:48 use a0122145834;
+23:14:48 set names utf8;
+23:14:48 select * from configs
+23:14:51 use a0122145834;
+23:14:51 set names utf8;
+23:14:51 select * from configs
+23:15:29 use a0122145834;
+23:15:29 set names utf8;
+23:15:29 select * from configs
+23:15:29 select * from users where id=54
+23:15:29 select count(id) from users where spreader_id='54'
+23:15:29 select * from images
+23:15:29 select count(v.id) from vipmsg as v left join users as u on v.user_id=u.id where v.can_see=1 order by v.id desc
+23:15:29 select v.id,u.nick_name,v.user_id,v.user_msg,v.recove,v.add_time from vipmsg as v left join users as u on v.user_id=u.id where v.can_see=1 order by v.id desc limit 0,5
+23:15:58 use a0122145834;
+23:15:58 set names utf8;
+23:15:58 select * from configs
+23:15:58 select * from users where id=38
+23:15:58 select count(id) from users where spreader_id='38'
+23:15:58 select * from images
+23:15:58 select * from goods where need_top=1 and need_hidden=0 order by id desc limit 0,5
+23:15:58 select count(id) from goods where need_top=0 and need_hidden=0 order by id desc
+23:15:58 select * from goods where need_top=0 and need_hidden=0 order by id desc limit 0,5
+23:16:03 use a0122145834;
+23:16:03 set names utf8;
+23:16:03 select * from configs
+23:16:03 select * from users where id=38
+23:16:03 select * from goods where need_hidden=0 and id=12
+23:16:03 select * from orders where user_id=38 and goods_id=12 
+23:16:16 use a0122145834;
+23:16:16 set names utf8;
+23:16:16 select * from configs
+23:16:44 use a0122145834;
+23:16:44 set names utf8;
+23:16:44 select * from configs
+23:17:25 use a0122145834;
+23:17:25 set names utf8;
+23:17:25 select * from configs
+23:17:25 select * from users where id=54
+23:17:25 select count(id) from users where spreader_id='54'
+23:17:25 select * from images
+23:17:25 select * from users where spreader_id='54'
+23:17:31 use a0122145834;
+23:17:31 set names utf8;
+23:17:31 select * from configs
+23:17:31 select * from admins where id=1
+23:17:32 use a0122145834;
+23:17:32 set names utf8;
+23:17:32 select * from configs
+23:17:32 select * from admins where id=1
+23:17:32 select count(id) from users
+23:17:32 select * from users limit 0,20
+23:17:32 use a0122145834;
+23:17:32 set names utf8;
+23:17:32 select * from configs
+23:17:32 select * from users where id=54
+23:17:32 select count(id) from users where spreader_id='54'
+23:17:32 select * from images
+23:17:32 select count(id) from income where user_id=54
+23:17:32 select * from income where user_id=54 limit 0,5
+23:17:42 use a0122145834;
+23:17:42 set names utf8;
+23:17:42 select * from configs
+23:17:42 select * from users where id=54
+23:17:42 select count(id) from users where spreader_id='54'
+23:17:42 select * from images
+23:17:42 select type_id from articles where id='9'
+23:17:42 select * from articles where id='9'
+23:18:29 use a0122145834;
+23:18:29 set names utf8;
+23:18:29 select * from configs
+23:18:31 use a0122145834;
+23:18:31 set names utf8;
+23:18:31 select * from configs
+23:18:31 select * from users where id=38
+23:18:31 select count(id) from users where spreader_id='38'
+23:18:31 select * from images
+23:18:31 select type_id from articles where id='9'
+23:18:31 select * from articles where id='9'
+23:19:03 use a0122145834;
+23:19:03 set names utf8;
+23:19:03 select * from configs
+23:19:03 select * from users where id=54
+23:19:03 select * from goods where need_hidden=0 and id=8
+23:19:03 select * from orders where user_id=54 and goods_id=8 
+23:19:13 use a0122145834;
+23:19:13 set names utf8;
+23:19:13 select * from configs
+23:19:13 select * from users where id=38
+23:19:13 select count(id) from users where spreader_id='38'
+23:19:13 select * from images
+23:19:13 select type_id from articles where id='8'
+23:19:13 select * from articles where id='8'
+23:19:23 use a0122145834;
+23:19:23 set names utf8;
+23:19:23 select * from configs
+23:19:23 select * from users where id=54
+23:19:23 select count(id) from users where spreader_id='54'
+23:19:23 select * from images
+23:19:23 select * from goods where need_top=1 and need_hidden=0 order by id desc limit 0,5
+23:19:23 select count(id) from goods where need_top=0 and need_hidden=0 order by id desc
+23:19:23 select * from goods where need_top=0 and need_hidden=0 order by id desc limit 0,5
+23:19:33 use a0122145834;
+23:19:33 set names utf8;
+23:19:33 select * from configs
+23:19:33 select * from users where id=38
+23:19:33 select count(id) from users where spreader_id='38'
+23:19:33 select * from images
+23:19:33 use a0122145834;
+23:19:33 set names utf8;
+23:19:33 select * from configs
+23:19:38 use a0122145834;
+23:19:38 set names utf8;
+23:19:38 select * from configs
+23:19:38 use a0122145834;
+23:19:38 set names utf8;
+23:19:38 select * from configs
+23:19:38 use a0122145834;
+23:19:38 set names utf8;
+23:19:38 select * from configs
+23:19:47 use a0122145834;
+23:19:47 set names utf8;
+23:19:47 select * from configs
+23:19:47 select * from users where user_name='555555' and user_word='5b1b68a9abf4d2cd155c81a9225fd158'
+23:19:47 use a0122145834;
+23:19:47 set names utf8;
+23:19:47 select * from configs
+23:19:47 select * from users where id=38
+23:19:48 select count(id) from users where spreader_id='38'
+23:19:48 select * from images
+23:19:48 select * from goods where need_top=1 and need_hidden=0 order by id desc limit 0,5
+23:19:48 select count(id) from goods where need_top=0 and need_hidden=0 order by id desc
+23:19:48 select * from goods where need_top=0 and need_hidden=0 order by id desc limit 0,5
+23:19:53 use a0122145834;
+23:19:53 set names utf8;
+23:19:53 select * from configs
+23:20:34 use a0122145834;
+23:20:34 set names utf8;
+23:20:34 select * from configs
+23:20:43 use a0122145834;
+23:20:43 set names utf8;
+23:20:43 select * from configs
+23:23:35 use a0122145834;
+23:23:35 set names utf8;
+23:23:35 select * from configs
+23:23:35 select * from users where id=38
+23:23:35 select count(id) from users where spreader_id='38'
+23:23:35 select * from images
+23:23:35 select * from goods where need_top=1 and need_hidden=0 order by id desc limit 0,5
+23:23:35 select count(id) from goods where need_top=0 and need_hidden=0 order by id desc
+23:23:35 select * from goods where need_top=0 and need_hidden=0 order by id desc limit 0,5
+23:24:44 use a0122145834;
+23:24:44 set names utf8;
+23:24:44 select * from configs
+23:24:51 use a0122145834;
+23:24:51 set names utf8;
+23:24:51 select * from configs
+23:28:16 use a0122145834;
+23:28:16 set names utf8;
+23:28:16 select * from configs
+23:28:20 use a0122145834;
+23:28:20 set names utf8;
+23:28:20 select * from configs
+23:28:20 use a0122145834;
+23:28:20 set names utf8;
+23:28:20 select * from configs
+23:28:25 use a0122145834;
+23:28:25 set names utf8;
+23:28:25 select * from configs
+23:28:25 select * from users where user_name='555555' and user_word='5b1b68a9abf4d2cd155c81a9225fd158'
+23:28:25 use a0122145834;
+23:28:25 set names utf8;
+23:28:25 select * from configs
+23:28:25 select * from users where id=38
+23:28:25 select count(id) from users where spreader_id='38'
+23:28:25 select * from images
+23:28:25 select * from goods where need_top=1 and need_hidden=0 order by id desc limit 0,5
+23:28:25 select count(id) from goods where need_top=0 and need_hidden=0 order by id desc
+23:28:25 select * from goods where need_top=0 and need_hidden=0 order by id desc limit 0,5
+23:28:40 use a0122145834;
+23:28:40 set names utf8;
+23:28:40 select * from configs
+23:28:44 use a0122145834;
+23:28:44 set names utf8;
+23:28:44 select * from configs
+23:28:44 select * from users where id=38
+23:28:44 select count(id) from users where spreader_id='38'
+23:28:44 select * from images
+23:28:44 select type_id from articles where id='9'
+23:28:44 select * from articles where id='9'
+23:29:07 use a0122145834;
+23:29:07 set names utf8;
+23:29:07 select * from configs
+23:29:07 select * from users where id=38
+23:29:07 select count(id) from users where spreader_id='38'
+23:29:07 select * from images
+23:29:07 select * from article_type
+23:29:07 select * from article_type where id='0'
+23:29:07 select count(id) from articles where type_id='0' order by add_time desc
+23:29:07 select * from articles where type_id='0' order by add_time desc limit 0,5
+23:29:35 use a0122145834;
+23:29:35 set names utf8;
+23:29:35 select * from configs
+23:31:17 use a0122145834;
+23:31:17 set names utf8;
+23:31:17 select * from configs
+23:32:03 use a0122145834;
+23:32:03 set names utf8;
+23:32:03 select * from configs
+23:32:03 select * from users where id=38
+23:32:03 select count(id) from users where spreader_id='38'
+23:32:03 select * from images
+23:32:03 select * from article_type
+23:32:03 select * from article_type where id='0'
+23:32:03 select count(id) from articles where type_id='0' order by add_time desc
+23:32:03 select * from articles where type_id='0' order by add_time desc limit 5,5
+23:32:07 use a0122145834;
+23:32:07 set names utf8;
+23:32:07 select * from configs
+23:32:07 select * from users where id=38
+23:32:07 select count(id) from users where spreader_id='38'
+23:32:07 select * from images
+23:32:07 select * from article_type
+23:32:07 select * from article_type where id='0'
+23:32:07 select count(id) from articles where type_id='0' order by add_time desc
+23:32:07 select * from articles where type_id='0' order by add_time desc limit 0,5
+23:34:44 use a0122145834;
+23:34:44 set names utf8;
+23:34:44 select * from configs
+23:34:45 use a0122145834;
+23:34:45 set names utf8;
+23:34:45 select * from configs
+23:34:47 use a0122145834;
+23:34:47 set names utf8;
+23:34:47 select * from configs
+23:35:01 use a0122145834;
+23:35:01 set names utf8;
+23:35:01 select * from configs
+23:35:04 use a0122145834;
+23:35:04 set names utf8;
+23:35:04 select * from configs
+23:35:08 use a0122145834;
+23:35:08 set names utf8;
+23:35:08 select * from configs
+23:36:37 use a0122145834;
+23:36:37 set names utf8;
+23:36:37 select * from configs
+23:38:49 use a0122145834;
+23:38:49 set names utf8;
+23:38:49 select * from configs
+23:44:48 use a0122145834;
+23:44:48 set names utf8;
+23:44:48 select * from configs
+23:44:48 select * from users where id=38
+23:44:48 use a0122145834;
+23:44:48 set names utf8;
+23:44:48 select * from configs
+23:44:48 select * from users where id=38
+23:44:48 select count(id) from users where spreader_id='38'
+23:44:48 select * from images
+23:44:48 select * from goods where need_top=1 and need_hidden=0 order by id desc limit 0,5
+23:44:48 select count(id) from goods where need_top=0 and need_hidden=0 order by id desc
+23:44:48 select * from goods where need_top=0 and need_hidden=0 order by id desc limit 0,5
+23:44:51 use a0122145834;
+23:44:51 set names utf8;
+23:44:51 select * from configs
+23:46:56 use a0122145834;
+23:46:56 set names utf8;
+23:46:56 select * from configs
+23:46:56 select * from users where id=38
+23:46:56 select count(id) from users where spreader_id='38'
+23:46:56 select * from images
+23:46:56 select type_id from articles where id='9'
+23:46:56 select * from articles where id='9'
+23:51:40 use a0122145834;
+23:51:40 set names utf8;
+23:51:40 select * from configs
+23:51:40 select * from users where id=38
+23:51:40 select count(id) from users where spreader_id='38'
+23:51:40 select * from images
+23:51:40 select type_id from articles where id='8'
+23:51:40 select * from articles where id='8'
+23:51:55 use a0122145834;
+23:51:55 set names utf8;
+23:51:55 select * from configs
+23:51:55 select * from users where id=38
+23:51:55 select count(id) from users where spreader_id='38'
+23:51:55 select * from images
+23:51:55 select * from goods where need_top=1 and need_hidden=0 order by id desc limit 0,5
+23:51:55 select count(id) from goods where need_top=0 and need_hidden=0 order by id desc
+23:51:55 select * from goods where need_top=0 and need_hidden=0 order by id desc limit 0,5
+23:53:00 use a0122145834;
+23:53:00 set names utf8;
+23:53:00 select * from configs
+23:53:00 select * from users where id=38
+23:53:00 select count(id) from users where spreader_id='38'
+23:53:00 select * from images
+23:53:01 use a0122145834;
+23:53:01 set names utf8;
+23:53:01 select * from configs
+23:55:43 use a0122145834;
+23:55:43 set names utf8;
+23:55:43 select * from configs
+23:55:59 use a0122145834;
+23:55:59 set names utf8;
+23:55:59 select * from configs
+23:56:16 use a0122145834;
+23:56:16 set names utf8;
+23:56:16 select * from configs
+23:56:17 use a0122145834;
+23:56:17 set names utf8;
+23:56:17 select * from configs
+23:56:25 use a0122145834;
+23:56:25 set names utf8;
+23:56:25 select * from configs
+23:56:35 use a0122145834;
+23:56:35 set names utf8;
+23:56:35 select * from configs
+23:56:49 use a0122145834;
+23:56:49 set names utf8;
+23:56:49 select * from configs
+23:56:52 use a0122145834;
+23:56:52 set names utf8;
+23:56:52 select * from configs
+23:57:00 use a0122145834;
+23:57:00 set names utf8;
+23:57:00 select * from configs
+23:58:36 use a0122145834;
+23:58:36 set names utf8;
+23:58:36 select * from configs
+23:59:05 use a0122145834;
+23:59:05 set names utf8;
+23:59:05 select * from configs
+23:59:13 use a0122145834;
+23:59:13 set names utf8;
+23:59:13 select * from configs
+23:59:15 use a0122145834;
+23:59:15 set names utf8;
+23:59:15 select * from configs
+23:59:52 use a0122145834;
+23:59:52 set names utf8;
+23:59:52 select * from configs

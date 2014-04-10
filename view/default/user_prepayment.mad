@@ -1,0 +1,67 @@
+<div class="wid" id="main">
+	<h3><span>充值中心</span>&nbsp;&nbsp;&nbsp;&nbsp;<a href="index.php" style=" font-weight:100"><u>返回主页</u></a></h3>
+    <div id="main_all">
+<table width="90%" border="0" style="margin:auto;margin-top:10px; border:1px solid #ccc;">
+  <tr >
+    <th width="27%">订单编号</td>
+    <th width="26%">充值金额</td>
+    <th width="23%">状态</td>
+    <th width="24%">充值时间</td>
+  </tr>
+{foreach $rows as $v}
+  <tr style="text-align:center">
+    <td>{$v.order_sn}</td>
+    <td>{$v.income_money}</td>
+    <td>{if $v.pay_status eq 1}已支付{else}未支付{/if}</td>
+    <td>{$v.add_time|date_format:"%Y/%m/%d"}</td>
+  </tr>
+  {/foreach}
+  <tr>
+  	<td colspan="4" style="text-align:right">
+     <div class="pagetool">{$pagetool}</div>
+    </td>
+  </tr>
+</table>
+
+<table width="100%" border="0" style="margin-top:30px; margin-bottom:30px; display:none;">
+<form name="form7" method="post" action="/reorder/" target="_blank">
+  <tr>
+    <td width="38%" align="right">充值金额：</td>
+    <td width="62%"><input type="text" name="price" value="10" />
+      *（单位：元）</td>
+  </tr>
+  <tr>
+    <td align="right">支付方式：</td>
+    <td><input style="height:20px;width:20px; line-height:20px" type="radio" name="c_type" value="1" checked="checked" /> 支付宝支付</td>
+  </tr>
+<tr>
+  <td align="center" colspan="2"><p>
+  <input style="width:60px; height:25px; line-height:25px" type="submit" name="submit" value="充值" />
+  &nbsp;&nbsp;充值金额必须为整数！</p>
+    <p class="STYLE1"> <strong>注意</strong>：请选择&quot;<span class="STYLE2">即时到帐</span>&quot;付款，否则无法到账 <a href="http://www.yingzh.com/qq/yanshi.jpg" target="_blank"><span class="STYLE2">查看演示 </span></a></p></td>
+
+</tr>
+  </form>
+</table>
+<table width="100%" border="0" style="margin-top:30px; margin-bottom:30px;">
+<form name="form7" method="post" action="orders.php?act=prepayment" target="_blank">
+  <tr>
+    <td width="38%" align="right">充值金额：</td>
+    <td width="62%"><input type="text" name="price" value="10" />
+      *（单位：元）</td>
+  </tr>
+  <tr>
+    <td align="right">支付方式：</td>
+    <td><input style="height:20px;width:20px; line-height:20px" type="radio" name="c_type" value="1" checked="checked" /> 支付宝支付</td>
+  </tr>
+<tr>
+  <td align="center" colspan="2"><p>
+  <input style="width:60px; height:25px; line-height:25px" type="submit" name="submit" value="充值" />
+  &nbsp;&nbsp;充值金额必须为整数！</p>
+    </td>
+
+</tr>
+  </form>
+</table>
+    </div>
+</div>

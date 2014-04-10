@@ -1,0 +1,2198 @@
+21:50:57 use a0122145834;
+21:50:57 set names utf8;
+21:50:57 select * from configs
+21:50:57 select * from users where id=38
+21:50:57 select count(id) from users where spreader_id='38'
+21:50:57 select * from images
+21:50:57 select * from goods where need_top=1 and need_hidden=0 order by id desc limit 0,5
+21:50:57 select count(id) from goods where need_top=0 and need_hidden=0 order by id desc
+21:50:57 select * from goods where need_top=0 and need_hidden=0 order by id desc limit 0,5
+21:51:01 use a0122145834;
+21:51:01 set names utf8;
+21:51:01 select * from configs
+21:51:01 select * from users where id=38
+21:51:01 select count(id) from users where spreader_id='38'
+21:51:01 select * from images
+21:51:06 use a0122145834;
+21:51:06 set names utf8;
+21:51:06 select * from configs
+21:51:06 select * from users where id=38
+21:51:06 select count(id) from users where spreader_id='38'
+21:51:06 select * from images
+21:51:06 select * from goods where need_top=1 and need_hidden=0 order by id desc limit 0,5
+21:51:06 select count(id) from goods where need_top=0 and need_hidden=0 order by id desc
+21:51:06 select * from goods where need_top=0 and need_hidden=0 order by id desc limit 0,5
+21:51:15 use a0122145834;
+21:51:15 set names utf8;
+21:51:15 select * from configs
+21:51:15 select * from users where id=38
+21:51:19 use a0122145834;
+21:51:19 set names utf8;
+21:51:19 select * from configs
+21:51:19 select * from users where id=38
+21:51:19 select count(id) from users where spreader_id='38'
+21:51:19 select * from images
+21:51:19 select * from goods where need_top=1 and need_hidden=0 order by id desc limit 0,5
+21:51:19 select count(id) from goods where need_top=0 and need_hidden=0 order by id desc
+21:51:19 select * from goods where need_top=0 and need_hidden=0 order by id desc limit 0,5
+21:51:26 use a0122145834;
+21:51:26 set names utf8;
+21:51:26 select * from configs
+21:51:26 select * from users where id=38
+21:51:26 select count(id) from users where spreader_id='38'
+21:51:26 select * from images
+21:51:28 use a0122145834;
+21:51:28 set names utf8;
+21:51:28 select * from configs
+21:51:28 select * from users where id=38
+21:51:28 select count(id) from users where spreader_id='38'
+21:51:28 select * from images
+21:51:28 select * from goods where need_top=1 and need_hidden=0 order by id desc limit 0,5
+21:51:28 select count(id) from goods where need_top=0 and need_hidden=0 order by id desc
+21:51:28 select * from goods where need_top=0 and need_hidden=0 order by id desc limit 0,5
+21:51:42 use a0122145834;
+21:51:42 set names utf8;
+21:51:42 select * from configs
+21:51:42 select * from admins where id=1
+21:51:42 use a0122145834;
+21:51:42 set names utf8;
+21:51:42 select * from configs
+21:51:42 select * from admins where id=1
+21:51:42 select count(id) from users
+21:51:42 select * from users limit 0,20
+21:51:47 use a0122145834;
+21:51:47 set names utf8;
+21:51:47 select * from configs
+21:51:47 select * from admins where id=1
+21:51:47 select * from users where id=38
+21:51:53 use a0122145834;
+21:51:53 set names utf8;
+21:51:53 select * from configs
+21:51:53 select * from admins where id=1
+21:51:53 update users set user_name='555555',nick_name='求昵称',credits='0',money='0',pay_email='',pay_name='',address='',vip_level='2' where id=38 
+21:51:54 use a0122145834;
+21:51:54 set names utf8;
+21:51:54 select * from configs
+21:51:54 select * from admins where id=1
+21:51:54 select * from users where id=38
+21:51:58 use a0122145834;
+21:51:58 set names utf8;
+21:51:58 select * from configs
+21:51:58 select * from users where id=38
+21:51:59 use a0122145834;
+21:51:59 set names utf8;
+21:51:59 select * from configs
+21:51:59 select * from users where id=38
+21:51:59 select count(id) from users where spreader_id='38'
+21:51:59 select * from images
+21:51:59 select * from goods where need_top=1 and need_hidden=0 order by id desc limit 0,5
+21:51:59 select count(id) from goods where need_top=0 and need_hidden=0 order by id desc
+21:51:59 select * from goods where need_top=0 and need_hidden=0 order by id desc limit 0,5
+21:52:01 use a0122145834;
+21:52:01 set names utf8;
+21:52:01 select * from configs
+21:52:01 select * from users where id=38
+21:52:01 select count(id) from users where spreader_id='38'
+21:52:01 select * from images
+21:52:01 select * from article_type
+21:52:01 select count(id) from articles order by add_time desc
+21:52:01 select * from articles order by add_time desc limit 0,5
+21:52:10 use a0122145834;
+21:52:10 set names utf8;
+21:52:10 select * from configs
+21:52:10 select * from users where id=38
+21:52:10 select count(id) from users where spreader_id='38'
+21:52:10 select * from images
+21:52:10 select * from article_type
+21:52:10 select * from article_type where id='4'
+21:52:10 select count(id) from articles where type_id='4' order by add_time desc
+21:52:10 select * from articles where type_id='4' order by add_time desc limit 0,5
+21:52:17 use a0122145834;
+21:52:17 set names utf8;
+21:52:17 select * from configs
+21:52:17 select * from users where id=38
+21:52:17 select count(id) from users where spreader_id='38'
+21:52:17 select * from images
+21:52:17 select * from article_type
+21:52:17 select count(id) from articles order by add_time desc
+21:52:17 select * from articles order by add_time desc limit 0,5
+21:52:19 use a0122145834;
+21:52:19 set names utf8;
+21:52:19 select * from configs
+21:52:19 select * from users where id=38
+21:52:19 select count(id) from users where spreader_id='38'
+21:52:19 select * from images
+21:52:19 select * from article_type
+21:52:19 select * from article_type where id='4'
+21:52:19 select count(id) from articles where type_id='4' order by add_time desc
+21:52:19 select * from articles where type_id='4' order by add_time desc limit 0,5
+21:52:25 use a0122145834;
+21:52:25 set names utf8;
+21:52:25 select * from configs
+21:52:25 select * from users where id=38
+21:52:25 select count(id) from users where spreader_id='38'
+21:52:25 select * from images
+21:52:25 select * from article_type
+21:52:25 select count(id) from articles order by add_time desc
+21:52:25 select * from articles order by add_time desc limit 0,5
+21:52:27 use a0122145834;
+21:52:27 set names utf8;
+21:52:27 select * from configs
+21:52:27 select * from users where id=38
+21:52:27 select count(id) from users where spreader_id='38'
+21:52:27 select * from images
+21:52:27 select * from article_type
+21:52:27 select * from article_type where id='4'
+21:52:27 select count(id) from articles where type_id='4' order by add_time desc
+21:52:27 select * from articles where type_id='4' order by add_time desc limit 0,5
+21:52:33 use a0122145834;
+21:52:33 set names utf8;
+21:52:33 select * from configs
+21:52:33 select * from users where id=38
+21:52:33 select count(id) from users where spreader_id='38'
+21:52:33 select * from images
+21:52:33 select * from article_type
+21:52:33 select count(id) from articles order by add_time desc
+21:52:33 select * from articles order by add_time desc limit 0,5
+21:52:36 use a0122145834;
+21:52:36 set names utf8;
+21:52:36 select * from configs
+21:52:36 select * from users where id=38
+21:52:36 select count(id) from users where spreader_id='38'
+21:52:36 select * from images
+21:52:36 select * from article_type
+21:52:36 select * from article_type where id='4'
+21:52:36 select count(id) from articles where type_id='4' order by add_time desc
+21:52:36 select * from articles where type_id='4' order by add_time desc limit 0,5
+21:52:39 use a0122145834;
+21:52:39 set names utf8;
+21:52:39 select * from configs
+21:52:39 select * from users where id=38
+21:52:39 select count(id) from users where spreader_id='38'
+21:52:39 select * from images
+21:52:39 select * from article_type
+21:52:39 select count(id) from articles order by add_time desc
+21:52:39 select * from articles order by add_time desc limit 0,5
+21:52:41 use a0122145834;
+21:52:41 set names utf8;
+21:52:41 select * from configs
+21:52:41 select * from users where id=38
+21:52:42 use a0122145834;
+21:52:42 set names utf8;
+21:52:42 select * from configs
+21:52:42 select * from users where id=38
+21:52:42 select count(id) from users where spreader_id='38'
+21:52:42 select * from images
+21:52:42 select * from goods where need_top=1 and need_hidden=0 order by id desc limit 0,5
+21:52:42 select count(id) from goods where need_top=0 and need_hidden=0 order by id desc
+21:52:42 select * from goods where need_top=0 and need_hidden=0 order by id desc limit 0,5
+21:52:46 use a0122145834;
+21:52:46 set names utf8;
+21:52:46 select * from configs
+21:52:46 select * from users where id=38
+21:52:46 select count(id) from users where spreader_id='38'
+21:52:46 select * from images
+21:52:46 select count(v.id) from vipmsg as v left join users as u on v.user_id=u.id where v.can_see=1 order by v.id desc
+21:52:46 select v.id,u.nick_name,v.user_id,v.user_msg,v.recove,v.add_time from vipmsg as v left join users as u on v.user_id=u.id where v.can_see=1 order by v.id desc limit 0,5
+21:52:48 use a0122145834;
+21:52:48 set names utf8;
+21:52:48 select * from configs
+21:52:48 select * from users where id=38
+21:52:48 select count(id) from users where spreader_id='38'
+21:52:48 select * from images
+21:52:48 select * from article_type
+21:52:48 select count(id) from articles order by add_time desc
+21:52:48 select * from articles order by add_time desc limit 0,5
+21:52:49 use a0122145834;
+21:52:49 set names utf8;
+21:52:49 select * from configs
+21:52:49 select * from users where id=38
+21:52:50 use a0122145834;
+21:52:50 set names utf8;
+21:52:50 select * from configs
+21:52:50 select * from users where id=38
+21:52:50 select count(id) from users where spreader_id='38'
+21:52:50 select * from images
+21:52:50 select * from goods where need_top=1 and need_hidden=0 order by id desc limit 0,5
+21:52:50 select count(id) from goods where need_top=0 and need_hidden=0 order by id desc
+21:52:50 select * from goods where need_top=0 and need_hidden=0 order by id desc limit 0,5
+21:52:53 use a0122145834;
+21:52:53 set names utf8;
+21:52:53 select * from configs
+21:52:53 select * from users where id=38
+21:52:53 select count(id) from users where spreader_id='38'
+21:52:53 select * from images
+21:52:53 select * from article_type
+21:52:53 select * from article_type where id='0'
+21:52:53 select count(id) from articles where type_id='0' order by add_time desc
+21:52:53 select * from articles where type_id='0' order by add_time desc limit 0,5
+21:52:56 use a0122145834;
+21:52:56 set names utf8;
+21:52:56 select * from configs
+21:52:56 select * from users where id=38
+21:52:56 select count(id) from users where spreader_id='38'
+21:52:56 select * from images
+21:52:56 select type_id from articles where id='16'
+21:52:56 select * from articles where id='16'
+21:53:05 use a0122145834;
+21:53:05 set names utf8;
+21:53:05 select * from configs
+21:53:05 select * from admins where id=1
+21:53:05 update users set user_name='555555',nick_name='求昵称',credits='0',money='0',pay_email='',pay_name='',address='',vip_level='0' where id=38 
+21:53:06 use a0122145834;
+21:53:06 set names utf8;
+21:53:06 select * from configs
+21:53:06 select * from admins where id=1
+21:53:06 select * from users where id=38
+21:53:14 use a0122145834;
+21:53:14 set names utf8;
+21:53:14 select * from configs
+21:53:14 select * from users where id=38
+21:53:14 select count(id) from users where spreader_id='38'
+21:53:14 select * from images
+21:53:14 select * from article_type
+21:53:14 select count(id) from articles order by add_time desc
+21:53:14 select * from articles order by add_time desc limit 0,5
+21:53:29 use a0122145834;
+21:53:29 set names utf8;
+21:53:29 select * from configs
+21:53:29 select * from users where id=38
+21:53:29 use a0122145834;
+21:53:29 set names utf8;
+21:53:29 select * from configs
+21:53:29 select * from users where id=38
+21:53:29 select count(id) from users where spreader_id='38'
+21:53:29 select * from images
+21:53:29 select * from goods where need_top=1 and need_hidden=0 order by id desc limit 0,5
+21:53:29 select count(id) from goods where need_top=0 and need_hidden=0 order by id desc
+21:53:29 select * from goods where need_top=0 and need_hidden=0 order by id desc limit 0,5
+21:53:34 use a0122145834;
+21:53:34 set names utf8;
+21:53:34 select * from configs
+21:53:34 select * from users where id=38
+21:53:34 select count(id) from users where spreader_id='38'
+21:53:34 select * from images
+21:53:34 select * from article_type
+21:53:34 select * from article_type where id='0'
+21:53:34 select count(id) from articles where type_id='0' order by add_time desc
+21:53:34 select * from articles where type_id='0' order by add_time desc limit 0,5
+21:53:41 use a0122145834;
+21:53:41 set names utf8;
+21:53:41 select * from configs
+21:53:41 select * from users where id=38
+21:53:41 select count(id) from users where spreader_id='38'
+21:53:41 select * from images
+21:53:41 select type_id from articles where id='13'
+21:53:41 select * from articles where id='13'
+21:53:45 use a0122145834;
+21:53:45 set names utf8;
+21:53:45 select * from configs
+21:53:45 select * from users where id=38
+21:53:45 select count(id) from users where spreader_id='38'
+21:53:45 select * from images
+21:53:45 select type_id from articles where id='18'
+21:53:45 select * from articles where id='18'
+21:53:51 use a0122145834;
+21:53:51 set names utf8;
+21:53:51 select * from configs
+21:53:51 select * from users where id=38
+21:53:51 select count(id) from users where spreader_id='38'
+21:53:51 select * from images
+21:53:51 select type_id from articles where id='100'
+21:53:51 select * from articles where id='100'
+21:53:54 use a0122145834;
+21:53:54 set names utf8;
+21:53:54 select * from configs
+21:53:54 select * from users where id=38
+21:53:54 select count(id) from users where spreader_id='38'
+21:53:54 select * from images
+21:53:54 select * from article_type
+21:53:54 select count(id) from articles order by add_time desc
+21:53:54 select * from articles order by add_time desc limit 0,5
+21:54:12 use a0122145834;
+21:54:12 set names utf8;
+21:54:12 select * from configs
+21:54:12 select * from users where id=38
+21:54:12 select count(id) from users where spreader_id='38'
+21:54:12 select * from images
+21:54:13 use a0122145834;
+21:54:13 set names utf8;
+21:54:13 select * from configs
+21:54:13 select * from users where id=38
+21:54:13 select count(id) from users where spreader_id='38'
+21:54:13 select * from images
+21:54:13 select * from goods where need_top=1 and need_hidden=0 order by id desc limit 0,5
+21:54:13 select count(id) from goods where need_top=0 and need_hidden=0 order by id desc
+21:54:13 select * from goods where need_top=0 and need_hidden=0 order by id desc limit 0,5
+21:54:43 use a0122145834;
+21:54:43 set names utf8;
+21:54:43 select * from configs
+21:54:43 select * from users where id=38
+21:54:46 use a0122145834;
+21:54:46 set names utf8;
+21:54:46 select * from configs
+21:54:46 select * from users where id=38
+21:54:46 select count(id) from users where spreader_id='38'
+21:54:46 select * from images
+21:54:46 select * from goods where need_top=1 and need_hidden=0 order by id desc limit 0,5
+21:54:46 select count(id) from goods where need_top=0 and need_hidden=0 order by id desc
+21:54:46 select * from goods where need_top=0 and need_hidden=0 order by id desc limit 0,5
+21:54:53 use a0122145834;
+21:54:53 set names utf8;
+21:54:53 select * from configs
+21:54:53 select * from users where id=38
+21:54:53 select * from goods where need_hidden=0 and id=8
+21:54:53 select * from orders where user_id=38 and goods_id=8 
+21:54:59 use a0122145834;
+21:54:59 set names utf8;
+21:54:59 select * from configs
+21:54:59 select * from users where id=38
+21:54:59 select count(id) from users where spreader_id='38'
+21:54:59 select * from images
+21:55:01 use a0122145834;
+21:55:01 set names utf8;
+21:55:01 select * from configs
+21:55:01 select * from users where id=38
+21:55:01 select count(id) from users where spreader_id='38'
+21:55:01 select * from images
+21:55:07 use a0122145834;
+21:55:07 set names utf8;
+21:55:07 select * from configs
+21:55:07 select * from users where id=38
+21:55:07 select count(id) from users where spreader_id='38'
+21:55:07 select * from images
+21:55:07 select * from goods where need_top=1 and need_hidden=0 order by id desc limit 0,5
+21:55:07 select count(id) from goods where need_top=0 and need_hidden=0 order by id desc
+21:55:07 select * from goods where need_top=0 and need_hidden=0 order by id desc limit 0,5
+21:55:13 use a0122145834;
+21:55:13 set names utf8;
+21:55:13 select * from configs
+21:55:13 select * from users where id=38
+21:55:13 select count(id) from users where spreader_id='38'
+21:55:13 select * from images
+21:55:18 use a0122145834;
+21:55:18 set names utf8;
+21:55:18 select * from configs
+21:55:18 select * from users where id=38
+21:55:18 select count(id) from users where spreader_id='38'
+21:55:18 select * from images
+21:55:18 select * from goods where need_top=1 and need_hidden=0 order by id desc limit 0,5
+21:55:18 select count(id) from goods where need_top=0 and need_hidden=0 order by id desc
+21:55:18 select * from goods where need_top=0 and need_hidden=0 order by id desc limit 0,5
+21:55:24 use a0122145834;
+21:55:24 set names utf8;
+21:55:24 select * from configs
+21:55:24 select * from users where id=38
+21:55:24 select count(id) from users where spreader_id='38'
+21:55:24 select * from images
+21:55:24 select * from article_type
+21:55:24 select * from article_type where id='0'
+21:55:24 select count(id) from articles where type_id='0' order by add_time desc
+21:55:24 select * from articles where type_id='0' order by add_time desc limit 0,5
+21:55:29 use a0122145834;
+21:55:29 set names utf8;
+21:55:29 select * from configs
+21:55:29 select * from users where id=38
+21:55:29 select count(id) from users where spreader_id='38'
+21:55:29 select * from images
+21:55:29 select type_id from articles where id='16'
+21:55:29 select * from articles where id='16'
+21:57:22 use a0122145834;
+21:57:22 set names utf8;
+21:57:22 select * from configs
+21:57:22 select * from admins where id=1
+21:57:23 use a0122145834;
+21:57:23 set names utf8;
+21:57:23 select * from configs
+21:57:23 select * from admins where id=1
+21:57:23 select count(id) from users
+21:57:23 select * from users limit 0,20
+21:57:27 use a0122145834;
+21:57:27 set names utf8;
+21:57:27 select * from configs
+21:57:27 select * from admins where id=1
+21:57:27 select * from users where id=37
+21:57:32 use a0122145834;
+21:57:32 set names utf8;
+21:57:32 select * from configs
+21:57:32 select * from admins where id=1
+21:57:33 use a0122145834;
+21:57:33 set names utf8;
+21:57:33 select * from configs
+21:57:33 select * from admins where id=1
+21:57:33 select count(id) from users
+21:57:33 select * from users limit 0,20
+21:57:36 use a0122145834;
+21:57:36 set names utf8;
+21:57:36 select * from configs
+21:57:36 select * from admins where id=1
+21:57:36 select * from users where id=35
+21:57:46 use a0122145834;
+21:57:46 set names utf8;
+21:57:46 select * from configs
+21:57:46 select * from admins where id=1
+21:57:46 use a0122145834;
+21:57:46 set names utf8;
+21:57:46 select * from configs
+21:57:46 select * from admins where id=1
+21:57:46 select count(id) from users
+21:57:46 select * from users limit 0,20
+21:57:49 use a0122145834;
+21:57:49 set names utf8;
+21:57:49 select * from configs
+21:57:49 select * from admins where id=1
+21:57:49 select * from users where id=32
+21:57:55 use a0122145834;
+21:57:55 set names utf8;
+21:57:55 select * from configs
+21:57:55 select * from admins where id=1
+21:57:55 use a0122145834;
+21:57:55 set names utf8;
+21:57:55 select * from configs
+21:57:55 select * from admins where id=1
+21:57:55 select count(id) from users
+21:57:55 select * from users limit 0,20
+21:57:58 use a0122145834;
+21:57:58 set names utf8;
+21:57:58 select * from configs
+21:57:58 select * from admins where id=1
+21:57:58 select count(v.id) from vipmsg as v left join users as u on u.id=v.user_id 
+21:57:58 select u.id as username,v.id,v.user_msg,v.recove,v.add_time,v.can_see,u.nick_name,u.vip_level from vipmsg as v left join users as u on u.id=v.user_id  limit 0,20
+21:58:00 use a0122145834;
+21:58:00 set names utf8;
+21:58:00 select * from configs
+21:58:00 select * from admins where id=1
+21:58:00 select * from images
+21:58:08 use a0122145834;
+21:58:08 set names utf8;
+21:58:08 select * from configs
+21:58:08 select * from users where id=38
+21:58:08 select count(id) from users where spreader_id='38'
+21:58:08 select * from images
+21:58:08 select * from article_type
+21:58:08 select * from article_type where id='0'
+21:58:08 select count(id) from articles where type_id='0' order by add_time desc
+21:58:08 select * from articles where type_id='0' order by add_time desc limit 0,5
+21:58:10 use a0122145834;
+21:58:10 set names utf8;
+21:58:10 select * from configs
+21:58:10 select * from users where id=38
+21:58:10 select count(id) from users where spreader_id='38'
+21:58:10 select * from images
+21:58:10 select type_id from articles where id='15'
+21:58:10 select * from articles where id='15'
+21:58:15 use a0122145834;
+21:58:15 set names utf8;
+21:58:15 select * from configs
+21:58:15 select * from users where id=38
+21:58:15 select count(id) from users where spreader_id='38'
+21:58:15 select * from images
+21:58:17 use a0122145834;
+21:58:17 set names utf8;
+21:58:17 select * from configs
+21:58:17 select * from users where id=38
+21:58:17 select count(id) from users where spreader_id='38'
+21:58:17 select * from images
+21:58:17 select * from goods where need_top=1 and need_hidden=0 order by id desc limit 0,5
+21:58:17 select count(id) from goods where need_top=0 and need_hidden=0 order by id desc
+21:58:17 select * from goods where need_top=0 and need_hidden=0 order by id desc limit 0,5
+21:58:21 use a0122145834;
+21:58:21 set names utf8;
+21:58:21 select * from configs
+21:58:21 select * from users where id=38
+21:58:21 select count(id) from users where spreader_id='38'
+21:58:21 select * from images
+21:58:21 select * from article_type
+21:58:21 select * from article_type where id='0'
+21:58:21 select count(id) from articles where type_id='0' order by add_time desc
+21:58:21 select * from articles where type_id='0' order by add_time desc limit 0,5
+21:58:23 use a0122145834;
+21:58:23 set names utf8;
+21:58:23 select * from configs
+21:58:23 select * from users where id=38
+21:58:23 select count(id) from users where spreader_id='38'
+21:58:23 select * from images
+21:58:23 select type_id from articles where id='13'
+21:58:23 select * from articles where id='13'
+21:58:35 use a0122145834;
+21:58:35 set names utf8;
+21:58:35 select * from configs
+21:58:35 select * from users where id=38
+21:58:35 select count(id) from users where spreader_id='38'
+21:58:35 select * from images
+21:58:47 use a0122145834;
+21:58:47 set names utf8;
+21:58:47 select * from configs
+21:58:47 select * from users where id=38
+21:58:47 select count(id) from users where spreader_id='38'
+21:58:47 select * from images
+21:58:47 select * from article_type
+21:58:47 select count(id) from articles order by add_time desc
+21:58:47 select * from articles order by add_time desc limit 0,5
+21:58:53 use a0122145834;
+21:58:53 set names utf8;
+21:58:53 select * from configs
+21:58:53 select * from users where id=38
+21:58:53 select count(id) from users where spreader_id='38'
+21:58:53 select * from images
+21:58:54 use a0122145834;
+21:58:54 set names utf8;
+21:58:54 select * from configs
+21:58:54 select * from users where id=38
+21:58:54 use a0122145834;
+21:58:54 set names utf8;
+21:58:54 select * from configs
+21:58:54 select * from users where id=38
+21:58:54 select count(id) from users where spreader_id='38'
+21:58:54 select * from images
+21:58:54 select * from goods where need_top=1 and need_hidden=0 order by id desc limit 0,5
+21:58:54 select count(id) from goods where need_top=0 and need_hidden=0 order by id desc
+21:58:54 select * from goods where need_top=0 and need_hidden=0 order by id desc limit 0,5
+21:59:05 use a0122145834;
+21:59:05 set names utf8;
+21:59:05 select * from configs
+21:59:05 select * from users where id=38
+21:59:05 select count(id) from users where spreader_id='38'
+21:59:05 select * from images
+21:59:05 select * from article_type
+21:59:05 select * from article_type where id='0'
+21:59:05 select count(id) from articles where type_id='0' order by add_time desc
+21:59:05 select * from articles where type_id='0' order by add_time desc limit 0,5
+21:59:08 use a0122145834;
+21:59:08 set names utf8;
+21:59:08 select * from configs
+21:59:08 select * from users where id=38
+21:59:08 use a0122145834;
+21:59:08 set names utf8;
+21:59:08 select * from configs
+21:59:08 select * from users where id=38
+21:59:08 select count(id) from users where spreader_id='38'
+21:59:08 select * from images
+21:59:08 select * from goods where need_top=1 and need_hidden=0 order by id desc limit 0,5
+21:59:08 select count(id) from goods where need_top=0 and need_hidden=0 order by id desc
+21:59:08 select * from goods where need_top=0 and need_hidden=0 order by id desc limit 0,5
+21:59:10 use a0122145834;
+21:59:10 set names utf8;
+21:59:10 select * from configs
+21:59:10 select * from users where id=38
+21:59:10 select count(id) from users where spreader_id='38'
+21:59:10 select * from images
+21:59:10 select type_id from articles where id='8'
+21:59:10 select * from articles where id='8'
+21:59:21 use a0122145834;
+21:59:21 set names utf8;
+21:59:21 select * from configs
+21:59:21 select * from users where id=38
+21:59:21 select count(id) from users where spreader_id='38'
+21:59:21 select * from images
+21:59:21 select * from goods where need_top=1 and need_hidden=0 order by id desc limit 0,5
+21:59:21 select count(id) from goods where need_top=0 and need_hidden=0 order by id desc
+21:59:21 select * from goods where need_top=0 and need_hidden=0 order by id desc limit 0,5
+21:59:25 use a0122145834;
+21:59:25 set names utf8;
+21:59:25 select * from configs
+21:59:25 select * from users where id=38
+21:59:25 select count(id) from users where spreader_id='38'
+21:59:25 select * from images
+21:59:28 use a0122145834;
+21:59:28 set names utf8;
+21:59:28 select * from configs
+21:59:28 select * from users where id=38
+21:59:28 select count(id) from users where spreader_id='38'
+21:59:28 select * from images
+21:59:29 select * from goods where need_top=1 and need_hidden=0 order by id desc limit 0,5
+21:59:29 select count(id) from goods where need_top=0 and need_hidden=0 order by id desc
+21:59:29 select * from goods where need_top=0 and need_hidden=0 order by id desc limit 0,5
+21:59:40 use a0122145834;
+21:59:40 set names utf8;
+21:59:40 select * from configs
+21:59:40 select * from users where id=38
+21:59:40 select count(id) from users where spreader_id='38'
+21:59:40 select * from images
+21:59:41 use a0122145834;
+21:59:41 set names utf8;
+21:59:41 select * from configs
+21:59:41 select * from users where id=38
+21:59:41 select count(id) from users where spreader_id='38'
+21:59:41 select * from images
+21:59:41 select * from goods where need_top=1 and need_hidden=0 order by id desc limit 0,5
+21:59:41 select count(id) from goods where need_top=0 and need_hidden=0 order by id desc
+21:59:41 select * from goods where need_top=0 and need_hidden=0 order by id desc limit 0,5
+21:59:52 use a0122145834;
+21:59:52 set names utf8;
+21:59:52 select * from configs
+21:59:52 select * from users where id=38
+21:59:52 select count(id) from users where spreader_id='38'
+21:59:52 select * from images
+21:59:54 use a0122145834;
+21:59:54 set names utf8;
+21:59:54 select * from configs
+21:59:54 select * from users where id=38
+21:59:54 select count(id) from users where spreader_id='38'
+21:59:54 select * from images
+21:59:54 select * from goods where need_top=1 and need_hidden=0 order by id desc limit 0,5
+21:59:54 select count(id) from goods where need_top=0 and need_hidden=0 order by id desc
+21:59:54 select * from goods where need_top=0 and need_hidden=0 order by id desc limit 0,5
+22:01:06 use a0122145834;
+22:01:06 set names utf8;
+22:01:06 select * from configs
+22:01:06 select * from users where id=38
+22:01:06 select count(id) from users where spreader_id='38'
+22:01:06 select * from images
+22:01:06 select count(v.id) from vipmsg as v left join users as u on v.user_id=u.id where v.can_see=1 order by v.id desc
+22:01:06 select v.id,u.nick_name,v.user_id,v.user_msg,v.recove,v.add_time from vipmsg as v left join users as u on v.user_id=u.id where v.can_see=1 order by v.id desc limit 0,5
+22:01:30 use a0122145834;
+22:01:30 set names utf8;
+22:01:30 select * from configs
+22:01:30 select * from users where id=38
+22:01:30 select count(id) from users where spreader_id='38'
+22:01:30 select * from images
+22:01:30 select count(v.id) from vipmsg as v left join users as u on v.user_id=u.id where v.can_see=1 order by v.id desc
+22:01:30 select v.id,u.nick_name,v.user_id,v.user_msg,v.recove,v.add_time from vipmsg as v left join users as u on v.user_id=u.id where v.can_see=1 order by v.id desc limit 0,5
+22:01:38 use a0122145834;
+22:01:38 set names utf8;
+22:01:38 select * from configs
+22:01:38 select * from users where id=38
+22:01:38 select count(id) from users where spreader_id='38'
+22:01:38 select * from images
+22:01:38 select * from goods where need_top=1 and need_hidden=0 order by id desc limit 0,5
+22:01:38 select count(id) from goods where need_top=0 and need_hidden=0 order by id desc
+22:01:38 select * from goods where need_top=0 and need_hidden=0 order by id desc limit 0,5
+22:01:42 use a0122145834;
+22:01:42 set names utf8;
+22:01:42 select * from configs
+22:01:42 select * from users where id=38
+22:01:42 select count(id) from users where spreader_id='38'
+22:01:42 select * from images
+22:01:42 select * from goods where need_top=1 and need_hidden=0 order by id desc limit 0,5
+22:01:42 select count(id) from goods where need_top=0 and need_hidden=0 order by id desc
+22:01:42 select * from goods where need_top=0 and need_hidden=0 order by id desc limit 0,5
+22:01:44 use a0122145834;
+22:01:44 set names utf8;
+22:01:45 select * from configs
+22:01:45 select * from users where id=38
+22:01:45 select count(id) from users where spreader_id='38'
+22:01:45 select * from images
+22:01:45 select * from goods where need_top=1 and need_hidden=0 order by id desc limit 0,5
+22:01:45 select count(id) from goods where need_top=0 and need_hidden=0 order by id desc
+22:01:45 select * from goods where need_top=0 and need_hidden=0 order by id desc limit 0,5
+22:01:47 use a0122145834;
+22:01:47 set names utf8;
+22:01:47 select * from configs
+22:01:47 select * from users where id=38
+22:01:47 select count(id) from users where spreader_id='38'
+22:01:47 select * from images
+22:01:47 select * from goods where need_top=1 and need_hidden=0 order by id desc limit 0,5
+22:01:47 select count(id) from goods where need_top=0 and need_hidden=0 order by id desc
+22:01:47 select * from goods where need_top=0 and need_hidden=0 order by id desc limit 0,5
+22:01:51 use a0122145834;
+22:01:51 set names utf8;
+22:01:51 select * from configs
+22:01:51 select * from users where id=38
+22:01:51 select count(id) from users where spreader_id='38'
+22:01:51 select * from images
+22:01:51 select * from goods where need_top=1 and need_hidden=0 order by id desc limit 0,5
+22:01:51 select count(id) from goods where need_top=0 and need_hidden=0 order by id desc
+22:01:51 select * from goods where need_top=0 and need_hidden=0 order by id desc limit 0,5
+22:01:53 use a0122145834;
+22:01:53 set names utf8;
+22:01:53 select * from configs
+22:01:53 select * from users where id=38
+22:01:53 select count(id) from users where spreader_id='38'
+22:01:53 select * from images
+22:01:53 select * from goods where need_top=1 and need_hidden=0 order by id desc limit 0,5
+22:01:53 select count(id) from goods where need_top=0 and need_hidden=0 order by id desc
+22:01:53 select * from goods where need_top=0 and need_hidden=0 order by id desc limit 0,5
+22:08:35 use a0122145834;
+22:08:35 set names utf8;
+22:08:35 select * from configs
+22:08:35 select * from users where id=38
+22:08:35 select count(id) from users where spreader_id='38'
+22:08:35 select * from images
+22:08:35 select * from goods where need_top=1 and need_hidden=0 order by id desc limit 0,5
+22:08:35 select count(id) from goods where need_top=0 and need_hidden=0 order by id desc
+22:08:35 select * from goods where need_top=0 and need_hidden=0 order by id desc limit 0,5
+22:08:48 use a0122145834;
+22:08:48 set names utf8;
+22:08:48 select * from configs
+22:08:48 select * from users where id=38
+22:08:48 select count(id) from users where spreader_id='38'
+22:08:48 select * from images
+22:08:48 select type_id from articles where id='16'
+22:08:48 select * from articles where id='16'
+22:08:51 use a0122145834;
+22:08:51 set names utf8;
+22:08:51 select * from configs
+22:08:51 select * from users where id=38
+22:08:51 select count(id) from users where spreader_id='38'
+22:08:51 select * from images
+22:08:51 select * from goods where need_top=1 and need_hidden=0 order by id desc limit 0,5
+22:08:51 select count(id) from goods where need_top=0 and need_hidden=0 order by id desc
+22:08:51 select * from goods where need_top=0 and need_hidden=0 order by id desc limit 0,5
+22:08:54 use a0122145834;
+22:08:54 set names utf8;
+22:08:54 select * from configs
+22:08:54 select * from users where id=38
+22:08:54 select count(id) from users where spreader_id='38'
+22:08:54 select * from images
+22:08:54 select * from goods where need_top=1 and need_hidden=0 order by id desc limit 0,5
+22:08:54 select count(id) from goods where need_top=0 and need_hidden=0 order by id desc
+22:08:54 select * from goods where need_top=0 and need_hidden=0 order by id desc limit 0,5
+22:09:00 use a0122145834;
+22:09:00 set names utf8;
+22:09:00 select * from configs
+22:09:00 select * from users where id=38
+22:09:00 select count(id) from users where spreader_id='38'
+22:09:00 select * from images
+22:09:02 use a0122145834;
+22:09:02 set names utf8;
+22:09:02 select * from configs
+22:09:02 select * from users where id=38
+22:09:02 select count(id) from users where spreader_id='38'
+22:09:02 select * from images
+22:09:02 select * from goods where need_top=1 and need_hidden=0 order by id desc limit 0,5
+22:09:02 select count(id) from goods where need_top=0 and need_hidden=0 order by id desc
+22:09:02 select * from goods where need_top=0 and need_hidden=0 order by id desc limit 0,5
+22:09:04 use a0122145834;
+22:09:04 set names utf8;
+22:09:04 select * from configs
+22:09:04 select * from users where id=38
+22:09:04 select count(id) from users where spreader_id='38'
+22:09:04 select * from images
+22:09:04 select * from goods where need_top=1 and need_hidden=0 order by id desc limit 0,5
+22:09:04 select count(id) from goods where need_top=0 and need_hidden=0 order by id desc
+22:09:04 select * from goods where need_top=0 and need_hidden=0 order by id desc limit 0,5
+22:09:07 use a0122145834;
+22:09:07 set names utf8;
+22:09:07 select * from configs
+22:09:07 select * from users where id=38
+22:09:07 select count(id) from users where spreader_id='38'
+22:09:07 select * from images
+22:09:08 use a0122145834;
+22:09:08 set names utf8;
+22:09:08 select * from configs
+22:09:08 select * from users where id=38
+22:09:08 select count(id) from users where spreader_id='38'
+22:09:08 select * from images
+22:09:08 select count(id) from income where user_id=38
+22:09:08 select * from income where user_id=38 limit 0,5
+22:09:09 use a0122145834;
+22:09:09 set names utf8;
+22:09:09 select * from configs
+22:09:09 select * from users where id=38
+22:09:09 select count(id) from users where spreader_id='38'
+22:09:09 select * from images
+22:09:09 select count(id) from income where user_id=38
+22:09:09 select * from income where user_id=38 limit 0,5
+22:09:29 use a0122145834;
+22:09:29 set names utf8;
+22:09:29 select * from configs
+22:12:06 use a0122145834;
+22:12:06 set names utf8;
+22:12:06 select * from configs
+22:12:06 select * from users where id=38
+22:12:06 select count(id) from users where spreader_id='38'
+22:12:06 select * from images
+22:12:06 select count(id) from income where user_id=38
+22:12:06 select * from income where user_id=38 limit 0,5
+22:12:11 use a0122145834;
+22:12:11 set names utf8;
+22:12:11 select * from configs
+22:12:11 select * from users where id=38
+22:12:11 select count(id) from users where spreader_id='38'
+22:12:11 select * from images
+22:12:11 select * from goods where need_top=1 and need_hidden=0 order by id desc limit 0,5
+22:12:11 select count(id) from goods where need_top=0 and need_hidden=0 order by id desc
+22:12:12 select * from goods where need_top=0 and need_hidden=0 order by id desc limit 0,5
+22:12:19 use a0122145834;
+22:12:19 set names utf8;
+22:12:19 select * from configs
+22:12:19 select * from users where id=38
+22:12:19 select count(id) from users where spreader_id='38'
+22:12:19 select * from images
+22:12:19 select * from goods where need_top=1 and need_hidden=0 order by id desc limit 0,5
+22:12:19 select count(id) from goods where need_top=0 and need_hidden=0 order by id desc
+22:12:19 select * from goods where need_top=0 and need_hidden=0 order by id desc limit 0,5
+22:12:21 use a0122145834;
+22:12:21 set names utf8;
+22:12:21 select * from configs
+22:12:21 select * from users where id=38
+22:12:21 select count(id) from users where spreader_id='38'
+22:12:21 select * from images
+22:12:21 select * from goods where need_top=1 and need_hidden=0 order by id desc limit 0,5
+22:12:21 select count(id) from goods where need_top=0 and need_hidden=0 order by id desc
+22:12:21 select * from goods where need_top=0 and need_hidden=0 order by id desc limit 0,5
+22:13:32 use a0122145834;
+22:13:32 set names utf8;
+22:13:32 select * from configs
+22:13:46 use a0122145834;
+22:13:46 set names utf8;
+22:13:46 select * from configs
+22:18:54 use a0122145834;
+22:18:54 set names utf8;
+22:18:54 select * from configs
+22:18:54 select * from users where id=38
+22:18:54 select count(id) from users where spreader_id='38'
+22:18:54 select * from images
+22:18:54 select type_id from articles where id='8'
+22:18:54 select * from articles where id='8'
+22:23:50 use a0122145834;
+22:23:50 set names utf8;
+22:23:50 select * from configs
+22:25:14 use a0122145834;
+22:25:14 set names utf8;
+22:25:14 select * from configs
+22:41:05 use a0122145834;
+22:41:05 set names utf8;
+22:41:05 select * from configs
+22:46:52 use a0122145834;
+22:46:52 set names utf8;
+22:46:52 select * from configs
+22:46:53 use a0122145834;
+22:46:53 set names utf8;
+22:46:53 select * from configs
+22:47:27 use a0122145834;
+22:47:27 set names utf8;
+22:47:27 select * from configs
+22:47:27 use a0122145834;
+22:47:28 set names utf8;
+22:47:28 select * from configs
+22:49:55 use a0122145834;
+22:49:55 set names utf8;
+22:49:55 select * from configs
+22:49:55 select * from admins where id=1
+22:49:55 use a0122145834;
+22:49:55 set names utf8;
+22:49:55 select * from configs
+22:49:55 select * from admins where id=1
+22:49:55 select count(id) from goods
+22:49:55 select * from goods limit 0,20
+22:50:01 use a0122145834;
+22:50:01 set names utf8;
+22:50:01 select * from configs
+22:50:01 select * from users where id=38
+22:50:02 select count(id) from users where spreader_id='38'
+22:50:02 select * from images
+22:50:02 select * from article_type
+22:50:02 select * from article_type where id='0'
+22:50:02 select count(id) from articles where type_id='0' order by add_time desc
+22:50:02 select * from articles where type_id='0' order by add_time desc limit 0,5
+22:50:07 use a0122145834;
+22:50:07 set names utf8;
+22:50:07 select * from configs
+22:50:07 select * from users where id=38
+22:50:07 use a0122145834;
+22:50:07 set names utf8;
+22:50:07 select * from configs
+22:50:07 select * from users where id=38
+22:50:07 select count(id) from users where spreader_id='38'
+22:50:07 select * from images
+22:50:07 select * from goods where need_top=1 and need_hidden=0 order by id desc limit 0,5
+22:50:07 select count(id) from goods where need_top=0 and need_hidden=0 order by id desc
+22:50:07 select * from goods where need_top=0 and need_hidden=0 order by id desc limit 0,5
+22:50:09 use a0122145834;
+22:50:09 set names utf8;
+22:50:09 select * from configs
+22:50:09 select * from users where id=38
+22:50:09 select count(id) from users where spreader_id='38'
+22:50:09 select * from images
+22:50:11 use a0122145834;
+22:50:11 set names utf8;
+22:50:11 select * from configs
+22:50:11 select * from users where id=38
+22:50:11 select count(id) from users where spreader_id='38'
+22:50:11 select * from images
+22:50:11 select count(id) from income where user_id=38
+22:50:11 select * from income where user_id=38 limit 0,5
+22:50:11 use a0122145834;
+22:50:11 set names utf8;
+22:50:11 select * from configs
+22:50:11 select * from users where id=38
+22:50:11 select count(id) from users where spreader_id='38'
+22:50:11 select * from images
+22:50:11 select count(id) from expense where user_id=38
+22:50:11 select * from expense where user_id=38 limit 0,5
+22:50:12 use a0122145834;
+22:50:12 set names utf8;
+22:50:12 select * from configs
+22:50:12 select * from users where id=38
+22:50:12 select count(id) from users where spreader_id='38'
+22:50:12 select * from images
+22:50:13 use a0122145834;
+22:50:13 set names utf8;
+22:50:13 select * from configs
+22:50:13 select * from users where id=38
+22:50:13 select count(id) from users where spreader_id='38'
+22:50:13 select * from images
+22:50:14 use a0122145834;
+22:50:14 set names utf8;
+22:50:14 select * from configs
+22:50:14 select * from users where id=38
+22:50:14 select count(id) from users where spreader_id='38'
+22:50:14 select * from images
+22:50:15 use a0122145834;
+22:50:15 set names utf8;
+22:50:15 select * from configs
+22:50:15 select * from users where id=38
+22:50:15 select count(id) from users where spreader_id='38'
+22:50:15 select * from images
+22:50:17 use a0122145834;
+22:50:17 set names utf8;
+22:50:17 select * from configs
+22:50:17 select * from users where id=38
+22:50:17 select count(id) from users where spreader_id='38'
+22:50:17 select * from images
+22:50:19 use a0122145834;
+22:50:19 set names utf8;
+22:50:19 select * from configs
+22:50:19 select * from users where id=38
+22:50:19 select count(id) from users where spreader_id='38'
+22:50:19 select * from images
+22:50:19 select count(v.id) from vipmsg as v left join users as u on v.user_id=u.id where v.can_see=1 order by v.id desc
+22:50:19 select v.id,u.nick_name,v.user_id,v.user_msg,v.recove,v.add_time from vipmsg as v left join users as u on v.user_id=u.id where v.can_see=1 order by v.id desc limit 0,5
+22:50:20 use a0122145834;
+22:50:20 set names utf8;
+22:50:20 select * from configs
+22:50:20 select * from users where id=38
+22:50:20 select count(id) from users where spreader_id='38'
+22:50:20 select * from images
+22:50:20 select count(id) from income where user_id=38
+22:50:20 select * from income where user_id=38 limit 0,5
+22:50:21 use a0122145834;
+22:50:21 set names utf8;
+22:50:21 select * from configs
+22:50:21 select * from users where id=38
+22:50:21 select count(id) from users where spreader_id='38'
+22:50:21 select * from images
+22:50:21 select count(id) from expense where user_id=38
+22:50:21 select * from expense where user_id=38 limit 0,5
+22:50:22 use a0122145834;
+22:50:22 set names utf8;
+22:50:22 select * from configs
+22:50:22 select * from users where id=38
+22:50:22 select count(id) from users where spreader_id='38'
+22:50:22 select * from images
+22:50:23 use a0122145834;
+22:50:23 set names utf8;
+22:50:23 select * from configs
+22:50:23 select * from users where id=38
+22:50:23 select count(id) from users where spreader_id='38'
+22:50:23 select * from images
+22:50:23 select count(id) from income where user_id=38
+22:50:23 select * from income where user_id=38 limit 0,5
+22:50:24 use a0122145834;
+22:50:24 set names utf8;
+22:50:24 select * from configs
+22:50:24 select * from users where id=38
+22:50:24 select count(id) from users where spreader_id='38'
+22:50:24 select * from images
+22:50:25 use a0122145834;
+22:50:25 set names utf8;
+22:50:25 select * from configs
+22:50:25 select * from users where id=38
+22:50:25 select count(id) from users where spreader_id='38'
+22:50:25 select * from images
+22:50:25 select count(id) from expense where user_id=38
+22:50:25 select * from expense where user_id=38 limit 0,5
+22:50:26 use a0122145834;
+22:50:26 set names utf8;
+22:50:26 select * from configs
+22:50:26 select * from users where id=38
+22:50:26 select count(id) from users where spreader_id='38'
+22:50:26 select * from images
+22:50:26 select count(v.id) from vipmsg as v left join users as u on v.user_id=u.id where v.can_see=1 order by v.id desc
+22:50:26 select v.id,u.nick_name,v.user_id,v.user_msg,v.recove,v.add_time from vipmsg as v left join users as u on v.user_id=u.id where v.can_see=1 order by v.id desc limit 0,5
+22:50:27 use a0122145834;
+22:50:27 set names utf8;
+22:50:27 select * from configs
+22:50:27 select * from users where id=38
+22:50:27 select count(id) from users where spreader_id='38'
+22:50:27 select * from images
+22:50:28 use a0122145834;
+22:50:28 set names utf8;
+22:50:28 select * from configs
+22:50:28 select * from users where id=38
+22:50:28 select count(id) from users where spreader_id='38'
+22:50:28 select * from images
+22:50:28 select count(id) from income where user_id=38
+22:50:28 select * from income where user_id=38 limit 0,5
+22:50:29 use a0122145834;
+22:50:29 set names utf8;
+22:50:29 select * from configs
+22:50:29 select * from users where id=38
+22:50:29 select count(id) from users where spreader_id='38'
+22:50:29 select * from images
+22:50:29 select count(id) from expense where user_id=38
+22:50:29 select * from expense where user_id=38 limit 0,5
+22:52:20 use a0122145834;
+22:52:20 set names utf8;
+22:52:20 select * from configs
+22:52:20 select * from users where id=38
+22:52:20 select count(id) from users where spreader_id='38'
+22:52:20 select * from images
+22:52:22 use a0122145834;
+22:52:22 set names utf8;
+22:52:22 select * from configs
+22:52:22 select * from users where id=38
+22:52:22 select count(id) from users where spreader_id='38'
+22:52:22 select * from images
+22:52:22 select * from goods where need_top=1 and need_hidden=0 order by id desc limit 0,5
+22:52:22 select count(id) from goods where need_top=0 and need_hidden=0 order by id desc
+22:52:22 select * from goods where need_top=0 and need_hidden=0 order by id desc limit 0,5
+22:53:47 use a0122145834;
+22:53:47 set names utf8;
+22:53:47 select * from configs
+22:53:47 select * from users where id=38
+22:53:47 select count(id) from users where spreader_id='38'
+22:53:47 select * from images
+22:57:21 use a0122145834;
+22:57:21 set names utf8;
+22:57:21 select * from configs
+22:57:21 select * from admins where id=1
+22:57:21 use a0122145834;
+22:57:21 set names utf8;
+22:57:21 select * from configs
+22:57:21 select * from admins where id=1
+22:57:21 select count(id) from goods
+22:57:21 select * from goods limit 0,20
+22:57:24 use a0122145834;
+22:57:24 set names utf8;
+22:57:24 select * from configs
+22:57:24 select * from admins where id=1
+22:57:24 use a0122145834;
+22:57:24 set names utf8;
+22:57:24 select * from configs
+22:57:24 select * from admins where id=1
+22:57:24 select count(id) from users
+22:57:24 select * from users limit 0,20
+22:57:31 use a0122145834;
+22:57:31 set names utf8;
+22:57:31 select * from configs
+22:57:31 select * from admins where id=1
+22:57:32 use a0122145834;
+22:57:32 set names utf8;
+22:57:32 select * from configs
+22:57:32 select * from admins where id=1
+22:57:32 select count(id) from goods
+22:57:32 select * from goods limit 0,20
+22:57:33 use a0122145834;
+22:57:33 set names utf8;
+22:57:33 select * from configs
+22:57:33 select * from admins where id=1
+22:57:33 select count(o.id) from articles as o left join article_type as u on u.id=o.type_id 
+22:57:33 select o.id,o.title,o.add_time,u.type_name from articles as o left join article_type as u on u.id=o.type_id  limit 0,20
+22:58:09 use a0122145834;
+22:58:09 set names utf8;
+22:58:09 select * from configs
+22:58:09 select * from admins where id=1
+22:58:09 select count(o.id) from articles as o left join article_type as u on u.id=o.type_id 
+22:58:09 select o.id,o.title,o.add_time,u.type_name from articles as o left join article_type as u on u.id=o.type_id  limit 20,20
+22:58:11 use a0122145834;
+22:58:11 set names utf8;
+22:58:11 select * from configs
+22:58:11 select * from admins where id=1
+22:58:11 select count(o.id) from articles as o left join article_type as u on u.id=o.type_id 
+22:58:11 select o.id,o.title,o.add_time,u.type_name from articles as o left join article_type as u on u.id=o.type_id  limit 0,20
+22:58:26 use a0122145834;
+22:58:26 set names utf8;
+22:58:26 select * from configs
+22:58:26 select * from admins where id=1
+22:58:26 select * from articles where id=19
+22:59:31 use a0122145834;
+22:59:31 set names utf8;
+22:59:31 select * from configs
+22:59:31 select * from admins where id=1
+22:59:31 update articles set type_id=4, content='<p><select multiple="multiple" name="12" size="12"><option value="12">12</option><option value="12">12</option></select></p>
+', title='【课程导航】' where id=19
+22:59:32 use a0122145834;
+22:59:32 set names utf8;
+22:59:32 select * from configs
+22:59:32 select * from admins where id=1
+22:59:32 select * from articles where id=19
+22:59:42 use a0122145834;
+22:59:42 set names utf8;
+22:59:42 select * from configs
+22:59:42 select * from admins where id=1
+22:59:42 use a0122145834;
+22:59:42 set names utf8;
+22:59:42 select * from configs
+22:59:42 select * from admins where id=1
+22:59:42 select count(id) from users
+22:59:42 select * from users limit 0,20
+22:59:46 use a0122145834;
+22:59:46 set names utf8;
+22:59:46 select * from configs
+22:59:46 select * from admins where id=1
+22:59:46 select * from users where id=38
+22:59:51 use a0122145834;
+22:59:51 set names utf8;
+22:59:51 select * from configs
+22:59:51 select * from admins where id=1
+22:59:51 update users set user_name='555555',nick_name='求昵称',credits='0',money='0',pay_email='',pay_name='',address='',vip_level='2' where id=38 
+22:59:52 use a0122145834;
+22:59:52 set names utf8;
+22:59:52 select * from configs
+22:59:52 select * from admins where id=1
+22:59:52 select * from users where id=38
+22:59:54 use a0122145834;
+22:59:54 set names utf8;
+22:59:54 select * from configs
+22:59:54 select * from users where id=38
+22:59:55 use a0122145834;
+22:59:55 set names utf8;
+22:59:55 select * from configs
+22:59:55 select * from users where id=38
+22:59:55 select count(id) from users where spreader_id='38'
+22:59:55 select * from images
+22:59:55 select * from goods where need_top=1 and need_hidden=0 order by id desc limit 0,5
+22:59:56 select count(id) from goods where need_top=0 and need_hidden=0 order by id desc
+22:59:56 select * from goods where need_top=0 and need_hidden=0 order by id desc limit 0,5
+22:59:59 use a0122145834;
+22:59:59 set names utf8;
+22:59:59 select * from configs
+22:59:59 select * from users where id=38
+22:59:59 select count(id) from users where spreader_id='38'
+22:59:59 select * from images
+22:59:59 select * from article_type
+22:59:59 select count(id) from articles order by add_time desc
+22:59:59 select * from articles order by add_time desc limit 0,5
+23:00:01 use a0122145834;
+23:00:01 set names utf8;
+23:00:01 select * from configs
+23:00:01 select * from users where id=38
+23:00:01 select count(id) from users where spreader_id='38'
+23:00:01 select * from images
+23:00:01 select * from article_type
+23:00:01 select * from article_type where id='4'
+23:00:01 select count(id) from articles where type_id='4' order by add_time desc
+23:00:01 select * from articles where type_id='4' order by add_time desc limit 0,5
+23:00:03 use a0122145834;
+23:00:03 set names utf8;
+23:00:03 select * from configs
+23:00:03 select * from users where id=38
+23:00:03 select count(id) from users where spreader_id='38'
+23:00:03 select * from images
+23:00:03 select type_id from articles where id='19'
+23:00:03 select * from articles where id='19'
+23:00:21 use a0122145834;
+23:00:21 set names utf8;
+23:00:21 select * from configs
+23:00:21 select * from admins where id=1
+23:00:21 use a0122145834;
+23:00:21 set names utf8;
+23:00:21 select * from configs
+23:00:21 select * from admins where id=1
+23:00:21 select count(id) from goods
+23:00:21 select * from goods limit 0,20
+23:00:23 use a0122145834;
+23:00:23 set names utf8;
+23:00:23 select * from configs
+23:00:23 select * from admins where id=1
+23:00:23 select count(o.id) from articles as o left join article_type as u on u.id=o.type_id 
+23:00:23 select o.id,o.title,o.add_time,u.type_name from articles as o left join article_type as u on u.id=o.type_id  limit 0,20
+23:00:26 use a0122145834;
+23:00:26 set names utf8;
+23:00:26 select * from configs
+23:00:26 select * from admins where id=1
+23:00:26 select * from articles where id=19
+23:01:23 use a0122145834;
+23:01:23 set names utf8;
+23:01:23 select * from configs
+23:22:18 use a0122145834;
+23:22:18 set names utf8;
+23:22:18 select * from configs
+23:24:25 use a0122145834;
+23:24:25 set names utf8;
+23:24:25 select * from configs
+23:24:44 use a0122145834;
+23:24:44 set names utf8;
+23:24:44 select * from configs
+23:24:44 select * from admins where id=1
+23:24:44 update articles set type_id=4, content='<p style="text-align: center">&nbsp;</p>
+
+<p style="text-align: center"><strong><span style="font-size:16px">第一步：点击按钮下载表单填写完毕！</span></strong></p>
+
+<p style="text-align: center"><a href="http://www.10nai.com/vip.doc"><input name="填写VIP会员资料表单" size="26" style="width: 202px; height: 57px" type="submit" value="填写VIP会员资料表单" /></a></p>
+
+<p style="text-align: center">&nbsp;</p>
+
+<p style="text-align: center"><span style="font-size:16px"><strong>第二步：点击按钮加我私人QQ，将表单发我！</strong></span></p>
+
+<p style="text-align: center"><a href="http://shang.qq.com/email/stop/email_stop.html?qq=77812886&amp;sig=644de2fab6b113773253dee674323a0c3d36b6c80cdf05e1&amp;tttt=1"><input name="点击加小马QQ好友" size="26" style="width: 202px; height: 57px" type="submit" value="点击加小马QQ好友" /></a></p>
+
+<p style="text-align: center">&nbsp;</p>
+
+<p style="text-align: center"><span style="font-size:16px"><strong>第三步：点击按钮下载好课程，然后通知我！</strong></span></p>
+
+<p style="text-align: center"><input name="下载核心辅导课程" size="26" style="width: 202px; height: 57px" type="submit" value="下载核心辅导课程" /></p>
+', title='【课程导航】' where id=19
+23:24:46 use a0122145834;
+23:24:46 set names utf8;
+23:24:46 select * from configs
+23:24:46 select * from admins where id=1
+23:24:46 select * from articles where id=19
+23:24:48 use a0122145834;
+23:24:48 set names utf8;
+23:24:48 select * from configs
+23:24:48 select * from users where id=38
+23:24:48 select count(id) from users where spreader_id='38'
+23:24:48 select * from images
+23:24:48 select type_id from articles where id='19'
+23:24:48 select * from articles where id='19'
+23:26:50 use a0122145834;
+23:26:50 set names utf8;
+23:26:50 select * from configs
+23:26:50 select * from users where id=38
+23:26:50 select count(id) from users where spreader_id='38'
+23:26:50 select * from images
+23:26:50 select type_id from articles where id='19'
+23:26:50 select * from articles where id='19'
+23:27:21 use a0122145834;
+23:27:21 set names utf8;
+23:27:21 select * from configs
+23:27:21 select * from admins where id=1
+23:27:21 update articles set type_id=4, content='<p style="text-align: center">&nbsp;</p>
+
+<p style="text-align: center"><strong><span style="font-size:16px">第一步：点击按钮下载表单填写完毕！</span></strong></p>
+
+<p style="text-align: center"><a href="http://www.10nai.com/vip.doc"><input name="填写VIP会员资料表单" size="26" style="width: 202px; height: 57px" type="submit" value="填写VIP会员资料表单" /></a></p>
+
+<p style="text-align: center">&nbsp;</p>
+
+<p style="text-align: center"><span style="font-size:16px"><strong>第二步：点击按钮加我私人QQ，将表单发我！</strong></span></p>
+
+<p style="text-align: center"><a href="http://shang.qq.com/email/stop/email_stop.html?qq=77812886&amp;sig=644de2fab6b113773253dee674323a0c3d36b6c80cdf05e1&amp;tttt=1" target="_blank"><input name="点击加小马QQ好友" size="26" style="width: 202px; height: 57px" type="submit" value="点击加小马QQ好友" /></a></p>
+
+<p style="text-align: center">&nbsp;</p>
+
+<p style="text-align: center"><span style="font-size:16px"><strong>第三步：点击按钮下载好课程，然后通知我！</strong></span></p>
+
+<p style="text-align: center"><input name="下载核心辅导课程" size="26" style="width: 202px; height: 57px" type="submit" value="下载核心辅导课程" /></p>
+', title='【课程导航】' where id=19
+23:27:23 use a0122145834;
+23:27:23 set names utf8;
+23:27:23 select * from configs
+23:27:23 select * from admins where id=1
+23:27:23 select * from articles where id=19
+23:28:48 use a0122145834;
+23:28:48 set names utf8;
+23:28:48 select * from configs
+23:28:48 select * from admins where id=1
+23:28:48 update articles set type_id=4, content='<p style="text-align: center">&nbsp;</p>
+
+<p style="text-align: center"><strong><span style="font-size:16px">第一步：点击按钮下载表单填写完毕！</span></strong></p>
+
+<p style="text-align: center">&nbsp;</p>
+
+<p style="text-align: center"><a href="http://www.10nai.com/vip.doc"><input name="填写VIP会员资料表单" size="26" style="width: 202px; height: 57px" type="submit" value="填写VIP会员资料表单" /></a></p>
+
+<p style="text-align: center">&nbsp;</p>
+
+<p style="text-align: center">&nbsp;</p>
+
+<p style="text-align: center">&nbsp;</p>
+
+<p style="text-align: center"><span style="font-size:16px"><strong>第二步：点击按钮加我私人QQ，将表单发我！</strong></span></p>
+
+<p style="text-align: center"><a href="http://shang.qq.com/email/stop/email_stop.html?qq=77812886&amp;sig=644de2fab6b113773253dee674323a0c3d36b6c80cdf05e1&amp;tttt=1" target="_blank"><input name="点击加小马QQ好友" size="26" style="width: 202px; height: 57px" type="submit" value="点击加小马QQ好友" /></a></p>
+
+<p style="text-align: center">&nbsp;</p>
+
+<p style="text-align: center">&nbsp;</p>
+
+<p style="text-align: center">&nbsp;</p>
+
+<p style="text-align: center"><span style="font-size:16px"><strong>第三步：点击按钮下载好课程，然后通知我！</strong></span></p>
+
+<p style="text-align: center"><input name="下载核心辅导课程" size="26" style="width: 202px; height: 57px" type="submit" value="下载核心辅导课程" /></p>
+', title='【课程导航】' where id=19
+23:28:50 use a0122145834;
+23:28:50 set names utf8;
+23:28:50 select * from configs
+23:28:50 select * from admins where id=1
+23:28:50 select * from articles where id=19
+23:28:52 use a0122145834;
+23:28:52 set names utf8;
+23:28:52 select * from configs
+23:28:52 select * from users where id=38
+23:28:52 select count(id) from users where spreader_id='38'
+23:28:52 select * from images
+23:28:52 select type_id from articles where id='19'
+23:28:52 select * from articles where id='19'
+23:29:12 use a0122145834;
+23:29:12 set names utf8;
+23:29:12 select * from configs
+23:29:12 select * from admins where id=1
+23:29:12 update articles set type_id=4, content='<p style="text-align: center">&nbsp;</p>
+
+<p style="text-align: center"><strong><span style="font-size:16px">第一步：点击按钮下载表单填写完毕！</span></strong></p>
+
+<p style="text-align: center">&nbsp;</p>
+
+<p style="text-align: center"><a href="http://www.10nai.com/vip.doc"><input name="填写VIP会员资料表单" size="26" style="width: 202px; height: 57px" type="submit" value="填写VIP会员资料表单" /></a></p>
+
+<p style="text-align: center">&nbsp;</p>
+
+<p style="text-align: center">&nbsp;</p>
+
+<p style="text-align: center">&nbsp;</p>
+
+<p style="text-align: center"><span style="font-size:16px"><strong>第二步：点击按钮加我私人QQ，将表单发我！</strong></span></p>
+
+<p style="text-align: center">&nbsp;</p>
+
+<p style="text-align: center"><a href="http://shang.qq.com/email/stop/email_stop.html?qq=77812886&amp;sig=644de2fab6b113773253dee674323a0c3d36b6c80cdf05e1&amp;tttt=1" target="_blank"><input name="点击加小马QQ好友" size="26" style="width: 202px; height: 57px" type="submit" value="点击加小马QQ好友" /></a></p>
+
+<p style="text-align: center">&nbsp;</p>
+
+<p style="text-align: center">&nbsp;</p>
+
+<p style="text-align: center">&nbsp;</p>
+
+<p style="text-align: center"><span style="font-size:16px"><strong>第三步：点击按钮下载好课程，然后通知我！</strong></span></p>
+
+<p style="text-align: center">&nbsp;</p>
+
+<p style="text-align: center"><input name="下载核心辅导课程" size="26" style="width: 202px; height: 57px" type="submit" value="下载核心辅导课程" /></p>
+', title='【课程导航】' where id=19
+23:29:14 use a0122145834;
+23:29:14 set names utf8;
+23:29:14 select * from configs
+23:29:14 select * from admins where id=1
+23:29:14 select * from articles where id=19
+23:29:19 use a0122145834;
+23:29:19 set names utf8;
+23:29:19 select * from configs
+23:29:19 select * from users where id=38
+23:29:19 select count(id) from users where spreader_id='38'
+23:29:19 select * from images
+23:29:19 select type_id from articles where id='19'
+23:29:19 select * from articles where id='19'
+23:30:19 use a0122145834;
+23:30:19 set names utf8;
+23:30:19 select * from configs
+23:30:19 select * from users where id=38
+23:30:19 select count(id) from users where spreader_id='38'
+23:30:19 select * from images
+23:30:19 select * from article_type
+23:30:19 select count(id) from articles order by add_time desc
+23:30:19 select * from articles order by add_time desc limit 0,5
+23:30:21 use a0122145834;
+23:30:21 set names utf8;
+23:30:21 select * from configs
+23:30:21 select * from users where id=38
+23:30:21 select count(id) from users where spreader_id='38'
+23:30:21 select * from images
+23:30:21 select * from article_type
+23:30:21 select * from article_type where id='4'
+23:30:21 select count(id) from articles where type_id='4' order by add_time desc
+23:30:21 select * from articles where type_id='4' order by add_time desc limit 0,5
+23:30:35 use a0122145834;
+23:30:35 set names utf8;
+23:30:35 select * from configs
+23:30:35 select * from users where id=38
+23:30:35 select count(id) from users where spreader_id='38'
+23:30:35 select * from images
+23:30:35 select * from article_type
+23:30:35 select * from article_type where id='10'
+23:30:35 select count(id) from articles where type_id='10' order by add_time desc
+23:30:35 select * from articles where type_id='10' order by add_time desc limit 0,5
+23:30:45 use a0122145834;
+23:30:45 set names utf8;
+23:30:45 select * from configs
+23:30:45 select * from admins where id=1
+23:30:45 select count(o.id) from articles as o left join article_type as u on u.id=o.type_id 
+23:30:45 select o.id,o.title,o.add_time,u.type_name from articles as o left join article_type as u on u.id=o.type_id  limit 0,20
+23:30:54 use a0122145834;
+23:30:54 set names utf8;
+23:30:54 select * from configs
+23:30:54 select * from admins where id=1
+23:30:54 select * from articles where id=7
+23:35:08 use a0122145834;
+23:35:08 set names utf8;
+23:35:08 select * from configs
+23:37:52 use a0122145834;
+23:37:52 set names utf8;
+23:37:52 select * from configs
+23:43:43 use a0122145834;
+23:43:43 set names utf8;
+23:43:43 select * from configs
+23:43:43 select * from admins where id=1
+23:43:43 update articles set type_id=4, content='<p style="text-align: center"><a href="http://pan.baidu.com/s/1qWEsTuk" target="_blank"><input name="第一部分" size="32" style="width: 123px; height: 42px" type="submit" value="第一部分" /></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp; <a href="http://pan.baidu.com/s/1hqmiThE" target="_blank"><input name="第一部分" size="32" style="width: 123px; height: 42px" type="submit" value="第一部分" /></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <input name="第一部分" size="32" style="width: 123px; height: 42px" type="submit" value="第一部分" /></p>
+
+<p style="text-align: center"><span style="font-size:14px"><strong>&nbsp; 下载密码：vc2j&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; 下载密码：h4gh&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;下载密码：p2eo</strong></span></p>
+
+<p>&nbsp;</p>
+
+<p style="text-align: center"><input name="第一部分" size="32" style="width: 123px; height: 42px" type="submit" value="第一部分" />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <input name="第一部分" size="32" style="width: 123px; height: 42px" type="submit" value="第一部分" />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <input name="第一部分" size="32" style="width: 123px; height: 42px" type="submit" value="第一部分" /></p>
+
+<p style="text-align: center"><span style="font-size:14px"><strong>下载密码：1d9i&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 下载密码：r6yu&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;下载密码：8fg6</strong></span></p>
+', title='核心课程下载区' where id=7
+23:43:45 use a0122145834;
+23:43:45 set names utf8;
+23:43:45 select * from configs
+23:43:45 select * from admins where id=1
+23:43:45 select * from articles where id=7
+23:43:49 use a0122145834;
+23:43:49 set names utf8;
+23:43:49 select * from configs
+23:43:49 select * from users where id=38
+23:43:49 select count(id) from users where spreader_id='38'
+23:43:49 select * from images
+23:43:49 select * from article_type
+23:43:49 select * from article_type where id='4'
+23:43:49 select count(id) from articles where type_id='4' order by add_time desc
+23:43:49 select * from articles where type_id='4' order by add_time desc limit 0,5
+23:43:51 use a0122145834;
+23:43:51 set names utf8;
+23:43:51 select * from configs
+23:43:51 select * from users where id=38
+23:43:51 select count(id) from users where spreader_id='38'
+23:43:51 select * from images
+23:43:51 select type_id from articles where id='7'
+23:43:51 select * from articles where id='7'
+23:44:51 use a0122145834;
+23:44:51 set names utf8;
+23:44:51 select * from configs
+23:44:51 select * from admins where id=1
+23:44:51 update articles set type_id=4, content='<p style="text-align: center"><a href="http://pan.baidu.com/s/1qWEsTuk" target="_blank"><input name="第一部分" size="32" style="width: 123px; height: 42px" type="submit" value="第一部分" /></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp; <a href="http://pan.baidu.com/s/1hqmiThE" target="_blank"><input name="第一部分" size="32" style="width: 123px; height: 42px" type="submit" value="第一部分" /></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <input name="第一部分" size="32" style="width: 123px; height: 42px" type="submit" value="第一部分" /></p>
+
+<p style="text-align: center"><span style="font-size:14px"><strong>&nbsp; 下载密码：vc2j&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 下载密码：h4gh&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;下载密码：p2eo</strong></span></p>
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+
+<p style="text-align: center"><input name="第一部分" size="32" style="width: 123px; height: 42px" type="submit" value="第一部分" />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <input name="第一部分" size="32" style="width: 123px; height: 42px" type="submit" value="第一部分" />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <input name="第一部分" size="32" style="width: 123px; height: 42px" type="submit" value="第一部分" /></p>
+
+<p style="text-align: center"><span style="font-size:14px"><strong>下载密码：1d9i&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 下载密码：r6yu&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;下载密码：8fg6</strong></span></p>
+', title='核心课程下载区' where id=7
+23:44:53 use a0122145834;
+23:44:53 set names utf8;
+23:44:53 select * from configs
+23:44:53 select * from admins where id=1
+23:44:53 select * from articles where id=7
+23:44:55 use a0122145834;
+23:44:55 set names utf8;
+23:44:55 select * from configs
+23:44:55 select * from users where id=38
+23:44:55 select count(id) from users where spreader_id='38'
+23:44:55 select * from images
+23:44:55 select type_id from articles where id='7'
+23:44:55 select * from articles where id='7'
+23:45:31 use a0122145834;
+23:45:31 set names utf8;
+23:45:31 select * from configs
+23:45:31 select * from admins where id=1
+23:45:31 update articles set type_id=4, content='<p style="text-align: center"><a href="http://pan.baidu.com/s/1qWEsTuk" target="_blank"><input name="第一部分" size="32" style="width: 123px; height: 42px" type="submit" value="第一部分" /></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp; <a href="http://pan.baidu.com/s/1hqmiThE" target="_blank"><input name="第一部分" size="32" style="width: 123px; height: 42px" type="submit" value="第一部分" /></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <input name="第一部分" size="32" style="width: 123px; height: 42px" type="submit" value="第一部分" /></p>
+
+<p style="text-align: center"><span style="font-size:14px"><strong>&nbsp; 下载密码：vc2j&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 下载密码：h4gh&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;下载密码：p2eo</strong></span></p>
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+
+<p style="text-align: center"><input name="第一部分" size="32" style="width: 123px; height: 42px" type="submit" value="第一部分" />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <input name="第一部分" size="32" style="width: 123px; height: 42px" type="submit" value="第一部分" />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <input name="第一部分" size="32" style="width: 123px; height: 42px" type="submit" value="第一部分" /></p>
+
+<p style="text-align: center"><span style="font-size:14px"><strong>&nbsp;下载密码：1d9i&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 下载密码：r6yu&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;下载密码：8fg6</strong></span></p>
+', title='核心课程下载区' where id=7
+23:45:32 use a0122145834;
+23:45:32 set names utf8;
+23:45:32 select * from configs
+23:45:32 select * from admins where id=1
+23:45:32 select * from articles where id=7
+23:45:33 use a0122145834;
+23:45:33 set names utf8;
+23:45:33 select * from configs
+23:45:33 select * from users where id=38
+23:45:33 select count(id) from users where spreader_id='38'
+23:45:33 select * from images
+23:45:33 select type_id from articles where id='7'
+23:45:33 select * from articles where id='7'
+23:46:00 use a0122145834;
+23:46:00 set names utf8;
+23:46:00 select * from configs
+23:46:00 select * from admins where id=1
+23:46:00 update articles set type_id=4, content='<p style="text-align: center"><a href="http://pan.baidu.com/s/1qWEsTuk" target="_blank"><input name="第一部分" size="32" style="width: 123px; height: 42px" type="submit" value="第一部分" /></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp; <a href="http://pan.baidu.com/s/1hqmiThE" target="_blank"><input name="第一部分" size="32" style="width: 123px; height: 42px" type="submit" value="第一部分" /></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <input name="第一部分" size="32" style="width: 123px; height: 42px" type="submit" value="第一部分" /></p>
+
+<p style="text-align: center"><span style="font-size:14px"><strong>&nbsp; 下载密码：vc2j&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 下载密码：h4gh&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;下载密码：p2eo</strong></span></p>
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+
+<p style="text-align: center"><input name="第一部分" size="32" style="width: 123px; height: 42px" type="submit" value="第一部分" />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <input name="第一部分" size="32" style="width: 123px; height: 42px" type="submit" value="第一部分" />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <input name="第一部分" size="32" style="width: 123px; height: 42px" type="submit" value="第一部分" /></p>
+
+<p style="text-align: center"><span style="font-size:14px"><strong>&nbsp;下载密码：1d9i&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 下载密码：r6yu&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;下载密码：8fg6</strong></span></p>
+', title='核心课程下载区' where id=7
+23:46:01 use a0122145834;
+23:46:01 set names utf8;
+23:46:01 select * from configs
+23:46:01 select * from admins where id=1
+23:46:01 select * from articles where id=7
+23:46:03 use a0122145834;
+23:46:03 set names utf8;
+23:46:03 select * from configs
+23:46:03 select * from users where id=38
+23:46:03 select count(id) from users where spreader_id='38'
+23:46:03 select * from images
+23:46:03 select type_id from articles where id='7'
+23:46:03 select * from articles where id='7'
+23:46:25 use a0122145834;
+23:46:25 set names utf8;
+23:46:25 select * from configs
+23:46:25 select * from admins where id=1
+23:46:25 update articles set type_id=4, content='<p style="text-align: center"><a href="http://pan.baidu.com/s/1qWEsTuk" target="_blank"><input name="第一部分" size="32" style="width: 123px; height: 42px" type="submit" value="第一部分" /></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp; <a href="http://pan.baidu.com/s/1hqmiThE" target="_blank"><input name="第一部分" size="32" style="width: 123px; height: 42px" type="submit" value="第一部分" /></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <input name="第一部分" size="32" style="width: 123px; height: 42px" type="submit" value="第一部分" /></p>
+
+<p style="text-align: center"><span style="font-size:14px"><strong>&nbsp; 下载密码：vc2j&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 下载密码：h4gh&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;下载密码：p2eo</strong></span></p>
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+
+<p style="text-align: center"><input name="第一部分" size="32" style="width: 123px; height: 42px" type="submit" value="第一部分" />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <input name="第一部分" size="32" style="width: 123px; height: 42px" type="submit" value="第一部分" />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <input name="第一部分" size="32" style="width: 123px; height: 42px" type="submit" value="第一部分" /></p>
+
+<p style="text-align: center"><span style="font-size:14px"><strong>&nbsp;下载密码：1d9i&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 下载密码：r6yu&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;下载密码：8fg6</strong></span></p>
+', title='核心课程下载区' where id=7
+23:46:26 use a0122145834;
+23:46:26 set names utf8;
+23:46:26 select * from configs
+23:46:26 select * from admins where id=1
+23:46:26 select * from articles where id=7
+23:46:28 use a0122145834;
+23:46:28 set names utf8;
+23:46:28 select * from configs
+23:46:28 select * from users where id=38
+23:46:28 select count(id) from users where spreader_id='38'
+23:46:28 select * from images
+23:46:28 select type_id from articles where id='7'
+23:46:28 select * from articles where id='7'
+23:46:46 use a0122145834;
+23:46:46 set names utf8;
+23:46:46 select * from configs
+23:46:46 select * from admins where id=1
+23:46:46 update articles set type_id=4, content='<p style="text-align: center"><a href="http://pan.baidu.com/s/1qWEsTuk" target="_blank"><input name="第一部分" size="32" style="width: 123px; height: 42px" type="submit" value="第一部分" /></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp; <a href="http://pan.baidu.com/s/1hqmiThE" target="_blank"><input name="第一部分" size="32" style="width: 123px; height: 42px" type="submit" value="第一部分" /></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <input name="第一部分" size="32" style="width: 123px; height: 42px" type="submit" value="第一部分" /></p>
+
+<p style="text-align: center"><span style="font-size:14px"><strong>&nbsp;下载密码：vc2j&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;下载密码：h4gh&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;下载密码：p2eo</strong></span></p>
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+
+<p style="text-align: center"><input name="第一部分" size="32" style="width: 123px; height: 42px" type="submit" value="第一部分" />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <input name="第一部分" size="32" style="width: 123px; height: 42px" type="submit" value="第一部分" />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <input name="第一部分" size="32" style="width: 123px; height: 42px" type="submit" value="第一部分" /></p>
+
+<p style="text-align: center"><span style="font-size:14px"><strong>&nbsp;下载密码：1d9i&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;下载密码：r6yu&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;下载密码：8fg6</strong></span></p>
+', title='核心课程下载区' where id=7
+23:46:47 use a0122145834;
+23:46:47 set names utf8;
+23:46:47 select * from configs
+23:46:47 select * from admins where id=1
+23:46:47 select * from articles where id=7
+23:46:49 use a0122145834;
+23:46:49 set names utf8;
+23:46:49 select * from configs
+23:46:49 select * from users where id=38
+23:46:49 select count(id) from users where spreader_id='38'
+23:46:49 select * from images
+23:46:49 select type_id from articles where id='7'
+23:46:49 select * from articles where id='7'
+23:47:05 use a0122145834;
+23:47:05 set names utf8;
+23:47:05 select * from configs
+23:47:05 select * from admins where id=1
+23:47:05 update articles set type_id=4, content='<p style="text-align: center"><a href="http://pan.baidu.com/s/1qWEsTuk" target="_blank"><input name="第一部分" size="32" style="width: 123px; height: 42px" type="submit" value="第一部分" /></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp; <a href="http://pan.baidu.com/s/1hqmiThE" target="_blank"><input name="第一部分" size="32" style="width: 123px; height: 42px" type="submit" value="第一部分" /></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <input name="第一部分" size="32" style="width: 123px; height: 42px" type="submit" value="第一部分" /></p>
+
+<p style="text-align: center"><span style="font-size:14px"><strong>&nbsp;下载密码：vc2j&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 下载密码：h4gh&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;下载密码：p2eo</strong></span></p>
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+
+<p style="text-align: center"><input name="第一部分" size="32" style="width: 123px; height: 42px" type="submit" value="第一部分" />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <input name="第一部分" size="32" style="width: 123px; height: 42px" type="submit" value="第一部分" />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <input name="第一部分" size="32" style="width: 123px; height: 42px" type="submit" value="第一部分" /></p>
+
+<p style="text-align: center"><span style="font-size:14px"><strong>&nbsp;下载密码：1d9i&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 下载密码：r6yu&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;下载密码：8fg6</strong></span></p>
+', title='核心课程下载区' where id=7
+23:47:06 use a0122145834;
+23:47:06 set names utf8;
+23:47:06 select * from configs
+23:47:06 select * from admins where id=1
+23:47:06 select * from articles where id=7
+23:47:07 use a0122145834;
+23:47:07 set names utf8;
+23:47:07 select * from configs
+23:47:07 select * from users where id=38
+23:47:07 select count(id) from users where spreader_id='38'
+23:47:07 select * from images
+23:47:07 select type_id from articles where id='7'
+23:47:07 select * from articles where id='7'
+23:52:31 use a0122145834;
+23:52:31 set names utf8;
+23:52:31 select * from configs
+23:52:31 select * from users where id=38
+23:52:31 select count(id) from users where spreader_id='38'
+23:52:31 select * from images
+23:52:31 select * from article_type
+23:52:31 select count(id) from articles order by add_time desc
+23:52:31 select * from articles order by add_time desc limit 0,5
+23:52:34 use a0122145834;
+23:52:34 set names utf8;
+23:52:34 select * from configs
+23:52:34 select * from users where id=38
+23:52:35 select count(id) from users where spreader_id='38'
+23:52:35 select * from images
+23:52:35 select * from article_type
+23:52:35 select * from article_type where id='10'
+23:52:35 select count(id) from articles where type_id='10' order by add_time desc
+23:52:35 select * from articles where type_id='10' order by add_time desc limit 0,5
+23:52:37 use a0122145834;
+23:52:37 set names utf8;
+23:52:37 select * from configs
+23:52:37 select * from users where id=38
+23:52:37 select count(id) from users where spreader_id='38'
+23:52:37 select * from images
+23:52:37 select type_id from articles where id='26'
+23:52:37 select * from articles where id='26'
+23:52:39 use a0122145834;
+23:52:39 set names utf8;
+23:52:39 select * from configs
+23:52:39 select * from users where id=38
+23:52:39 select count(id) from users where spreader_id='38'
+23:52:39 select * from images
+23:52:39 select type_id from articles where id='20'
+23:52:39 select * from articles where id='20'
+23:53:01 use a0122145834;
+23:53:01 set names utf8;
+23:53:01 select * from configs
+23:53:01 select * from users where id=38
+23:53:01 select count(id) from users where spreader_id='38'
+23:53:01 select * from images
+23:53:01 select type_id from articles where id='22'
+23:53:01 select * from articles where id='22'
+23:53:22 use a0122145834;
+23:53:22 set names utf8;
+23:53:22 select * from configs
+23:53:22 select * from admins where id=1
+23:53:22 update articles set type_id=4, content='<p style="text-align: center"><span style="font-size:16px"><strong><span style="color:#ff0000">为保障学员的权益，核心课程为一机一码加密，下载完毕后打开视频，请将视频的机器码发送给我，我将会把播放密码发送给你。</span></strong></span></p>
+
+<p style="text-align: center">&nbsp;</p>
+
+<hr />
+<p style="text-align: center">&nbsp;</p>
+
+<p style="text-align: center">&nbsp;</p>
+
+<p style="text-align: center">&nbsp;</p>
+
+<p style="text-align: center">&nbsp;</p>
+
+<p style="text-align: center"><a href="http://pan.baidu.com/s/1qWEsTuk" target="_blank"><input name="第一部分" size="32" style="width: 123px; height: 42px" type="submit" value="第一部分" /></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp; <a href="http://pan.baidu.com/s/1hqmiThE" target="_blank"><input name="第二部分" size="32" style="width: 123px; height: 42px" type="submit" value="第二部分" /></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <input name="第三部分" size="32" style="width: 123px; height: 42px" type="submit" value="第三部分" /></p>
+
+<p style="text-align: center"><span style="font-size:14px"><strong>&nbsp;下载密码：vc2j&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 下载密码：h4gh&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;下载密码：p2ex</strong></span></p>
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+
+<p style="text-align: center"><input name="第四部分" size="32" style="width: 123px; height: 42px" type="submit" value="第四部分" />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <input name="第五部分" size="32" style="width: 123px; height: 42px" type="submit" value="第五部分" />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <input name="第六部分" size="32" style="width: 123px; height: 42px" type="submit" value="第六部分" /></p>
+
+<p style="text-align: center"><span style="font-size:14px"><strong>&nbsp;下载密码：1d9i&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 下载密码：r6yu&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;下载密码：8fg6</strong></span></p>
+', title='核心课程下载区' where id=7
+23:53:23 use a0122145834;
+23:53:23 set names utf8;
+23:53:23 select * from configs
+23:53:23 select * from admins where id=1
+23:53:23 select * from articles where id=7
+23:53:26 use a0122145834;
+23:53:26 set names utf8;
+23:53:26 select * from configs
+23:53:26 select * from users where id=38
+23:53:26 select count(id) from users where spreader_id='38'
+23:53:26 select * from images
+23:53:26 select * from article_type
+23:53:26 select count(id) from articles order by add_time desc
+23:53:26 select * from articles order by add_time desc limit 0,5
+23:53:31 use a0122145834;
+23:53:31 set names utf8;
+23:53:32 select * from configs
+23:53:32 select * from users where id=38
+23:53:32 select count(id) from users where spreader_id='38'
+23:53:32 select * from images
+23:53:32 select * from article_type
+23:53:32 select * from article_type where id='4'
+23:53:32 select count(id) from articles where type_id='4' order by add_time desc
+23:53:32 select * from articles where type_id='4' order by add_time desc limit 0,5
+23:53:38 use a0122145834;
+23:53:38 set names utf8;
+23:53:38 select * from configs
+23:53:38 select * from users where id=38
+23:53:38 select count(id) from users where spreader_id='38'
+23:53:38 select * from images
+23:53:38 select type_id from articles where id='7'
+23:53:38 select * from articles where id='7'
+23:55:43 use a0122145834;
+23:55:43 set names utf8;
+23:55:43 select * from configs
+23:55:43 select * from admins where id=1
+23:55:43 update articles set type_id=4, content='<p style="text-align: center"><span style="font-size:14px"><strong><span style="color:#ff0000">为保障学员的权益，核心课程为一机一码加密，下载完毕后打开视频，请将视频的机器码发送给我，我将会把播放密码发送给你。</span></strong></span></p>
+
+<p style="text-align: center">&nbsp;</p>
+
+<hr />
+<p style="text-align: center">&nbsp;</p>
+
+<p style="text-align: center">&nbsp;</p>
+
+<p style="text-align: center">&nbsp;</p>
+
+<p style="text-align: center">&nbsp;</p>
+
+<p style="text-align: center"><a href="http://pan.baidu.com/s/1qWEsTuk" target="_blank"><input name="第一部分" size="32" style="width: 123px; height: 42px" type="submit" value="第一部分" /></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp; <a href="http://pan.baidu.com/s/1hqmiThE" target="_blank"><input name="第二部分" size="32" style="width: 123px; height: 42px" type="submit" value="第二部分" /></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <input name="第三部分" size="32" style="width: 123px; height: 42px" type="submit" value="第三部分" /></p>
+
+<p style="text-align: center"><span style="font-size:14px"><strong>&nbsp;提取密码：vc2j&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 提取密码：h4gh&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;提取密码：p2ex</strong></span></p>
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+
+<p style="text-align: center"><input name="第四部分" size="32" style="width: 123px; height: 42px" type="submit" value="第四部分" />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <input name="第五部分" size="32" style="width: 123px; height: 42px" type="submit" value="第五部分" />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <input name="第六部分" size="32" style="width: 123px; height: 42px" type="submit" value="第六部分" /></p>
+
+<p style="text-align: center"><span style="font-size:14px"><strong>&nbsp;提取密码：1d9i&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </strong></span><strong><span style="font-size:14px">提取</span></strong><span style="font-size:14px"><strong>密码：r6yu&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</strong></span><strong><span style="font-size:14px">提取</span></strong><span style="font-size:14px"><strong>密码：8fg6</strong></span></p>
+', title='核心课程下载区' where id=7
+23:55:44 use a0122145834;
+23:55:44 set names utf8;
+23:55:44 select * from configs
+23:55:44 select * from admins where id=1
+23:55:44 select * from articles where id=7
+23:55:46 use a0122145834;
+23:55:46 set names utf8;
+23:55:46 select * from configs
+23:55:46 select * from users where id=38
+23:55:46 select count(id) from users where spreader_id='38'
+23:55:46 select * from images
+23:55:46 select type_id from articles where id='7'
+23:55:46 select * from articles where id='7'
+23:56:22 use a0122145834;
+23:56:22 set names utf8;
+23:56:22 select * from configs
+23:56:22 select * from admins where id=1
+23:56:22 update articles set type_id=4, content='<p style="text-align: center"><span style="font-size:14px"><strong><span style="color:#ff0000">为保障学员的权益，核心课程为一机一码加密，下载完毕后打开视频，请将视频的机器码发送给我，我将会把播放密码发送给你。</span></strong></span></p>
+
+<p style="text-align: center">&nbsp;</p>
+
+<hr />
+<p style="text-align: center">&nbsp;</p>
+
+<p style="text-align: center">&nbsp;</p>
+
+<p style="text-align: center">&nbsp;</p>
+
+<p style="text-align: center">&nbsp;</p>
+
+<p style="text-align: center"><a href="http://pan.baidu.com/s/1qWEsTuk" target="_blank"><input name="第一部分" size="32" style="width: 123px; height: 42px" type="submit" value="第一部分" /></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp; <a href="http://pan.baidu.com/s/1hqmiThE" target="_blank"><input name="第二部分" size="32" style="width: 123px; height: 42px" type="submit" value="第二部分" /></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <input name="第三部分" size="32" style="width: 123px; height: 42px" type="submit" value="第三部分" /></p>
+
+<p style="text-align: center"><span style="font-size:14px"><strong>&nbsp;提取密码：vc2j&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 提取密码：h4gh&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;提取密码：p2ex</strong></span></p>
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+
+<p style="text-align: center"><input name="第四部分" size="32" style="width: 123px; height: 42px" type="submit" value="第四部分" />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <input name="第五部分" size="32" style="width: 123px; height: 42px" type="submit" value="第五部分" />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <input name="第六部分" size="32" style="width: 123px; height: 42px" type="submit" value="第六部分" /></p>
+
+<p style="text-align: center"><span style="font-size:14px"><strong>&nbsp;提取密码：1d9i&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </strong></span><strong><span style="font-size:14px">提取</span></strong><span style="font-size:14px"><strong>密码：r6yu&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</strong></span><strong><span style="font-size:14px">提取</span></strong><span style="font-size:14px"><strong>密码：8fg6</strong></span></p>
+
+<p style="text-align: center">&nbsp;</p>
+
+<p style="text-align: center">&nbsp;</p>
+
+<p style="text-align: center">&nbsp;</p>
+', title='核心课程下载区' where id=7
+23:56:23 use a0122145834;
+23:56:23 set names utf8;
+23:56:23 select * from configs
+23:56:23 select * from admins where id=1
+23:56:23 select * from articles where id=7
+23:56:26 use a0122145834;
+23:56:26 set names utf8;
+23:56:26 select * from configs
+23:56:26 select * from users where id=38
+23:56:26 select count(id) from users where spreader_id='38'
+23:56:26 select * from images
+23:56:26 select type_id from articles where id='7'
+23:56:26 select * from articles where id='7'
+23:56:35 use a0122145834;
+23:56:35 set names utf8;
+23:56:35 select * from configs
+23:56:35 select * from users where id=38
+23:56:35 select count(id) from users where spreader_id='38'
+23:56:35 select * from images
+23:56:35 select type_id from articles where id='7'
+23:56:35 select * from articles where id='7'
+23:56:40 use a0122145834;
+23:56:40 set names utf8;
+23:56:40 select * from configs
+23:56:40 select * from users where id=38
+23:56:40 select count(id) from users where spreader_id='38'
+23:56:40 select * from images
+23:56:40 select type_id from articles where id='7'
+23:56:40 select * from articles where id='7'
+23:56:52 use a0122145834;
+23:56:52 set names utf8;
+23:56:52 select * from configs
+23:56:52 select * from admins where id=1
+23:56:52 update articles set type_id=4, content='<p style="text-align: center"><span style="font-size:14px"><strong><span style="color:#ff0000">为保障学员的权益，核心课程为一机一码加密，下载完毕后打开视频，请将视频的机器码发送给我，我将会把播放密码发送给你。</span></strong></span></p>
+
+<p style="text-align: center">&nbsp;</p>
+
+<hr />
+<p style="text-align: center">&nbsp;</p>
+
+<p style="text-align: center">&nbsp;</p>
+
+<p style="text-align: center">&nbsp;</p>
+
+<p style="text-align: center">&nbsp;</p>
+
+<p style="text-align: center"><a href="http://pan.baidu.com/s/1qWEsTuk" target="_blank"><input name="第一部分" size="32" style="width: 123px; height: 42px" type="submit" value="第一部分" /></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp; <a href="http://pan.baidu.com/s/1hqmiThE" target="_blank"><input name="第二部分" size="32" style="width: 123px; height: 42px" type="submit" value="第二部分" /></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <input name="第三部分" size="32" style="width: 123px; height: 42px" type="submit" value="第三部分" /></p>
+
+<p style="text-align: center"><span style="font-size:14px"><strong>&nbsp;提取密码：vc2j&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 提取密码：h4gh&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;提取密码：p2ex</strong></span></p>
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+
+<p style="text-align: center"><input name="第四部分" size="32" style="width: 123px; height: 42px" type="submit" value="第四部分" />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <input name="第五部分" size="32" style="width: 123px; height: 42px" type="submit" value="第五部分" />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <input name="第六部分" size="32" style="width: 123px; height: 42px" type="submit" value="第六部分" /></p>
+
+<p style="text-align: center"><span style="font-size:14px"><strong>&nbsp;提取密码：1d9i&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </strong></span><strong><span style="font-size:14px">提取</span></strong><span style="font-size:14px"><strong>密码：r6yu&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</strong></span><strong><span style="font-size:14px">提取</span></strong><span style="font-size:14px"><strong>密码：8fg6</strong></span></p>
+
+<p style="text-align: center">&nbsp;</p>
+
+<p style="text-align: center">&nbsp;</p>
+', title='核心课程下载区' where id=7
+23:56:53 use a0122145834;
+23:56:53 set names utf8;
+23:56:53 select * from configs
+23:56:53 select * from admins where id=1
+23:56:53 select * from articles where id=7
+23:56:55 use a0122145834;
+23:56:55 set names utf8;
+23:56:55 select * from configs
+23:56:55 select * from users where id=38
+23:56:55 select count(id) from users where spreader_id='38'
+23:56:55 select * from images
+23:56:55 select type_id from articles where id='7'
+23:56:55 select * from articles where id='7'
+23:57:05 use a0122145834;
+23:57:05 set names utf8;
+23:57:05 select * from configs
+23:57:05 select * from admins where id=1
+23:57:05 update articles set type_id=4, content='<p style="text-align: center"><span style="font-size:14px"><strong><span style="color:#ff0000">为保障学员的权益，核心课程为一机一码加密，下载完毕后打开视频，请将视频的机器码发送给我，我将会把播放密码发送给你。</span></strong></span></p>
+
+<p style="text-align: center">&nbsp;</p>
+
+<hr />
+<p style="text-align: center">&nbsp;</p>
+
+<p style="text-align: center">&nbsp;</p>
+
+<p style="text-align: center">&nbsp;</p>
+
+<p style="text-align: center">&nbsp;</p>
+
+<p style="text-align: center"><a href="http://pan.baidu.com/s/1qWEsTuk" target="_blank"><input name="第一部分" size="32" style="width: 123px; height: 42px" type="submit" value="第一部分" /></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp; <a href="http://pan.baidu.com/s/1hqmiThE" target="_blank"><input name="第二部分" size="32" style="width: 123px; height: 42px" type="submit" value="第二部分" /></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <input name="第三部分" size="32" style="width: 123px; height: 42px" type="submit" value="第三部分" /></p>
+
+<p style="text-align: center"><span style="font-size:14px"><strong>&nbsp;提取密码：vc2j&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 提取密码：h4gh&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;提取密码：p2ex</strong></span></p>
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+
+<p style="text-align: center"><input name="第四部分" size="32" style="width: 123px; height: 42px" type="submit" value="第四部分" />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <input name="第五部分" size="32" style="width: 123px; height: 42px" type="submit" value="第五部分" />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <input name="第六部分" size="32" style="width: 123px; height: 42px" type="submit" value="第六部分" /></p>
+
+<p style="text-align: center"><span style="font-size:14px"><strong>&nbsp;提取密码：1d9i&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </strong></span><strong><span style="font-size:14px">提取</span></strong><span style="font-size:14px"><strong>密码：r6yu&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</strong></span><strong><span style="font-size:14px">提取</span></strong><span style="font-size:14px"><strong>密码：8fg6</strong></span></p>
+
+<p style="text-align: center">&nbsp;</p>
+
+<p style="text-align: center">&nbsp;</p>
+
+<p style="text-align: center">&nbsp;</p>
+', title='核心课程下载区' where id=7
+23:57:06 use a0122145834;
+23:57:06 set names utf8;
+23:57:06 select * from configs
+23:57:06 select * from admins where id=1
+23:57:06 select * from articles where id=7
+23:57:08 use a0122145834;
+23:57:08 set names utf8;
+23:57:08 select * from configs
+23:57:08 select * from users where id=38
+23:57:08 select count(id) from users where spreader_id='38'
+23:57:08 select * from images
+23:57:08 select type_id from articles where id='7'
+23:57:08 select * from articles where id='7'
+23:57:16 use a0122145834;
+23:57:16 set names utf8;
+23:57:16 select * from configs
+23:57:16 select * from users where id=38
+23:57:16 select count(id) from users where spreader_id='38'
+23:57:16 select * from images
+23:57:16 select * from article_type
+23:57:16 select count(id) from articles order by add_time desc
+23:57:16 select * from articles order by add_time desc limit 0,5
+23:57:22 use a0122145834;
+23:57:22 set names utf8;
+23:57:22 select * from configs
+23:57:22 select * from users where id=38
+23:57:22 select count(id) from users where spreader_id='38'
+23:57:22 select * from images
+23:57:22 select * from article_type
+23:57:22 select * from article_type where id='4'
+23:57:22 select count(id) from articles where type_id='4' order by add_time desc
+23:57:22 select * from articles where type_id='4' order by add_time desc limit 0,5
+23:57:24 use a0122145834;
+23:57:24 set names utf8;
+23:57:24 select * from configs
+23:57:24 select * from users where id=38
+23:57:24 select count(id) from users where spreader_id='38'
+23:57:24 select * from images
+23:57:24 select type_id from articles where id='19'
+23:57:24 select * from articles where id='19'
+23:57:34 use a0122145834;
+23:57:34 set names utf8;
+23:57:34 select * from configs
+23:57:34 select * from admins where id=1
+23:57:34 select count(o.id) from articles as o left join article_type as u on u.id=o.type_id 
+23:57:34 select o.id,o.title,o.add_time,u.type_name from articles as o left join article_type as u on u.id=o.type_id  limit 0,20
+23:57:38 use a0122145834;
+23:57:38 set names utf8;
+23:57:38 select * from configs
+23:57:38 select * from admins where id=1
+23:57:38 select * from articles where id=19
+23:57:53 use a0122145834;
+23:57:53 set names utf8;
+23:57:53 select * from configs
+23:57:53 select * from users where id=38
+23:57:53 select count(id) from users where spreader_id='38'
+23:57:53 select * from images
+23:57:53 select * from article_type
+23:57:53 select count(id) from articles order by add_time desc
+23:57:53 select * from articles order by add_time desc limit 0,5
+23:57:55 use a0122145834;
+23:57:55 set names utf8;
+23:57:55 select * from configs
+23:57:55 select * from users where id=38
+23:57:55 select count(id) from users where spreader_id='38'
+23:57:55 select * from images
+23:57:55 select * from article_type
+23:57:55 select * from article_type where id='4'
+23:57:55 select count(id) from articles where type_id='4' order by add_time desc
+23:57:55 select * from articles where type_id='4' order by add_time desc limit 0,5
+23:57:57 use a0122145834;
+23:57:57 set names utf8;
+23:57:57 select * from configs
+23:57:57 select * from users where id=38
+23:57:57 select count(id) from users where spreader_id='38'
+23:57:57 select * from images
+23:57:57 select type_id from articles where id='7'
+23:57:57 select * from articles where id='7'
+23:58:20 use a0122145834;
+23:58:20 set names utf8;
+23:58:20 select * from configs
+23:58:20 select * from admins where id=1
+23:58:20 update articles set type_id=4, content='<p style="text-align: center">&nbsp;</p>
+
+<p style="text-align: center"><strong><span style="font-size:16px">第一步：点击按钮下载表单填写完毕！</span></strong></p>
+
+<p style="text-align: center">&nbsp;</p>
+
+<p style="text-align: center"><a href="http://www.10nai.com/vip.doc"><input name="填写VIP会员资料表单" size="26" style="width: 202px; height: 57px" type="submit" value="填写VIP会员资料表单" /></a></p>
+
+<p style="text-align: center">&nbsp;</p>
+
+<p style="text-align: center">&nbsp;</p>
+
+<p style="text-align: center">&nbsp;</p>
+
+<p style="text-align: center"><span style="font-size:16px"><strong>第二步：点击按钮加我私人QQ，将表单发我！</strong></span></p>
+
+<p style="text-align: center">&nbsp;</p>
+
+<p style="text-align: center"><a href="http://shang.qq.com/email/stop/email_stop.html?qq=77812886&amp;sig=644de2fab6b113773253dee674323a0c3d36b6c80cdf05e1&amp;tttt=1" target="_blank"><input name="点击加小马QQ好友" size="26" style="width: 202px; height: 57px" type="submit" value="点击加小马QQ好友" /></a></p>
+
+<p style="text-align: center">&nbsp;</p>
+
+<p style="text-align: center">&nbsp;</p>
+
+<p style="text-align: center">&nbsp;</p>
+
+<p style="text-align: center"><span style="font-size:16px"><strong>第三步：点击按钮下载好课程，然后通知我！</strong></span></p>
+
+<p style="text-align: center">&nbsp;</p>
+
+<p style="text-align: center"><a href="http://10nai.com/user.php?act=vip_article_id&amp;id=7"><input name="下载核心辅导课程" size="26" style="width: 202px; height: 57px" type="submit" value="下载核心辅导课程" /></a></p>
+
+<p style="text-align: center">&nbsp;</p>
+
+<p style="text-align: center">&nbsp;</p>
+', title='【课程导航】' where id=19
+23:58:21 use a0122145834;
+23:58:21 set names utf8;
+23:58:21 select * from configs
+23:58:21 select * from admins where id=1
+23:58:21 select * from articles where id=19
+23:58:25 use a0122145834;
+23:58:25 set names utf8;
+23:58:25 select * from configs
+23:58:25 select * from users where id=38
+23:58:25 select count(id) from users where spreader_id='38'
+23:58:25 select * from images
+23:58:25 select type_id from articles where id='19'
+23:58:25 select * from articles where id='19'
+23:58:27 use a0122145834;
+23:58:27 set names utf8;
+23:58:27 select * from configs
+23:58:27 select * from users where id=38
+23:58:27 select count(id) from users where spreader_id='38'
+23:58:27 select * from images
+23:58:27 select type_id from articles where id='7'
+23:58:27 select * from articles where id='7'
+23:58:32 use a0122145834;
+23:58:32 set names utf8;
+23:58:32 select * from configs
+23:58:32 select * from users where id=38
+23:58:32 select count(id) from users where spreader_id='38'
+23:58:32 select * from images
+23:58:32 select type_id from articles where id='19'
+23:58:32 select * from articles where id='19'
+23:58:47 use a0122145834;
+23:58:47 set names utf8;
+23:58:47 select * from configs
+23:58:47 select * from users where id=38
+23:58:47 select count(id) from users where spreader_id='38'
+23:58:47 select * from images
+23:58:47 select type_id from articles where id='7'
+23:58:47 select * from articles where id='7'
+23:58:53 use a0122145834;
+23:58:53 set names utf8;
+23:58:53 select * from configs
+23:58:53 select * from users where id=38
+23:58:53 select count(id) from users where spreader_id='38'
+23:58:53 select * from images
+23:58:53 select type_id from articles where id='19'
+23:58:53 select * from articles where id='19'
+23:59:16 use a0122145834;
+23:59:16 set names utf8;
+23:59:16 select * from configs
+23:59:16 select * from admins where id=1
+23:59:16 update articles set type_id=4, content='<p style="text-align: center">&nbsp;</p>
+
+<p style="text-align: center"><strong><span style="font-size:16px">第一步：点击按钮下载表单填写完毕！</span></strong></p>
+
+<p style="text-align: center">&nbsp;</p>
+
+<p style="text-align: center"><a href="http://www.10nai.com/vip.doc"><input name="填写VIP会员资料表单" size="26" style="width: 202px; height: 57px" type="submit" value="填写VIP会员资料表单" /></a></p>
+
+<p style="text-align: center">&nbsp;</p>
+
+<p style="text-align: center">&nbsp;</p>
+
+<p style="text-align: center">&nbsp;</p>
+
+<p style="text-align: center"><span style="font-size:16px"><strong>第二步：点击按钮加我私人QQ，将表单发我！</strong></span></p>
+
+<p style="text-align: center">&nbsp;</p>
+
+<p style="text-align: center"><a href="http://shang.qq.com/email/stop/email_stop.html?qq=77812886&amp;sig=644de2fab6b113773253dee674323a0c3d36b6c80cdf05e1&amp;tttt=1" target="_blank"><input name="点击加小马QQ好友" size="26" style="width: 202px; height: 57px" type="submit" value="点击加小马QQ好友" /></a></p>
+
+<p style="text-align: center">&nbsp;</p>
+
+<p style="text-align: center">&nbsp;</p>
+
+<p style="text-align: center">&nbsp;</p>
+
+<p style="text-align: center"><span style="font-size:16px"><strong>第三步：点击按钮下载好课程，然后通知我！</strong></span></p>
+
+<p style="text-align: center">&nbsp;</p>
+
+<p style="text-align: center"><a href="http://10nai.com/user.php?act=vip_article_id&amp;id=7"><input name="下载核心辅导课程" size="26" style="width: 202px; height: 57px" type="submit" value="下载核心辅导课程" /></a></p>
+', title='【课程导航】' where id=19
+23:59:17 use a0122145834;
+23:59:17 set names utf8;
+23:59:17 select * from configs
+23:59:17 select * from admins where id=1
+23:59:17 select * from articles where id=19
+23:59:19 use a0122145834;
+23:59:19 set names utf8;
+23:59:19 select * from configs
+23:59:19 select * from users where id=38
+23:59:19 select count(id) from users where spreader_id='38'
+23:59:19 select * from images
+23:59:19 select type_id from articles where id='19'
+23:59:19 select * from articles where id='19'
+23:59:29 use a0122145834;
+23:59:29 set names utf8;
+23:59:29 select * from configs
+23:59:29 select * from users where id=38
+23:59:29 select count(id) from users where spreader_id='38'
+23:59:29 select * from images
+23:59:29 select type_id from articles where id='7'
+23:59:29 select * from articles where id='7'
+23:59:47 use a0122145834;
+23:59:47 set names utf8;
+23:59:47 select * from configs
+23:59:47 select * from users where id=38
+23:59:47 select count(id) from users where spreader_id='38'
+23:59:47 select * from images
+23:59:47 select * from article_type
+23:59:47 select count(id) from articles order by add_time desc
+23:59:47 select * from articles order by add_time desc limit 0,5
+23:59:51 use a0122145834;
+23:59:51 set names utf8;
+23:59:51 select * from configs
+23:59:51 select * from users where id=38
+23:59:51 select count(id) from users where spreader_id='38'
+23:59:51 select * from images
+23:59:51 select * from article_type
+23:59:51 select * from article_type where id='5'
+23:59:51 select count(id) from articles where type_id='5' order by add_time desc
+23:59:51 select * from articles where type_id='5' order by add_time desc limit 0,5
+23:59:54 use a0122145834;
+23:59:54 set names utf8;
+23:59:54 select * from configs
+23:59:54 select * from users where id=38
+23:59:54 select count(id) from users where spreader_id='38'
+23:59:54 select * from images
+23:59:54 select * from article_type
+23:59:54 select count(id) from articles order by add_time desc
+23:59:54 select * from articles order by add_time desc limit 0,5
+23:59:58 use a0122145834;
+23:59:58 set names utf8;
+23:59:58 select * from configs
+23:59:58 select * from users where id=38
+23:59:58 select count(id) from users where spreader_id='38'
+23:59:58 select * from images
+23:59:58 select * from article_type
+23:59:58 select * from article_type where id='7'
+23:59:58 select count(id) from articles where type_id='7' order by add_time desc
+23:59:58 select * from articles where type_id='7' order by add_time desc limit 0,5

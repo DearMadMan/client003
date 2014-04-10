@@ -1,0 +1,915 @@
+19:08:16 use sayhello;
+19:08:16 set names utf8;
+19:08:16 select * from configs
+19:08:17 use sayhello;
+19:08:17 set names utf8;
+19:08:17 select * from configs
+19:08:24 use sayhello;
+19:08:24 set names utf8;
+19:08:24 select * from configs
+19:08:24 select * from users where user_name='123456' and user_word='ce39d344dc1b1ccf01af7d5f77d2de42'
+19:08:24 use sayhello;
+19:08:24 set names utf8;
+19:08:24 select * from configs
+19:08:24 select * from users where id=3
+19:08:24 select * from goods where need_top=1 and need_hidden=0 order by id desc limit 0,5
+19:08:24 select count(id) from goods where need_top=0 and need_hidden=0 order by id desc
+19:08:24 select * from goods where need_top=0 and need_hidden=0 order by id desc limit 0,10
+19:08:32 use sayhello;
+19:08:32 set names utf8;
+19:08:32 select * from configs
+19:08:32 select * from users where id=3
+19:08:32 select * from goods where need_top=1 and need_hidden=0 order by id desc limit 0,5
+19:08:32 select count(id) from goods where need_top=0 and need_hidden=0 order by id desc
+19:08:32 select * from goods where need_top=0 and need_hidden=0 order by id desc limit 0,10
+19:18:25 use sayhello;
+19:18:25 set names utf8;
+19:18:25 select * from configs
+19:18:25 select * from users where id=3
+19:18:25 select * from goods where need_top=1 and need_hidden=0 order by id desc limit 0,5
+19:18:25 select count(id) from goods where need_top=0 and need_hidden=0 order by id desc
+19:18:25 select * from goods where need_top=0 and need_hidden=0 order by id desc limit 0,10
+19:18:28 use sayhello;
+19:18:28 set names utf8;
+19:18:28 select * from configs
+19:18:28 select * from users where id=3
+19:18:28 select * from goods where need_top=1 and need_hidden=0 order by id desc limit 0,5
+19:18:28 select count(id) from goods where need_top=0 and need_hidden=0 order by id desc
+19:18:28 select * from goods where need_top=0 and need_hidden=0 order by id desc limit 0,10
+19:18:56 use sayhello;
+19:18:56 set names utf8;
+19:18:56 select * from configs
+19:18:56 select * from users where id=3
+19:18:56 select * from goods where need_top=1 and need_hidden=0 order by id desc limit 0,5
+19:18:56 select count(id) from goods where need_top=0 and need_hidden=0 order by id desc
+19:18:56 select * from goods where need_top=0 and need_hidden=0 order by id desc limit 0,10
+19:19:47 use sayhello;
+19:19:47 set names utf8;
+19:19:47 select * from configs
+19:19:47 select * from users where id=3
+19:19:47 select * from goods where need_top=1 and need_hidden=0 order by id desc limit 0,5
+19:19:47 select count(id) from goods where need_top=0 and need_hidden=0 order by id desc
+19:19:47 select * from goods where need_top=0 and need_hidden=0 order by id desc limit 0,10
+19:23:57 use sayhello;
+19:23:57 set names utf8;
+19:23:57 select * from configs
+19:23:57 select * from users where id=3
+19:23:57 select * from goods where need_top=1 and need_hidden=0 order by id desc limit 0,5
+19:23:57 select count(id) from goods where need_top=0 and need_hidden=0 order by id desc
+19:23:57 select * from goods where need_top=0 and need_hidden=0 order by id desc limit 0,10
+19:24:33 use sayhello;
+19:24:33 set names utf8;
+19:24:33 select * from configs
+19:24:33 select * from users where id=3
+19:24:33 select * from goods where need_top=1 and need_hidden=0 order by id desc limit 0,5
+19:24:33 select count(id) from goods where need_top=0 and need_hidden=0 order by id desc
+19:24:33 select * from goods where need_top=0 and need_hidden=0 order by id desc limit 0,10
+19:26:34 use sayhello;
+19:26:34 set names utf8;
+19:26:34 select * from configs
+19:26:34 select * from users where id=3
+19:26:34 select * from goods where need_top=1 and need_hidden=0 order by id desc limit 0,5
+19:26:34 select count(id) from goods where need_top=0 and need_hidden=0 order by id desc
+19:26:34 select * from goods where need_top=0 and need_hidden=0 order by id desc limit 0,10
+19:27:12 use sayhello;
+19:27:12 set names utf8;
+19:27:12 select * from configs
+19:27:12 select * from users where id=3
+19:27:12 select * from goods where need_top=1 and need_hidden=0 order by id desc limit 0,5
+19:27:12 select count(id) from goods where need_top=0 and need_hidden=0 order by id desc
+19:27:12 select * from goods where need_top=0 and need_hidden=0 order by id desc limit 0,10
+19:27:40 use sayhello;
+19:27:40 set names utf8;
+19:27:40 select * from configs
+19:27:40 select * from users where id=3
+19:27:40 select * from goods where need_top=1 and need_hidden=0 order by id desc limit 0,5
+19:27:40 select count(id) from goods where need_top=0 and need_hidden=0 order by id desc
+19:27:40 select * from goods where need_top=0 and need_hidden=0 order by id desc limit 0,10
+19:28:22 use sayhello;
+19:28:22 set names utf8;
+19:28:22 select * from configs
+19:28:23 select * from users where id=3
+19:28:23 select * from goods where need_top=1 and need_hidden=0 order by id desc limit 0,5
+19:28:23 select count(id) from goods where need_top=0 and need_hidden=0 order by id desc
+19:28:23 select * from goods where need_top=0 and need_hidden=0 order by id desc limit 0,10
+19:29:09 use sayhello;
+19:29:09 set names utf8;
+19:29:09 select * from configs
+19:29:09 select * from users where id=3
+19:29:09 select * from goods where need_top=1 and need_hidden=0 order by id desc limit 0,5
+19:29:09 select count(id) from goods where need_top=0 and need_hidden=0 order by id desc
+19:29:09 select * from goods where need_top=0 and need_hidden=0 order by id desc limit 0,10
+19:29:10 use sayhello;
+19:29:10 set names utf8;
+19:29:10 select * from configs
+19:29:10 select * from users where id=3
+19:29:10 select * from goods where need_top=1 and need_hidden=0 order by id desc limit 0,5
+19:29:10 select count(id) from goods where need_top=0 and need_hidden=0 order by id desc
+19:29:10 select * from goods where need_top=0 and need_hidden=0 order by id desc limit 0,10
+19:29:55 use sayhello;
+19:29:55 set names utf8;
+19:29:55 select * from configs
+19:29:55 select * from users where id=3
+19:29:55 select * from goods where need_top=1 and need_hidden=0 order by id desc limit 0,5
+19:29:55 select count(id) from goods where need_top=0 and need_hidden=0 order by id desc
+19:29:55 select * from goods where need_top=0 and need_hidden=0 order by id desc limit 0,10
+19:31:31 use sayhello;
+19:31:31 set names utf8;
+19:31:31 select * from configs
+19:31:31 select * from users where id=3
+19:31:31 select * from goods where need_top=1 and need_hidden=0 order by id desc limit 0,5
+19:31:31 select count(id) from goods where need_top=0 and need_hidden=0 order by id desc
+19:31:31 select * from goods where need_top=0 and need_hidden=0 order by id desc limit 0,10
+19:31:32 use sayhello;
+19:31:32 set names utf8;
+19:31:32 select * from configs
+19:31:32 select * from users where id=3
+19:31:32 select * from goods where need_top=1 and need_hidden=0 order by id desc limit 0,5
+19:31:32 select count(id) from goods where need_top=0 and need_hidden=0 order by id desc
+19:31:32 select * from goods where need_top=0 and need_hidden=0 order by id desc limit 0,10
+20:02:50 use sayhello;
+20:02:50 set names utf8;
+20:02:50 select * from configs
+20:02:50 select * from users where id=3
+20:02:50 select * from goods where need_top=1 and need_hidden=0 order by id desc limit 0,5
+20:02:50 select count(id) from goods where need_top=0 and need_hidden=0 order by id desc
+20:02:50 select * from goods where need_top=0 and need_hidden=0 order by id desc limit 0,10
+20:06:50 use sayhello;
+20:06:50 set names utf8;
+20:06:50 select * from configs
+20:06:50 use sayhello;
+20:06:50 set names utf8;
+20:06:50 select * from configs
+20:06:58 use sayhello;
+20:06:58 set names utf8;
+20:06:58 select * from configs
+20:06:58 select * from admins where user_name='admin' and user_word='21232f297a57a5a743894a0e4a801fc3'
+20:06:58 use sayhello;
+20:06:58 set names utf8;
+20:06:58 select * from configs
+20:06:58 select * from admins where id=1
+20:07:03 use sayhello;
+20:07:03 set names utf8;
+20:07:03 select * from configs
+20:07:03 select * from admins where id=1
+20:07:07 use sayhello;
+20:07:07 set names utf8;
+20:07:07 select * from configs
+20:07:07 select * from admins where id=1
+20:07:08 use sayhello;
+20:07:08 set names utf8;
+20:07:08 select * from configs
+20:07:08 select * from users where id=3
+20:07:15 use sayhello;
+20:07:15 set names utf8;
+20:07:15 select * from configs
+20:07:15 select * from admins where id=1
+20:07:19 use sayhello;
+20:07:19 set names utf8;
+20:07:19 select * from configs
+20:07:19 select * from admins where id=1
+20:07:19 use sayhello;
+20:07:19 set names utf8;
+20:07:19 select * from configs
+20:07:19 select * from admins where id=1
+20:07:19 select count(id) from users
+20:07:19 select * from users limit 0,20
+20:07:22 use sayhello;
+20:07:22 set names utf8;
+20:07:22 select * from configs
+20:07:22 select * from admins where id=1
+20:07:22 select * from users where id=1
+20:07:24 use sayhello;
+20:07:24 set names utf8;
+20:07:24 select * from configs
+20:07:24 select * from admins where id=1
+20:07:24 select count(i.id) from income as i left join users as u on i.user_id=u.id
+20:07:24 select i.id,i.income_money,i.order_sn,i.add_time,i.pay_status,u.user_name,u.nick_name,u.spreader_id,u.vip_level from income as i left join users as u on i.user_id=u.id limit 0,20
+20:07:25 use sayhello;
+20:07:25 set names utf8;
+20:07:25 select * from configs
+20:07:25 select * from admins where id=1
+20:07:25 select count(i.id) from expense as i left join users as u on i.user_id=u.id
+20:07:25 select i.id,i.expense_money,i.order_sn,i.add_time,i.expense_status,u.user_name,u.nick_name,u.spreader_id,u.vip_level,u.pay_name,u.pay_email from expense as i left join users as u on i.user_id=u.id limit 0,20
+20:07:26 use sayhello;
+20:07:26 set names utf8;
+20:07:26 select * from configs
+20:07:26 select * from admins where id=1
+20:07:26 select count(v.id) from vipmsg as v left join users as u on u.id=v.user_id 
+20:07:26 select v.id,v.user_msg,v.recove,v.add_time,v.can_see,u.nick_name,u.vip_level from vipmsg as v left join users as u on u.id=v.user_id  limit 0,20
+20:07:28 use sayhello;
+20:07:28 set names utf8;
+20:07:28 select * from configs
+20:07:28 select * from admins where id=1
+20:07:28 select count(id) from users
+20:07:28 select * from users limit 0,20
+20:07:29 use sayhello;
+20:07:29 set names utf8;
+20:07:29 select * from configs
+20:07:29 select * from admins where id=1
+20:07:29 select * from users where id=1
+20:07:36 use sayhello;
+20:07:36 set names utf8;
+20:07:36 select * from configs
+20:07:36 select * from admins where id=1
+20:07:36 update users set user_name='787878',nick_name='asdsad',credits='12',money='21',pay_email='11223',pay_name='2233',address='3344',vip_level='0',spreader_rate='0.4' where id=1 
+20:07:38 use sayhello;
+20:07:38 set names utf8;
+20:07:38 select * from configs
+20:07:38 select * from admins where id=1
+20:07:38 select * from users where id=1
+20:07:39 use sayhello;
+20:07:39 set names utf8;
+20:07:39 select * from configs
+20:07:39 select * from admins where id=1
+20:07:39 select count(i.id) from expense as i left join users as u on i.user_id=u.id
+20:07:39 select i.id,i.expense_money,i.order_sn,i.add_time,i.expense_status,u.user_name,u.nick_name,u.spreader_id,u.vip_level,u.pay_name,u.pay_email from expense as i left join users as u on i.user_id=u.id limit 0,20
+20:07:40 use sayhello;
+20:07:40 set names utf8;
+20:07:40 select * from configs
+20:07:40 select * from admins where id=1
+20:07:40 select count(v.id) from vipmsg as v left join users as u on u.id=v.user_id 
+20:07:40 select v.id,v.user_msg,v.recove,v.add_time,v.can_see,u.nick_name,u.vip_level from vipmsg as v left join users as u on u.id=v.user_id  limit 0,20
+20:07:42 use sayhello;
+20:07:42 set names utf8;
+20:07:42 select * from configs
+20:07:42 select * from admins where id=1
+20:07:42 select count(i.id) from expense as i left join users as u on i.user_id=u.id
+20:07:42 select i.id,i.expense_money,i.order_sn,i.add_time,i.expense_status,u.user_name,u.nick_name,u.spreader_id,u.vip_level,u.pay_name,u.pay_email from expense as i left join users as u on i.user_id=u.id limit 0,20
+20:07:43 use sayhello;
+20:07:43 set names utf8;
+20:07:43 select * from configs
+20:07:43 select * from admins where id=1
+20:07:43 select count(v.id) from vipmsg as v left join users as u on u.id=v.user_id 
+20:07:43 select v.id,v.user_msg,v.recove,v.add_time,v.can_see,u.nick_name,u.vip_level from vipmsg as v left join users as u on u.id=v.user_id  limit 0,20
+20:07:45 use sayhello;
+20:07:45 set names utf8;
+20:07:45 select * from configs
+20:07:45 select * from admins where id=1
+20:07:45 select count(i.id) from expense as i left join users as u on i.user_id=u.id
+20:07:45 select i.id,i.expense_money,i.order_sn,i.add_time,i.expense_status,u.user_name,u.nick_name,u.spreader_id,u.vip_level,u.pay_name,u.pay_email from expense as i left join users as u on i.user_id=u.id limit 0,20
+20:07:46 use sayhello;
+20:07:46 set names utf8;
+20:07:46 select * from configs
+20:07:46 select * from admins where id=1
+20:07:46 select count(v.id) from vipmsg as v left join users as u on u.id=v.user_id 
+20:07:46 select v.id,v.user_msg,v.recove,v.add_time,v.can_see,u.nick_name,u.vip_level from vipmsg as v left join users as u on u.id=v.user_id  limit 0,20
+20:07:46 use sayhello;
+20:07:46 set names utf8;
+20:07:46 select * from configs
+20:07:46 select * from admins where id=1
+20:07:46 select count(i.id) from expense as i left join users as u on i.user_id=u.id
+20:07:46 select i.id,i.expense_money,i.order_sn,i.add_time,i.expense_status,u.user_name,u.nick_name,u.spreader_id,u.vip_level,u.pay_name,u.pay_email from expense as i left join users as u on i.user_id=u.id limit 0,20
+20:07:47 use sayhello;
+20:07:47 set names utf8;
+20:07:47 select * from configs
+20:07:47 select * from admins where id=1
+20:07:47 select count(v.id) from vipmsg as v left join users as u on u.id=v.user_id 
+20:07:47 select v.id,v.user_msg,v.recove,v.add_time,v.can_see,u.nick_name,u.vip_level from vipmsg as v left join users as u on u.id=v.user_id  limit 0,20
+20:07:47 use sayhello;
+20:07:47 set names utf8;
+20:07:47 select * from configs
+20:07:47 select * from admins where id=1
+20:07:47 select count(i.id) from expense as i left join users as u on i.user_id=u.id
+20:07:47 select i.id,i.expense_money,i.order_sn,i.add_time,i.expense_status,u.user_name,u.nick_name,u.spreader_id,u.vip_level,u.pay_name,u.pay_email from expense as i left join users as u on i.user_id=u.id limit 0,20
+20:07:48 use sayhello;
+20:07:48 set names utf8;
+20:07:48 select * from configs
+20:07:48 select * from admins where id=1
+20:07:48 select count(v.id) from vipmsg as v left join users as u on u.id=v.user_id 
+20:07:48 select v.id,v.user_msg,v.recove,v.add_time,v.can_see,u.nick_name,u.vip_level from vipmsg as v left join users as u on u.id=v.user_id  limit 0,20
+20:07:49 use sayhello;
+20:07:49 set names utf8;
+20:07:49 select * from configs
+20:07:49 select * from admins where id=1
+20:07:49 select count(v.id) from vipmsg as v left join users as u on u.id=v.user_id 
+20:07:49 select v.id,v.user_msg,v.recove,v.add_time,v.can_see,u.nick_name,u.vip_level from vipmsg as v left join users as u on u.id=v.user_id  limit 0,20
+20:07:49 use sayhello;
+20:07:49 set names utf8;
+20:07:49 select * from configs
+20:07:49 select * from admins where id=1
+20:07:49 select count(i.id) from expense as i left join users as u on i.user_id=u.id
+20:07:49 select i.id,i.expense_money,i.order_sn,i.add_time,i.expense_status,u.user_name,u.nick_name,u.spreader_id,u.vip_level,u.pay_name,u.pay_email from expense as i left join users as u on i.user_id=u.id limit 0,20
+20:07:49 use sayhello;
+20:07:49 set names utf8;
+20:07:49 select * from configs
+20:07:49 select * from admins where id=1
+20:07:49 select count(v.id) from vipmsg as v left join users as u on u.id=v.user_id 
+20:07:49 select v.id,v.user_msg,v.recove,v.add_time,v.can_see,u.nick_name,u.vip_level from vipmsg as v left join users as u on u.id=v.user_id  limit 0,20
+20:09:35 use sayhello;
+20:09:35 set names utf8;
+20:09:35 select * from configs
+20:09:35 select * from admins where id=1
+20:09:35 select count(i.id) from income as i left join users as u on i.user_id=u.id
+20:09:35 select i.id,i.income_money,i.order_sn,i.add_time,i.pay_status,u.user_name,u.nick_name,u.spreader_id,u.vip_level from income as i left join users as u on i.user_id=u.id limit 0,20
+20:09:35 use sayhello;
+20:09:35 set names utf8;
+20:09:35 select * from configs
+20:09:35 select * from admins where id=1
+20:09:35 select count(id) from users
+20:09:35 select * from users limit 0,20
+20:09:36 use sayhello;
+20:09:36 set names utf8;
+20:09:36 select * from configs
+20:09:36 select * from admins where id=1
+20:09:36 select count(i.id) from income as i left join users as u on i.user_id=u.id
+20:09:36 select i.id,i.income_money,i.order_sn,i.add_time,i.pay_status,u.user_name,u.nick_name,u.spreader_id,u.vip_level from income as i left join users as u on i.user_id=u.id limit 0,20
+20:09:37 use sayhello;
+20:09:37 set names utf8;
+20:09:37 select * from configs
+20:09:37 select * from admins where id=1
+20:09:37 select count(i.id) from expense as i left join users as u on i.user_id=u.id
+20:09:37 select i.id,i.expense_money,i.order_sn,i.add_time,i.expense_status,u.user_name,u.nick_name,u.spreader_id,u.vip_level,u.pay_name,u.pay_email from expense as i left join users as u on i.user_id=u.id limit 0,20
+20:09:38 use sayhello;
+20:09:38 set names utf8;
+20:09:38 select * from configs
+20:09:38 select * from admins where id=1
+20:09:38 use sayhello;
+20:09:38 set names utf8;
+20:09:38 select * from configs
+20:09:38 select * from admins where id=1
+20:09:38 select count(id) from goods
+20:09:38 select * from goods limit 0,20
+20:09:40 use sayhello;
+20:09:40 set names utf8;
+20:09:40 select * from configs
+20:09:40 select * from admins where id=1
+20:09:40 select count(id) from goods
+20:09:40 select * from goods limit 0,20
+20:09:40 use sayhello;
+20:09:40 set names utf8;
+20:09:40 select * from configs
+20:09:40 select * from admins where id=1
+20:09:42 use sayhello;
+20:09:42 set names utf8;
+20:09:42 select * from configs
+20:09:42 select * from admins where id=1
+20:09:42 select count(o.id) from orders as o left join users as u on u.id=o.user_id 
+20:09:42 select o.id,o.goods_id,o.user_id,o.pay_type,o.add_time,o.order_sn,o.order_type,u.spreader_id from orders as o left join users as u on u.id=o.user_id  limit 0,20
+20:09:44 use sayhello;
+20:09:44 set names utf8;
+20:09:44 select * from configs
+20:09:44 select * from admins where id=1
+20:09:45 use sayhello;
+20:09:45 set names utf8;
+20:09:45 select * from configs
+20:09:45 select * from admins where id=1
+20:09:45 select count(o.id) from articles as o left join article_type as u on u.id=o.type_id 
+20:09:45 select o.id,o.title,o.add_time,u.type_name from articles as o left join article_type as u on u.id=o.type_id  limit 0,20
+20:09:46 use sayhello;
+20:09:46 set names utf8;
+20:09:46 select * from configs
+20:09:46 select * from admins where id=1
+20:09:46 select count(id) from article_type 
+20:09:46 select * from article_type  limit 0,20
+20:09:47 use sayhello;
+20:09:47 set names utf8;
+20:09:47 select * from configs
+20:09:47 select * from admins where id=1
+20:09:47 select count(o.id) from articles as o left join article_type as u on u.id=o.type_id 
+20:09:47 select o.id,o.title,o.add_time,u.type_name from articles as o left join article_type as u on u.id=o.type_id  limit 0,20
+20:09:48 use sayhello;
+20:09:48 set names utf8;
+20:09:48 select * from configs
+20:09:48 select * from admins where id=1
+20:09:48 select count(id) from article_type 
+20:09:48 select * from article_type  limit 0,20
+20:09:51 use sayhello;
+20:09:51 set names utf8;
+20:09:51 select * from configs
+20:09:51 select * from admins where id=1
+20:09:51 select * from article_type where id=1
+20:09:53 use sayhello;
+20:09:53 set names utf8;
+20:09:53 select * from configs
+20:09:53 select * from admins where id=1
+20:09:53 select count(id) from article_type 
+20:09:53 select * from article_type  limit 0,20
+20:09:54 use sayhello;
+20:09:54 set names utf8;
+20:09:54 select * from configs
+20:09:54 select * from admins where id=1
+20:09:54 select * from article_type where id=2
+20:09:56 use sayhello;
+20:09:56 set names utf8;
+20:09:56 select * from configs
+20:09:56 select * from admins where id=1
+20:09:56 select count(id) from article_type 
+20:09:56 select * from article_type  limit 0,20
+20:09:57 use sayhello;
+20:09:57 set names utf8;
+20:09:57 select * from configs
+20:09:57 select * from admins where id=1
+20:09:57 select count(o.id) from articles as o left join article_type as u on u.id=o.type_id 
+20:09:57 select o.id,o.title,o.add_time,u.type_name from articles as o left join article_type as u on u.id=o.type_id  limit 0,20
+20:09:58 use sayhello;
+20:09:58 set names utf8;
+20:09:58 select * from configs
+20:09:58 select * from admins where id=1
+20:09:58 select * from articles where id=1
+20:09:59 use sayhello;
+20:09:59 set names utf8;
+20:09:59 select * from configs
+20:09:59 select * from admins where id=1
+20:09:59 select count(o.id) from articles as o left join article_type as u on u.id=o.type_id 
+20:09:59 select o.id,o.title,o.add_time,u.type_name from articles as o left join article_type as u on u.id=o.type_id  limit 0,20
+20:10:01 use sayhello;
+20:10:01 set names utf8;
+20:10:01 select * from configs
+20:10:01 select * from admins where id=1
+20:10:01 select count(id) from goods
+20:10:01 select * from goods limit 0,20
+20:10:25 use sayhello;
+20:10:25 set names utf8;
+20:10:25 select * from configs
+20:10:25 select * from admins where id=1
+20:10:25 select * from goods where id='1'
+20:10:29 use sayhello;
+20:10:29 set names utf8;
+20:10:29 select * from configs
+20:10:29 select * from admins where id=1
+20:10:29 select count(id) from goods
+20:10:29 select * from goods limit 0,20
+20:10:32 use sayhello;
+20:10:32 set names utf8;
+20:10:32 select * from configs
+20:10:32 select * from admins where id=1
+20:10:32 use sayhello;
+20:10:32 set names utf8;
+20:10:32 select * from configs
+20:10:32 select * from admins where id=1
+20:10:32 select count(id) from users
+20:10:32 select * from users limit 0,20
+20:10:34 use sayhello;
+20:10:34 set names utf8;
+20:10:34 select * from configs
+20:10:34 select * from admins where id=1
+20:10:34 select count(i.id) from income as i left join users as u on i.user_id=u.id
+20:10:34 select i.id,i.income_money,i.order_sn,i.add_time,i.pay_status,u.user_name,u.nick_name,u.spreader_id,u.vip_level from income as i left join users as u on i.user_id=u.id limit 0,20
+20:10:37 use sayhello;
+20:10:37 set names utf8;
+20:10:37 select * from configs
+20:10:37 select * from admins where id=1
+20:10:37 select count(id) from users
+20:10:37 select * from users limit 0,20
+20:10:39 use sayhello;
+20:10:39 set names utf8;
+20:10:39 select * from configs
+20:10:39 select * from admins where id=1
+20:10:39 select count(i.id) from expense as i left join users as u on i.user_id=u.id
+20:10:39 select i.id,i.expense_money,i.order_sn,i.add_time,i.expense_status,u.user_name,u.nick_name,u.spreader_id,u.vip_level,u.pay_name,u.pay_email from expense as i left join users as u on i.user_id=u.id limit 0,20
+20:28:42 use sayhello;
+20:28:42 set names utf8;
+20:28:42 select * from configs
+20:28:42 select * from users where id=3
+20:28:42 select * from goods where need_top=1 and need_hidden=0 order by id desc limit 0,5
+20:28:42 select count(id) from goods where need_top=0 and need_hidden=0 order by id desc
+20:28:42 select * from goods where need_top=0 and need_hidden=0 order by id desc limit 0,10
+20:28:44 use sayhello;
+20:28:44 set names utf8;
+20:28:44 select * from configs
+20:28:44 select * from admins where id=1
+20:28:46 use sayhello;
+20:28:46 set names utf8;
+20:28:46 select * from configs
+20:28:46 select * from admins where id=1
+20:28:46 use sayhello;
+20:28:46 set names utf8;
+20:28:46 select * from configs
+20:28:46 select * from admins where id=1
+20:28:46 select count(id) from users
+20:28:46 select * from users limit 0,20
+20:40:01 use sayhello;
+20:40:01 set names utf8;
+20:40:01 select * from configs
+20:40:01 select * from admins where id=1
+20:40:01 select count(i.id) from expense as i left join users as u on i.user_id=u.id
+20:40:01 select i.id,i.expense_money,i.order_sn,i.add_time,i.expense_status,u.user_name,u.nick_name,u.spreader_id,u.vip_level,u.pay_name,u.pay_email from expense as i left join users as u on i.user_id=u.id limit 0,20
+20:40:28 use sayhello;
+20:40:28 set names utf8;
+20:40:28 select * from configs
+20:40:28 select * from admins where id=1
+20:41:03 use sayhello;
+20:41:03 set names utf8;
+20:41:03 select * from configs
+20:41:03 select * from admins where id=1
+20:41:32 use sayhello;
+20:41:32 set names utf8;
+20:41:32 select * from configs
+20:41:32 select * from admins where id=1
+20:41:51 use sayhello;
+20:41:51 set names utf8;
+20:41:51 select * from configs
+20:41:51 select * from admins where id=1
+20:41:56 use sayhello;
+20:41:56 set names utf8;
+20:41:56 select * from configs
+20:41:56 select * from admins where id=1
+20:42:18 use sayhello;
+20:42:18 set names utf8;
+20:42:18 select * from configs
+20:42:18 select * from admins where id=1
+20:42:18 select count(i.id) from expense as i left join users as u on i.user_id=u.id
+20:42:18 select i.id,i.expense_money,i.order_sn,i.add_time,i.expense_status,u.user_name,u.nick_name,u.spreader_id,u.vip_level,u.pay_name,u.pay_email from expense as i left join users as u on i.user_id=u.id limit 0,20
+20:42:20 use sayhello;
+20:42:20 set names utf8;
+20:42:20 select * from configs
+20:42:20 select * from admins where id=1
+20:42:23 use sayhello;
+20:42:23 set names utf8;
+20:42:23 select * from configs
+20:42:23 select * from admins where id=1
+20:43:02 use sayhello;
+20:43:02 set names utf8;
+20:43:02 select * from configs
+20:43:02 select * from admins where id=1
+20:43:02 select count(i.id) from expense as i left join users as u on i.user_id=u.id
+20:43:02 select i.id,i.expense_money,i.order_sn,i.add_time,i.expense_status,u.user_name,u.nick_name,u.spreader_id,u.vip_level,u.pay_name,u.pay_email from expense as i left join users as u on i.user_id=u.id limit 0,20
+20:43:02 use sayhello;
+20:43:02 set names utf8;
+20:43:02 select * from configs
+20:43:02 select * from admins where id=1
+20:43:02 select count(i.id) from expense as i left join users as u on i.user_id=u.id
+20:43:02 select i.id,i.expense_money,i.order_sn,i.add_time,i.expense_status,u.user_name,u.nick_name,u.spreader_id,u.vip_level,u.pay_name,u.pay_email from expense as i left join users as u on i.user_id=u.id limit 0,20
+20:43:02 use sayhello;
+20:43:02 set names utf8;
+20:43:02 select * from configs
+20:43:02 select * from admins where id=1
+20:43:02 select count(i.id) from expense as i left join users as u on i.user_id=u.id
+20:43:02 select i.id,i.expense_money,i.order_sn,i.add_time,i.expense_status,u.user_name,u.nick_name,u.spreader_id,u.vip_level,u.pay_name,u.pay_email from expense as i left join users as u on i.user_id=u.id limit 0,20
+20:43:04 use sayhello;
+20:43:04 set names utf8;
+20:43:04 select * from configs
+20:43:04 select * from admins where id=1
+20:43:09 use sayhello;
+20:43:09 set names utf8;
+20:43:09 select * from configs
+20:43:09 select * from admins where id=1
+20:43:09 select count(i.id) from expense as i left join users as u on i.user_id=u.id
+20:43:09 select i.id,i.expense_money,i.order_sn,i.add_time,i.expense_status,u.user_name,u.nick_name,u.spreader_id,u.vip_level,u.pay_name,u.pay_email from expense as i left join users as u on i.user_id=u.id limit 0,20
+20:43:11 use sayhello;
+20:43:11 set names utf8;
+20:43:11 select * from configs
+20:43:11 select * from admins where id=1
+20:43:11 update expense set expense_status=1 where id=2
+20:43:33 use sayhello;
+20:43:33 set names utf8;
+20:43:33 select * from configs
+20:43:33 select * from admins where id=1
+20:43:33 update expense set expense_status=1 where id=2
+20:43:36 use sayhello;
+20:43:36 set names utf8;
+20:43:36 select * from configs
+20:43:36 select * from admins where id=1
+20:43:36 update expense set expense_status=1 where id=2
+20:43:38 use sayhello;
+20:43:38 set names utf8;
+20:43:38 select * from configs
+20:43:38 select * from admins where id=1
+20:43:38 select count(i.id) from expense as i left join users as u on i.user_id=u.id
+20:43:38 select i.id,i.expense_money,i.order_sn,i.add_time,i.expense_status,u.user_name,u.nick_name,u.spreader_id,u.vip_level,u.pay_name,u.pay_email from expense as i left join users as u on i.user_id=u.id limit 0,20
+20:43:39 use sayhello;
+20:43:39 set names utf8;
+20:43:39 select * from configs
+20:43:39 select * from admins where id=1
+20:43:39 update expense set expense_status=1 where id=3
+20:43:53 use sayhello;
+20:43:53 set names utf8;
+20:43:53 select * from configs
+20:43:53 select * from admins where id=1
+20:43:53 update expense set expense_status=1 where id=3
+20:44:27 use sayhello;
+20:44:27 set names utf8;
+20:44:27 select * from configs
+20:44:27 select * from admins where id=1
+20:44:27 select count(i.id) from expense as i left join users as u on i.user_id=u.id
+20:44:27 select i.id,i.expense_money,i.order_sn,i.add_time,i.expense_status,u.user_name,u.nick_name,u.spreader_id,u.vip_level,u.pay_name,u.pay_email from expense as i left join users as u on i.user_id=u.id limit 0,20
+20:44:28 use sayhello;
+20:44:28 set names utf8;
+20:44:28 select * from configs
+20:44:28 select * from admins where id=1
+20:44:28 update expense set expense_status=1 where id=4
+20:44:33 use sayhello;
+20:44:33 set names utf8;
+20:44:33 select * from configs
+20:44:33 select * from admins where id=1
+20:44:33 select count(i.id) from expense as i left join users as u on i.user_id=u.id
+20:44:33 select i.id,i.expense_money,i.order_sn,i.add_time,i.expense_status,u.user_name,u.nick_name,u.spreader_id,u.vip_level,u.pay_name,u.pay_email from expense as i left join users as u on i.user_id=u.id limit 0,20
+20:44:33 use sayhello;
+20:44:33 set names utf8;
+20:44:33 select * from configs
+20:44:33 select * from admins where id=1
+20:44:33 select count(i.id) from expense as i left join users as u on i.user_id=u.id
+20:44:33 select i.id,i.expense_money,i.order_sn,i.add_time,i.expense_status,u.user_name,u.nick_name,u.spreader_id,u.vip_level,u.pay_name,u.pay_email from expense as i left join users as u on i.user_id=u.id limit 0,20
+20:44:34 use sayhello;
+20:44:34 set names utf8;
+20:44:34 select * from configs
+20:44:34 select * from admins where id=1
+20:44:34 select count(i.id) from expense as i left join users as u on i.user_id=u.id
+20:44:34 select i.id,i.expense_money,i.order_sn,i.add_time,i.expense_status,u.user_name,u.nick_name,u.spreader_id,u.vip_level,u.pay_name,u.pay_email from expense as i left join users as u on i.user_id=u.id limit 0,20
+20:44:34 use sayhello;
+20:44:34 set names utf8;
+20:44:34 select * from configs
+20:44:34 select * from admins where id=1
+20:44:34 select count(i.id) from expense as i left join users as u on i.user_id=u.id
+20:44:34 select i.id,i.expense_money,i.order_sn,i.add_time,i.expense_status,u.user_name,u.nick_name,u.spreader_id,u.vip_level,u.pay_name,u.pay_email from expense as i left join users as u on i.user_id=u.id limit 0,20
+20:44:34 use sayhello;
+20:44:34 set names utf8;
+20:44:34 select * from configs
+20:44:34 select * from admins where id=1
+20:44:34 select count(i.id) from expense as i left join users as u on i.user_id=u.id
+20:44:34 select i.id,i.expense_money,i.order_sn,i.add_time,i.expense_status,u.user_name,u.nick_name,u.spreader_id,u.vip_level,u.pay_name,u.pay_email from expense as i left join users as u on i.user_id=u.id limit 0,20
+20:44:35 use sayhello;
+20:44:35 set names utf8;
+20:44:35 select * from configs
+20:44:35 select * from admins where id=1
+20:44:35 select count(i.id) from expense as i left join users as u on i.user_id=u.id
+20:44:35 select i.id,i.expense_money,i.order_sn,i.add_time,i.expense_status,u.user_name,u.nick_name,u.spreader_id,u.vip_level,u.pay_name,u.pay_email from expense as i left join users as u on i.user_id=u.id limit 0,20
+20:44:35 use sayhello;
+20:44:35 set names utf8;
+20:44:35 select * from configs
+20:44:35 select * from admins where id=1
+20:44:35 select count(i.id) from expense as i left join users as u on i.user_id=u.id
+20:44:35 select i.id,i.expense_money,i.order_sn,i.add_time,i.expense_status,u.user_name,u.nick_name,u.spreader_id,u.vip_level,u.pay_name,u.pay_email from expense as i left join users as u on i.user_id=u.id limit 0,20
+20:45:48 use sayhello;
+20:45:48 set names utf8;
+20:45:48 select * from configs
+20:45:48 select * from admins where id=1
+20:45:48 select count(i.id) from expense as i left join users as u on i.user_id=u.id
+20:45:48 select i.id,i.expense_money,i.order_sn,i.add_time,i.expense_status,u.user_name,u.nick_name,u.spreader_id,u.vip_level,u.pay_name,u.pay_email from expense as i left join users as u on i.user_id=u.id limit 0,20
+20:45:51 use sayhello;
+20:45:51 set names utf8;
+20:45:51 select * from configs
+20:45:51 select * from admins where id=1
+20:45:51 update expense set expense_status=1 where id=1
+20:46:31 use sayhello;
+20:46:31 set names utf8;
+20:46:31 select * from configs
+20:46:31 select * from admins where id=1
+20:46:31 select count(i.id) from expense as i left join users as u on i.user_id=u.id
+20:46:31 select i.id,i.expense_money,i.order_sn,i.add_time,i.expense_status,u.user_name,u.nick_name,u.spreader_id,u.vip_level,u.pay_name,u.pay_email from expense as i left join users as u on i.user_id=u.id limit 0,20
+20:46:32 use sayhello;
+20:46:32 set names utf8;
+20:46:32 select * from configs
+20:46:32 select * from admins where id=1
+20:46:32 select count(i.id) from expense as i left join users as u on i.user_id=u.id
+20:46:32 select i.id,i.expense_money,i.order_sn,i.add_time,i.expense_status,u.user_name,u.nick_name,u.spreader_id,u.vip_level,u.pay_name,u.pay_email from expense as i left join users as u on i.user_id=u.id limit 0,20
+20:46:33 use sayhello;
+20:46:33 set names utf8;
+20:46:33 select * from configs
+20:46:33 select * from admins where id=1
+20:46:33 update expense set expense_status=1 where id=2
+20:46:42 use sayhello;
+20:46:42 set names utf8;
+20:46:42 select * from configs
+20:46:42 select * from admins where id=1
+20:46:42 select count(i.id) from expense as i left join users as u on i.user_id=u.id
+20:46:42 select i.id,i.expense_money,i.order_sn,i.add_time,i.expense_status,u.user_name,u.nick_name,u.spreader_id,u.vip_level,u.pay_name,u.pay_email from expense as i left join users as u on i.user_id=u.id limit 0,20
+20:46:43 use sayhello;
+20:46:43 set names utf8;
+20:46:43 select * from configs
+20:46:43 select * from admins where id=1
+20:46:43 select count(i.id) from expense as i left join users as u on i.user_id=u.id
+20:46:43 select i.id,i.expense_money,i.order_sn,i.add_time,i.expense_status,u.user_name,u.nick_name,u.spreader_id,u.vip_level,u.pay_name,u.pay_email from expense as i left join users as u on i.user_id=u.id limit 0,20
+20:46:43 use sayhello;
+20:46:43 set names utf8;
+20:46:43 select * from configs
+20:46:43 select * from admins where id=1
+20:46:43 select count(i.id) from expense as i left join users as u on i.user_id=u.id
+20:46:43 select i.id,i.expense_money,i.order_sn,i.add_time,i.expense_status,u.user_name,u.nick_name,u.spreader_id,u.vip_level,u.pay_name,u.pay_email from expense as i left join users as u on i.user_id=u.id limit 0,20
+20:46:46 use sayhello;
+20:46:46 set names utf8;
+20:46:46 select * from configs
+20:46:46 select * from admins where id=1
+20:46:46 update expense set expense_status=1 where id=3
+20:47:04 use sayhello;
+20:47:04 set names utf8;
+20:47:04 select * from configs
+20:47:04 select * from admins where id=1
+20:47:04 select count(i.id) from expense as i left join users as u on i.user_id=u.id
+20:47:04 select i.id,i.expense_money,i.order_sn,i.add_time,i.expense_status,u.user_name,u.nick_name,u.spreader_id,u.vip_level,u.pay_name,u.pay_email from expense as i left join users as u on i.user_id=u.id limit 0,20
+20:47:05 use sayhello;
+20:47:05 set names utf8;
+20:47:05 select * from configs
+20:47:06 select * from admins where id=1
+20:47:06 update expense set expense_status=1 where id=4
+20:47:34 use sayhello;
+20:47:34 set names utf8;
+20:47:34 select * from configs
+20:47:34 select * from admins where id=1
+20:47:34 select count(i.id) from expense as i left join users as u on i.user_id=u.id
+20:47:34 select i.id,i.expense_money,i.order_sn,i.add_time,i.expense_status,u.user_name,u.nick_name,u.spreader_id,u.vip_level,u.pay_name,u.pay_email from expense as i left join users as u on i.user_id=u.id limit 0,20
+20:47:40 use sayhello;
+20:47:40 set names utf8;
+20:47:40 select * from configs
+20:47:40 select * from admins where id=1
+20:47:40 select count(i.id) from expense as i left join users as u on i.user_id=u.id
+20:47:40 select i.id,i.expense_money,i.order_sn,i.add_time,i.expense_status,u.user_name,u.nick_name,u.spreader_id,u.vip_level,u.pay_name,u.pay_email from expense as i left join users as u on i.user_id=u.id limit 0,20
+20:47:40 use sayhello;
+20:47:40 set names utf8;
+20:47:40 select * from configs
+20:47:40 select * from admins where id=1
+20:47:40 select count(i.id) from expense as i left join users as u on i.user_id=u.id
+20:47:40 select i.id,i.expense_money,i.order_sn,i.add_time,i.expense_status,u.user_name,u.nick_name,u.spreader_id,u.vip_level,u.pay_name,u.pay_email from expense as i left join users as u on i.user_id=u.id limit 0,20
+20:47:49 use sayhello;
+20:47:49 set names utf8;
+20:47:49 select * from configs
+20:47:49 select * from admins where id=1
+20:47:49 select count(i.id) from expense as i left join users as u on i.user_id=u.id
+20:47:49 select i.id,i.expense_money,i.order_sn,i.add_time,i.expense_status,u.user_name,u.nick_name,u.spreader_id,u.vip_level,u.pay_name,u.pay_email from expense as i left join users as u on i.user_id=u.id limit 0,20
+20:47:51 use sayhello;
+20:47:51 set names utf8;
+20:47:51 select * from configs
+20:47:51 select * from admins where id=1
+20:47:51 update expense set expense_status=1 where id=1
+20:47:52 use sayhello;
+20:47:52 set names utf8;
+20:47:52 select * from configs
+20:47:52 select * from admins where id=1
+20:47:52 update expense set expense_status=1 where id=2
+20:47:54 use sayhello;
+20:47:54 set names utf8;
+20:47:54 select * from configs
+20:47:54 select * from admins where id=1
+20:47:54 update expense set expense_status=1 where id=3
+20:47:56 use sayhello;
+20:47:56 set names utf8;
+20:47:56 select * from configs
+20:47:56 select * from admins where id=1
+20:47:56 update expense set expense_status=1 where id=4
+20:47:57 use sayhello;
+20:47:57 set names utf8;
+20:47:57 select * from configs
+20:47:57 select * from admins where id=1
+20:47:57 select count(i.id) from expense as i left join users as u on i.user_id=u.id
+20:47:57 select i.id,i.expense_money,i.order_sn,i.add_time,i.expense_status,u.user_name,u.nick_name,u.spreader_id,u.vip_level,u.pay_name,u.pay_email from expense as i left join users as u on i.user_id=u.id limit 0,20
+20:48:36 use sayhello;
+20:48:36 set names utf8;
+20:48:36 select * from configs
+20:48:36 select * from admins where id=1
+20:48:36 select count(i.id) from expense as i left join users as u on i.user_id=u.id
+20:48:36 select i.id,i.expense_money,i.order_sn,i.add_time,i.expense_status,u.user_name,u.nick_name,u.spreader_id,u.vip_level,u.pay_name,u.pay_email from expense as i left join users as u on i.user_id=u.id limit 0,20
+20:48:37 use sayhello;
+20:48:37 set names utf8;
+20:48:37 select * from configs
+20:48:37 select * from admins where id=1
+20:48:37 update expense set expense_status=1 where id=1
+20:48:38 use sayhello;
+20:48:38 set names utf8;
+20:48:38 select * from configs
+20:48:38 select * from admins where id=1
+20:48:38 update expense set expense_status=1 where id=1
+20:48:38 use sayhello;
+20:48:38 set names utf8;
+20:48:38 select * from configs
+20:48:38 select * from admins where id=1
+20:48:38 select count(i.id) from expense as i left join users as u on i.user_id=u.id
+20:48:38 select i.id,i.expense_money,i.order_sn,i.add_time,i.expense_status,u.user_name,u.nick_name,u.spreader_id,u.vip_level,u.pay_name,u.pay_email from expense as i left join users as u on i.user_id=u.id limit 0,20
+20:48:42 use sayhello;
+20:48:42 set names utf8;
+20:48:42 select * from configs
+20:48:42 select * from admins where id=1
+20:48:42 update expense set expense_status=1 where id=2
+20:48:43 use sayhello;
+20:48:43 set names utf8;
+20:48:43 select * from configs
+20:48:43 select * from admins where id=1
+20:48:43 update expense set expense_status=1 where id=2
+20:48:43 use sayhello;
+20:48:43 set names utf8;
+20:48:43 select * from configs
+20:48:43 select * from admins where id=1
+20:48:43 select count(i.id) from expense as i left join users as u on i.user_id=u.id
+20:48:43 select i.id,i.expense_money,i.order_sn,i.add_time,i.expense_status,u.user_name,u.nick_name,u.spreader_id,u.vip_level,u.pay_name,u.pay_email from expense as i left join users as u on i.user_id=u.id limit 0,20
+20:48:46 use sayhello;
+20:48:46 set names utf8;
+20:48:46 select * from configs
+20:48:46 select * from admins where id=1
+20:48:46 update expense set expense_status=1 where id=3
+20:48:47 use sayhello;
+20:48:47 set names utf8;
+20:48:47 select * from configs
+20:48:48 select * from admins where id=1
+20:48:48 update expense set expense_status=1 where id=3
+20:48:48 use sayhello;
+20:48:48 set names utf8;
+20:48:48 select * from configs
+20:48:48 select * from admins where id=1
+20:48:48 select count(i.id) from expense as i left join users as u on i.user_id=u.id
+20:48:48 select i.id,i.expense_money,i.order_sn,i.add_time,i.expense_status,u.user_name,u.nick_name,u.spreader_id,u.vip_level,u.pay_name,u.pay_email from expense as i left join users as u on i.user_id=u.id limit 0,20
+20:48:51 use sayhello;
+20:48:51 set names utf8;
+20:48:51 select * from configs
+20:48:51 select * from admins where id=1
+20:48:51 update expense set expense_status=1 where id=4
+20:48:52 use sayhello;
+20:48:52 set names utf8;
+20:48:52 select * from configs
+20:48:52 select * from admins where id=1
+20:48:52 update expense set expense_status=1 where id=4
+20:48:52 use sayhello;
+20:48:52 set names utf8;
+20:48:52 select * from configs
+20:48:52 select * from admins where id=1
+20:48:52 select count(i.id) from expense as i left join users as u on i.user_id=u.id
+20:48:52 select i.id,i.expense_money,i.order_sn,i.add_time,i.expense_status,u.user_name,u.nick_name,u.spreader_id,u.vip_level,u.pay_name,u.pay_email from expense as i left join users as u on i.user_id=u.id limit 0,20
+20:49:21 use sayhello;
+20:49:21 set names utf8;
+20:49:21 select * from configs
+20:49:21 select * from admins where id=1
+20:49:21 select count(i.id) from expense as i left join users as u on i.user_id=u.id
+20:49:21 select i.id,i.expense_money,i.order_sn,i.add_time,i.expense_status,u.user_name,u.nick_name,u.spreader_id,u.vip_level,u.pay_name,u.pay_email from expense as i left join users as u on i.user_id=u.id limit 0,20
+20:49:23 use sayhello;
+20:49:23 set names utf8;
+20:49:23 select * from configs
+20:49:23 select * from admins where id=1
+20:49:23 update expense set expense_status=1 where id=1
+20:49:25 use sayhello;
+20:49:25 set names utf8;
+20:49:25 select * from configs
+20:49:25 select * from admins where id=1
+20:49:25 update expense set expense_status=1 where id=2
+20:49:26 use sayhello;
+20:49:26 set names utf8;
+20:49:26 select * from configs
+20:49:26 select * from admins where id=1
+20:49:26 update expense set expense_status=1 where id=3
+20:49:26 use sayhello;
+20:49:26 set names utf8;
+20:49:26 select * from configs
+20:49:26 select * from admins where id=1
+20:49:26 update expense set expense_status=1 where id=4
+20:49:27 use sayhello;
+20:49:27 set names utf8;
+20:49:27 select * from configs
+20:49:27 select * from admins where id=1
+20:49:27 select count(i.id) from expense as i left join users as u on i.user_id=u.id
+20:49:27 select i.id,i.expense_money,i.order_sn,i.add_time,i.expense_status,u.user_name,u.nick_name,u.spreader_id,u.vip_level,u.pay_name,u.pay_email from expense as i left join users as u on i.user_id=u.id limit 0,20
+20:49:34 use sayhello;
+20:49:34 set names utf8;
+20:49:34 select * from configs
+20:49:34 select * from users where id=3
+20:49:34 select count(id) from expense where user_id=3
+20:49:34 select * from expense where user_id=3 limit 0,10
+20:49:38 use sayhello;
+20:49:38 set names utf8;
+20:49:38 select * from configs
+20:49:38 select * from users where id=3
+20:49:38 insert into expense (user_id,expense_money,order_sn,add_time,expense_status) values ('3','10','138935817825872','1389358178','0') ;
+20:49:40 use sayhello;
+20:49:40 set names utf8;
+20:49:40 select * from configs
+20:49:40 select * from users where id=3
+20:49:40 select count(id) from expense where user_id=3
+20:49:40 select * from expense where user_id=3 limit 0,10
+20:49:47 use sayhello;
+20:49:47 set names utf8;
+20:49:47 select * from configs
+20:49:47 select * from admins where id=1
+20:49:47 use sayhello;
+20:49:47 set names utf8;
+20:49:47 select * from configs
+20:49:47 select * from admins where id=1
+20:49:47 select count(id) from goods
+20:49:47 select * from goods limit 0,20
+20:49:49 use sayhello;
+20:49:49 set names utf8;
+20:49:49 select * from configs
+20:49:49 select * from admins where id=1
+20:49:49 select count(o.id) from articles as o left join article_type as u on u.id=o.type_id 
+20:49:49 select o.id,o.title,o.add_time,u.type_name from articles as o left join article_type as u on u.id=o.type_id  limit 0,20
+20:49:50 use sayhello;
+20:49:50 set names utf8;
+20:49:50 select * from configs
+20:49:50 select * from admins where id=1
+20:49:50 select count(id) from article_type 
+20:49:50 select * from article_type  limit 0,20
+20:49:52 use sayhello;
+20:49:52 set names utf8;
+20:49:52 select * from configs
+20:49:52 select * from admins where id=1
+20:49:53 use sayhello;
+20:49:53 set names utf8;
+20:49:53 select * from configs
+20:49:53 select * from admins where id=1
+20:49:53 select count(o.id) from orders as o left join users as u on u.id=o.user_id 
+20:49:53 select o.id,o.goods_id,o.user_id,o.pay_type,o.add_time,o.order_sn,o.order_type,u.spreader_id from orders as o left join users as u on u.id=o.user_id  limit 0,20
+20:49:53 use sayhello;
+20:49:53 set names utf8;
+20:49:53 select * from configs
+20:49:53 select * from admins where id=1
+20:49:55 use sayhello;
+20:49:55 set names utf8;
+20:49:55 select * from configs
+20:49:55 select * from admins where id=1
+20:49:55 select count(id) from goods
+20:49:55 select * from goods limit 0,20
+20:49:56 use sayhello;
+20:49:56 set names utf8;
+20:49:56 select * from configs
+20:49:56 select * from admins where id=1
+20:49:56 select count(o.id) from orders as o left join users as u on u.id=o.user_id 
+20:49:56 select o.id,o.goods_id,o.user_id,o.pay_type,o.add_time,o.order_sn,o.order_type,u.spreader_id from orders as o left join users as u on u.id=o.user_id  limit 0,20
+21:15:01 use sayhello;
+21:15:01 set names utf8;
+21:15:01 select * from configs

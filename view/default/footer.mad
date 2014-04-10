@@ -1,0 +1,5 @@
+<div class="clear"></div>
+<div class="wids" id="bottom">
+ {$mad_configs.copyright}
+
+</div>

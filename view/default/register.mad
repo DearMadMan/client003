@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+    <meta charset="utf-8">
+    <title>{$mad_configs.keywords}</title>
+     <meta name="keywords" content="{$mad_configs.keywords}" />
+    <meta name="description" content="{$mad_configs.description}" />
+    <link rel="stylesheet" href="{$vp}/css/register.css">
+    <script type="text/javascript" src="{$vp}/js/jquery-1.9.0.js"></script>
+    <script type="text/javascript" src='{$vp}/js/register.js'></script>
+</head>
+<body>
+	<div class="wrap">
+	<div class="content">
+		<div class="pic"></div>
+		<form id='form' action="user.php?act=register" method="POST">
+		<div class="login">
+			<p class='user'><img src="{$vp}/images/login-user.png" alt="name"><input  type="text" name='user_name'></p>
+			<p class='user'><img src="{$vp}/images/login-password.png" alt="password"><input  type="password" name='user_password'></p>
+			<p class='user'><img src="{$vp}/images/login-password.png" alt="password"><input  type="password" name='user_password_verify'></p>
+			{if isset($spreader)}
+			<input type="hidden" name='spreader' value="{$spreader}">
+			{/if}
+			<div class="submit">Sign Up</div>
+
+		</div>
+		</form>
+	</div>
+</div>
+</body>
+</html>

@@ -1,0 +1,10 @@
+<div class="wid" id="main">
+   {if $v.type_id neq 0} <h3><span>VIP专区</span>&nbsp;&nbsp;&nbsp;&nbsp;<a href="user.php?act=vip_article" style=" font-weight:100"><u>返回专区</u></a></h3>
+   {else}<h3><span>平台咨询</span>&nbsp;&nbsp;&nbsp;&nbsp;<a href="user.php?act=article_type&id=0" style=" font-weight:100"><u>返回专区</u></a></h3>
+   {/if}
+	<p class='pcenter'>{$v.title}</p>
+    <p class='ppright'>{$v.add_time|date_format:"%Y-%m-%d %H:%M:%S"}</p>
+    <div class="mar" id="content">
+      {$v.content}
+    </div>
+</div>
