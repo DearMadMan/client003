@@ -24,13 +24,21 @@ if($menu=='users')
 	if($target=="list")	//用户列表
 	{
 			$sql="select * from users";
+			$search="";
+			if(isset($_POST['key']))
+			{
+				$search=" where user_name='".$_POST['key']."'";
+			}
 			if(!empty($_SESSION['agencies_id']))
 			{
 					$sql="select * from users where agencies_id='".$_SESSION['agencies_id']."'";
+					$search=" and user_name='".$_POST['key']."'";
 			}
 			$pagePath='main.php?menu=users&target=list';
 			$id="id";
-			pageTooleFunc($sql,$pagePath,$id);
+
+
+			pageTooleFunc($sql,$pagePath,$id,$search);
 	}
 	elseif($target=="pics")
 	{
