@@ -1,0 +1,509 @@
+09:32:01 use client1;
+09:32:01 set names utf8;
+09:32:01 select * from agencies where domain='study.my' and end_time>1397439121
+09:32:01 select * from configs
+09:32:05 use client1;
+09:32:05 set names utf8;
+09:32:05 select * from agencies where domain='study.my' and end_time>1397439125
+09:32:05 select * from configs
+09:32:05 select * from admins where user_name='admin' and user_word='21232f297a57a5a743894a0e4a801fc3'
+09:32:05 use client1;
+09:32:05 set names utf8;
+09:32:05 select * from agencies where domain='study.my' and end_time>1397439125
+09:32:05 select * from configs
+09:32:05 select * from admins where id=1
+09:32:08 use client1;
+09:32:08 set names utf8;
+09:32:08 select * from agencies where domain='study.my' and end_time>1397439128
+09:32:08 select * from configs
+09:32:08 select * from admins where id=1
+09:32:10 use client1;
+09:32:10 set names utf8;
+09:32:10 select * from agencies where domain='study.my' and end_time>1397439130
+09:32:10 select * from configs
+09:32:10 select * from admins where id=1
+09:32:10 select count(id) from agencies order by id desc
+09:32:10 select * from agencies order by id desc limit 0,20
+09:32:14 use client1;
+09:32:14 set names utf8;
+09:32:14 select * from agencies where domain='m.my' and end_time>1397439134
+09:32:15 select * from agencies_configs where agencies_id=34 
+09:32:15 select * from configs
+09:32:15 use client1;
+09:32:15 set names utf8;
+09:32:15 select * from agencies where domain='m.my' and end_time>1397439135
+09:32:15 select * from agencies_configs where agencies_id=34 
+09:32:15 select * from configs
+09:32:19 use client1;
+09:32:19 set names utf8;
+09:32:19 select * from agencies where domain='m.my' and end_time>1397439139
+09:32:19 select * from agencies_configs where agencies_id=34 
+09:32:19 select * from configs
+09:32:19 select * from agencies where domain='m.my' and domain_word='6e6b4eb37a7ca16e13c91fd050c7f90d'
+09:32:19 use client1;
+09:32:19 set names utf8;
+09:32:19 select * from agencies where domain='m.my' and end_time>1397439139
+09:32:19 select * from agencies_configs where agencies_id=34 
+09:32:19 select * from configs
+09:32:19 select * from agencies where id=34
+09:32:21 use client1;
+09:32:21 set names utf8;
+09:32:21 select * from agencies where domain='m.my' and end_time>1397439141
+09:32:21 select * from agencies_configs where agencies_id=34 
+09:32:21 select * from configs
+09:32:21 select * from agencies where id=34
+09:33:43 use client1;
+09:33:43 set names utf8;
+09:33:43 select * from agencies where domain='m.my' and end_time>1397439223
+09:33:43 select * from agencies_configs where agencies_id=34 
+09:33:43 select * from configs
+09:33:43 select * from agencies where id=34
+09:33:46 use client1;
+09:33:46 set names utf8;
+09:33:46 select * from agencies where domain='m.my' and end_time>1397439226
+09:33:46 select * from agencies_configs where agencies_id=34 
+09:33:46 select * from configs
+09:33:46 select * from agencies where id=34
+09:33:46 use client1;
+09:33:46 set names utf8;
+09:33:46 select * from agencies where domain='m.my' and end_time>1397439226
+09:33:46 select * from agencies_configs where agencies_id=34 
+09:33:46 select * from configs
+09:33:46 select * from agencies where id=34
+09:33:47 use client1;
+09:33:47 set names utf8;
+09:33:47 select * from agencies where domain='m.my' and end_time>1397439227
+09:33:47 select * from agencies_configs where agencies_id=34 
+09:33:47 select * from configs
+09:33:47 select * from agencies where id=34
+09:33:49 use client1;
+09:33:49 set names utf8;
+09:33:49 select * from agencies where domain='m.my' and end_time>1397439229
+09:33:49 select * from agencies_configs where agencies_id=34 
+09:33:49 select * from configs
+09:33:49 select * from agencies where id=34
+09:33:49 use client1;
+09:33:49 set names utf8;
+09:33:49 select * from agencies where domain='m.my' and end_time>1397439229
+09:33:49 select * from agencies_configs where agencies_id=34 
+09:33:49 select * from configs
+09:33:49 select * from agencies where id=34
+09:33:55 use client1;
+09:33:55 set names utf8;
+09:33:55 select * from agencies where domain='m.my' and end_time>1397439235
+09:33:55 select * from agencies_configs where agencies_id=34 
+09:33:55 select * from configs
+09:33:55 select * from agencies where id=34
+09:33:55 select count(id) from users where agencies_id='34'
+09:33:55 select * from users where agencies_id='34' limit 0,20
+09:33:58 use client1;
+09:33:58 set names utf8;
+09:33:58 select * from agencies where domain='m.my' and end_time>1397439238
+09:33:58 select * from agencies_configs where agencies_id=34 
+09:33:58 select * from configs
+09:33:58 select * from agencies where id=34
+09:34:00 use client1;
+09:34:00 set names utf8;
+09:34:00 select * from agencies where domain='m.my' and end_time>1397439240
+09:34:00 select * from agencies_configs where agencies_id=34 
+09:34:00 select * from configs
+09:34:00 select * from agencies where id=34
+09:34:09 use client1;
+09:34:09 set names utf8;
+09:34:09 select * from agencies where domain='m.my' and end_time>1397439249
+09:34:09 select * from agencies_configs where agencies_id=34 
+09:34:09 select * from configs
+09:34:09 select * from users where id=1058
+09:34:22 use client1;
+09:34:22 set names utf8;
+09:34:22 select * from agencies where domain='m.my' and end_time>1397439262
+09:34:22 select * from agencies_configs where agencies_id=34 
+09:34:22 select * from configs
+09:34:22 select * from users where id=1058
+09:35:47 use client1;
+09:35:47 set names utf8;
+09:35:47 select * from agencies where domain='m.my' and end_time>1397439347
+09:35:47 select * from agencies_configs where agencies_id=34 
+09:35:47 select * from configs
+09:35:47 select * from agencies where id=34
+09:36:44 use client1;
+09:36:44 set names utf8;
+09:36:44 select * from agencies where domain='study.my' and end_time>1397439404
+09:36:44 select * from configs
+09:36:44 select * from admins where id=1
+09:36:47 use client1;
+09:36:47 set names utf8;
+09:36:47 select * from agencies where domain='study.my' and end_time>1397439407
+09:36:47 select * from configs
+09:36:47 select * from admins where id=1
+09:36:47 select * from admins where user_name='admin' and user_word='21232f297a57a5a743894a0e4a801fc3'
+09:36:47 use client1;
+09:36:47 set names utf8;
+09:36:47 select * from agencies where domain='study.my' and end_time>1397439407
+09:36:47 select * from configs
+09:36:47 select * from admins where id=1
+09:36:50 use client1;
+09:36:50 set names utf8;
+09:36:50 select * from agencies where domain='study.my' and end_time>1397439410
+09:36:50 select * from configs
+09:36:50 select * from admins where id=1
+09:36:50 select count(id) from agencies order by id desc
+09:36:50 select * from agencies order by id desc limit 0,20
+09:36:54 use client1;
+09:36:54 set names utf8;
+09:36:54 select * from agencies where domain='study.my' and end_time>1397439414
+09:36:54 select * from configs
+09:36:54 select * from admins where id=1
+09:36:54 Delete from agencies where id in (35,34)
+09:36:56 use client1;
+09:36:56 set names utf8;
+09:36:56 select * from agencies where domain='study.my' and end_time>1397439416
+09:36:56 select * from configs
+09:36:56 select * from admins where id=1
+09:37:28 use client1;
+09:37:28 set names utf8;
+09:37:28 select * from agencies where domain='study.my' and end_time>1397439448
+09:37:28 select * from configs
+09:37:28 select * from admins where id=1
+09:37:28 select * from agencies where domain='m.my'
+09:37:28 insert into agencies (domain,domain_word,add_time,start_time,end_time) values ('m.my','6e6b4eb37a7ca16e13c91fd050c7f90d','1397439448','1396281600','1413648000') ;
+09:37:28 insert into agencies_configs (agencies_id,configs) values ('36','{"keywords":"%E4%B9%85%E6%81%92%E6%AC%A2%E8%BF%8E%E6%82%A8","description":"%E4%B8%93%E6%B3%A8%E4%BA%92%E8%81%94%E7%BD%91%E4%B8%80%E5%AF%B9%E4%B8%80%E8%BE%85%E5%AF%BC+%E5%85%A8%E8%87%AA%E5%8A%A8%E6%A8%A1%E5%BC%8F%E5%AE%9E%E7%8E%B0%E6%82%A8%E7%9A%84%E6%97%B6%E9%97%B4%E8%87%AA%E7%94%B1","default_template":"default","domain":"http%3A%2F%2Fwww.m.my","title":"%E4%BA%B2%E7%88%B1%E7%9A%84%E4%BC%9A%E5%91%98_%E6%82%A8%E5%A5%BD%21","copyright":"Copyright+2014+10nai.com%E7%89%88%E6%9D%83%E6%89%80%E6%9C%89+%E4%B9%85%E6%81%92%E5%AE%98%E6%96%B9%E7%BD%91%E7%AB%99%0D%0A%E8%81%94%E7%B3%BB%E6%96%B9%E5%BC%8F%EF%BC%9AEmail%EF%BC%9Avip10nai%40qq.com++%E7%94%B5%E8%AF%9D%3A13771552579","spreader_string":"%E4%B8%93%E6%B3%A8%E4%BA%92%E8%81%94%E7%BD%91%E4%B8%80%E5%AF%B9%E4%B8%80%E8%BE%85%E5%AF%BC%EF%BC%8C%E5%85%A8%E8%87%AA%E5%8A%A8%E6%A8%A1%E5%BC%8F%E5%AE%9E%E7%8E%B0%E6%82%A8%E7%9A%84%E6%97%B6%E9%97%B4%E8%87%AA%E7%94%B1","pay_name":"a%E6%94%AF%E4%BB%98%E5%AE%9D%28%E8%B4%A6%E5%8F%B7%29","pay_key":"%E6%94%AF%E4%BB%98%E5%AE%9D%28key%29","pay_id":"%E6%94%AF%E4%BB%98%E5%AE%9D%28pid%29","services_qq":"77812886","services_tel":"13771552579","spreader_cridits":"1","email_code":"25652dd2ac6fe60cf81be5be278e83c10455e88b52df75d9","count_code":"","logo":"view%2Fdefault%2Fimages%2Flogo.jpg","index_banner":"view%2Fdefault%2Fimages%2Fi7.jpg","login_ad":"view%2Fdefault%2Fimages%2Fad.jpg"}') ;
+09:37:29 use client1;
+09:37:29 set names utf8;
+09:37:29 select * from agencies where domain='study.my' and end_time>1397439449
+09:37:29 select * from configs
+09:37:29 select * from admins where id=1
+09:37:29 select count(id) from agencies order by id desc
+09:37:29 select * from agencies order by id desc limit 0,20
+09:37:32 use client1;
+09:37:32 set names utf8;
+09:37:32 select * from agencies where domain='m.my' and end_time>1397439452
+09:37:32 select * from agencies_configs where agencies_id=36 
+09:37:32 select * from configs
+09:37:32 select * from agencies where id=34
+09:37:33 use client1;
+09:37:33 set names utf8;
+09:37:33 select * from agencies where domain='m.my' and end_time>1397439453
+09:37:33 select * from agencies_configs where agencies_id=36 
+09:37:33 select * from configs
+09:37:33 select * from agencies where id=34
+09:37:36 use client1;
+09:37:36 set names utf8;
+09:37:36 select * from agencies where domain='m.my' and end_time>1397439456
+09:37:36 select * from agencies_configs where agencies_id=36 
+09:37:36 select * from configs
+09:37:36 select * from agencies where id=34
+09:37:46 use client1;
+09:37:46 set names utf8;
+09:37:46 select * from agencies where domain='m.my' and end_time>1397439466
+09:37:46 select * from agencies_configs where agencies_id=36 
+09:37:46 select * from configs
+09:37:50 use client1;
+09:37:50 set names utf8;
+09:37:50 select * from agencies where domain='m.my' and end_time>1397439470
+09:37:50 select * from agencies_configs where agencies_id=36 
+09:37:50 select * from configs
+09:37:50 select * from agencies where id=34
+09:38:02 use client1;
+09:38:02 set names utf8;
+09:38:02 select * from agencies where domain='m.my' and end_time>1397439482
+09:38:02 select * from agencies_configs where agencies_id=36 
+09:38:02 select * from configs
+09:38:02 use client1;
+09:38:02 set names utf8;
+09:38:02 select * from agencies where domain='m.my' and end_time>1397439482
+09:38:02 select * from agencies_configs where agencies_id=36 
+09:38:02 select * from configs
+09:38:08 use client1;
+09:38:08 set names utf8;
+09:38:08 select * from agencies where domain='m.my' and end_time>1397439488
+09:38:08 select * from agencies_configs where agencies_id=36 
+09:38:08 select * from configs
+09:38:08 select * from agencies where domain='m.my' and domain_word='6e6b4eb37a7ca16e13c91fd050c7f90d'
+09:38:08 use client1;
+09:38:08 set names utf8;
+09:38:08 select * from agencies where domain='m.my' and end_time>1397439488
+09:38:08 select * from agencies_configs where agencies_id=36 
+09:38:08 select * from configs
+09:38:08 select * from agencies where id=36
+09:38:11 use client1;
+09:38:11 set names utf8;
+09:38:11 select * from agencies where domain='m.my' and end_time>1397439491
+09:38:11 select * from agencies_configs where agencies_id=36 
+09:38:11 select * from configs
+09:38:11 select * from agencies where id=36
+09:38:16 use client1;
+09:38:16 set names utf8;
+09:38:16 select * from agencies where domain='m.my' and end_time>1397439496
+09:38:16 select * from agencies_configs where agencies_id=36 
+09:38:16 select * from configs
+09:38:16 select * from agencies where id=36
+09:39:25 use client1;
+09:39:25 set names utf8;
+09:39:25 select * from agencies where domain='m.my' and end_time>1397439565
+09:39:25 select * from agencies_configs where agencies_id=36 
+09:39:25 select * from configs
+09:39:25 select * from agencies where id=36
+09:39:28 use client1;
+09:39:28 set names utf8;
+09:39:28 select * from agencies where domain='m.my' and end_time>1397439568
+09:39:28 select * from agencies_configs where agencies_id=36 
+09:39:28 select * from configs
+09:39:28 select * from agencies where id=36
+09:39:32 use client1;
+09:39:32 set names utf8;
+09:39:32 select * from agencies where domain='m.my' and end_time>1397439572
+09:39:32 select * from agencies_configs where agencies_id=36 
+09:39:32 select * from configs
+09:39:32 select * from agencies where id=36
+09:39:33 use client1;
+09:39:33 set names utf8;
+09:39:33 select * from agencies where domain='m.my' and end_time>1397439573
+09:39:33 select * from agencies_configs where agencies_id=36 
+09:39:33 select * from configs
+09:39:33 select * from agencies where id=36
+09:39:40 use client1;
+09:39:40 set names utf8;
+09:39:40 select * from agencies where domain='m.my' and end_time>1397439580
+09:39:40 select * from agencies_configs where agencies_id=36 
+09:39:40 select * from configs
+09:39:40 select * from agencies where id=36
+09:39:40 update agencies_configs set configs='{"keywords":"%2Fimages%2F20140414%2F139743957308106689.jpg","description":"%E4%B8%93%E6%B3%A8%E4%BA%92%E8%81%94%E7%BD%91%E4%B8%80%E5%AF%B9%E4%B8%80%E8%BE%85%E5%AF%BC+%E5%85%A8%E8%87%AA%E5%8A%A8%E6%A8%A1%E5%BC%8F%E5%AE%9E%E7%8E%B0%E6%82%A8%E7%9A%84%E6%97%B6%E9%97%B4%E8%87%AA%E7%94%B1","default_template":"default","domain":"http%3A%2F%2Fwww.m.my","title":"%2Fimages%2F20140414%2F139743956802682495.jpg","copyright":"12333","spreader_string":"%E4%B8%93%E6%B3%A8%E4%BA%92%E8%81%94%E7%BD%91%E4%B8%80%E5%AF%B9%E4%B8%80%E8%BE%85%E5%AF%BC%EF%BC%8C%E5%85%A8%E8%87%AA%E5%8A%A8%E6%A8%A1%E5%BC%8F%E5%AE%9E%E7%8E%B0%E6%82%A8%E7%9A%84%E6%97%B6%E9%97%B4%E8%87%AA%E7%94%B1","pay_name":"a%E6%94%AF%E4%BB%98%E5%AE%9D%28%E8%B4%A6%E5%8F%B7%29","pay_key":"%E6%94%AF%E4%BB%98%E5%AE%9D%28key%29","pay_id":"%E6%94%AF%E4%BB%98%E5%AE%9D%28pid%29","services_qq":"77812886","services_tel":"13771552579","spreader_cridits":"1","email_code":"25652dd2ac6fe60cf81be5be278e83c10455e88b52df75d9","count_code":"","logo":"view%2Fdefault%2Fimages%2Flogo.jpg","index_banner":"view%2Fdefault%2Fimages%2Fi7.jpg","login_ad":"view%2Fdefault%2Fimages%2Fad.jpg"}' where agencies_id=36
+09:39:41 use client1;
+09:39:41 set names utf8;
+09:39:41 select * from agencies where domain='m.my' and end_time>1397439581
+09:39:41 select * from agencies_configs where agencies_id=36 
+09:39:41 select * from configs
+09:39:41 select * from agencies where id=36
+09:39:43 use client1;
+09:39:43 set names utf8;
+09:39:43 select * from agencies where domain='m.my' and end_time>1397439583
+09:39:43 select * from agencies_configs where agencies_id=36 
+09:39:43 select * from configs
+09:39:43 select * from agencies where id=36
+09:39:46 use client1;
+09:39:46 set names utf8;
+09:39:46 select * from agencies where domain='m.my' and end_time>1397439586
+09:39:46 select * from agencies_configs where agencies_id=36 
+09:39:46 select * from configs
+09:39:46 select * from agencies where id=36
+09:39:46 use client1;
+09:39:46 set names utf8;
+09:39:46 select * from agencies where domain='m.my' and end_time>1397439586
+09:39:46 select * from agencies_configs where agencies_id=36 
+09:39:46 select * from configs
+09:39:46 select * from agencies where id=36
+09:39:47 use client1;
+09:39:47 set names utf8;
+09:39:47 select * from agencies where domain='m.my' and end_time>1397439587
+09:39:47 select * from agencies_configs where agencies_id=36 
+09:39:47 select * from configs
+09:39:47 select * from agencies where id=36
+09:39:48 use client1;
+09:39:48 set names utf8;
+09:39:48 select * from agencies where domain='m.my' and end_time>1397439588
+09:39:48 select * from agencies_configs where agencies_id=36 
+09:39:48 select * from configs
+09:39:48 select * from agencies where id=36
+09:39:48 use client1;
+09:39:48 set names utf8;
+09:39:48 select * from agencies where domain='m.my' and end_time>1397439588
+09:39:48 select * from agencies_configs where agencies_id=36 
+09:39:48 select * from configs
+09:39:48 select * from agencies where id=36
+09:39:49 use client1;
+09:39:49 set names utf8;
+09:39:49 select * from agencies where domain='m.my' and end_time>1397439589
+09:39:49 select * from agencies_configs where agencies_id=36 
+09:39:49 select * from configs
+09:39:49 select * from agencies where id=36
+09:39:50 use client1;
+09:39:50 set names utf8;
+09:39:50 select * from agencies where domain='m.my' and end_time>1397439590
+09:39:50 select * from agencies_configs where agencies_id=36 
+09:39:50 select * from configs
+09:39:50 select * from agencies where id=36
+09:39:50 use client1;
+09:39:50 set names utf8;
+09:39:50 select * from agencies where domain='m.my' and end_time>1397439590
+09:39:50 select * from agencies_configs where agencies_id=36 
+09:39:50 select * from configs
+09:39:50 select * from agencies where id=36
+09:39:51 use client1;
+09:39:51 set names utf8;
+09:39:51 select * from agencies where domain='m.my' and end_time>1397439591
+09:39:51 select * from agencies_configs where agencies_id=36 
+09:39:51 select * from configs
+09:39:51 select * from agencies where id=36
+09:39:52 use client1;
+09:39:52 set names utf8;
+09:39:52 select * from agencies where domain='m.my' and end_time>1397439592
+09:39:52 select * from agencies_configs where agencies_id=36 
+09:39:52 select * from configs
+09:39:52 select * from agencies where id=36
+09:39:52 use client1;
+09:39:52 set names utf8;
+09:39:52 select * from agencies where domain='m.my' and end_time>1397439592
+09:39:52 select * from agencies_configs where agencies_id=36 
+09:39:52 select * from configs
+09:39:52 select * from agencies where id=36
+09:39:53 use client1;
+09:39:53 set names utf8;
+09:39:53 select * from agencies where domain='m.my' and end_time>1397439593
+09:39:53 select * from agencies_configs where agencies_id=36 
+09:39:53 select * from configs
+09:39:53 select * from agencies where id=36
+09:39:54 use client1;
+09:39:54 set names utf8;
+09:39:54 select * from agencies where domain='m.my' and end_time>1397439594
+09:39:54 select * from agencies_configs where agencies_id=36 
+09:39:54 select * from configs
+09:39:54 select * from agencies where id=36
+09:39:55 use client1;
+09:39:55 set names utf8;
+09:39:55 select * from agencies where domain='m.my' and end_time>1397439595
+09:39:55 select * from agencies_configs where agencies_id=36 
+09:39:55 select * from configs
+09:39:55 select * from agencies where id=36
+09:39:56 use client1;
+09:39:56 set names utf8;
+09:39:56 select * from agencies where domain='m.my' and end_time>1397439596
+09:39:56 select * from agencies_configs where agencies_id=36 
+09:39:56 select * from configs
+09:39:56 select * from agencies where id=36
+09:40:29 use client1;
+09:40:29 set names utf8;
+09:40:29 select * from agencies where domain='m.my' and end_time>1397439629
+09:40:29 select * from agencies_configs where agencies_id=36 
+09:40:29 select * from configs
+09:40:29 select * from agencies where id=36
+09:40:31 use client1;
+09:40:31 set names utf8;
+09:40:31 select * from agencies where domain='m.my' and end_time>1397439631
+09:40:31 select * from agencies_configs where agencies_id=36 
+09:40:31 select * from configs
+09:40:31 select * from agencies where id=36
+09:40:36 use client1;
+09:40:36 set names utf8;
+09:40:36 select * from agencies where domain='m.my' and end_time>1397439636
+09:40:36 select * from agencies_configs where agencies_id=36 
+09:40:36 select * from configs
+09:40:36 select * from agencies where id=36
+09:40:36 use client1;
+09:40:36 set names utf8;
+09:40:36 select * from agencies where domain='m.my' and end_time>1397439636
+09:40:36 select * from agencies_configs where agencies_id=36 
+09:40:36 select * from configs
+09:40:36 select * from agencies where id=36
+09:40:37 use client1;
+09:40:37 set names utf8;
+09:40:37 select * from agencies where domain='m.my' and end_time>1397439637
+09:40:37 select * from agencies_configs where agencies_id=36 
+09:40:37 select * from configs
+09:40:37 select * from agencies where id=36
+09:40:39 use client1;
+09:40:39 set names utf8;
+09:40:39 select * from agencies where domain='m.my' and end_time>1397439639
+09:40:39 select * from agencies_configs where agencies_id=36 
+09:40:39 select * from configs
+09:40:39 select * from agencies where id=36
+09:40:39 update agencies_configs set configs='{"keywords":"%2Fimages%2F20140414%2F139743957308106689.jpg","description":"%E4%B8%93%E6%B3%A8%E4%BA%92%E8%81%94%E7%BD%91%E4%B8%80%E5%AF%B9%E4%B8%80%E8%BE%85%E5%AF%BC+%E5%85%A8%E8%87%AA%E5%8A%A8%E6%A8%A1%E5%BC%8F%E5%AE%9E%E7%8E%B0%E6%82%A8%E7%9A%84%E6%97%B6%E9%97%B4%E8%87%AA%E7%94%B1","default_template":"default","domain":"http%3A%2F%2Fwww.m.my","title":"%2Fimages%2F20140414%2F139743956802682495.jpg","copyright":"12333","spreader_string":"%E4%B8%93%E6%B3%A8%E4%BA%92%E8%81%94%E7%BD%91%E4%B8%80%E5%AF%B9%E4%B8%80%E8%BE%85%E5%AF%BC%EF%BC%8C%E5%85%A8%E8%87%AA%E5%8A%A8%E6%A8%A1%E5%BC%8F%E5%AE%9E%E7%8E%B0%E6%82%A8%E7%9A%84%E6%97%B6%E9%97%B4%E8%87%AA%E7%94%B1","pay_name":"a%E6%94%AF%E4%BB%98%E5%AE%9D%28%E8%B4%A6%E5%8F%B7%29","pay_key":"%E6%94%AF%E4%BB%98%E5%AE%9D%28key%29","pay_id":"%E6%94%AF%E4%BB%98%E5%AE%9D%28pid%29","services_qq":"77812886","services_tel":"13771552579","spreader_cridits":"1","email_code":"25652dd2ac6fe60cf81be5be278e83c10455e88b52df75d9","count_code":"","logo":"%2Fimages%2F20140414%2F139743963601084594.jpg","index_banner":"%2Fimages%2F20140414%2F139743963609175720.jpg","login_ad":"%2Fimages%2F20140414%2F139743963704702148.jpg"}' where agencies_id=36
+09:40:40 use client1;
+09:40:40 set names utf8;
+09:40:40 select * from agencies where domain='m.my' and end_time>1397439640
+09:40:40 select * from agencies_configs where agencies_id=36 
+09:40:40 select * from configs
+09:40:40 select * from agencies where id=36
+09:40:42 use client1;
+09:40:42 set names utf8;
+09:40:42 select * from agencies where domain='m.my' and end_time>1397439642
+09:40:42 select * from agencies_configs where agencies_id=36 
+09:40:42 select * from configs
+09:40:42 select * from agencies where id=36
+09:40:50 use client1;
+09:40:50 set names utf8;
+09:40:50 select * from agencies where domain='m.my' and end_time>1397439650
+09:40:50 select * from agencies_configs where agencies_id=36 
+09:40:50 select * from configs
+09:40:50 select * from agencies where id=36
+09:40:50 update agencies_configs set configs='{"keywords":"%2Fimages%2F20140414%2F139743957308106689.jpg","description":"%E4%B8%93%E6%B3%A8%E4%BA%92%E8%81%94%E7%BD%91%E4%B8%80%E5%AF%B9%E4%B8%80%E8%BE%85%E5%AF%BC+%E5%85%A8%E8%87%AA%E5%8A%A8%E6%A8%A1%E5%BC%8F%E5%AE%9E%E7%8E%B0%E6%82%A8%E7%9A%84%E6%97%B6%E9%97%B4%E8%87%AA%E7%94%B1","default_template":"default","domain":"http%3A%2F%2Fwww.m.my","title":"%2Fimages%2F20140414%2F139743956802682495.jpg","copyright":"12333","spreader_string":"%E4%B8%93%E6%B3%A8%E4%BA%92%E8%81%94%E7%BD%91%E4%B8%80%E5%AF%B9%E4%B8%80%E8%BE%85%E5%AF%BC%EF%BC%8C%E5%85%A8%E8%87%AA%E5%8A%A8%E6%A8%A1%E5%BC%8F%E5%AE%9E%E7%8E%B0%E6%82%A8%E7%9A%84%E6%97%B6%E9%97%B4%E8%87%AA%E7%94%B1","pay_name":"a%E6%94%AF%E4%BB%98%E5%AE%9D%28%E8%B4%A6%E5%8F%B7%29","pay_key":"%E6%94%AF%E4%BB%98%E5%AE%9D%28key%29","pay_id":"%E6%94%AF%E4%BB%98%E5%AE%9D%28pid%29","services_qq":"77812886","services_tel":"13771552579","spreader_cridits":"1","email_code":"25652dd2ac6fe60cf81be5be278e83c10455e88b52df75d9","count_code":"asda","logo":"%2Fimages%2F20140414%2F139743963601084594.jpg","index_banner":"%2Fimages%2F20140414%2F139743963609175720.jpg","login_ad":"%2Fimages%2F20140414%2F139743963704702148.jpg"}' where agencies_id=36
+09:40:51 use client1;
+09:40:51 set names utf8;
+09:40:51 select * from agencies where domain='m.my' and end_time>1397439651
+09:40:51 select * from agencies_configs where agencies_id=36 
+09:40:51 select * from configs
+09:40:51 select * from agencies where id=36
+09:40:52 use client1;
+09:40:52 set names utf8;
+09:40:52 select * from agencies where domain='m.my' and end_time>1397439652
+09:40:52 select * from agencies_configs where agencies_id=36 
+09:40:52 select * from configs
+09:40:52 select * from agencies where id=36
+09:50:29 use client1;
+09:50:29 set names utf8;
+09:50:29 select * from agencies where domain='m.my' and end_time>1397440229
+09:50:29 select * from agencies_configs where agencies_id=36 
+09:50:29 select * from configs
+09:50:30 use client1;
+09:50:30 set names utf8;
+09:50:30 select * from agencies where domain='m.my' and end_time>1397440230
+09:50:30 select * from agencies_configs where agencies_id=36 
+09:50:30 select * from configs
+09:52:02 use client1;
+09:52:02 set names utf8;
+09:52:02 select * from agencies where domain='m.my' and end_time>1397440322
+09:52:02 select * from agencies_configs where agencies_id=36 
+09:52:02 select * from configs
+09:52:18 use client1;
+09:52:18 set names utf8;
+09:52:18 select * from agencies where domain='m.my' and end_time>1397440338
+09:52:18 select * from agencies_configs where agencies_id=36 
+09:52:18 select * from configs
+09:52:20 use client1;
+09:52:20 set names utf8;
+09:52:20 select * from agencies where domain='m.my' and end_time>1397440340
+09:52:20 select * from agencies_configs where agencies_id=36 
+09:52:20 select * from configs
+09:52:20 use client1;
+09:52:20 set names utf8;
+09:52:20 select * from agencies where domain='m.my' and end_time>1397440340
+09:52:20 select * from agencies_configs where agencies_id=36 
+09:52:20 select * from configs
+09:52:23 use client1;
+09:52:23 set names utf8;
+09:52:23 select * from agencies where domain='m.my' and end_time>1397440343
+09:52:23 select * from agencies_configs where agencies_id=36 
+09:52:23 select * from configs
+09:52:24 use client1;
+09:52:24 set names utf8;
+09:52:24 select * from agencies where domain='m.my' and end_time>1397440344
+09:52:24 select * from agencies_configs where agencies_id=36 
+09:52:24 select * from configs
+09:52:25 use client1;
+09:52:25 set names utf8;
+09:52:25 select * from agencies where domain='m.my' and end_time>1397440345
+09:52:25 select * from agencies_configs where agencies_id=36 
+09:52:25 select * from configs
+09:55:17 use client1;
+09:55:17 set names utf8;
+09:55:17 select * from agencies where domain='m.my' and end_time>1397440517
+09:55:17 select * from agencies_configs where agencies_id=36 
+09:55:17 select * from configs
+09:55:27 use client1;
+09:55:27 set names utf8;
+09:55:27 select * from agencies where domain='study.my' and end_time>1397440527
+09:55:27 select * from configs
+09:55:29 use client1;
+09:55:29 set names utf8;
+09:55:29 select * from agencies where domain='study.my' and end_time>1397440529
+09:55:29 select * from configs
+09:55:45 use client1;
+09:55:45 set names utf8;
+09:55:45 select * from agencies where domain='m.my' and end_time>1397440545
+09:55:45 select * from agencies_configs where agencies_id=36 
+09:55:45 select * from configs
+09:56:06 use client1;
+09:56:06 set names utf8;
+09:56:06 select * from agencies where domain='m.my' and end_time>1397440566
+09:56:06 select * from agencies_configs where agencies_id=36 
+09:56:06 select * from configs

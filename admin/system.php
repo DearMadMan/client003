@@ -112,7 +112,11 @@ elseif($act=="addDomain")
 				'services_qq'=>urlencode('77812886'),
 				'services_tel'=>urlencode('13771552579'),
 				'spreader_cridits'=>urlencode('1'),
-				'email_code'=>urlencode("25652dd2ac6fe60cf81be5be278e83c10455e88b52df75d9")
+				'email_code'=>urlencode("25652dd2ac6fe60cf81be5be278e83c10455e88b52df75d9"),
+				'count_code'=>"",
+				'logo'=>urlencode("view/default/images/logo.jpg"),
+				'index_banner'=>urlencode("view/default/images/i7.jpg"),
+				'login_ad'=>urlencode("view/default/images/ad.jpg")
 				);
 			$fields=array('agencies_id','configs');
 			$string=json_encode($ag_configs);

@@ -327,6 +327,10 @@ elseif($menu=="system")
 			JsAlertAndJump("获取数据失败,请重新尝试!","main.php?menu=system&target=agencies_list");
 		}
 	}
+	elseif($act=="model")
+	{
+
+	}
 }
 
 
