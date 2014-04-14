@@ -9,14 +9,19 @@ if(!isset($_SESSION))
 	session_start();
 }
 
+
+
+
 define('ROOT_PATH',preg_replace( '/(\S+)inc/i','$1',dirname(__FILE__)));
-define('INC_PATH',ROOT_PATH.'inc\\');
-define("CLASS_PATH", INC_PATH.'class\\');
-define("CONTROL_PATH",INC_PATH.'control\\');
-define("DATA_PATH",ROOT_PATH.'data\\');
-define("LOG_PATH",DATA_PATH.'log\\');
-define("SMARTY_PATH",INC_PATH.'module\\smarty\\');
-define("VIEW_PATH",ROOT_PATH.'view\\');
+define('INC_PATH',ROOT_PATH.'inc'.DIRECTORY_SEPARATOR);
+define("CLASS_PATH", INC_PATH.'class'.DIRECTORY_SEPARATOR);
+define("CONTROL_PATH",INC_PATH.'control'.DIRECTORY_SEPARATOR);
+define("DATA_PATH",ROOT_PATH.'data'.DIRECTORY_SEPARATOR);
+define("LOG_PATH",DATA_PATH.'log'.DIRECTORY_SEPARATOR);
+define("ADMIN_LOG_PATH",DATA_PATH.'admin_log'.DIRECTORY_SEPARATOR);
+define("SMARTY_PATH",INC_PATH.'module'.DIRECTORY_SEPARATOR.'smarty'.DIRECTORY_SEPARATOR);
+define("VIEW_PATH",ROOT_PATH.'view'.DIRECTORY_SEPARATOR);
+
 
 include_once(DATA_PATH.'config.php');
 include_once(SMARTY_PATH.'Smarty.class.php');
@@ -88,10 +93,10 @@ spl_autoload_register('_autoload');
 
 
 $smarty=new Smarty();
-$smarty->setCacheDir(SMARTY_PATH."cache\\");
-$smarty->setConfigDir(SMARTY_PATH."configs\\");
-$smarty->setCompileDir(SMARTY_PATH."compile\\");
-$smarty->setTemplateDir(VIEW_PATH."default\\");
+$smarty->setCacheDir(SMARTY_PATH."cache".DIRECTORY_SEPARATOR);
+$smarty->setConfigDir(SMARTY_PATH."configs".DIRECTORY_SEPARATOR);
+$smarty->setCompileDir(SMARTY_PATH."compile".DIRECTORY_SEPARATOR);
+$smarty->setTemplateDir(VIEW_PATH."default".DIRECTORY_SEPARATOR);
 $GLOBALS['smarty'] = $smarty;
 
 
