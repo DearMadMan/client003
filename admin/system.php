@@ -116,7 +116,8 @@ elseif($act=="addDomain")
 				'count_code'=>"",
 				'logo'=>urlencode("view/default/images/logo.jpg"),
 				'index_banner'=>urlencode("view/default/images/i7.jpg"),
-				'login_ad'=>urlencode("view/default/images/ad.jpg")
+				'login_ad'=>urlencode("view/default/images/ad.jpg"),
+				"domain"=>urldecode("http://www.".trim($_REQUEST['admin_name']))
 				);
 			$fields=array('agencies_id','configs');
 			$string=json_encode($ag_configs);

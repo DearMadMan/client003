@@ -1,5 +1,4 @@
 <?php
-
 if(!defined('MadMan'))
 {
 	die("No Way!");
