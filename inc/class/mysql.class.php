@@ -48,7 +48,7 @@ class mysql extends db
  	 public function Query($sql)
  	{
  		$result=mysql_query($sql);
-    if($this->config->config_write_log==true)
+    if($this->config->config_write_log=="true")
     {
       dblog::WriteLog($sql);
     }

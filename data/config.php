@@ -24,6 +24,6 @@ $config_dbname="configs";
 
 $config_main_domain="study.my";
 //dblog
-$config_write_log=true;
+$config_write_log=false;
 define("DEBUG",true);
 ?>
