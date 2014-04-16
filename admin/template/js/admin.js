@@ -42,6 +42,30 @@ function payit(id,obj)
 	xmlhttp.send("id="+id);
 }
 
+function AgenciesPayit(id,obj)
+{
+    xmlhttp.onreadystatechange=function()
+  {
+  if (xmlhttp.readyState==4 && xmlhttp.status==200)
+    {
+        if(xmlhttp.responseText=="ok")
+        {
+            obj.parentNode.innerHTML="已打款";
+
+        }
+        else
+        {
+            alert(xmlhttp.responseText);
+        }
+    }
+  }
+    xmlhttp.open("POST","ajax_user.php?act=agencies_payit",true);
+    xmlhttp.setRequestHeader("Content-type","application/x-www-form-urlencoded");
+    xmlhttp.send("id="+id);
+}
+
+
+
 
 function SelectAll()
 {

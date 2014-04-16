@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.16, created on 2014-04-14 09:33:55
+<?php /* Smarty version Smarty-3.1.16, created on 2014-04-16 11:21:35
          compiled from "E:\apache\www\study\admin.\template\user_list.mad" */ ?>
 <?php /*%%SmartyHeaderCode:16168534b3b03835557-45446742%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     '3305d221d0a2be2c77de6add0c0d14941299d5eb' => 
     array (
       0 => 'E:\\apache\\www\\study\\admin.\\template\\user_list.mad',
-      1 => 1394693516,
+      1 => 1397618464,
       2 => 'file',
     ),
   ),
@@ -15,6 +15,8 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   'function' => 
   array (
   ),
+  'version' => 'Smarty-3.1.16',
+  'unifunc' => 'content_534b3b039cfd82_38990756',
   'variables' => 
   array (
     'vp' => 0,
@@ -23,8 +25,6 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     'pagetool' => 0,
   ),
   'has_nocache_code' => false,
-  'version' => 'Smarty-3.1.16',
-  'unifunc' => 'content_534b3b039cfd82_38990756',
 ),false); /*/%%SmartyHeaderCode%%*/?>
 <?php if ($_valid && !is_callable('content_534b3b039cfd82_38990756')) {function content_534b3b039cfd82_38990756($_smarty_tpl) {?><?php if (!is_callable('smarty_modifier_date_format')) include 'E:\\apache\\www\\study\\inc\\module\\smarty\\plugins\\modifier.date_format.php';
 ?>
@@ -122,4 +122,34 @@ site=qq&menu=yes"><img border="0" src="http://wpa.qq.com/pa?p=2:<?php echo $_sma
 </table>
 
 </form>
-<?php }} ?>
+
+
+
+<!--  搜索表单  -->
+<form name='form3' action='main.php?menu=users&target=list&search=1' method='post'>
+<table width='98%'  border='0' cellpadding='1' cellspacing='1' bgcolor='#CBD8AC' align="center" style="margin-top:8px">
+  <tr bgcolor='#EEF4EA'>
+    <td background='<?php echo $_smarty_tpl->tpl_vars['vp']->value;?>
+/images/wbg.gif' align='center'>
+      <table border='0' cellpadding='0' cellspacing='0'>
+        <tr>
+          <td width='90' align='center'>搜索</td>
+
+        <td width='70'>
+          会员QQ：
+        </td>
+        <td width='160'>
+            <input type='text' name='key' value='' style='width:150px' />
+        </td>
+
+        <td>
+          <input name="imageField" type="image" src="<?php echo $_smarty_tpl->tpl_vars['vp']->value;?>
+/images/search.gif" width="45" height="20" border="0" class="np" />
+        </td>
+       </tr>
+      </table>
+    </td>
+  </tr>
+</table>
+
+</form><?php }} ?>

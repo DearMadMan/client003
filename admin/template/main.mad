@@ -45,6 +45,8 @@
 				{include file='user_recove.mad'}
 				{elseif $target eq 'pics'}
 				{include file='user_pics.mad'}
+				{elseif $target eq "agencies_encashment"}
+				{include file='agencies_encashment_list.mad'}
 				{else}
 				{include file='user_list.mad'}
 				{/if}

@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.16, created on 2014-04-16 09:06:12
+<?php /* Smarty version Smarty-3.1.16, created on 2014-04-16 10:18:40
          compiled from "E:\apache\www\study\admin.\template\main.mad" */ ?>
 <?php /*%%SmartyHeaderCode:207534b3a957d2767-13268682%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     '3a71777ffb7729a4f8d89e95592cd66e220d739a' => 
     array (
       0 => 'E:\\apache\\www\\study\\admin.\\template\\main.mad',
-      1 => 1397610366,
+      1 => 1397614615,
       2 => 'file',
     ),
   ),
@@ -93,6 +93,9 @@ $_valid = $_smarty_tpl->decodeProperties(array (
 
 				<?php } elseif ($_smarty_tpl->tpl_vars['target']->value=='pics') {?>
 				<?php echo $_smarty_tpl->getSubTemplate ('user_pics.mad', $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, null, array(), 0);?>
+
+				<?php } elseif ($_smarty_tpl->tpl_vars['target']->value=="agencies_encashment") {?>
+				<?php echo $_smarty_tpl->getSubTemplate ('agencies_encashment_list.mad', $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, null, array(), 0);?>
 
 				<?php } else { ?>
 				<?php echo $_smarty_tpl->getSubTemplate ('user_list.mad', $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, null, array(), 0);?>

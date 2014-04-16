@@ -33,9 +33,7 @@ else
 {
 	error_reporting(E_ALL ^ E_DEPRECATED);
 }
-
-
-
+//@ini_set("display_errors",0);
 
 if(!get_magic_quotes_gpc())
 {

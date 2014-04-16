@@ -63,6 +63,7 @@ elseif($act=="encashment")
 		{
 			JsAlertAndJump("余额不足!申请失败","user.php?act=encashment");
 		}
+		/*
 		if(!empty($user['agencies_id']))
 		{
 			$sq="select * from agencies where agencies_id=".$user['agencies_id'];
@@ -84,6 +85,7 @@ elseif($act=="encashment")
 				}
 			}
 		}
+		*/
 		$income_money=$price;
 		$order_sn=time().str_pad(rand(0,99999),5,"0");
 		$files=array("user_id",

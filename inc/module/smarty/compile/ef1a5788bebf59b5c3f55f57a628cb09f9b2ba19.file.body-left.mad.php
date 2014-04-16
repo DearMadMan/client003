@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.16, created on 2014-04-16 08:58:29
+<?php /* Smarty version Smarty-3.1.16, created on 2014-04-16 10:10:20
          compiled from "E:\apache\www\study\admin.\template\body-left.mad" */ ?>
 <?php /*%%SmartyHeaderCode:29029534b3a959968d1-96363136%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     'ef1a5788bebf59b5c3f55f57a628cb09f9b2ba19' => 
     array (
       0 => 'E:\\apache\\www\\study\\admin.\\template\\body-left.mad',
-      1 => 1397609794,
+      1 => 1397613769,
       2 => 'file',
     ),
   ),
@@ -37,6 +37,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
             <li><a href='main.php?menu=users&target=list' >会员列表/修改</a> </li>
             <li><a href='main.php?menu=users&target=prepayment' >会员充值记录</a> </li>
             <li><a href='main.php?menu=users&target=encashment' >会员提现记录</a> </li>
+            <li><a href='main.php?menu=users&target=agencies_encashment' >加盟商提现记录</a> </li>
              <li><a href='main.php?menu=users&target=pics' >幻灯片</a> </li>
             <li><a href='main.php?menu=users&target=usermsg' >VIP留言管理</a> </li>
           </ul>
@@ -88,7 +89,6 @@ $_valid = $_smarty_tpl->decodeProperties(array (
 
             <li><a href='main.php?menu=goods&target=order' >产品订单管理</a> </li>
              <li><a href='main.php?menu=goods&target=encashment' >申请提现</a> </li>
-             <li><a href='main.php?menu=goods&target=encashment' >统计信息</a> </li>
           </ul>
           <?php } else { ?>
           <ul class='sitemu'>

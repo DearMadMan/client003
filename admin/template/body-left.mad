@@ -11,6 +11,7 @@
             <li><a href='main.php?menu=users&target=list' >会员列表/修改</a> </li>
             <li><a href='main.php?menu=users&target=prepayment' >会员充值记录</a> </li>
             <li><a href='main.php?menu=users&target=encashment' >会员提现记录</a> </li>
+            <li><a href='main.php?menu=users&target=agencies_encashment' >加盟商提现记录</a> </li>
              <li><a href='main.php?menu=users&target=pics' >幻灯片</a> </li>
             <li><a href='main.php?menu=users&target=usermsg' >VIP留言管理</a> </li>
           </ul>
@@ -62,7 +63,6 @@
 
             <li><a href='main.php?menu=goods&target=order' >产品订单管理</a> </li>
              <li><a href='main.php?menu=goods&target=encashment' >申请提现</a> </li>
-             <li><a href='main.php?menu=goods&target=encashment' >统计信息</a> </li>
           </ul>
           {else}
           <ul class='sitemu'>

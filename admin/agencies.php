@@ -28,8 +28,8 @@ if($act=="agencies_encashment")
                 if($db->getAffectedRows()>0)
                 {
                     $order_sn=time().str_pad(rand(0,99999),5,"0");
-                    $fields=array("agencies_id","order_sn","expense_money","expense_status","add_time");
-                    $data=array($_SESSION['agencies_id'],$order_sn,$price,0,time());
+                    $fields=array("agencies_id","order_sn","expense_money","expense_status","add_time","pay_name","pay_email");
+                    $data=array($_SESSION['agencies_id'],$order_sn,$price,0,time(),$_REQUEST['pay_name'],$_REQUEST['pay_email']);
                     $db->autoExcute("agencies_expense","",$fields,$data);
                     JsAlertAndJump("提现申请已经提交，请耐心等待",$target);
                 }

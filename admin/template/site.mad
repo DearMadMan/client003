@@ -125,6 +125,10 @@
 
 <tr align="center" bgcolor="#FAFAF1" height="30">
   <td width="19%">支付宝(账号)</td>
+  <td width="81%" align="left"><input style="width:300px" type="text" name="pay_email" value="{$mad_configs.pay_email}" /> *</td>
+</tr>
+<tr align="center" bgcolor="#FAFAF1" height="30">
+  <td width="19%">支付宝(姓名)</td>
   <td width="81%" align="left"><input style="width:300px" type="text" name="pay_name" value="{$mad_configs.pay_name}" /> *</td>
 </tr>
 <tr align="center" bgcolor="#FAFAF1" height="30">
@@ -141,7 +145,7 @@
 
 <tr align="center" bgcolor="#FAFAF1" height="30">
   <td width="19%">邮件订阅代码</td>
-  <td width="81%" align="left"><input style="width:300px" type="text" name="goods_view_num" value="{$mad_configs.email_code}" />
+  <td width="81%" align="left"><input style="width:300px" type="text" name="email_code" value="{$mad_configs.email_code}" />
  </td>
 </tr>
 <input type="hidden" type="text" name="a_id" value="1" />

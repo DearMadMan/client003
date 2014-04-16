@@ -13,7 +13,7 @@ if($act=='siteEdit')
 {
 	$res="";
 	//先获取表单信息
-	if($_SESSION['agencies_id'])
+	if(!empty($_SESSION['agencies_id']))
 	{
 		$res= SetConfigsToDatabaseByAgenciesId($_SESSION['agencies_id'],$_POST);
 	}
@@ -106,9 +106,10 @@ elseif($act=="addDomain")
 				'copyright'=>urlencode('Copyright 2014 10nai.com版权所有 久恒官方网站
 联系方式：Email：vip10nai@qq.com  电话:13771552579'),
 				'spreader_string'=>urlencode('专注互联网一对一辅导，全自动模式实现您的时间自由'),
-				'pay_name'=>urlencode('a支付宝(账号)'),
+				'pay_name'=>urlencode('提现用支付宝姓名'),
 				'pay_key'=>urlencode('支付宝(key)'),
 				'pay_id'=>urlencode('支付宝(pid)'),
+				'pay_email'=>urldecode('提现用支付宝email'),
 				'services_qq'=>urlencode('77812886'),
 				'services_tel'=>urlencode('13771552579'),
 				'spreader_cridits'=>urlencode('1'),

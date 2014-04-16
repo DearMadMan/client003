@@ -25,8 +25,11 @@
   <td width="81%" align="left"><input style="width:200px" type="text" name="end_time" value="{$agencies.end_time|date_format:'%Y/%m/%d'}" />
 </td>
 </tr>
-
-
+<tr align="center" bgcolor="#FAFAF1" height="30">
+  <td width="19%">当前可提现金额</td>
+  <td width="81%"  align="center" style="color:red;">{$agencies.income}
+</td>
+</tr>
 <tr align="center" bgcolor="#FAFAF1" height="30">
   <td width="19%">今日商品收益</td>
   <td width="81%"  align="center" style="color:red;">{$goods_money}

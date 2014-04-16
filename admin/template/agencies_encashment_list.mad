@@ -1,0 +1,96 @@
+
+<!--  快速转换位置按钮  -->
+<table width="98%" border="0" cellpadding="0" cellspacing="1" bgcolor="#D1DDAA" align="center">
+<tr>
+ <td height="26" background="{$vp}/images/newlinebg3.gif">
+  <table width="98%" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+  <td align="center">
+    <input type='button' class="coolbg np" onClick="location='main.php?menu=users&target=encashment';" value='加盟商提现记录' />
+
+ </td>
+ </tr>
+</table>
+</td>
+</tr>
+</table>
+
+<!--  内容列表   -->
+<form name="form2">
+
+<table width="98%" border="0" cellpadding="2" cellspacing="1" bgcolor="#D1DDAA" align="center" style="margin-top:8px">
+<tr bgcolor="#E7E7E7">
+    <td height="24" colspan="12" background="{$vp}/images/tbg.gif">&nbsp;充值记录&nbsp;</td>
+</tr>
+<tr align="center" bgcolor="#FAFAF1" height="22">
+    <td width="5%">ID</td>
+    <td width="12%">域名</td>
+    <td width="7%">提现金额</td>
+    <td width="13%">提现编号</td>
+    <td width="6%">状态</td>
+    <td width="15%">支付宝</td>
+    <td width="9%">支付实名</td>
+    <td width="13%">提现时间</td>
+    <td width="6%">操作</td>
+
+</tr>
+{foreach $rows as $v}
+<tr align='center' bgcolor="#FFFFFF" onMouseMove="javascript:this.bgColor='#FCFDEE';" onMouseOut="javascript:this.bgColor='#FFFFFF';" height="22" >
+    <td>{$v.id}<input name="checkboxid[{$v.id}]" type="checkbox" value="{$v.id}" class="np"></td>
+    <td><span style="color:#ff0000">{$v.domain}</span></td>
+
+    <td>￥{$v.expense_money}元</td>
+
+
+    <td>{$v.order_sn}</td>
+    <td>{if $v.expense_status eq 0}未支付{else}已支付{/if}</td>
+    <td>{$v.pay_email|escape:"html"}</td>
+    <td>{$v.pay_name|escape:"html"}</td>
+    <td>{$v.add_time|date_format:"%Y/%m/%d"}</td>
+    <td>{if $v.expense_status eq 0} <a href="javascript:;"  onclick="AgenciesPayit('{$v.id}',this);">打款</a> {else}已打款{/if}</td>
+</tr>
+{/foreach}
+<tr bgcolor="#FAFAF1">
+<td height="28" colspan="11">
+  &nbsp;
+    <a href="javascript:SelectAll()" class="coolbg">全选</a>
+  <a href="javascript:CancelAll()" class="coolbg">取消</a>
+
+  <a href="javascript:Delete('ajax_user.php?act=DeleteAgenciesEncashment');" class="coolbg">&nbsp;删除&nbsp;</a>
+</td>
+</tr>
+<tr align="right" bgcolor="#EEF4EA">
+    <td height="36" colspan="12" align="right">
+        <div class="pagetool">{$pagetool}</div>
+    </td>
+</tr>
+</table>
+
+</form>
+
+<!--  搜索表单  -->
+<form name='form3' action='main.php?menu=users&target=encashment' method='post'>
+<table width='98%'  border='0' cellpadding='1' cellspacing='1' bgcolor='#CBD8AC' align="center" style="margin-top:8px">
+  <tr bgcolor='#EEF4EA'>
+    <td background='{$vp}/images/wbg.gif' align='center'>
+      <table border='0' cellpadding='0' cellspacing='0'>
+        <tr>
+          <td width='90' align='center'>搜索</td>
+
+        <td width='70'>
+          订单编号：
+        </td>
+        <td width='160'>
+            <input type='text' name='key' value='' style='width:150px' />
+        </td>
+
+        <td>
+          <input name="imageField" type="image" src="{$vp}/images/search.gif" width="45" height="20" border="0" class="np" />
+        </td>
+       </tr>
+      </table>
+    </td>
+  </tr>
+</table>
+
+</form>

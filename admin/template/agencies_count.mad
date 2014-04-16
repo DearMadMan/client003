@@ -3,7 +3,11 @@
     <td height="24" colspan="10" background="{$vp}/images/tbg.gif">今日统计</td>
 </tr>
 
-
+<tr align="center" bgcolor="#FAFAF1" height="30">
+  <td width="19%">当前可提现金额</td>
+  <td width="81%"  align="center" style="color:red;">{$agencies.income}
+</td>
+</tr>
 
 <tr align="center" bgcolor="#FAFAF1" height="30">
   <td width="19%">今日商品收益</td>

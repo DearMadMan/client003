@@ -29,6 +29,27 @@ if($act=="payit")
 		echo "Your son of the bitch!";
 	}
 }
+elseif($act=="agencies_payit")
+{
+	CanPass();
+	if(isset($_REQUEST['id'])&&!empty($_REQUEST['id'])&&is_numeric($_REQUEST['id']))
+	{
+		$sql="update agencies_expense set expense_status=1 where id=".$_REQUEST['id'];
+		$res=$db->Query($sql);
+		if($db->GetAffectedRows()>0)
+		{
+			echo "ok";
+		}
+		else
+		{
+			echo "打款出错!请稍后尝试!";
+		}
+	}
+	else
+	{
+		echo "Your son of the bitch!";
+	}
+}
 elseif($act=="passit")
 {
 
@@ -75,6 +96,11 @@ elseif($act=="DeleteEncashment")
 {
 	CanPass();
 	DeleteSomething("expense");
+}
+elseif($act=="DeleteAgenciesEncashment")
+{
+		CanPass();
+	DeleteSomething("agencies_expense");
 }
 elseif($act=="DeleteGoods")
 {

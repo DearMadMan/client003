@@ -27,12 +27,24 @@ if($menu=='users')
 			$search="";
 			if(isset($_POST['key']))
 			{
-				$search=" where user_name='".$_POST['key']."'";
+				if(!empty($_POST['key']))
+				{
+						$search=" where user_name='".$_POST['key']."'";
+				}
+
 			}
 			if(!empty($_SESSION['agencies_id']))
 			{
 					$sql="select * from users where agencies_id='".$_SESSION['agencies_id']."'";
-					$search=" and user_name='".$_POST['key']."'";
+					if(isset($_POST['key']))
+						{
+							if(!empty($_POST['key']))
+							{
+									$search=" and user_name='".$_POST['key']."'";
+							}
+
+						}
+
 			}
 			$pagePath='main.php?menu=users&target=list';
 			$id="id";
@@ -105,6 +117,10 @@ if($menu=='users')
 		if(isset($_POST['key']))
 		{
 			$search=" where order_sn='".$_POST['key']."'";
+			if(!empty($_SESSION['agencies_id']))
+			{
+				$search=" and order_sn='".$_POST['key']."'";
+			}
 		}
 
 		pageTooleFunc($sql,$pagePath,$id,$search);
@@ -120,9 +136,25 @@ if($menu=='users')
 				if(isset($_POST['key']))
 				{
 					$search=" where order_sn='".$_POST['key']."'";
+					if(!empty($_SESSION['agencies_id']))
+					{
+						$search=" and order_sn='".$_POST['key']."'";
+					}
 				}
 			$pagePath='main.php?menu=users&target=encashment';
 			$id="i.id";
+			pageTooleFunc($sql,$pagePath,$id,$search);
+	}
+	elseif($target=="agencies_encashment")
+	{
+		$sql="select i.id, i.pay_name,i.pay_email,i.agencies_id,i.expense_money,i.order_sn,i.add_time,i.expense_status,u.domain from agencies_expense as i left join agencies as u on i.agencies_id=u.id order by i.add_time desc";
+				$search="";
+				if(isset($_POST['key']))
+				{
+					$search=" where order_sn='".$_POST['key']."'";
+				}
+			$pagePath='main.php?menu=users&target=agencies_encashment';
+			$id="i.agencies_id";
 			pageTooleFunc($sql,$pagePath,$id,$search);
 	}
 	elseif($target=="usermsg")
@@ -302,7 +334,9 @@ elseif($menu=="system")
 	}
 	elseif($target=="count")
 	{
+		$agencies=GetAgenciesFormId($_SESSION['agencies_id']);
 		GetAgenciesCount($_SESSION['agencies_id']);
+		$smarty->assign("agencies",$agencies);
 
 	}
 	elseif($target=="agencies_edit")
@@ -354,6 +388,7 @@ function pageTooleFunc($sql,$pagePath,$id,$search="")
 				$sql.=$search;
 			}
 		}
+		//die($sql);
 		$pageNow=intval($_GET['pageNow']);
 		$dfNum=$GLOBALS['configs']['page_view_num'];
 		$db=$GLOBALS['db'];

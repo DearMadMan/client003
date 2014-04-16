@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.16, created on 2014-04-16 08:52:46
+<?php /* Smarty version Smarty-3.1.16, created on 2014-04-16 09:40:14
          compiled from "E:\apache\www\study\admin.\template\agencies_edit.mad" */ ?>
 <?php /*%%SmartyHeaderCode:32576534dd45e65eb67-78828499%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     'ab740954b2d3c1a0645d189c47369be7f99338c5' => 
     array (
       0 => 'E:\\apache\\www\\study\\admin.\\template\\agencies_edit.mad',
-      1 => 1397029768,
+      1 => 1397612292,
       2 => 'file',
     ),
   ),
@@ -15,6 +15,8 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   'function' => 
   array (
   ),
+  'version' => 'Smarty-3.1.16',
+  'unifunc' => 'content_534dd45e7ffb72_25485650',
   'variables' => 
   array (
     'vp' => 0,
@@ -24,8 +26,6 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     'user_num' => 0,
   ),
   'has_nocache_code' => false,
-  'version' => 'Smarty-3.1.16',
-  'unifunc' => 'content_534dd45e7ffb72_25485650',
 ),false); /*/%%SmartyHeaderCode%%*/?>
 <?php if ($_valid && !is_callable('content_534dd45e7ffb72_25485650')) {function content_534dd45e7ffb72_25485650($_smarty_tpl) {?><?php if (!is_callable('smarty_modifier_date_format')) include 'E:\\apache\\www\\study\\inc\\module\\smarty\\plugins\\modifier.date_format.php';
 ?>
@@ -59,7 +59,11 @@ $_valid = $_smarty_tpl->decodeProperties(array (
 " />
 </td>
 </tr>
+<tr align="center" bgcolor="#FAFAF1" height="30">
+  <td width="19%">可提现金额</td>
+  <td width="81%"  align="center" style="color:red;"><?php echo $_smarty_tpl->tpl_vars['agencies']->value['income'];?>
 
+</td>
 
 <tr align="center" bgcolor="#FAFAF1" height="30">
   <td width="19%">今日商品收益</td>

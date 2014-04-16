@@ -114,7 +114,12 @@ function GetAgenciesUsersNum($agencies_id)
 		{
 			$GLOBALS['agencies_configs'][$key]=$Data[$key];
 		}
-
+	}
+	foreach ($Data as $key => $value) {
+		if(!array_key_exists($key,$GLOBALS['agencies_configs']))
+		{
+			$GLOBALS['agencies_configs'][$key]=$Data[$key];
+		}
 	}
 	foreach ($GLOBALS['agencies_configs'] as $key => $value) {
 		$GLOBALS['agencies_configs'][$key]=urlencode($value);

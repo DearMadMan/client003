@@ -11,6 +11,7 @@ $admin=array();
 if(isset($_SESSION['admin_id'])&&(is_numeric($_SESSION['admin_id'])))
 {
 	$admin=GetAdminInfo($_SESSION['admin_id']);
+
 	if(empty($admin))
 	{
 		unset($_SESSION['admin_id']);
@@ -59,3 +60,7 @@ if($act=='loginout')
 	JsJump("admin.php?act=login");
 }
 
+if($act=="index")
+{
+	JsJump("main.php");
+}

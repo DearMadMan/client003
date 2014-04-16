@@ -12,13 +12,13 @@ $smarty->assign("is_agencies",false);
 $smarty->assign("agencies",false);
 if(empty($res))
 {
-    if($url=="study.my")
+    if($url==$config_main_domain)
     {
         $_SESSION['agencies_id']=0;
     }
     else
     {
-        die("非法域名或者域名已到期!");
+        die("非法域名或者域名已到期!如有疑问，请联系客服！");
     }
 }
 else
@@ -42,10 +42,11 @@ else
 }
 
 $smarty->assign('mad_configs',$GLOBALS['configs']);
+
 $smarty->assign('view_path',"view/".$GLOBALS['configs']['default_template']);
 $smarty->assign('vp',"view/".$GLOBALS['configs']['default_template']);
 $smarty->assign("plugin_path","plugin");
-
-
+//echo "view/".$GLOBALS['configs']['default_template'];
+//print_r($GLOBALS['configs']);die;
 
 ?>
