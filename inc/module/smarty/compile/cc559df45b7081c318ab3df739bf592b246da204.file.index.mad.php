@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.16, created on 2014-04-14 09:55:29
+<?php /* Smarty version Smarty-3.1.16, created on 2014-04-16 08:52:57
          compiled from "E:\apache\www\study\view\default\index.mad" */ ?>
 <?php /*%%SmartyHeaderCode:68615328f6ba7438d6-00949405%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     'cc559df45b7081c318ab3df739bf592b246da204' => 
     array (
       0 => 'E:\\apache\\www\\study\\view\\default\\index.mad',
-      1 => 1397440514,
+      1 => 1397609504,
       2 => 'file',
     ),
   ),
@@ -23,6 +23,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     'mad_configs' => 0,
     'vp' => 0,
     'spreader' => 0,
+    'mad_config' => 0,
   ),
   'has_nocache_code' => false,
 ),false); /*/%%SmartyHeaderCode%%*/?>
@@ -178,12 +179,10 @@ $_valid = $_smarty_tpl->decodeProperties(array (
 	</div>
 		<div style="width:980px;overflow:hidden;margin:0 auto;">
 		<div style="text-align:center;padding-top:30px;">
-			<p>
-			<span style="font-family:Microsoft YaHei;">Copyright © 2014 10nai.com 版权所有 久恒官方网站</span><br />
-	<span style="font-family:Microsoft YaHei;"> 工作时间: 早9:00-晚22:00 地址: 江苏省无锡市禾嘉大厦19-21楼 </span><br />
-	<script language="javascript" type="text/javascript" src="http://js.users.51.la/16755903.js"></script>
-<noscript><a href="http://www.51.la/?16755903" target="_blank"><img alt="&#x6211;&#x8981;&#x5566;&#x514D;&#x8D39;&#x7EDF;&#x8BA1;" src="http://img.users.51.la/16755903.asp" style="border:none" /></a></noscript><span style="font-family:Microsoft YaHei;">法律顾问: 江苏（无锡）兆锦律师事务所 </span><span style="font-family:"Microsoft YaHei";">违者必究</span><br/>
-							</p>
+			<?php echo $_smarty_tpl->tpl_vars['mad_config']->value['copyright'];?>
+
+			<?php echo $_smarty_tpl->tpl_vars['mad_config']->value['count_code'];?>
+
 		</div>
 		</div>
 </body>

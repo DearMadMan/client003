@@ -300,6 +300,11 @@ elseif($menu=="system")
 		$id='id';
 		pageTooleFunc($sql,$pagePath,$id);
 	}
+	elseif($target=="count")
+	{
+		GetAgenciesCount($_SESSION['agencies_id']);
+
+	}
 	elseif($target=="agencies_edit")
 	{
 		CanPass();

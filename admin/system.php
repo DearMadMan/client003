@@ -114,9 +114,9 @@ elseif($act=="addDomain")
 				'spreader_cridits'=>urlencode('1'),
 				'email_code'=>urlencode("25652dd2ac6fe60cf81be5be278e83c10455e88b52df75d9"),
 				'count_code'=>"",
-				'logo'=>urlencode("view/default/images/logo.jpg"),
-				'index_banner'=>urlencode("view/default/images/i7.jpg"),
-				'login_ad'=>urlencode("view/default/images/ad.jpg"),
+				'logo'=>urlencode("images/logo.jpg"),
+				'index_banner'=>urlencode("images/i7.jpg"),
+				'login_ad'=>urlencode("images/ad.jpg"),
 				"domain"=>urldecode("http://www.".trim($_REQUEST['admin_name']))
 				);
 			$fields=array('agencies_id','configs');

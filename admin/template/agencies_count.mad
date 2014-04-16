@@ -1,0 +1,26 @@
+<table width="98%px" border="0" cellpadding="2" cellspacing="1" bgcolor="#D1DDAA" align="center" style="margin-top:8px">
+<tr bgcolor="#E7E7E7">
+    <td height="24" colspan="10" background="{$vp}/images/tbg.gif">今日统计</td>
+</tr>
+
+
+
+<tr align="center" bgcolor="#FAFAF1" height="30">
+  <td width="19%">今日商品收益</td>
+  <td width="81%"  align="center" style="color:red;">{$goods_money}
+</td>
+</tr>
+<tr align="center" bgcolor="#FAFAF1" height="30">
+  <td width="19%">今日vip收益</td>
+  <td width="81%" align="center" style="color:red;">{$vip_money}
+</td>
+</tr>
+
+<tr align="center" bgcolor="#FAFAF1" height="30">
+  <td width="19%">会员统计</td>
+  <td width="81%" align="center" style="color:red;">{$user_num}
+</td>
+</tr>
+
+
+</table>

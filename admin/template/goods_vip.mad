@@ -20,7 +20,7 @@
 	<p>禁止手动开通VIP留言：<input type="text" name='vip_msg' value='{$mad_configs.vip_msg}'></p>
 	<p>邮件订阅代码：<input type="text" name='email_code' value='{$mad_configs.email_code}'></p>
 	<p>推广登录送积分：<input type="text" name='login_credits' value='{$mad_configs.login_credits}'></p>
-	<p>网站公告：<input type="text" name='notice' value='{$mad_configs.notice}'></p>
+	<p>网站公告：<input type="text" name='notice' value='{$mad_configs.notice|escape:"html"}'></p>
 	<p><input type="submit" value="保存"></p>
 </div>
 </form>

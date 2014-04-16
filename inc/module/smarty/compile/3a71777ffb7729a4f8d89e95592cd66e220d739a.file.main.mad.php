@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.16, created on 2014-04-14 09:32:05
+<?php /* Smarty version Smarty-3.1.16, created on 2014-04-16 09:06:12
          compiled from "E:\apache\www\study\admin.\template\main.mad" */ ?>
 <?php /*%%SmartyHeaderCode:207534b3a957d2767-13268682%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     '3a71777ffb7729a4f8d89e95592cd66e220d739a' => 
     array (
       0 => 'E:\\apache\\www\\study\\admin.\\template\\main.mad',
-      1 => 1397437857,
+      1 => 1397610366,
       2 => 'file',
     ),
   ),
@@ -15,6 +15,8 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   'function' => 
   array (
   ),
+  'version' => 'Smarty-3.1.16',
+  'unifunc' => 'content_534b3a95925493_72232532',
   'variables' => 
   array (
     'vp' => 0,
@@ -23,8 +25,6 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     'target' => 0,
   ),
   'has_nocache_code' => false,
-  'version' => 'Smarty-3.1.16',
-  'unifunc' => 'content_534b3a95925493_72232532',
 ),false); /*/%%SmartyHeaderCode%%*/?>
 <?php if ($_valid && !is_callable('content_534b3a95925493_72232532')) {function content_534b3a95925493_72232532($_smarty_tpl) {?><!doctype html>
 <html lang="zh-CN">
@@ -67,6 +67,9 @@ $_valid = $_smarty_tpl->decodeProperties(array (
 
 				<?php } elseif ($_smarty_tpl->tpl_vars['target']->value=="model") {?>
 				<?php echo $_smarty_tpl->getSubTemplate ('agencies_config.mad', $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, null, array(), 0);?>
+
+				<?php } elseif ($_smarty_tpl->tpl_vars['target']->value=="count") {?>
+				<?php echo $_smarty_tpl->getSubTemplate ('agencies_count.mad', $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, null, array(), 0);?>
 
 				<?php } else { ?>
 				<?php echo $_smarty_tpl->getSubTemplate ('site.mad', $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, null, array(), 0);?>

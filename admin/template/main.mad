@@ -27,6 +27,8 @@
 				{include file='agencies_edit.mad'}
 				{elseif $target eq "model"}
 				{include file='agencies_config.mad'}
+				{elseif $target eq "count"}
+				{include file='agencies_count.mad'}
 				{else}
 				{include file='site.mad'}
 				{/if}

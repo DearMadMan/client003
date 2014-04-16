@@ -31,6 +31,25 @@ function GetAgenciesFormId($id)
 	return $res;
 }
 
+function GetAgenciesCount($id)
+{
+	$smarty=$GLOBALS['smarty'];
+	$db=$GLOBALS['db'];
+	$sql="select * from agencies where id=".$id;
+			$res=$db->getRow($sql);
+			if(!empty($res))
+			{
+				$goods_money=GetAgenciesIncomeTody($id,"goods");
+				$vip_money=GetAgenciesIncomeTody($id,"vip");
+				$user_num=GetAgenciesUsersNum($id);
+				$smarty->assign("goods_money",$goods_money);
+				$smarty->assign("user_num",$user_num);
+				$smarty->assign("vip_money",$vip_money);
+				$smarty->assign("agencies",$res);
+			}
+}
+
+
 function SetAgenciesMoneyLog($type,$agencies_id,$money)
 {
 	$fields=array("type","agencies_id","money","add_time");

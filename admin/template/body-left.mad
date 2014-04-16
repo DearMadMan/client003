@@ -68,6 +68,7 @@
           <ul class='sitemu'>
             <li><a href='main.php?menu=system&target=site' >站点信息</a> </li>
             <li><a href='main.php?menu=system&target=model' >模版设置</a> </li>
+            <li><a href='main.php?menu=system&target=count' >每日统计</a> </li>
             <li><a href='main.php?menu=system&target=admin' >管理员(密码修改)</a> </li>
             <li><a href='/index.php' target="_blank" >查看主页</a> </li>
           </ul>

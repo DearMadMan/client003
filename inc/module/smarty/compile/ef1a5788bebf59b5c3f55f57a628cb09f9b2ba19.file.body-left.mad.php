@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.16, created on 2014-04-14 09:32:05
+<?php /* Smarty version Smarty-3.1.16, created on 2014-04-16 08:58:29
          compiled from "E:\apache\www\study\admin.\template\body-left.mad" */ ?>
 <?php /*%%SmartyHeaderCode:29029534b3a959968d1-96363136%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     'ef1a5788bebf59b5c3f55f57a628cb09f9b2ba19' => 
     array (
       0 => 'E:\\apache\\www\\study\\admin.\\template\\body-left.mad',
-      1 => 1397437819,
+      1 => 1397609794,
       2 => 'file',
     ),
   ),
@@ -15,14 +15,14 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   'function' => 
   array (
   ),
+  'version' => 'Smarty-3.1.16',
+  'unifunc' => 'content_534b3a959c9513_65698404',
   'variables' => 
   array (
     'is_agencies' => 0,
     'menu' => 0,
   ),
   'has_nocache_code' => false,
-  'version' => 'Smarty-3.1.16',
-  'unifunc' => 'content_534b3a959c9513_65698404',
 ),false); /*/%%SmartyHeaderCode%%*/?>
 <?php if ($_valid && !is_callable('content_534b3a959c9513_65698404')) {function content_534b3a959c9513_65698404($_smarty_tpl) {?><table width='100%' height="100%" border='0' cellspacing='0' cellpadding='0'>
   <tr>
@@ -94,6 +94,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
           <ul class='sitemu'>
             <li><a href='main.php?menu=system&target=site' >站点信息</a> </li>
             <li><a href='main.php?menu=system&target=model' >模版设置</a> </li>
+            <li><a href='main.php?menu=system&target=count' >每日统计</a> </li>
             <li><a href='main.php?menu=system&target=admin' >管理员(密码修改)</a> </li>
             <li><a href='/index.php' target="_blank" >查看主页</a> </li>
           </ul>
