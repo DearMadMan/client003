@@ -96,6 +96,7 @@
 			</div>
 		</div>
 	</div>
+	<div class="agencies"><img src="images/agencies.png" alt="加盟商"></div>
 	<div class="fill"></div>
 	<div class="content" style="background:url('{$mad_configs.index_banner	}') no-repeat center center;">
 		<div class="youku">

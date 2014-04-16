@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.16, created on 2014-04-16 11:54:10
+<?php /* Smarty version Smarty-3.1.16, created on 2014-04-16 14:31:36
          compiled from "E:\apache\www\study\view\default\index.mad" */ ?>
 <?php /*%%SmartyHeaderCode:68615328f6ba7438d6-00949405%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     'cc559df45b7081c318ab3df739bf592b246da204' => 
     array (
       0 => 'E:\\apache\\www\\study\\view\\default\\index.mad',
-      1 => 1397620447,
+      1 => 1397629894,
       2 => 'file',
     ),
   ),
@@ -151,6 +151,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
 			</div>
 		</div>
 	</div>
+	<div class="agencies"><img src="images/agencies.png" alt="加盟商"></div>
 	<div class="fill"></div>
 	<div class="content" style="background:url('<?php echo $_smarty_tpl->tpl_vars['mad_configs']->value['index_banner'];?>
 ') no-repeat center center;">
