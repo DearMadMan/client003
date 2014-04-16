@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.16, created on 2014-04-01 10:25:23
+<?php /* Smarty version Smarty-3.1.16, created on 2014-04-16 16:17:36
          compiled from "E:\apache\www\study\admin\template\main.mad" */ ?>
 <?php /*%%SmartyHeaderCode:275965328f1fd3f72a9-89750931%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     '8e809091ed877dcfeb0e62b5caa54e5f1ce72b68' => 
     array (
       0 => 'E:\\apache\\www\\study\\admin\\template\\main.mad',
-      1 => 1396319122,
+      1 => 1397614615,
       2 => 'file',
     ),
   ),
@@ -65,6 +65,12 @@ $_valid = $_smarty_tpl->decodeProperties(array (
 				<?php } elseif ($_smarty_tpl->tpl_vars['target']->value=="agencies_edit") {?>
 				<?php echo $_smarty_tpl->getSubTemplate ('agencies_edit.mad', $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, null, array(), 0);?>
 
+				<?php } elseif ($_smarty_tpl->tpl_vars['target']->value=="model") {?>
+				<?php echo $_smarty_tpl->getSubTemplate ('agencies_config.mad', $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, null, array(), 0);?>
+
+				<?php } elseif ($_smarty_tpl->tpl_vars['target']->value=="count") {?>
+				<?php echo $_smarty_tpl->getSubTemplate ('agencies_count.mad', $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, null, array(), 0);?>
+
 				<?php } else { ?>
 				<?php echo $_smarty_tpl->getSubTemplate ('site.mad', $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, null, array(), 0);?>
 
@@ -87,6 +93,9 @@ $_valid = $_smarty_tpl->decodeProperties(array (
 
 				<?php } elseif ($_smarty_tpl->tpl_vars['target']->value=='pics') {?>
 				<?php echo $_smarty_tpl->getSubTemplate ('user_pics.mad', $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, null, array(), 0);?>
+
+				<?php } elseif ($_smarty_tpl->tpl_vars['target']->value=="agencies_encashment") {?>
+				<?php echo $_smarty_tpl->getSubTemplate ('agencies_encashment_list.mad', $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, null, array(), 0);?>
 
 				<?php } else { ?>
 				<?php echo $_smarty_tpl->getSubTemplate ('user_list.mad', $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, null, array(), 0);?>

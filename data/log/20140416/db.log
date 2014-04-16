@@ -396,3 +396,247 @@
 15:01:51 select * from agencies where domain='study.my' and end_time>1397631711
 15:01:51 select * from configs
 15:01:51 select * from agencies where domain='m.my'
+15:32:40 use client1;
+15:32:40 set names utf8;
+15:32:40 select * from agencies where domain='m.my' and end_time>1397633560
+15:32:40 select * from agencies_configs where agencies_id=37 
+15:32:40 select * from configs
+15:37:19 use client1;
+15:37:19 set names utf8;
+15:37:19 select * from agencies where domain='study.my' and end_time>1397633839
+15:37:19 select * from configs
+15:39:44 use client1;
+15:39:44 set names utf8;
+15:39:44 select * from agencies where domain='m.my' and end_time>1397633984
+15:39:44 select * from agencies_configs where agencies_id=37 
+15:39:44 select * from configs
+15:39:46 use client1;
+15:39:46 set names utf8;
+15:39:46 select * from agencies where domain='m.my' and end_time>1397633986
+15:39:46 select * from agencies_configs where agencies_id=37 
+15:39:46 select * from configs
+15:39:46 use client1;
+15:39:46 set names utf8;
+15:39:46 select * from agencies where domain='m.my' and end_time>1397633986
+15:39:46 select * from agencies_configs where agencies_id=37 
+15:39:46 select * from configs
+15:39:50 use client1;
+15:39:50 set names utf8;
+15:39:50 select * from agencies where domain='m.my' and end_time>1397633990
+15:39:50 select * from agencies_configs where agencies_id=37 
+15:39:50 select * from configs
+15:39:50 select * from users where user_name='1234567' and user_word='fa270fc29196eab2c6bfe5b123a19010' and agencies_id=37
+15:39:52 use client1;
+15:39:52 set names utf8;
+15:39:52 select * from agencies where domain='m.my' and end_time>1397633992
+15:39:52 select * from agencies_configs where agencies_id=37 
+15:39:52 select * from configs
+15:39:55 use client1;
+15:39:55 set names utf8;
+15:39:55 select * from agencies where domain='m.my' and end_time>1397633995
+15:39:55 select * from agencies_configs where agencies_id=37 
+15:39:55 select * from configs
+15:39:55 use client1;
+15:39:55 set names utf8;
+15:39:55 select * from agencies where domain='m.my' and end_time>1397633995
+15:39:55 select * from agencies_configs where agencies_id=37 
+15:39:55 select * from configs
+15:40:37 use client1;
+15:40:37 set names utf8;
+15:40:37 select * from agencies where domain='m.my' and end_time>1397634037
+15:40:37 select * from agencies_configs where agencies_id=37 
+15:40:37 select * from configs
+15:40:37 select * from users where user_name='1234567' and user_word='fa270fc29196eab2c6bfe5b123a19010' and agencies_id=37
+15:40:37 use client1;
+15:40:37 set names utf8;
+15:40:37 select * from agencies where domain='m.my' and end_time>1397634037
+15:40:37 select * from agencies_configs where agencies_id=37 
+15:40:37 select * from configs
+15:40:37 select * from users where id=1058 and agencies_id=37
+15:40:37 select count(id) from users where spreader_id='1058'
+15:40:37 select * from images
+15:40:37 select * from goods where need_top=1 and need_hidden=0 order by id desc limit 0,5
+15:40:37 select count(id) from goods where need_top=0 and need_hidden=0 order by id desc
+15:40:37 select * from goods where need_top=0 and need_hidden=0 order by id desc limit 0,5
+16:06:45 use client1;
+16:06:45 set names utf8;
+16:06:45 select * from agencies where domain='m.my' and end_time>1397635605
+16:06:45 select * from agencies_configs where agencies_id=37 
+16:06:45 select * from configs
+16:06:45 use client1;
+16:06:45 set names utf8;
+16:06:45 select * from agencies where domain='m.my' and end_time>1397635605
+16:06:45 select * from agencies_configs where agencies_id=37 
+16:06:45 select * from configs
+16:17:33 use client1;
+16:17:33 set names utf8;
+16:17:33 select * from agencies where domain='study.my' and end_time>1397636253
+16:17:33 select * from configs
+16:17:36 use client1;
+16:17:36 set names utf8;
+16:17:36 select * from agencies where domain='study.my' and end_time>1397636256
+16:17:36 select * from configs
+16:17:36 select * from admins where user_name='admin' and user_word='21232f297a57a5a743894a0e4a801fc3'
+16:17:36 use client1;
+16:17:36 set names utf8;
+16:17:36 select * from agencies where domain='study.my' and end_time>1397636256
+16:17:36 select * from configs
+16:17:36 select * from admins where id=1
+16:17:38 use client1;
+16:17:38 set names utf8;
+16:17:38 select * from agencies where domain='study.my' and end_time>1397636258
+16:17:38 select * from configs
+16:17:38 select * from admins where id=1
+16:17:47 use client1;
+16:17:47 set names utf8;
+16:17:47 select * from agencies where domain='study.my' and end_time>1397636267
+16:17:47 select * from configs
+16:17:47 select * from admins where id=1
+16:17:47 truncate configs
+16:17:47 Insert into configs (cf_name,cf_value) values ('keywords','久恒欢迎您1'),('description','专注互联网一对一辅导 全自动模式实现您的时间自由'),('default_template','default'),('domain','http://10na2.com'),('title','亲爱的会员_您好!'),('copyright','Copyright 2014 10nai.com版权所有 久恒官方网站
+联系方式：Email：vip10nai@qq.com  电话:13771552579'),('spreader_string','专注互联网一对一辅导，全自动模式实现您的时间自由'),('pay_type','1'),('is_sales','1'),('pay_name','a支付宝(账号)'),('pay_key','支付宝(key)	'),('pay_id','支付宝(pid)	'),('services_qq','77812886'),('services_tel','13771552579'),('spreader_cridits','1'),('spreader_rate','0.3'),('goods_view_num','5'),('page_view_num','20'),('vip_money','1980'),('vip_credits','0'),('vip_spreader','0.5'),('vip_is_open','1'),('spreader_mode','1'),('spreader_add','10'),('vip_msg','请联系客服!!!!'),('email_code','25652dd2ac6fe60cf81be5be278e83c10455e88b52df75d9'),('services_qq_array','77812886'),('login_credits','1'),('agency_spreader','0.2'),('agency_goods','0.1'),('notice','<a href='index.php'>这里是链接公告</a>  也可以在这里写文字')
+16:17:54 use client1;
+16:17:54 set names utf8;
+16:17:54 select * from agencies where domain='study.my' and end_time>1397636274
+16:17:54 select * from configs
+16:17:54 select * from admins where id=1
+16:17:56 use client1;
+16:17:56 set names utf8;
+16:17:56 select * from agencies where domain='study.my' and end_time>1397636276
+16:17:56 select * from configs
+16:17:56 select * from admins where id=1
+16:18:20 use client1;
+16:18:20 set names utf8;
+16:18:20 select * from agencies where domain='study.my' and end_time>1397636300
+16:18:20 select * from configs
+16:18:20 select * from admins where id=1
+16:19:16 use client1;
+16:20:08 use client1;
+16:20:08 set names utf8;
+16:20:08 select * from agencies where domain='study.my' and end_time>1397636408
+16:20:08 select * from configs
+16:20:08 select * from admins where id=1
+16:20:12 use client1;
+16:20:12 set names utf8;
+16:20:12 select * from agencies where domain='study.my' and end_time>1397636412
+16:20:12 select * from configs
+16:20:12 select * from admins where id=1
+16:23:14 use client1;
+16:23:14 set names utf8;
+16:23:14 select * from agencies where domain='study.my' and end_time>1397636594
+16:23:14 select * from configs
+16:23:14 select * from admins where id=1
+16:23:23 use client1;
+16:23:23 set names utf8;
+16:23:23 select * from agencies where domain='study.my' and end_time>1397636603
+16:23:23 select * from configs
+16:23:23 select * from admins where id=1
+16:24:13 use client1;
+16:24:13 set names utf8;
+16:24:13 select * from agencies where domain='study.my' and end_time>1397636653
+16:24:13 select * from configs
+16:24:13 select * from admins where id=1
+16:24:18 use client1;
+16:24:18 set names utf8;
+16:24:18 select * from agencies where domain='study.my' and end_time>1397636658
+16:24:18 select * from configs
+16:24:18 select * from admins where id=1
+16:24:46 use client1;
+16:24:46 set names utf8;
+16:24:46 select * from agencies where domain='study.my' and end_time>1397636686
+16:24:46 select * from configs
+16:24:46 select * from admins where id=1
+16:24:50 use client1;
+16:24:50 set names utf8;
+16:24:50 select * from agencies where domain='study.my' and end_time>1397636690
+16:24:50 select * from configs
+16:24:50 select * from admins where id=1
+16:24:53 use client1;
+16:24:53 set names utf8;
+16:24:53 select * from agencies where domain='study.my' and end_time>1397636693
+16:24:53 select * from configs
+16:24:53 select * from admins where id=1
+16:25:05 use client1;
+16:25:05 set names utf8;
+16:25:05 select * from agencies where domain='study.my' and end_time>1397636705
+16:25:05 select * from configs
+16:25:05 select * from admins where id=1
+16:25:10 use client1;
+16:25:10 set names utf8;
+16:25:10 select * from agencies where domain='study.my' and end_time>1397636710
+16:25:10 select * from configs
+16:25:10 select * from admins where id=1
+16:25:17 use client1;
+16:25:17 set names utf8;
+16:25:17 select * from agencies where domain='study.my' and end_time>1397636717
+16:25:17 select * from configs
+16:25:17 select * from admins where id=1
+16:27:32 use client1;
+16:27:32 set names utf8;
+16:27:32 select * from agencies where domain='study.my' and end_time>1397636852
+16:27:32 select * from configs
+16:27:32 select * from admins where id=1
+16:27:33 use client1;
+16:27:33 set names utf8;
+16:27:33 select * from agencies where domain='study.my' and end_time>1397636853
+16:27:33 select * from configs
+16:27:33 select * from admins where id=1
+16:27:34 use client1;
+16:27:34 set names utf8;
+16:27:34 select * from agencies where domain='study.my' and end_time>1397636854
+16:27:34 select * from configs
+16:27:34 select * from admins where id=1
+16:27:34 select count(id) from goods
+16:27:34 select * from goods limit 0,20
+16:27:35 use client1;
+16:27:35 set names utf8;
+16:27:35 select * from agencies where domain='study.my' and end_time>1397636855
+16:27:35 select * from configs
+16:27:35 select * from admins where id=1
+16:32:46 use client1;
+16:32:46 set names utf8;
+16:32:46 select * from agencies where domain='study.my' and end_time>1397637166
+16:32:46 select * from configs
+16:32:46 select * from admins where id=1
+16:32:46 truncate configs
+16:32:46 Insert into configs (cf_name,cf_value) values ('keywords','久恒欢迎您'),('description','专注互联网一对一辅导 全自动模式实现您的时间自由'),('default_template','default'),('domain','http://10nai.com'),('title','亲爱的会员_您好!'),('copyright','Copyright 2014 10nai.com版权所有 久恒官方网站
+联系方式：Email：vip10nai@qq.com  电话:13771552579'),('spreader_string','专注互联网一对一辅导，全自动模式实现您的时间自由'),('pay_type','1'),('is_sales','1'),('pay_name','a支付宝(账号)'),('pay_key','支付宝(key)	'),('pay_id','支付宝(pid)	'),('services_qq','77812886'),('services_tel','13771552579'),('spreader_cridits','1'),('spreader_rate','0.3'),('goods_view_num','5'),('page_view_num','20'),('vip_money','1980'),('vip_credits','0'),('vip_spreader','0.5'),('vip_is_open','1'),('spreader_mode','1'),('spreader_add','10'),('vip_msg','请联系客服!!!!'),('email_code','25652dd2ac6fe60cf81be5be278e83c10455e88b52df75d9'),('services_qq_array','77812886'),('login_credits','1'),('agency_spreader','0.2'),('agency_goods','0.1'),('notice','%3Ca+href%3D%27index.php%27%3E%E8%BF%99%E9%87%8C%E6%98%AF%E9%93%BE%E6%8E%A5%E5%85%AC%E5%91%8A%3C%2Fa%3E++%E4%B9%9F%E5%8F%AF%E4%BB%A5%E5%9C%A8%E8%BF%99%E9%87%8C%E5%86%99%E6%96%87%E5%AD%97')
+16:32:48 use client1;
+16:32:48 set names utf8;
+16:32:48 select * from agencies where domain='study.my' and end_time>1397637168
+16:32:48 select * from configs
+16:32:48 select * from admins where id=1
+16:32:55 use client1;
+16:32:55 set names utf8;
+16:32:55 select * from agencies where domain='study.my' and end_time>1397637175
+16:32:55 select * from configs
+16:32:55 select * from admins where id=1
+16:32:55 truncate configs
+16:32:55 Insert into configs (cf_name,cf_value) values ('keywords','久恒欢迎您'),('description','专注互联网一对一辅导 全自动模式实现您的时间自由'),('default_template','default'),('domain','http://10na2i.com'),('title','亲爱的会员_您好!'),('copyright','Copyright 2014 10nai.com版权所有 久恒官方网站
+联系方式：Email：vip10nai@qq.com  电话:13771552579'),('spreader_string','专注互联网一对一辅导，全自动模式实现您的时间自由'),('pay_type','1'),('is_sales','1'),('pay_name','a支付宝(账号)'),('pay_key','支付宝(key)	'),('pay_id','支付宝(pid)	'),('services_qq','77812886'),('services_tel','13771552579'),('spreader_cridits','1'),('spreader_rate','0.3'),('goods_view_num','5'),('page_view_num','20'),('vip_money','1980'),('vip_credits','0'),('vip_spreader','0.5'),('vip_is_open','1'),('spreader_mode','1'),('spreader_add','10'),('vip_msg','请联系客服!!!!'),('email_code','25652dd2ac6fe60cf81be5be278e83c10455e88b52df75d9'),('services_qq_array','77812886'),('login_credits','1'),('agency_spreader','0.2'),('agency_goods','0.1'),('notice','%3Ca+href%3D%27index.php%27%3E%E8%BF%99%E9%87%8C%E6%98%AF%E9%93%BE%E6%8E%A5%E5%85%AC%E5%91%8A%3C%2Fa%3E++%E4%B9%9F%E5%8F%AF%E4%BB%A5%E5%9C%A8%E8%BF%99%E9%87%8C%E5%86%99%E6%96%87%E5%AD%97')
+16:32:56 use client1;
+16:32:56 set names utf8;
+16:32:56 select * from agencies where domain='study.my' and end_time>1397637176
+16:32:56 select * from configs
+16:32:56 select * from admins where id=1
+16:33:04 use client1;
+16:33:04 set names utf8;
+16:33:04 select * from agencies where domain='study.my' and end_time>1397637184
+16:33:04 select * from configs
+16:33:04 select * from admins where id=1
+16:33:04 use client1;
+16:33:04 set names utf8;
+16:33:04 select * from agencies where domain='study.my' and end_time>1397637184
+16:33:04 select * from configs
+16:33:04 select * from admins where id=1
+16:33:04 select count(id) from goods
+16:33:04 select * from goods limit 0,20
+16:33:06 use client1;
+16:33:06 set names utf8;
+16:33:06 select * from agencies where domain='study.my' and end_time>1397637186
+16:33:06 select * from configs
+16:33:06 select * from admins where id=1
+16:33:46 use client1;
+16:33:46 set names utf8;
+16:33:46 select * from agencies where domain='study.my' and end_time>1397637226
+16:33:46 select * from configs

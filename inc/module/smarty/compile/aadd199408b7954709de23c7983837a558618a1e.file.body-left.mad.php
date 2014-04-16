@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.16, created on 2014-04-01 11:54:53
+<?php /* Smarty version Smarty-3.1.16, created on 2014-04-16 16:17:36
          compiled from "E:\apache\www\study\admin\template\body-left.mad" */ ?>
 <?php /*%%SmartyHeaderCode:13225328f1fd6add05-05949898%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     'aadd199408b7954709de23c7983837a558618a1e' => 
     array (
       0 => 'E:\\apache\\www\\study\\admin\\template\\body-left.mad',
-      1 => 1396321257,
+      1 => 1397613769,
       2 => 'file',
     ),
   ),
@@ -37,6 +37,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
             <li><a href='main.php?menu=users&target=list' >会员列表/修改</a> </li>
             <li><a href='main.php?menu=users&target=prepayment' >会员充值记录</a> </li>
             <li><a href='main.php?menu=users&target=encashment' >会员提现记录</a> </li>
+            <li><a href='main.php?menu=users&target=agencies_encashment' >加盟商提现记录</a> </li>
              <li><a href='main.php?menu=users&target=pics' >幻灯片</a> </li>
             <li><a href='main.php?menu=users&target=usermsg' >VIP留言管理</a> </li>
           </ul>
@@ -88,11 +89,12 @@ $_valid = $_smarty_tpl->decodeProperties(array (
 
             <li><a href='main.php?menu=goods&target=order' >产品订单管理</a> </li>
              <li><a href='main.php?menu=goods&target=encashment' >申请提现</a> </li>
-             <li><a href='main.php?menu=goods&target=encashment' >统计信息</a> </li>
           </ul>
           <?php } else { ?>
           <ul class='sitemu'>
             <li><a href='main.php?menu=system&target=site' >站点信息</a> </li>
+            <li><a href='main.php?menu=system&target=model' >模版设置</a> </li>
+            <li><a href='main.php?menu=system&target=count' >每日统计</a> </li>
             <li><a href='main.php?menu=system&target=admin' >管理员(密码修改)</a> </li>
             <li><a href='/index.php' target="_blank" >查看主页</a> </li>
           </ul>

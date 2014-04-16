@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.16, created on 2014-04-09 14:37:13
+<?php /* Smarty version Smarty-3.1.16, created on 2014-04-16 16:27:35
          compiled from "E:\apache\www\study\admin\template\goods_vip.mad" */ ?>
 <?php /*%%SmartyHeaderCode:20925344e099f2e318-37572220%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     '0a1099669fe671ba83e1cbe172f35778e2591b63' => 
     array (
       0 => 'E:\\apache\\www\\study\\admin\\template\\goods_vip.mad',
-      1 => 1397025418,
+      1 => 1397610841,
       2 => 'file',
     ),
   ),
@@ -60,7 +60,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
 '></p>
 	<p>推广登录送积分：<input type="text" name='login_credits' value='<?php echo $_smarty_tpl->tpl_vars['mad_configs']->value['login_credits'];?>
 '></p>
-	<p>网站公告：<input type="text" name='notice' value='<?php echo $_smarty_tpl->tpl_vars['mad_configs']->value['notice'];?>
+	<p>网站公告：<input type="text" name='notice' value='<?php echo htmlspecialchars($_smarty_tpl->tpl_vars['mad_configs']->value['notice'], ENT_QUOTES, 'UTF-8', true);?>
 '></p>
 	<p><input type="submit" value="保存"></p>
 </div>

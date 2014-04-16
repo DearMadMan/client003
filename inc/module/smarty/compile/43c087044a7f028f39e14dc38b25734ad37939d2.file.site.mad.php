@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.16, created on 2014-03-30 10:07:28
+<?php /* Smarty version Smarty-3.1.16, created on 2014-04-16 16:17:38
          compiled from "E:\apache\www\study\admin\template\site.mad" */ ?>
 <?php /*%%SmartyHeaderCode:86955328f6b2ca9de3-58417255%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     '43c087044a7f028f39e14dc38b25734ad37939d2' => 
     array (
       0 => 'E:\\apache\\www\\study\\admin\\template\\site.mad',
-      1 => 1396142594,
+      1 => 1397617537,
       2 => 'file',
     ),
   ),
@@ -174,6 +174,11 @@ $_valid = $_smarty_tpl->decodeProperties(array (
 
 <tr align="center" bgcolor="#FAFAF1" height="30">
   <td width="19%">支付宝(账号)</td>
+  <td width="81%" align="left"><input style="width:300px" type="text" name="pay_email" value="<?php echo $_smarty_tpl->tpl_vars['mad_configs']->value['pay_email'];?>
+" /> *</td>
+</tr>
+<tr align="center" bgcolor="#FAFAF1" height="30">
+  <td width="19%">支付宝(姓名)</td>
   <td width="81%" align="left"><input style="width:300px" type="text" name="pay_name" value="<?php echo $_smarty_tpl->tpl_vars['mad_configs']->value['pay_name'];?>
 " /> *</td>
 </tr>
@@ -193,7 +198,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
 
 <tr align="center" bgcolor="#FAFAF1" height="30">
   <td width="19%">邮件订阅代码</td>
-  <td width="81%" align="left"><input style="width:300px" type="text" name="goods_view_num" value="<?php echo $_smarty_tpl->tpl_vars['mad_configs']->value['email_code'];?>
+  <td width="81%" align="left"><input style="width:300px" type="text" name="email_code" value="<?php echo $_smarty_tpl->tpl_vars['mad_configs']->value['email_code'];?>
 " />
  </td>
 </tr>

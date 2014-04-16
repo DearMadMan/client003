@@ -22,6 +22,7 @@ function CanPass()
 	$GLOBALS['configs'] = $arr;
 	$GLOBALS['configs_all']=$configs_all;
 	$GLOBALS['configs']['services_qq_array']=explode(";",$GLOBALS['configs']['services_qq']);
+	$GLOBALS['configs']['notice']=urldecode($GLOBALS['configs']['notice']);
 }
 
 function GetAgenciesFormId($id)
@@ -152,6 +153,7 @@ function SetConfigsToDataBase($Data)
 	}
 
 $GLOBALS['configs']['services_qq_array']=implode(",", $GLOBALS['configs']['services_qq_array']);
+$GLOBALS['configs']['notice']=urlencode($GLOBALS['configs']['notice']);
 	foreach ($GLOBALS['configs'] as $key => $value) {
 		$values.="('$key','$value'),";
 	}
