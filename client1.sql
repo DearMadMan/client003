@@ -10,7 +10,7 @@ Target Server Type    : MYSQL
 Target Server Version : 50615
 File Encoding         : 65001
 
-Date: 2014-04-15 08:32:34
+Date: 2014-04-16 15:09:03
 */
 
 SET FOREIGN_KEY_CHECKS=0;
@@ -45,12 +45,12 @@ CREATE TABLE `agencies` (
   `start_time` varchar(100) DEFAULT '',
   `end_time` varchar(100) DEFAULT '',
   PRIMARY KEY (`id`)
-) ENGINE=MyISAM AUTO_INCREMENT=37 DEFAULT CHARSET=utf8;
+) ENGINE=MyISAM AUTO_INCREMENT=38 DEFAULT CHARSET=utf8;
 
 -- ----------------------------
 -- Records of agencies
 -- ----------------------------
-INSERT INTO `agencies` VALUES ('36', 'm.my', '6e6b4eb37a7ca16e13c91fd050c7f90d', '0', '1397439448', '1396281600', '1413648000');
+INSERT INTO `agencies` VALUES ('37', 'm.my', '6e6b4eb37a7ca16e13c91fd050c7f90d', '0', '1397620359', '1397145600', '1413648000');
 
 -- ----------------------------
 -- Table structure for agencies_configs
@@ -61,16 +61,13 @@ CREATE TABLE `agencies_configs` (
   `agencies_id` int(11) DEFAULT '0',
   `configs` varchar(10000) DEFAULT '',
   PRIMARY KEY (`id`)
-) ENGINE=MyISAM AUTO_INCREMENT=8 DEFAULT CHARSET=utf8;
+) ENGINE=MyISAM AUTO_INCREMENT=9 DEFAULT CHARSET=utf8;
 
 -- ----------------------------
 -- Records of agencies_configs
 -- ----------------------------
-INSERT INTO `agencies_configs` VALUES ('3', '30', '{\"keywords\":\"u4e45u6052u6b22u8fceu60a8\",\"description\":\"u4e13u6ce8u4e92u8054u7f51u4e00u5bf9u4e00u8f85u5bfc%s%u5168u81eau52a8u6a21u5f0fu5b9eu73b0u60a8u7684u65f6u95f4u81eau7531\",\"default_template\":\"default\",\"domain\":\"http://www.m.my\",\"title\":\"u4eb2u7231u7684u4f1au5458_u60a8u597d!\",\"copyright\":\"Copyright%s%2014%s%10nai.comu7248u6743u6240u6709%s%u4e45u6052u5b98u65b9u7f51u7ad9u8054u7cfbu65b9u5f0fuff1aEmailuff1avip10nai@qq.com%s%%s%u7535u8bdd:13771552579\",\"spreader_string\":\"u4e13u6ce8u4e92u8054u7f51u4e00u5bf9u4e00u8f85u5bfcuff0cu5168u81eau52a8u6a21u5f0fu5b9eu73b0u60a8u7684u65f6u95f4u81eau7531\",\"pay_name\":\"au652fu4ed8u5b9d(u8d26u53f7)\",\"pay_key\":\"u652fu4ed8u5b9d(key)\",\"pay_id\":\"u652fu4ed8u5b9d(pid)\",\"services_qq\":\"77812886\",\"services_tel\":\"13771552579\",\"spreader_cridits\":\"1\",\"email_code\":\"25652dd2ac6fe60cf81be5be278e83c10455e88b52df75d9\"}');
-INSERT INTO `agencies_configs` VALUES ('4', '32', '{\"keywords\":\"u4e45u6052u6b22u8fceu60a8\",\"description\":\"u4e13u6ce8u4e92u8054u7f51u4e00u5bf9u4e00u8f85u5bfc%s%u5168u81eau52a8u6a21u5f0fu5b9eu73b0u60a8u7684u65f6u95f4u81eau7531\",\"default_template\":\"default\",\"domain\":\"http://www.m.my\",\"title\":\"u4eb2u7231u7684u4f1au5458_u60a8u597d!\",\"copyright\":\"Copyright%s%2014%s%10nai.comu7248u6743u6240u6709%s%u4e45u6052u5b98u65b9u7f51u7ad9u8054u7cfbu65b9u5f0fuff1aEmailuff1avip10nai@qq.com%s%%s%u7535u8bdd:13771552579\",\"spreader_string\":\"u4e13u6ce8u4e92u8054u7f51u4e00u5bf9u4e00u8f85u5bfcuff0cu5168u81eau52a8u6a21u5f0fu5b9eu73b0u60a8u7684u65f6u95f4u81eau7531\",\"pay_name\":\"au652fu4ed8u5b9d(u8d26u53f7)\",\"pay_key\":\"u652fu4ed8u5b9d(key)\",\"pay_id\":\"u652fu4ed8u5b9d(pid)\",\"services_qq\":\"77812886\",\"services_tel\":\"13771552579\",\"spreader_cridits\":\"1\",\"email_code\":\"25652dd2ac6fe60cf81be5be278e83c10455e88b52df75d9\"}');
-INSERT INTO `agencies_configs` VALUES ('5', '33', '{\"keywords\":\"\\u4e45\\u6052\\u6b22\\u8fce\\u60a8\",\"description\":\"\\u4e13\\u6ce8\\u4e92\\u8054\\u7f51\\u4e00\\u5bf9\\u4e00\\u8f85\\u5bfc%s%\\u5168\\u81ea\\u52a8\\u6a21\\u5f0f\\u5b9e\\u73b0\\u60a8\\u7684\\u65f6\\u95f4\\u81ea\\u7531\",\"default_template\":\"default\",\"domain\":\"http:\\/\\/www.m.my\",\"title\":\"\\u4eb2\\u7231\\u7684\\u4f1a\\u5458_\\u60a8\\u597d!\",\"copyright\":\"Copyright%s%2014%s%10nai.com\\u7248\\u6743\\u6240\\u6709%s%\\u4e45\\u6052\\u5b98\\u65b9\\u7f51\\u7ad9\\u8054\\u7cfb\\u65b9\\u5f0f\\uff1aEmail\\uff1avip10nai@qq.com%s%%s%\\u7535\\u8bdd:13771552579\",\"spreader_string\":\"\\u4e13\\u6ce8\\u4e92\\u8054\\u7f51\\u4e00\\u5bf9\\u4e00\\u8f85\\u5bfc\\uff0c\\u5168\\u81ea\\u52a8\\u6a21\\u5f0f\\u5b9e\\u73b0\\u60a8\\u7684\\u65f6\\u95f4\\u81ea\\u7531\",\"pay_name\":\"a\\u652f\\u4ed8\\u5b9d(\\u8d26\\u53f7)\",\"pay_key\":\"\\u652f\\u4ed8\\u5b9d(key)\",\"pay_id\":\"\\u652f\\u4ed8\\u5b9d(pid)\",\"services_qq\":\"77812886\",\"services_tel\":\"13771552579\",\"spreader_cridits\":\"1\",\"email_code\":\"25652dd2ac6fe60cf81be5be278e83c10455e88b52df75d9\"}');
-INSERT INTO `agencies_configs` VALUES ('6', '34', '{\"keywords\":\"%E4%B9%85%E6%81%92%E6%AC%A2%E8%BF%8E%E6%82%A8132\",\"description\":\"%E4%B8%93%E6%B3%A8%E4%BA%92%E8%81%94%E7%BD%91%E4%B8%80%E5%AF%B9%E4%B8%80%E8%BE%85%E5%AF%BC+%E5%85%A8%E8%87%AA%E5%8A%A82%E6%A8%A1%E5%BC%8F%E5%AE%9E%E7%8E%B0%E6%82%A8%E7%9A%84%E6%97%B6%E9%97%B4%E8%87%AA%E7%94%B11\",\"default_template\":\"default\",\"domain\":\"http%3A%2F%2Fwww.m.my12\",\"title\":\"%E4%BA%B2%E7%88%B1%E7%9A%84%E4%BC%9A%E5%91%98_%E6%82%A8%E5%A5%BD%2112\",\"copyright\":\"Copyright+2014+10nai.com%E7%89%88%E6%9D%83%E6%89%80%E6%9C%89+%E4%B9%85%E6%81%92%E5%AE%98%E6%96%B9%E7%BD%91%E7%AB%99%0D%0A%E8%81%94%E7%B3%BB%E6%96%B9%E5%BC%8F%EF%BC%9AEmail%EF%BC%9Avip10nai%40qq.com++%E7%94%B5%E8%AF%9D%3A1377155257912\",\"spreader_string\":\"%E4%B8%93%E6%B3%A8%E4%BA%92%E8%81%94%E7%BD%91%E4%B8%80%E5%AF%B9%E4%B8%80%E8%BE%85%E5%AF%BC%EF%BC%8C%E5%85%A8%E8%87%AA%E5%8A%A8%E6%A8%A1%E5%BC%8F%E5%AE%9E%E7%8E%B0%E6%82%A8%E7%9A%84%E6%97%B6%E9%97%B4%E8%87%AA%E7%94%B112\",\"pay_name\":\"a%E6%94%AF%E4%BB%98%E5%AE%9D%28%E8%B4%A6%E5%8F%B7%2922\",\"pay_key\":\"%E6%94%AF%E4%BB%98%E5%AE%9D%28key%29\",\"pay_id\":\"%E6%94%AF%E4%BB%98%E5%AE%9D%28pid%29\",\"services_qq\":\"7781288642\",\"services_tel\":\"1377155257932\",\"spreader_cridits\":\"1\",\"email_code\":\"25652dd2ac6fe60cf81be5be278e83c10455e88b52df75d9\"}');
-INSERT INTO `agencies_configs` VALUES ('7', '36', '{\"keywords\":\"%2Fimages%2F20140414%2F139743957308106689.jpg\",\"description\":\"%E4%B8%93%E6%B3%A8%E4%BA%92%E8%81%94%E7%BD%91%E4%B8%80%E5%AF%B9%E4%B8%80%E8%BE%85%E5%AF%BC+%E5%85%A8%E8%87%AA%E5%8A%A8%E6%A8%A1%E5%BC%8F%E5%AE%9E%E7%8E%B0%E6%82%A8%E7%9A%84%E6%97%B6%E9%97%B4%E8%87%AA%E7%94%B1\",\"default_template\":\"default\",\"domain\":\"http%3A%2F%2Fwww.m.my\",\"title\":\"%2Fimages%2F20140414%2F139743956802682495.jpg\",\"copyright\":\"12333\",\"spreader_string\":\"%E4%B8%93%E6%B3%A8%E4%BA%92%E8%81%94%E7%BD%91%E4%B8%80%E5%AF%B9%E4%B8%80%E8%BE%85%E5%AF%BC%EF%BC%8C%E5%85%A8%E8%87%AA%E5%8A%A8%E6%A8%A1%E5%BC%8F%E5%AE%9E%E7%8E%B0%E6%82%A8%E7%9A%84%E6%97%B6%E9%97%B4%E8%87%AA%E7%94%B1\",\"pay_name\":\"a%E6%94%AF%E4%BB%98%E5%AE%9D%28%E8%B4%A6%E5%8F%B7%29\",\"pay_key\":\"%E6%94%AF%E4%BB%98%E5%AE%9D%28key%29\",\"pay_id\":\"%E6%94%AF%E4%BB%98%E5%AE%9D%28pid%29\",\"services_qq\":\"77812886\",\"services_tel\":\"13771552579\",\"spreader_cridits\":\"1\",\"email_code\":\"25652dd2ac6fe60cf81be5be278e83c10455e88b52df75d9\",\"count_code\":\"asda\",\"logo\":\"%2Fimages%2F20140414%2F139743963601084594.jpg\",\"index_banner\":\"%2Fimages%2F20140414%2F139743963609175720.jpg\",\"login_ad\":\"%2Fimages%2F20140414%2F139743963704702148.jpg\"}');
+INSERT INTO `agencies_configs` VALUES ('7', '36', '{\"keywords\":\"%2Fimages%2F20140414%2F139743957308106689.jpg1\",\"description\":\"%E4%B8%93%E6%B3%A8%E4%BA%92%E8%81%94%E7%BD%91%E4%B8%80%E5%AF%B9%E4%B8%80%E8%BE%85%E5%AF%BC+%E5%85%A8%E8%87%AA%E5%8A%A8%E6%A8%A1%E5%BC%8F%E5%AE%9E%E7%8E%B0%E6%82%A8%E7%9A%84%E6%97%B6%E9%97%B4%E8%87%AA%E7%94%B11\",\"default_template\":\"default\",\"domain\":\"123\",\"title\":\"%2Fimages%2F20140414%2F139743956802682495.jpg1\",\"copyright\":\"123331\",\"spreader_string\":\"%E4%B8%93%E6%B3%A8%E4%BA%92%E8%81%94%E7%BD%91%E4%B8%80%E5%AF%B9%E4%B8%80%E8%BE%85%E5%AF%BC%EF%BC%8C%E5%85%A8%E8%87%AA%E5%8A%A8%E6%A8%A1%E5%BC%8F%E5%AE%9E%E7%8E%B0%E6%82%A8%E7%9A%84%E6%97%B6%E9%97%B4%E8%87%AA%E7%94%B131\",\"pay_name\":\"a%E6%94%AF%E4%BB%98%E5%AE%9D%28%E8%B4%A6%E5%8F%B7%291\",\"pay_key\":\"\",\"pay_id\":\"\",\"services_qq\":\"778128861\",\"services_tel\":\"137715525791\",\"spreader_cridits\":\"\",\"email_code\":\"25652dd2ac6fe60cf81be5be278e83c10455e88b52df75d9\",\"count_code\":\"asdasdasdads\",\"logo\":\"%2Fimages%2F20140416%2F139761729608605957.jpg\",\"index_banner\":\"%2Fimages%2F20140416%2F139761729705566711.jpg\",\"login_ad\":\"%2Fimages%2F20140416%2F139761729806632690.jpg\",\"a_id\":\"1\",\"submit\":\"%E6%8F%90%E4%BA%A4\",\"pay_type\":\"1\",\"goods_view_num\":\"1\",\"pay_email\":\"1231321%40qq.com\"}');
+INSERT INTO `agencies_configs` VALUES ('8', '37', '{\"keywords\":\"%E4%B9%85%E6%81%92%E6%AC%A2%E8%BF%8E%E6%82%A81\",\"description\":\"%E4%B8%93%E6%B3%A8%E4%BA%92%E8%81%94%E7%BD%91%E4%B8%80%E5%AF%B9%E4%B8%80%E8%BE%85%E5%AF%BC+%E5%85%A8%E8%87%AA%E5%8A%A8%E6%A8%A1%E5%BC%8F%E5%AE%9E%E7%8E%B0%E6%82%A8%E7%9A%84%E6%97%B6%E9%97%B4%E8%87%AA%E7%94%B11\",\"default_template\":\"default\",\"domain\":\"http%3A%2F%2Fwww.m.my1\",\"title\":\"%E4%BA%B2%E7%88%B1%E7%9A%84%E4%BC%9A%E5%91%98_%E6%82%A8%E5%A5%BD%2112\",\"copyright\":\"%3Cp%3E%0D%0A%09%09%09%3Cspan+style%3D%5C%5C%5C%22font-family%3AMicrosoft+YaHei%3B%5C%5C%5C%22%3ECopyright+%C2%A9+2014+10nai.com+%E7%89%88%E6%9D%83%E6%89%80%E6%9C%89+%E4%B9%85%E6%81%92%E5%AE%98%E6%96%B9%E7%BD%91%E7%AB%99%3C%2Fspan%3E%3Cbr+%2F%3E%0D%0A%09%3Cspan+style%3D%5C%5C%5C%22font-family%3AMicrosoft+YaHei%3B%5C%5C%5C%22%3E+%E5%B7%A5%E4%BD%9C%E6%97%B6%E9%97%B4%3A+%E6%97%A99%3A00-%E6%99%9A22%3A00+%E5%9C%B0%E5%9D%80%3A+%E6%B1%9F%E8%8B%8F%E7%9C%81%E6%97%A0%E9%94%A1%E5%B8%82%E7%A6%BE%E5%98%89%E5%A4%A7%E5%8E%A619-21%E6%A5%BC+%3C%2Fspan%3E%3Cbr+%2F%3E%0D%0A%09%3Cspan+style%3D%5C%5C%5C%22font-family%3AMicrosoft+YaHei%3B%5C%5C%5C%22%3E%E6%B3%95%E5%BE%8B%E9%A1%BE%E9%97%AE%3A+%E6%B1%9F%E8%8B%8F%EF%BC%88%E6%97%A0%E9%94%A1%EF%BC%89%E5%85%86%E9%94%A6%E5%BE%8B%E5%B8%88%E4%BA%8B%E5%8A%A1%E6%89%80+%3C%2Fspan%3E%3Cspan+style%3D%5C%5C%5C%22font-family%3A%5C%5C%5C%22Microsoft+YaHei%5C%5C%5C%22%3B%5C%5C%5C%22%3E%E8%BF%9D%E8%80%85%E5%BF%85%E7%A9%B6%3C%2Fspan%3E%3Cbr%2F%3E%0D%0A%09%09%09%09%09%09%09%3C%2Fp%3E%0D%0A\",\"spreader_string\":\"%E4%B8%93%E6%B3%A8%E4%BA%92%E8%81%94%E7%BD%91%E4%B8%80%E5%AF%B9%E4%B8%80%E8%BE%85%E5%AF%BC%EF%BC%8C%E5%85%A8%E8%87%AA%E5%8A%A8%E6%A8%A1%E5%BC%8F%E5%AE%9E%E7%8E%B0%E6%82%A8%E7%9A%84%E6%97%B6%E9%97%B4%E8%87%AA%E7%94%B11\",\"pay_name\":\"%E6%8F%90%E7%8E%B0%E7%94%A8%E6%94%AF%E4%BB%98%E5%AE%9D%E5%A7%93%E5%90%8D1\",\"pay_key\":\"%E6%94%AF%E4%BB%98%E5%AE%9D%28key%29\",\"pay_id\":\"%E6%94%AF%E4%BB%98%E5%AE%9D%28pid%29\",\"pay_email\":\"u63d0u73b0u7528u652fu4ed8u5b9demail1\",\"services_qq\":\"778128861\",\"services_tel\":\"137715525791\",\"spreader_cridits\":\"1\",\"email_code\":\"25652dd2ac6fe60cf81be5be278e83c10455e88b52df75d9\",\"count_code\":\"\",\"logo\":\"images%2Flogo.jpg\",\"index_banner\":\"images%2Fi7.jpg\",\"login_ad\":\"images%2Fad.jpg\",\"pay_type\":\"1\",\"a_id\":\"1\",\"submit\":\"%E6%8F%90%E4%BA%A4\"}');
 
 -- ----------------------------
 -- Table structure for agencies_expense
@@ -83,13 +80,14 @@ CREATE TABLE `agencies_expense` (
   `expense_money` int(11) DEFAULT '0',
   `expense_status` int(11) DEFAULT '0',
   `add_time` varchar(255) DEFAULT '',
+  `pay_name` varchar(255) DEFAULT '',
+  `pay_email` varchar(255) DEFAULT '',
   PRIMARY KEY (`id`)
-) ENGINE=MyISAM AUTO_INCREMENT=2 DEFAULT CHARSET=utf8;
+) ENGINE=MyISAM AUTO_INCREMENT=4 DEFAULT CHARSET=utf8;
 
 -- ----------------------------
 -- Records of agencies_expense
 -- ----------------------------
-INSERT INTO `agencies_expense` VALUES ('1', '34', '139634449192019', '1', '0', '1396344491');
 
 -- ----------------------------
 -- Table structure for agencies_spreader
@@ -206,37 +204,37 @@ CREATE TABLE `configs` (
 -- ----------------------------
 -- Records of configs
 -- ----------------------------
-INSERT INTO `configs` VALUES ('1', 'keywords', '久恒欢迎您', '');
-INSERT INTO `configs` VALUES ('2', 'description', '专注互联网一对一辅导 全自动模式实现您的时间自由', '');
-INSERT INTO `configs` VALUES ('3', 'default_template', 'default', '');
-INSERT INTO `configs` VALUES ('4', 'domain', 'http://10nai.com', '');
-INSERT INTO `configs` VALUES ('5', 'title', '亲爱的会员_您好!', '');
-INSERT INTO `configs` VALUES ('6', 'copyright', 'Copyright 2014 10nai.com版权所有 久恒官方网站\r\n联系方式：Email：vip10nai@qq.com  电话:13771552579', '');
-INSERT INTO `configs` VALUES ('7', 'spreader_string', '专注互联网一对一辅导，全自动模式实现您的时间自由', '');
-INSERT INTO `configs` VALUES ('8', 'pay_type', '1', '');
-INSERT INTO `configs` VALUES ('9', 'is_sales', '1', '');
-INSERT INTO `configs` VALUES ('10', 'pay_name', 'a支付宝(账号)', '');
-INSERT INTO `configs` VALUES ('11', 'pay_key', '支付宝(key)	', '');
-INSERT INTO `configs` VALUES ('12', 'pay_id', '支付宝(pid)	', '');
-INSERT INTO `configs` VALUES ('13', 'services_qq', '77812886', '');
-INSERT INTO `configs` VALUES ('14', 'services_tel', '13771552579', '');
-INSERT INTO `configs` VALUES ('15', 'spreader_cridits', '1', '');
-INSERT INTO `configs` VALUES ('16', 'spreader_rate', '0.3', '');
-INSERT INTO `configs` VALUES ('17', 'goods_view_num', '5', '');
-INSERT INTO `configs` VALUES ('18', 'page_view_num', '20', '');
-INSERT INTO `configs` VALUES ('19', 'vip_money', '1980', '');
-INSERT INTO `configs` VALUES ('20', 'vip_credits', '0', '');
-INSERT INTO `configs` VALUES ('21', 'vip_spreader', '0.5', '');
-INSERT INTO `configs` VALUES ('22', 'vip_is_open', '1', '');
-INSERT INTO `configs` VALUES ('23', 'spreader_mode', '1', '');
-INSERT INTO `configs` VALUES ('24', 'spreader_add', '10', '');
-INSERT INTO `configs` VALUES ('25', 'vip_msg', '请联系客服!!!!', '');
-INSERT INTO `configs` VALUES ('26', 'email_code', '25652dd2ac6fe60cf81be5be278e83c10455e88b52df75d9', '');
-INSERT INTO `configs` VALUES ('27', 'services_qq_array', '77812886', '');
-INSERT INTO `configs` VALUES ('28', 'login_credits', '1', '');
-INSERT INTO `configs` VALUES ('29', 'agency_spreader', '0.2', '');
-INSERT INTO `configs` VALUES ('30', 'agency_goods', '0.1', '');
-INSERT INTO `configs` VALUES ('31', 'notice', '这里是公告', '');
+INSERT INTO `configs` VALUES ('1', 'keywords', '久恒欢迎您', null);
+INSERT INTO `configs` VALUES ('2', 'description', '专注互联网一对一辅导 全自动模式实现您的时间自由', null);
+INSERT INTO `configs` VALUES ('3', 'default_template', 'default', null);
+INSERT INTO `configs` VALUES ('4', 'domain', 'http://10nai.com', null);
+INSERT INTO `configs` VALUES ('5', 'title', '亲爱的会员_您好!', null);
+INSERT INTO `configs` VALUES ('6', 'copyright', 'Copyright 2014 10nai.com版权所有 久恒官方网站\r\n联系方式：Email：vip10nai@qq.com  电话:13771552579', null);
+INSERT INTO `configs` VALUES ('7', 'spreader_string', '专注互联网一对一辅导，全自动模式实现您的时间自由', null);
+INSERT INTO `configs` VALUES ('8', 'pay_type', '1', null);
+INSERT INTO `configs` VALUES ('9', 'is_sales', '1', null);
+INSERT INTO `configs` VALUES ('10', 'pay_name', 'a支付宝(账号)', null);
+INSERT INTO `configs` VALUES ('11', 'pay_key', '支付宝(key)	', null);
+INSERT INTO `configs` VALUES ('12', 'pay_id', '支付宝(pid)	', null);
+INSERT INTO `configs` VALUES ('13', 'services_qq', '77812886', null);
+INSERT INTO `configs` VALUES ('14', 'services_tel', '13771552579', null);
+INSERT INTO `configs` VALUES ('15', 'spreader_cridits', '1', null);
+INSERT INTO `configs` VALUES ('16', 'spreader_rate', '0.3', null);
+INSERT INTO `configs` VALUES ('17', 'goods_view_num', '5', null);
+INSERT INTO `configs` VALUES ('18', 'page_view_num', '20', null);
+INSERT INTO `configs` VALUES ('19', 'vip_money', '1980', null);
+INSERT INTO `configs` VALUES ('20', 'vip_credits', '0', null);
+INSERT INTO `configs` VALUES ('21', 'vip_spreader', '0.5', null);
+INSERT INTO `configs` VALUES ('22', 'vip_is_open', '1', null);
+INSERT INTO `configs` VALUES ('23', 'spreader_mode', '1', null);
+INSERT INTO `configs` VALUES ('24', 'spreader_add', '10', null);
+INSERT INTO `configs` VALUES ('25', 'vip_msg', '请联系客服!!!!', null);
+INSERT INTO `configs` VALUES ('26', 'email_code', '25652dd2ac6fe60cf81be5be278e83c10455e88b52df75d9', null);
+INSERT INTO `configs` VALUES ('27', 'services_qq_array', '77812886', null);
+INSERT INTO `configs` VALUES ('28', 'login_credits', '1', null);
+INSERT INTO `configs` VALUES ('29', 'agency_spreader', '0.2', null);
+INSERT INTO `configs` VALUES ('30', 'agency_goods', '0.1', null);
+INSERT INTO `configs` VALUES ('31', 'notice', '<a href=\'index.php\'>这里是链接公告</a>  也可以在这里写文字', null);
 
 -- ----------------------------
 -- Table structure for expense
