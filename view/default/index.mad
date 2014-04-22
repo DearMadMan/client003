@@ -122,7 +122,7 @@
 		<div style="width:980px;overflow:hidden;margin:0 auto;">
 		<div style="text-align:center;padding-top:30px;">
 			{$mad_configs.copyright}
-			{$mad_configs.count_code}
+			<p>{$mad_configs.count_code}</p>
 		</div>
 		</div>
 </body>

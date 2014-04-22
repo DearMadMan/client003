@@ -39,7 +39,7 @@
 	<td>{$v.id}</td>
 	<td><input name="checkboxid[{$v.id}]" type="checkbox" value="{$v.id}" class="np"></td>
 	<td><span style="color:#ff0000">
-		{$v.nick_name}[{if $v.vip_level eq '0'}普会{elseif $v.vip_level eq '1'}推广{elseif $v.vip_level eq '2'}VIP{elseif $v.vip_level eq '3'}VIP{else}违规{/if}]
+		{$v.nick_name}[{if $v.vip_level eq '0'}普会{elseif $v.vip_level eq '-1'}初级{elseif $v.vip_level eq '1'}推广{elseif $v.vip_level eq '2'}VIP{elseif $v.vip_level eq '3'}VIP{else}违规{/if}]
 		</span>
       </td>
 	<td>{$v.email}</td>

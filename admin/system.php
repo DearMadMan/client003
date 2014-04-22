@@ -15,6 +15,12 @@ if($act=='siteEdit')
 	//先获取表单信息
 	if(!empty($_SESSION['agencies_id']))
 	{
+		foreach ($_POST as $key => $value) {
+			if(!is_array($value))
+			{
+				$_POST[$key]=stripslashes($value);
+			}
+		}
 		$res= SetConfigsToDatabaseByAgenciesId($_SESSION['agencies_id'],$_POST);
 	}
 	else

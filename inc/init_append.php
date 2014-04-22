@@ -18,7 +18,8 @@ if(empty($res))
     }
     else
     {
-        die("非法域名或者域名已到期!如有疑问，请联系客服！");
+        header("Content-type: text/html; charset=utf-8");
+        die("本站点已过期或违规，请联系总站99nai.com客服");
     }
 }
 else

@@ -90,7 +90,7 @@
   <td width="19%">会员权限</td>
   <td width="81%" align="left">
     <select name="vip_level">
-      <option value="0" {if $user.vip_level eq '-1'}selected{/if}>初级会员</option>
+      <option value="-1" {if $user.vip_level eq '-1'}selected{/if}>初级会员</option>
       <option value="0" {if $user.vip_level eq '0'}selected{/if}>普通会员</option>
       <option value="1" {if $user.vip_level eq '1'}selected{/if}>推广者</option>
       <option value="2" {if $user.vip_level eq '2'}selected{/if}>VIP</option>
@@ -190,7 +190,7 @@
   <td width="19%">会员权限</td>
   <td width="81%" align="left">
     <select name="vip_level">
-      <option value="0" {if $user.vip_level eq '-1'}selected{/if}>初级会员</option>
+      <option value="-1" {if $user.vip_level eq '-1'}selected{/if}>初级会员</option>
       <option value="0" {if $user.vip_level eq '0'}selected{/if}>普通会员</option>
       <option value="1" {if $user.vip_level eq '1'}selected{/if}>推广者</option>
       <option disabled value="2" {if $user.vip_level eq '2'}selected{/if}>VIP(不可选)</option>

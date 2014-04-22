@@ -102,6 +102,7 @@ function GetAgenciesUsersNum($agencies_id)
          	$configs_all[$value['cf_name']]=$value['cf_value'];
          }
 	}
+	$configs_all['notice']=urldecode($configs_all['notice']);
 	$GLOBALS['configs']=$configs_all;
 	$GLOBALS['configs_all']=$configs_all;
 	$GLOBALS['configs']['services_qq_array']=explode(";",$GLOBALS['configs']['services_qq']);

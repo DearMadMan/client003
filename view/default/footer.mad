@@ -1,5 +1,5 @@
 <div class="clear"></div>
 <div class="wids" id="bottom">
  {$mad_configs.copyright}
-
+ {$mad_configs.count_code}
 </div>

@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.16, created on 2014-03-19 09:46:52
+<?php /* Smarty version Smarty-3.1.16, created on 2014-04-22 11:48:31
          compiled from "E:\apache\www\study\admin\template\user_list.mad" */ ?>
 <?php /*%%SmartyHeaderCode:190945328f70c5a7da2-72443558%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     '227225906a4a434672b5104be0e140146beb5ae9' => 
     array (
       0 => 'E:\\apache\\www\\study\\admin\\template\\user_list.mad',
-      1 => 1394693516,
+      1 => 1398138510,
       2 => 'file',
     ),
   ),
@@ -15,6 +15,8 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   'function' => 
   array (
   ),
+  'version' => 'Smarty-3.1.16',
+  'unifunc' => 'content_5328f70c79d811_51299483',
   'variables' => 
   array (
     'vp' => 0,
@@ -23,8 +25,6 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     'pagetool' => 0,
   ),
   'has_nocache_code' => false,
-  'version' => 'Smarty-3.1.16',
-  'unifunc' => 'content_5328f70c79d811_51299483',
 ),false); /*/%%SmartyHeaderCode%%*/?>
 <?php if ($_valid && !is_callable('content_5328f70c79d811_51299483')) {function content_5328f70c79d811_51299483($_smarty_tpl) {?><?php if (!is_callable('smarty_modifier_date_format')) include 'E:\\apache\\www\\study\\inc\\module\\smarty\\plugins\\modifier.date_format.php';
 ?>
@@ -80,7 +80,7 @@ $_smarty_tpl->tpl_vars['v']->_loop = true;
 " class="np"></td>
 	<td><span style="color:#ff0000">
 		<?php echo $_smarty_tpl->tpl_vars['v']->value['nick_name'];?>
-[<?php if ($_smarty_tpl->tpl_vars['v']->value['vip_level']=='0') {?>普会<?php } elseif ($_smarty_tpl->tpl_vars['v']->value['vip_level']=='1') {?>推广<?php } elseif ($_smarty_tpl->tpl_vars['v']->value['vip_level']=='2') {?>VIP<?php } elseif ($_smarty_tpl->tpl_vars['v']->value['vip_level']=='3') {?>VIP<?php } else { ?>违规<?php }?>]
+[<?php if ($_smarty_tpl->tpl_vars['v']->value['vip_level']=='0') {?>普会<?php } elseif ($_smarty_tpl->tpl_vars['v']->value['vip_level']=='-1') {?>初级<?php } elseif ($_smarty_tpl->tpl_vars['v']->value['vip_level']=='1') {?>推广<?php } elseif ($_smarty_tpl->tpl_vars['v']->value['vip_level']=='2') {?>VIP<?php } elseif ($_smarty_tpl->tpl_vars['v']->value['vip_level']=='3') {?>VIP<?php } else { ?>违规<?php }?>]
 		</span>
       </td>
 	<td><?php echo $_smarty_tpl->tpl_vars['v']->value['email'];?>
@@ -122,4 +122,34 @@ site=qq&menu=yes"><img border="0" src="http://wpa.qq.com/pa?p=2:<?php echo $_sma
 </table>
 
 </form>
-<?php }} ?>
+
+
+
+<!--  搜索表单  -->
+<form name='form3' action='main.php?menu=users&target=list&search=1' method='post'>
+<table width='98%'  border='0' cellpadding='1' cellspacing='1' bgcolor='#CBD8AC' align="center" style="margin-top:8px">
+  <tr bgcolor='#EEF4EA'>
+    <td background='<?php echo $_smarty_tpl->tpl_vars['vp']->value;?>
+/images/wbg.gif' align='center'>
+      <table border='0' cellpadding='0' cellspacing='0'>
+        <tr>
+          <td width='90' align='center'>搜索</td>
+
+        <td width='70'>
+          会员QQ：
+        </td>
+        <td width='160'>
+            <input type='text' name='key' value='' style='width:150px' />
+        </td>
+
+        <td>
+          <input name="imageField" type="image" src="<?php echo $_smarty_tpl->tpl_vars['vp']->value;?>
+/images/search.gif" width="45" height="20" border="0" class="np" />
+        </td>
+       </tr>
+      </table>
+    </td>
+  </tr>
+</table>
+
+</form><?php }} ?>
