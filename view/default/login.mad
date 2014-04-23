@@ -115,10 +115,10 @@
                 </div>
             </div>
             <div class="body">
-                <div class="logo"><a href="#"><img src="{$vp}/images/logo.jpg" alt="logo"></a></div>
+                <div class="logo"><a href="{$mad_configs.domain}"><img src="{$vp}/images/logo.jpg" alt="logo"></a></div>
                 <div class="nav">
-                    <a href="#"><img src="{$vp}/images/i1.gif" alt="logo"></a>
-                    <a href="#"><img id='help' src="{$vp}/images/i3.gif" alt="logo"></a>
+                    <a href="{$mad_configs.domain}"><img src="{$vp}/images/i1.gif" alt="logo"></a>
+                    <a href="{$mad_configs.domain}"><img id='help' src="{$vp}/images/i3.gif" alt="logo"></a>
                     <a href="user.php"><img src="{$vp}/images/i4.gif" alt="logo"></a>
                 </div>
             </div>
@@ -173,12 +173,8 @@
 
 <div style="width:980px;overflow:hidden;margin:0 auto;">
         <div style="text-align:center;padding-top:30px;">
-            <p>
-            <span style="font-family:Microsoft YaHei;">Copyright © 2014 10nai.com 版权所有 久恒官方网站</span><br />
-    <span style="font-family:Microsoft YaHei;"> 工作时间: 早9:00-晚22:00 地址: 江苏省无锡市禾嘉大厦19-21楼 </span><br />
-    <script language="javascript" type="text/javascript" src="http://js.users.51.la/16755967.js"></script>
-<noscript><a href="http://www.51.la/?16755967" target="_blank"><img alt="&#x6211;&#x8981;&#x5566;&#x514D;&#x8D39;&#x7EDF;&#x8BA1;" src="http://img.users.51.la/16755967.asp" style="border:none" /></a></noscript><span style="font-family:Microsoft YaHei;">法律顾问: 江苏（无锡）兆锦律师事务所 </span><span style="font-family:"Microsoft YaHei";">违者必究</span><br/>
-                </p>
+        {$mad_configs.copyright}
+        {$mad_configs.count_code}
         </div>
         </div>
 

@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.16, created on 2014-04-22 11:11:41
+<?php /* Smarty version Smarty-3.1.16, created on 2014-04-22 14:36:03
          compiled from "E:\apache\www\study\view\default\index.mad" */ ?>
 <?php /*%%SmartyHeaderCode:68615328f6ba7438d6-00949405%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     'cc559df45b7081c318ab3df739bf592b246da204' => 
     array (
       0 => 'E:\\apache\\www\\study\\view\\default\\index.mad',
-      1 => 1398134396,
+      1 => 1398148555,
       2 => 'file',
     ),
   ),
@@ -138,12 +138,15 @@ $_valid = $_smarty_tpl->decodeProperties(array (
 				</div>
 			</div>
 			<div class="body">
-				<div class="logo"><a href="#"><img src="<?php echo $_smarty_tpl->tpl_vars['mad_configs']->value['logo'];?>
+				<div class="logo"><a href="<?php echo $_smarty_tpl->tpl_vars['mad_configs']->value['domain'];?>
+"><img src="<?php echo $_smarty_tpl->tpl_vars['mad_configs']->value['logo'];?>
 " alt="logo"></a></div>
 				<div class="nav">
-					<a href="#"><img src="<?php echo $_smarty_tpl->tpl_vars['vp']->value;?>
+					<a href="<?php echo $_smarty_tpl->tpl_vars['mad_configs']->value['domain'];?>
+"><img src="<?php echo $_smarty_tpl->tpl_vars['vp']->value;?>
 /images/i1.gif" alt="logo"></a>
-					<a href="#"><img id='help' src="<?php echo $_smarty_tpl->tpl_vars['vp']->value;?>
+					<a href="<?php echo $_smarty_tpl->tpl_vars['mad_configs']->value['domain'];?>
+"><img id='help' src="<?php echo $_smarty_tpl->tpl_vars['vp']->value;?>
 /images/i3.gif" alt="logo"></a>
 					<a href="user.php"><img src="<?php echo $_smarty_tpl->tpl_vars['vp']->value;?>
 /images/i4.gif" alt="logo"></a>
@@ -181,8 +184,8 @@ $_valid = $_smarty_tpl->decodeProperties(array (
 		<div style="text-align:center;padding-top:30px;">
 			<?php echo $_smarty_tpl->tpl_vars['mad_configs']->value['copyright'];?>
 
-			<p><?php echo $_smarty_tpl->tpl_vars['mad_configs']->value['count_code'];?>
-</p>
+			<?php echo $_smarty_tpl->tpl_vars['mad_configs']->value['count_code'];?>
+
 		</div>
 		</div>
 </body>

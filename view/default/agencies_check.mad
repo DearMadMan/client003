@@ -1,0 +1,120 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+    <meta charset="utf-8">
+    <title>一键验真伪</title>
+    <script type="text/javascript" src="{$vp}/js/jquery-1.9.0.js"></script>
+    <script type="text/javascript" src="{$vp}/js/agencies_check.js"></script>
+    <link rel="stylesheet" href="{$vp}/css/style.css">
+    <link rel="stylesheet" href="{$vp}/css/index.css">
+    <link rel="stylesheet" href="{$view_path}/css/header.css">
+</head>
+<body>
+<div class="index-header no-border">
+        <div class="wrap">
+
+            <div class="body">
+                <div class="logo"><a href="{$mad_configs.domain}"><img src="{$vp}/images/logo.jpg" alt="logo"></a></div>
+
+            </div>
+        </div>
+    </div>
+
+<div class="nav-b wfull">
+      <div class="nav-box w960">
+        <a id="kuaidiQuery" href="javascript:;" class="fl nav-select">站点查询</a>
+      </div>
+    </div>
+
+<div class="search-f">
+
+    <div class="search-box">
+      <div class="input-box">
+      <input name="postid" type="text" class="inp-metro" id="postid" maxlength="26"   style="color: rgb(178, 178, 178);" value="请输入您要查询的 加盟商网址"><a id="query" href="javascript:;" onclick="CheckAgencies();" class="btn-query">查询</a>
+      <div id="check-img" class="is-jiameng"></div>
+      </div>
+      <p>例如，您可以输入: <a style="color:#448ef3;" href="http://www.99nai.com">www.99nai.com</a> </p>
+      <p> <a href="http://www.99nai.com" id="a-domain" ><img src="{$vp}/images/123.gif" alt=""></a></p>
+    </div>
+
+
+</div>
+
+
+
+
+<div id="divStay" style="position: absolute"></div>
+
+<div id="divStayTopleft" style="position: absolute">
+    <div id='mykf' onmouseover="document.getElementById('myid').style.display='block';document.getElementById('mykf').style.display='none';FloatTop(120);"><img src="{$vp}/images/kf.png" /></div>
+  <table cellspacing="0" cellpadding="0" width="109px" border="0" id="myid" style="display:none">
+    <tr>
+      <td class="qqup"><div class="qq_l">在线客服</div><div class="qq_r"><img src="{$vp}/images/close.jpg" style="cursor:pointer" onclick="document.getElementById('mykf').style.display='block';document.getElementById('myid').style.display='none';FloatTop(29);" /></div></td>
+    </tr>
+    <tr>
+      <td valign="top" style="background:url({$vp}/images/qq_mid.jpg) left top repeat-y;"><table cellspacing="0" cellpadding="0" width="116px" align="center" border="0">
+          <tr>
+            <td height="20"></td>
+          </tr>
+          <tr>
+            <td height="20" class="tit1">&nbsp;&nbsp;客服中心
+            <hr size="1" style="margin-left:10px; border:#cccccc dotted 1px; margin-right:10px;" />
+            </td>
+          </tr>
+
+          <tr>
+            <td height="20" class="tit2"><img src="{$vp}/images/icon.jpg" />&nbsp;官方QQ客服</td>
+          </tr>
+<tr>
+            <td height="20" class="tit2"></td>
+          </tr>
+
+{foreach $mad_configs.services_qq_array as $v}
+          <tr>
+            <td height="35" align="center" valign="top">
+<!-- WPA Button Begin -->
+<a target="_blank" href="http://wpa.qq.com/msgrd?v=3&uin={$v}&site=qq&menu=yes"><img border="0" src="http://wpa.qq.com/pa?p=2:{$v}:42" alt="点击这里给我发消息" title="点击这里给我发消息"></a>
+<!-- WPA Button END --></td>
+
+
+          </tr>
+{/foreach}
+          <tr>
+            <td></td>
+          </tr>
+
+
+          <tr>
+            <td height="20" class="tit1">&nbsp;&nbsp;官方客服电话：
+            <hr size="1" style="margin-left:10px; border:#cccccc dotted 1px; margin-right:10px;" />
+            </td>
+          </tr>
+          <tr>
+            <td height="20" class="tit2">{$mad_configs.services_tel}</td>
+          </tr>
+
+          <tr>
+            <td></td>
+          </tr>
+      </table></td>
+    </tr>
+    <tr>
+      <td><img src="{$vp}/images/qq_down.png" /></td>
+    </tr>
+  </table>
+  <script type="text/javascript" src="{$vp}/js/kf.js"></script>
+
+</div>
+
+
+
+
+
+<div class="clear"></div>
+<div class="wids check-f">
+ {$mad_configs.copyright}
+ {$mad_configs.count_code}
+</div>
+
+</body>
+</html>

@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.16, created on 2014-04-14 09:56:06
+<?php /* Smarty version Smarty-3.1.16, created on 2014-04-22 14:34:03
          compiled from "E:\apache\www\study\view\default\login.mad" */ ?>
 <?php /*%%SmartyHeaderCode:1099953377530795b31-33282712%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     'c98e2563c668b2bfbe9b0416340f43e56bbb5bac' => 
     array (
       0 => 'E:\\apache\\www\\study\\view\\default\\login.mad',
-      1 => 1397440563,
+      1 => 1398148426,
       2 => 'file',
     ),
   ),
@@ -166,12 +166,15 @@ $_valid = $_smarty_tpl->decodeProperties(array (
                 </div>
             </div>
             <div class="body">
-                <div class="logo"><a href="#"><img src="<?php echo $_smarty_tpl->tpl_vars['vp']->value;?>
+                <div class="logo"><a href="<?php echo $_smarty_tpl->tpl_vars['mad_configs']->value['domain'];?>
+"><img src="<?php echo $_smarty_tpl->tpl_vars['vp']->value;?>
 /images/logo.jpg" alt="logo"></a></div>
                 <div class="nav">
-                    <a href="#"><img src="<?php echo $_smarty_tpl->tpl_vars['vp']->value;?>
+                    <a href="<?php echo $_smarty_tpl->tpl_vars['mad_configs']->value['domain'];?>
+"><img src="<?php echo $_smarty_tpl->tpl_vars['vp']->value;?>
 /images/i1.gif" alt="logo"></a>
-                    <a href="#"><img id='help' src="<?php echo $_smarty_tpl->tpl_vars['vp']->value;?>
+                    <a href="<?php echo $_smarty_tpl->tpl_vars['mad_configs']->value['domain'];?>
+"><img id='help' src="<?php echo $_smarty_tpl->tpl_vars['vp']->value;?>
 /images/i3.gif" alt="logo"></a>
                     <a href="user.php"><img src="<?php echo $_smarty_tpl->tpl_vars['vp']->value;?>
 /images/i4.gif" alt="logo"></a>
@@ -230,12 +233,10 @@ $_valid = $_smarty_tpl->decodeProperties(array (
 
 <div style="width:980px;overflow:hidden;margin:0 auto;">
         <div style="text-align:center;padding-top:30px;">
-            <p>
-            <span style="font-family:Microsoft YaHei;">Copyright © 2014 10nai.com 版权所有 久恒官方网站</span><br />
-    <span style="font-family:Microsoft YaHei;"> 工作时间: 早9:00-晚22:00 地址: 江苏省无锡市禾嘉大厦19-21楼 </span><br />
-    <script language="javascript" type="text/javascript" src="http://js.users.51.la/16755967.js"></script>
-<noscript><a href="http://www.51.la/?16755967" target="_blank"><img alt="&#x6211;&#x8981;&#x5566;&#x514D;&#x8D39;&#x7EDF;&#x8BA1;" src="http://img.users.51.la/16755967.asp" style="border:none" /></a></noscript><span style="font-family:Microsoft YaHei;">法律顾问: 江苏（无锡）兆锦律师事务所 </span><span style="font-family:"Microsoft YaHei";">违者必究</span><br/>
-                </p>
+        <?php echo $_smarty_tpl->tpl_vars['mad_configs']->value['copyright'];?>
+
+        <?php echo $_smarty_tpl->tpl_vars['mad_configs']->value['count_code'];?>
+
         </div>
         </div>
 

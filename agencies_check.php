@@ -1,8 +1,8 @@
 <?php
 define("MadMan",true);
 require_once("./inc/init.php");
-$act="";
-$domain="";
+$act="nothing";
+$domain="nothing";
 if(isset($_REQUEST['act']))
 {
     $act=$_REQUEST['act'];
@@ -13,7 +13,7 @@ if(isset($_REQUEST['domain']))
 }
 
 
-if(!empty($act)&&!empty($domain))
+if($act=="check")
 {
 
     if(strpos($domain,".")!=false)
@@ -23,17 +23,21 @@ if(!empty($act)&&!empty($domain))
        $res=$db->getRow($sql);
        if(empty($res))
        {
-            JsAlert("NO!该域名不是加盟商！");
+            die("no");
        }
        else
        {
-          JsAlert("YES!该域名是加盟商！");
+          die("ok");
        }
     }
     else
     {
-        JsAlert("域名格式不正确!");
+        die("域名格式不正确!");
     }
+}
+else
+{
+    $smarty->display("agencies_check.mad");
 }
 
 

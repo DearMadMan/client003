@@ -18,6 +18,7 @@ h1,h2,h3{font-size:14px;font-weight:bold;}
 
 
 .index-header{width: 100%;margin: 0 auto;height: 100px;overflow: hidden;border-bottom: 1px solid #111;}
+.no-border{border-bottom:0;}
 .wrap{width: 980px;height: 200px;background-color: #fff;margin: 0 auto;}
 .index-header .space{height: 1px; border-bottom: 1px solid #ccc;width: 100%;position: absolute;z-index: 2;top:20px; }
 .wrap .top{background: #fff; height: 20px;padding: 1px;}
@@ -40,3 +41,67 @@ h1,h2,h3{font-size:14px;font-weight:bold;}
 .user_0{color: #3F3F3F;}
 .user_1{color: #000;}
 .agencies{position: absolute;top:0;right: 0;z-index: 99999;}
+
+.nav-b{height: 36px;
+overflow: hidden;
+background-color: #448ef3;}
+.wfull{clear: both;
+margin: auto;
+width: 100%;}
+.nav-box{padding: 0;
+height: 36px;
+line-height: 36px;}
+.w960{clear: both;
+margin: auto;
+width: 960px;}
+
+.nav-box a.nav-select{background-color: #ff9e40;
+border-left: 2px solid #FFF;
+border-right: 2px solid #FFF;}
+.nav-box a{
+display: block;
+padding: 0 35px;
+height: 36px;
+font-size: 16px;
+font-weight: normal;
+color: #FFF;
+width: 68px;
+text-align: center;
+}
+.check-f{width: 100%;text-align: center;}
+.check-f p{color: #105069;}
+.search-f{width: 580px;height: 400px;margin: 0 auto;background: url("../images/bg_auto.jpg") no-repeat;margin-top:50px;border-bottom: 1px solid #e6e6e6;}
+.inp-metro{
+width: 414px;
+height: 30px;
+line-height: 30px;
+vertical-align: middle;
+padding: 4px 8px;
+font-size: 18px;
+color: #333;
+border: 1px solid #BCBCBC;}
+.inp-metro:hover{
+border: 1px solid #b9b9b9;
+border-top: 1px solid #a0a0a0;
+-webkit-box-shadow: inset 0 1px 2px rgba(0,0,0,0.1);
+-moz-box-shadow: inset 0 1px 2px rgba(0,0,0,0.1);
+box-shadow: inset 0 1px 2px rgba(0,0,0,0.1);
+}
+.input-box{margin-top: 0px;position: relative;}
+.btn-query{
+display: inline-block;
+padding: 0;
+width: 148px;
+height: 40px;
+line-height: 40px;
+overflow: hidden;
+vertical-align: middle;
+text-indent: -65535px;
+cursor: pointer;
+border: none;
+background: url("../images/btn_metro.png") 0 0 no-repeat;
+}
+.search-box p{height: 20px; line-height: 20px; margin: 10px 0;}
+.no-jiameng,.is-jiameng{position: absolute;left: 200px;width: 100px;height: 100px;top: -30px;display: none;}
+.no-jiameng{background: url("../images/dao.png");}
+.is-jiameng{background: url("../images/jia.png");}

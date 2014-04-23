@@ -87,10 +87,10 @@
 				</div>
 			</div>
 			<div class="body">
-				<div class="logo"><a href="#"><img src="{$mad_configs.logo}" alt="logo"></a></div>
+				<div class="logo"><a href="{$mad_configs.domain}"><img src="{$mad_configs.logo}" alt="logo"></a></div>
 				<div class="nav">
-					<a href="#"><img src="{$vp}/images/i1.gif" alt="logo"></a>
-					<a href="#"><img id='help' src="{$vp}/images/i3.gif" alt="logo"></a>
+					<a href="{$mad_configs.domain}"><img src="{$vp}/images/i1.gif" alt="logo"></a>
+					<a href="{$mad_configs.domain}"><img id='help' src="{$vp}/images/i3.gif" alt="logo"></a>
 					<a href="user.php"><img src="{$vp}/images/i4.gif" alt="logo"></a>
 				</div>
 			</div>
@@ -122,7 +122,7 @@
 		<div style="width:980px;overflow:hidden;margin:0 auto;">
 		<div style="text-align:center;padding-top:30px;">
 			{$mad_configs.copyright}
-			<p>{$mad_configs.count_code}</p>
+			{$mad_configs.count_code}
 		</div>
 		</div>
 </body>
