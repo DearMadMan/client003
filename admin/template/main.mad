@@ -67,6 +67,20 @@
 				{include file='goods_article_type.mad'}
 				{elseif $target eq 'article_type_edit'}
 				{include file='goods_article_type_edit.mad'}
+
+
+
+				{elseif $target eq 'article_free_type'}
+				{include file='goods_article_free_type.mad'}
+				{elseif $target eq 'article_free_type_edit'}
+				{include file='goods_article_free_type_edit.mad'}
+
+				{elseif $target eq 'article_free'}
+				{include file='goods_article_free.mad'}
+
+				{elseif $target eq 'article_free_edit'}
+				{include file='goods_article_free_edit.mad'}
+
 				{else}
 				{include file='goods_list.mad'}
 				{/if}

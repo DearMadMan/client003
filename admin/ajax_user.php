@@ -117,17 +117,27 @@ elseif($act=="DeleteArticle")
 	CanPass();
 	DeleteSomething("articles");
 }
+elseif($act=="DeleteArticleFree")
+{
+	CanPass();
+	DeleteSomething("article_free","article_free_id");
+}
 elseif($act=="DeleteArticleType")
 {
 	CanPass();
 	DeleteSomething("article_type");
+}
+elseif($act=="DeleteArticleFreeType","article_fee_type_id")
+{
+	CanPass();
+	DeleteSomething("article_free_type");
 }
 else
 {
 	echo "Go Away!";
 }
 
-function DeleteSomething($table)
+function DeleteSomething($table,$id="id")
 {
 	if(empty($_POST['ids']))
 	{
@@ -135,7 +145,7 @@ function DeleteSomething($table)
 		die();
 	}
 
-	$sql="Delete from $table where id in ".$_POST['ids'];
+	$sql="Delete from $table where $id in ".$_POST['ids'];
 	$res=$GLOBALS['db']->Query($sql);
 	if($GLOBALS['db']->GetAffectedRows()>0)
 	{
@@ -146,4 +156,7 @@ function DeleteSomething($table)
 		echo "删除失败,请重新尝试!";
 	}
 }
+
+
+
 ?>

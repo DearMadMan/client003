@@ -1,0 +1,20 @@
+
+<div class="clear"></div>
+<div class="W foot mt10">
+    <div class="copyright fl">
+        <table border="0" width="100%">
+            <tr>
+                <td width="210" align="left"><img src="{$vp}/images/logo.jpg" width="200px" height="34px"/></td>
+                <td width="1" style="background:#cccccc"></td>
+                <td width="15"> </td>
+                <td>
+                   {$mad_configs.copyright}
+                </td>
+            </tr>
+        </table>
+    </div>
+</div>
+
+<div class="checkweb">
+ <a href="{$config_main_domain}/agencies_check.php?act=check_now&domain={$mad_configs.domain}"><img src="{$vp}/images/checkweb.png" alt="验证"></a>
+</div>

@@ -263,11 +263,51 @@ if($menu=='users')
 		$id='o.id';
 		pageTooleFunc($sql,$pagePath,$id);
 	}
+	elseif($target=="article_free")
+	{
+		CanPass();
+		$sql="select a.*,b.type_name from article_free as a left join article_free_type as b on a.type_id=b.article_free_type_id order by article_free_id desc";
+		$pagePath="main.php?menu=goods&target=article_free";
+		$id='article_free_id';
+		pageTooleFunc($sql,$pagePath,$id);
+	}
+	elseif($target=="article_free_edit")
+	{
+		CanPass();
+		if(isset($_REQUEST['id'])&&is_numeric($_REQUEST['id'])&&!empty($_REQUEST['id']))
+		{
+			$sql="select * from article_free where article_free_id=".intval($_REQUEST['id']);
+			$res=$db->getRow($sql);
+			if(!empty($res))
+			{
+				$smarty->assign("article",$res);
+			}
+			else
+			{
+				JsAlertAndJump("获取数据失败,请重新尝试!","main.php?menu=goods&target=article_free");
+			}
+		}
+		else
+		{
+			$res['article_free_id']=0;
+			$res['title']="";
+			$res['content']="";
+			$smarty->assign("article",$res);
+		}
+	}
 	elseif ($target=='article_type') {
 		CanPass();
 		$sql="select * from article_type ";
 		$pagePath="main.php?menu=goods&target=article_type";
 		$id='id';
+		pageTooleFunc($sql,$pagePath,$id);
+	}
+	elseif($target=="article_free_type")
+	{
+		CanPass();
+		$sql="select * from article_free_type ";
+		$pagePath="main.php?menu=goods&target=article_free_type";
+		$id='article_fee_type_id';
 		pageTooleFunc($sql,$pagePath,$id);
 	}
 	elseif ($target=='article_edit')

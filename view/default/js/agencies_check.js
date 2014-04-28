@@ -16,6 +16,19 @@ $("#postid").bind("keyup",function(){
     $("#check-img").hide();
 })
 
+var other_val=$("#other").val();
+if(other_val=="yes")
+{
+    $("#check-img").attr("class","is-jiameng");
+                $("#check-img").fadeIn(100);
+                $("#a-domain").attr("href","http://"+$("#postid").val());
+}
+if(other_val=="no")
+{
+      $("#check-img").attr("class","no-jiameng");
+                  $("#check-img").fadeIn(100);
+}
+console.log(other_val);
 
 });
 

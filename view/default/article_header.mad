@@ -1,0 +1,34 @@
+
+<div class="W top">
+    <div class="topl fl">
+        免费注册账户，激活订阅邮件免费领取一套特别推出的课程  </div>
+    <div class="topr fr">
+
+    </div>
+</div>
+<div class="clear"></div>
+<div class="W head">
+    <div class="logo fl"><a href="/"><img src="{$vp}/images/logo.png" alt="久恒营销"/></a></div>
+    <div class="logor fr">
+        <a href="user.php"><img src="{$vp}/images/lbg.jpg"/></a>
+            </div>
+</div>
+<div class="clear"></div>
+
+<div class="W nav mt10">
+    <ul>
+        <li><a href="/">首页</a></li>
+        <li><img src="{$vp}/images/navli.png"/></li>
+        <li><a href="/User-index.html">会员中心</a></li>
+        <li><img src="{$vp}/images/navli.png"/></li>
+        <li><a href="/Archive-show-id-50.html">营销资讯</a></li>
+        <li><img src="{$vp}/images/navli.png"/></li>
+        <li><a href="/Comment-show.html">会员评价</a></li>
+        <li><img src="{$vp}/images/navli.png"/></li>
+        <li><a href="/Page-show-id-47.html">关于我们</a></li>
+        <li><img src="{$vp}/images/navli.png"/></li>
+        <li><a href="/Page-show-id-108.html">加盟合作</a></li>
+    </ul>
+</div>
+
+<div class="clear"></div>

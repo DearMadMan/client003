@@ -126,6 +126,54 @@ elseif ($act=='articleEdit') {
 	}
 
 }
+
+elseif ($act=='articleFreeEdit') {
+	CanPass();
+	if(isset($_REQUEST['id'])&&is_numeric($_REQUEST['id']))
+	{
+		if($_REQUEST['id']==0)
+		{
+			$fields=array("type_id","title","content","add_time");
+			$data=array(
+				intval($_REQUEST['art_id']),
+				$_REQUEST['title'],
+				$_REQUEST['content'],
+				time()
+			);
+
+			$res=$db->autoExcute("article_free","",$fields,$data);
+			if(!$res)
+			{
+				JsAlertAndJump("添加失败!","main.php?menu=goods&target=article_free_edit");
+			}
+			else
+			{
+				JsAlertAndJump("添加成功!","main.php?menu=goods&target=article_free");
+			}
+		}
+		else
+		{
+				$sql="update article_free set type_id=".$_REQUEST['art_id']
+				.",content='".$_REQUEST['content']."', title='"
+				.$_REQUEST['title']."' where article_free_id=".intval($_REQUEST['id']);
+			$res=$db->Query($sql);
+			if($db->GetAffectedRows()>0)
+			{
+				JsAlertAndJump("修改成功!","main.php?menu=goods&target=article_free_edit&id=".intval($_REQUEST['id']));
+			}
+			else
+			{
+				JsAlertAndJump("未发生变动!","main.php?menu=goods&target=article_free_edit&id=".intval($_REQUEST['id']));
+			}
+		}
+
+	}
+
+}
+
+
+
+
 elseif($act=='articleTypeEdit')
 {
 	CanPass();
@@ -166,6 +214,50 @@ elseif($act=='articleTypeEdit')
 	}
 
 }
+elseif($act=='articleFreeTypeEdit')
+{
+	CanPass();
+	if(isset($_REQUEST['id'])&&is_numeric($_REQUEST['id']))
+	{
+		if($_REQUEST['id']==0)
+		{
+			$fields=array("article_fee_type_id","type_name");
+			$data=array(
+				intval($_REQUEST['id']),
+				$_REQUEST['type_name']
+			);
+
+			$res=$db->autoExcute("article_free_type","",$fields,$data);
+			if(!$res)
+			{
+				JsAlertAndJump("添加失败!","main.php?menu=goods&target=article_free_type");
+			}
+			else
+			{
+				JsAlertAndJump("添加成功!","main.php?menu=goods&target=article_free_type");
+			}
+		}
+		else
+		{
+				$sql="update article_free_type set type_name='".$_REQUEST['type_name']."' where article_fee_type_id=".intval($_REQUEST['id']);
+			$res=$db->Query($sql);
+			if($db->GetAffectedRows()>0)
+			{
+				JsAlertAndJump("修改成功!","main.php?menu=goods&target=article_free_type_edit&id=".intval($_REQUEST['id']));
+			}
+			else
+			{
+				JsAlertAndJump("未发生变动!","main.php?menu=goods&target=article_free_type_edit&id=".intval($_REQUEST['id']));
+			}
+		}
+
+	}
+
+}
+
+
+
+
 else
 {
 

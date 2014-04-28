@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.16, created on 2014-04-22 17:44:59
+<?php /* Smarty version Smarty-3.1.16, created on 2014-04-28 16:17:48
          compiled from "E:\apache\www\study\view\default\agencies_check.mad" */ ?>
 <?php /*%%SmartyHeaderCode:25804535611bd3f6c29-26755582%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     '34d829c462717024e0c92a7fb1991d6088b0befd' => 
     array (
       0 => 'E:\\apache\\www\\study\\view\\default\\agencies_check.mad',
-      1 => 1398159831,
+      1 => 1398673065,
       2 => 'file',
     ),
   ),
@@ -22,7 +22,10 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     'vp' => 0,
     'view_path' => 0,
     'mad_configs' => 0,
+    'other' => 0,
+    'domain' => 0,
     'v' => 0,
+    'is_agencies' => 0,
   ),
   'has_nocache_code' => false,
 ),false); /*/%%SmartyHeaderCode%%*/?>
@@ -65,7 +68,10 @@ $_valid = $_smarty_tpl->decodeProperties(array (
 
     <div class="search-box">
       <div class="input-box">
-      <input name="postid" type="text" class="inp-metro" id="postid" maxlength="26"   style="color: rgb(178, 178, 178);" value="请输入您要查询的 加盟商网址"><a id="query" href="javascript:;" onclick="CheckAgencies();" class="btn-query">查询</a>
+      <input name="postid" type="text" class="inp-metro" id="postid" maxlength="26"   style="color: rgb(178, 178, 178);" <?php if ($_smarty_tpl->tpl_vars['other']->value=='') {?> value="请输入您要查询的 加盟商网址"
+      <?php } else { ?>value="<?php echo $_smarty_tpl->tpl_vars['domain']->value;?>
+"
+      <?php }?>><a id="query" href="javascript:;" onclick="CheckAgencies();" class="btn-query">查询</a>
       <div id="check-img" class="is-jiameng"></div>
       </div>
       <p>例如，您可以输入: <a style="color:#448ef3;" href="http://www.99nai.com">www.99nai.com</a> </p>
@@ -73,7 +79,8 @@ $_valid = $_smarty_tpl->decodeProperties(array (
 /images/123.gif" alt=""></a></p>
     </div>
 
-
+  <input type="hidden" name="other" id="other" value="<?php echo $_smarty_tpl->tpl_vars['other']->value;?>
+">
 </div>
 
 
@@ -163,7 +170,10 @@ $_smarty_tpl->tpl_vars['v']->_loop = true;
 <div class="wids check-f">
  <?php echo $_smarty_tpl->tpl_vars['mad_configs']->value['copyright'];?>
 
+ <?php if ($_smarty_tpl->tpl_vars['is_agencies']->value) {?>
  <?php echo $_smarty_tpl->tpl_vars['mad_configs']->value['count_code'];?>
+
+ <?php }?>
 
 </div>
 

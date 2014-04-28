@@ -1,0 +1,39 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>久恒欢迎您</title>
+<meta name="keywords" content="专注互联网一对一辅导 全自动模式实现您的时间自由" />
+<meta name="description" content="久恒欢迎您" />
+<link rel="stylesheet" type="text/css" href="{$vp}/css/style2.css" />
+</head>
+<body class="bg">
+{include file="article_header.mad"}
+
+<div class="W main clear" style="margin-top:30px;">
+    <div class="listbox clear">
+        <div class="listhead">
+            <h2>关于我们</h2>
+        </div>
+        <div class="listcon">
+            <div class="view">
+
+
+            <div class="body"><p>云端宝<span style="font-family: 微软雅黑;">隶属青岛精益通网络有限公司</span></p><p><span style="font-family: 微软雅黑;">通讯地址：青岛市市北区飞达路67号</span></p><p><span style="font-family: 微软雅黑; font-size: 14px;">联系电话： &nbsp; 0532-88196618</span>&nbsp;</p><p><a href="http://sighttp.qq.com/authd?IDKEY=f2c8873648b4986d4eda916bc31329360b78254ddaea96ba" target="_blank"><img title="客服" border="0" alt="客服" src="http://wpa.qq.com/imgd?IDKEY=f2c8873648b4986d4eda916bc31329360b78254ddaea96ba&amp;pic=51"/></a></p></div>
+
+
+
+
+
+
+
+
+            </div>
+        </div>
+
+    </div>
+</div>
+{include file='article_footer.mad'}
+
+</body>
+</html>

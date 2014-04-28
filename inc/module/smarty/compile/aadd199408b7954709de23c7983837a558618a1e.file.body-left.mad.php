@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.16, created on 2014-04-16 16:17:36
+<?php /* Smarty version Smarty-3.1.16, created on 2014-04-28 16:45:30
          compiled from "E:\apache\www\study\admin\template\body-left.mad" */ ?>
 <?php /*%%SmartyHeaderCode:13225328f1fd6add05-05949898%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     'aadd199408b7954709de23c7983837a558618a1e' => 
     array (
       0 => 'E:\\apache\\www\\study\\admin\\template\\body-left.mad',
-      1 => 1397613769,
+      1 => 1398674659,
       2 => 'file',
     ),
   ),
@@ -49,6 +49,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
             <li><a href='main.php?menu=goods&target=vip' >VIP积分转换</a> </li>
             <li><a href='main.php?menu=goods&target=article' >文章中心</a> </li>
             <li><a href='main.php?menu=goods&target=article_type' >文章分类</a> </li>
+             <li><a href='main.php?menu=goods&target=article_free' >营销资讯</a> </li>
           </ul>
           <?php } else { ?>
           <ul class='sitemu'>

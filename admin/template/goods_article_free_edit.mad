@@ -1,0 +1,43 @@
+<script type="text/javascript" src='{$vp}/js/goods_article_edit.js'></script>
+
+<table width="98%" border="0" cellpadding="0" cellspacing="1" bgcolor="#D1DDAA" align="center">
+<tr>
+ <td height="26" background="{$vp}/images/newlinebg3.gif">
+  <table width="98%" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+  <td align="center">
+        <input type='button' class="coolbg np" onClick="location='main.php?menu=goods&target=article_free';" value='营销资讯' />
+
+ </td>
+ </tr>
+</table>
+</td>
+</tr>
+</table>
+
+
+<form name="form2" method="post" action="goods.php?act=articleFreeEdit">
+
+<table width="98%px" border="0" cellpadding="2" cellspacing="1" bgcolor="#D1DDAA" align="center" style="margin-top:8px">
+<tr bgcolor="#FAFAF1" height="98%"><td align="center"  width="19%">标题：</td>
+<td align="left" width="81%" ><input type='text' name='title' value="{$article.title}" style="width:60%;" /></td>
+<tr  bgcolor="#FAFAF1" height="98%"><td align="center"   width="19%">分类：</td>
+<td align="left" width="81%" ><input value="{$article.type_id}" type='text' name='art_id' style="width:10%;" /></td>
+</tr>
+<tr align="center" bgcolor="#FAFAF1" height="22">
+  <td width="19%"内容</td>
+  <td width="81%" align="left"><textarea style="width:700px; height:400px" id="article_content" name="content">{$article.content}</textarea>
+    </td>
+</tr>
+<input type="hidden" name='id' value='{$article.article_free_id}'>
+
+<tr align="center" bgcolor="#FAFAF1" height="22">
+
+    <td colspan="2"><input type="submit" name="submit" value="提交" />&nbsp;&nbsp;<input type="reset"  name="reset" value="重写"></td>
+</tr>
+
+
+
+</table>
+
+</form>

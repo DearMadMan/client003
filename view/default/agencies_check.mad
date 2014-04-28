@@ -30,14 +30,16 @@
 
     <div class="search-box">
       <div class="input-box">
-      <input name="postid" type="text" class="inp-metro" id="postid" maxlength="26"   style="color: rgb(178, 178, 178);" value="请输入您要查询的 加盟商网址"><a id="query" href="javascript:;" onclick="CheckAgencies();" class="btn-query">查询</a>
+      <input name="postid" type="text" class="inp-metro" id="postid" maxlength="26"   style="color: rgb(178, 178, 178);" {if $other eq ''} value="请输入您要查询的 加盟商网址"
+      {else}value="{$domain}"
+      {/if}><a id="query" href="javascript:;" onclick="CheckAgencies();" class="btn-query">查询</a>
       <div id="check-img" class="is-jiameng"></div>
       </div>
       <p>例如，您可以输入: <a style="color:#448ef3;" href="http://www.99nai.com">www.99nai.com</a> </p>
       <p> <a href="http://www.99nai.com" id="a-domain" ><img src="{$vp}/images/123.gif" alt=""></a></p>
     </div>
 
-
+  <input type="hidden" name="other" id="other" value="{$other}">
 </div>
 
 
@@ -113,7 +115,10 @@
 <div class="clear"></div>
 <div class="wids check-f">
  {$mad_configs.copyright}
+ {if $is_agencies}
  {$mad_configs.count_code}
+ {/if}
+
 </div>
 
 </body>

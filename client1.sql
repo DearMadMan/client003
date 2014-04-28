@@ -10,7 +10,7 @@ Target Server Type    : MYSQL
 Target Server Version : 50615
 File Encoding         : 65001
 
-Date: 2014-04-16 15:09:03
+Date: 2014-04-28 18:02:43
 */
 
 SET FOREIGN_KEY_CHECKS=0;
@@ -67,7 +67,7 @@ CREATE TABLE `agencies_configs` (
 -- Records of agencies_configs
 -- ----------------------------
 INSERT INTO `agencies_configs` VALUES ('7', '36', '{\"keywords\":\"%2Fimages%2F20140414%2F139743957308106689.jpg1\",\"description\":\"%E4%B8%93%E6%B3%A8%E4%BA%92%E8%81%94%E7%BD%91%E4%B8%80%E5%AF%B9%E4%B8%80%E8%BE%85%E5%AF%BC+%E5%85%A8%E8%87%AA%E5%8A%A8%E6%A8%A1%E5%BC%8F%E5%AE%9E%E7%8E%B0%E6%82%A8%E7%9A%84%E6%97%B6%E9%97%B4%E8%87%AA%E7%94%B11\",\"default_template\":\"default\",\"domain\":\"123\",\"title\":\"%2Fimages%2F20140414%2F139743956802682495.jpg1\",\"copyright\":\"123331\",\"spreader_string\":\"%E4%B8%93%E6%B3%A8%E4%BA%92%E8%81%94%E7%BD%91%E4%B8%80%E5%AF%B9%E4%B8%80%E8%BE%85%E5%AF%BC%EF%BC%8C%E5%85%A8%E8%87%AA%E5%8A%A8%E6%A8%A1%E5%BC%8F%E5%AE%9E%E7%8E%B0%E6%82%A8%E7%9A%84%E6%97%B6%E9%97%B4%E8%87%AA%E7%94%B131\",\"pay_name\":\"a%E6%94%AF%E4%BB%98%E5%AE%9D%28%E8%B4%A6%E5%8F%B7%291\",\"pay_key\":\"\",\"pay_id\":\"\",\"services_qq\":\"778128861\",\"services_tel\":\"137715525791\",\"spreader_cridits\":\"\",\"email_code\":\"25652dd2ac6fe60cf81be5be278e83c10455e88b52df75d9\",\"count_code\":\"asdasdasdads\",\"logo\":\"%2Fimages%2F20140416%2F139761729608605957.jpg\",\"index_banner\":\"%2Fimages%2F20140416%2F139761729705566711.jpg\",\"login_ad\":\"%2Fimages%2F20140416%2F139761729806632690.jpg\",\"a_id\":\"1\",\"submit\":\"%E6%8F%90%E4%BA%A4\",\"pay_type\":\"1\",\"goods_view_num\":\"1\",\"pay_email\":\"1231321%40qq.com\"}');
-INSERT INTO `agencies_configs` VALUES ('8', '37', '{\"keywords\":\"%E4%B9%85%E6%81%92%E6%AC%A2%E8%BF%8E%E6%82%A81\",\"description\":\"%E4%B8%93%E6%B3%A8%E4%BA%92%E8%81%94%E7%BD%91%E4%B8%80%E5%AF%B9%E4%B8%80%E8%BE%85%E5%AF%BC+%E5%85%A8%E8%87%AA%E5%8A%A8%E6%A8%A1%E5%BC%8F%E5%AE%9E%E7%8E%B0%E6%82%A8%E7%9A%84%E6%97%B6%E9%97%B4%E8%87%AA%E7%94%B11\",\"default_template\":\"default\",\"domain\":\"http%3A%2F%2Fwww.m.my1\",\"title\":\"%E4%BA%B2%E7%88%B1%E7%9A%84%E4%BC%9A%E5%91%98_%E6%82%A8%E5%A5%BD%2112\",\"copyright\":\"%3Cp%3E%0D%0A%09%09%09%3Cspan+style%3D%5C%5C%5C%22font-family%3AMicrosoft+YaHei%3B%5C%5C%5C%22%3ECopyright+%C2%A9+2014+10nai.com+%E7%89%88%E6%9D%83%E6%89%80%E6%9C%89+%E4%B9%85%E6%81%92%E5%AE%98%E6%96%B9%E7%BD%91%E7%AB%99%3C%2Fspan%3E%3Cbr+%2F%3E%0D%0A%09%3Cspan+style%3D%5C%5C%5C%22font-family%3AMicrosoft+YaHei%3B%5C%5C%5C%22%3E+%E5%B7%A5%E4%BD%9C%E6%97%B6%E9%97%B4%3A+%E6%97%A99%3A00-%E6%99%9A22%3A00+%E5%9C%B0%E5%9D%80%3A+%E6%B1%9F%E8%8B%8F%E7%9C%81%E6%97%A0%E9%94%A1%E5%B8%82%E7%A6%BE%E5%98%89%E5%A4%A7%E5%8E%A619-21%E6%A5%BC+%3C%2Fspan%3E%3Cbr+%2F%3E%0D%0A%09%3Cspan+style%3D%5C%5C%5C%22font-family%3AMicrosoft+YaHei%3B%5C%5C%5C%22%3E%E6%B3%95%E5%BE%8B%E9%A1%BE%E9%97%AE%3A+%E6%B1%9F%E8%8B%8F%EF%BC%88%E6%97%A0%E9%94%A1%EF%BC%89%E5%85%86%E9%94%A6%E5%BE%8B%E5%B8%88%E4%BA%8B%E5%8A%A1%E6%89%80+%3C%2Fspan%3E%3Cspan+style%3D%5C%5C%5C%22font-family%3A%5C%5C%5C%22Microsoft+YaHei%5C%5C%5C%22%3B%5C%5C%5C%22%3E%E8%BF%9D%E8%80%85%E5%BF%85%E7%A9%B6%3C%2Fspan%3E%3Cbr%2F%3E%0D%0A%09%09%09%09%09%09%09%3C%2Fp%3E%0D%0A\",\"spreader_string\":\"%E4%B8%93%E6%B3%A8%E4%BA%92%E8%81%94%E7%BD%91%E4%B8%80%E5%AF%B9%E4%B8%80%E8%BE%85%E5%AF%BC%EF%BC%8C%E5%85%A8%E8%87%AA%E5%8A%A8%E6%A8%A1%E5%BC%8F%E5%AE%9E%E7%8E%B0%E6%82%A8%E7%9A%84%E6%97%B6%E9%97%B4%E8%87%AA%E7%94%B11\",\"pay_name\":\"%E6%8F%90%E7%8E%B0%E7%94%A8%E6%94%AF%E4%BB%98%E5%AE%9D%E5%A7%93%E5%90%8D1\",\"pay_key\":\"%E6%94%AF%E4%BB%98%E5%AE%9D%28key%29\",\"pay_id\":\"%E6%94%AF%E4%BB%98%E5%AE%9D%28pid%29\",\"pay_email\":\"u63d0u73b0u7528u652fu4ed8u5b9demail1\",\"services_qq\":\"778128861\",\"services_tel\":\"137715525791\",\"spreader_cridits\":\"1\",\"email_code\":\"25652dd2ac6fe60cf81be5be278e83c10455e88b52df75d9\",\"count_code\":\"\",\"logo\":\"images%2Flogo.jpg\",\"index_banner\":\"images%2Fi7.jpg\",\"login_ad\":\"images%2Fad.jpg\",\"pay_type\":\"1\",\"a_id\":\"1\",\"submit\":\"%E6%8F%90%E4%BA%A4\"}');
+INSERT INTO `agencies_configs` VALUES ('8', '37', '{\"keywords\":\"%E4%B9%85%E6%81%92%E6%AC%A2%E8%BF%8E%E6%82%A81\",\"description\":\"%E4%B8%93%E6%B3%A8%E4%BA%92%E8%81%94%E7%BD%91%E4%B8%80%E5%AF%B9%E4%B8%80%E8%BE%85%E5%AF%BC+%E5%85%A8%E8%87%AA%E5%8A%A8%E6%A8%A1%E5%BC%8F%E5%AE%9E%E7%8E%B0%E6%82%A8%E7%9A%84%E6%97%B6%E9%97%B4%E8%87%AA%E7%94%B11\",\"default_template\":\"default\",\"domain\":\"http%3A%2F%2Fwww.m.my\",\"title\":\"%E4%BA%B2%E7%88%B1%E7%9A%84%E4%BC%9A%E5%91%98_%E6%82%A8%E5%A5%BD%2112\",\"copyright\":\"%09%09%09%3Cp%3E%0D%0A%09%09%09%3Cspan+style%3D%22font-family%3AMicrosoft+YaHei%3B%22%3ECopyright+%C2%A9+2014+10nai.com+%E7%89%88%E6%9D%83%E6%89%80%E6%9C%89+%E4%B9%85%E6%81%92%E5%AE%98%E6%96%B9%E7%BD%91%E7%AB%99%3C%2Fspan%3E%3Cbr+%2F%3E%0D%0A%09%3Cspan+style%3D%22font-family%3AMicrosoft+YaHei%3B%22%3E+%E5%B7%A5%E4%BD%9C%E6%97%B6%E9%97%B4%3A+%E6%97%A99%3A00-%E6%99%9A22%3A00+%E5%9C%B0%E5%9D%80%3A+%E6%B1%9F%E8%8B%8F%E7%9C%81%E6%97%A0%E9%94%A1%E5%B8%82%E7%A6%BE%E5%98%89%E5%A4%A7%E5%8E%A619-21%E6%A5%BC+%3C%2Fspan%3E%3Cbr+%2F%3E%0D%0A%09%3Cspan+style%3D%22font-family%3AMicrosoft+YaHei%3B%22%3E%E6%B3%95%E5%BE%8B%E9%A1%BE%E9%97%AE%3A+%E6%B1%9F%E8%8B%8F%EF%BC%88%E6%97%A0%E9%94%A1%EF%BC%89%E5%85%86%E9%94%A6%E5%BE%8B%E5%B8%88%E4%BA%8B%E5%8A%A1%E6%89%80+%3C%2Fspan%3E%3Cspan+style%3D%22font-family%3A%22Microsoft+YaHei%22%3B%22%3E%E8%BF%9D%E8%80%85%E5%BF%85%E7%A9%B6%3C%2Fspan%3E%3Cbr%2F%3E%0D%0A%09%09%09%09%09%09%09%3C%2Fp%3E%0D%0A%09%09%0D%0A\",\"spreader_string\":\"%E4%B8%93%E6%B3%A8%E4%BA%92%E8%81%94%E7%BD%91%E4%B8%80%E5%AF%B9%E4%B8%80%E8%BE%85%E5%AF%BC%EF%BC%8C%E5%85%A8%E8%87%AA%E5%8A%A8%E6%A8%A1%E5%BC%8F%E5%AE%9E%E7%8E%B0%E6%82%A8%E7%9A%84%E6%97%B6%E9%97%B4%E8%87%AA%E7%94%B11\",\"pay_name\":\"%E6%8F%90%E7%8E%B0%E7%94%A8%E6%94%AF%E4%BB%98%E5%AE%9D%E5%A7%93%E5%90%8D1\",\"pay_key\":\"%E6%94%AF%E4%BB%98%E5%AE%9D%28key%29\",\"pay_id\":\"%E6%94%AF%E4%BB%98%E5%AE%9D%28pid%29\",\"pay_email\":\"u63d0u73b0u7528u652fu4ed8u5b9demail1\",\"services_qq\":\"778128861\",\"services_tel\":\"137715525791\",\"spreader_cridits\":\"1\",\"email_code\":\"25652dd2ac6fe60cf81be5be278e83c10455e88b52df75d9\",\"count_code\":\"%3Cscript+type%3D%22text%2Fjavascript%22%3E%0D%0Avar+_bdhmProtocol+%3D+%28%28%22https%3A%22+%3D%3D+document.location.protocol%29+%3F+%22+https%3A%2F%2F%22+%3A+%22+http%3A%2F%2F%22%29%3B%0D%0Adocument.write%28unescape%28%22%253Cscript+src%3D%27%22+%2B+_bdhmProtocol+%2B+%22hm.baidu.com%2Fh.js%253F5e3a086c073a2a9fa408d100f5f8cf59%27+type%3D%27text%2Fjavascript%27%253E%253C%2Fscript%253E%22%29%29%3B%0D%0A%3C%2Fscript%3E%0D%0A\",\"logo\":\"%2Fimages%2F20140422%2F139814870300120544.jpg\",\"index_banner\":\"%2Fimages%2F20140422%2F139814871803937988.jpg\",\"login_ad\":\"%2Fimages%2F20140422%2F139814872906758117.jpg\",\"pay_type\":\"1\",\"a_id\":\"1\",\"submit\":\"%E6%8F%90%E4%BA%A4\"}');
 
 -- ----------------------------
 -- Table structure for agencies_expense
@@ -166,6 +166,39 @@ INSERT INTO `articles` VALUES ('45', '4', '初级课程', '<p>&nbsp;</p>\r\n\r\n
 INSERT INTO `articles` VALUES ('46', '0', '【小马】—发传单也能日赚1000元', '<p><span style=\"font-size:16px\">&nbsp; <strong>这几天都不在电脑面前，也没时间上网。很多学员都给我发短信息，QQ留言，我回来后都会给大家一一解答，当然也谢谢各位的关心。</strong></span></p>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<p><span style=\"font-size:16px\">&nbsp; 因为自己和几个朋友正在做一个实体项目，这几天跑了外地好几个城市，现在前期铺垫已经洒网布局完成，这不是上班打工，所以咱们做事眼光还是要放长远一些，只有放长线才能钓大鱼，很多朋友都想着今天付出明天就回报，那不现实，农民伯伯春天种的粮食怎么说也得秋天收获呀，所以做任何事心态必须第一位。离开这几天，我的互联网生意当然也没有停息，运作的也非常稳定，互联网持续性的收入，也是我敢再次出去闯一闯的原因。</span></p>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<p><span style=\"font-size:16px\"><img alt=\"\" src=\"http://10nai.com/images/uplaod/s.jpg\" style=\"height:458px; width:956px\" /></span></p>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<p><span style=\"font-size:16px\">&nbsp; 这次途中认识了一个90后的朋友，我们都喊他小林，他以前是个街舞教练，现在他自己有1个街舞培训班，和2个溜冰培训班，他每年只做暑假和寒假几个月。</span></p>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<p><span style=\"font-size:16px\">吃饭聊天时得知，这几家培训班，他已经开了有4年了，而且每年仅靠3 4个月左右的时间，收入都能稳定在15-20万左右，当然我也提出了我的好奇之处，这个钱是怎么赚的？</span></p>\r\n\r\n<p><br />\r\n<span style=\"font-size:16px\">&nbsp; 深聊中他也给我们算了一笔账，一个舞蹈培训班，基本每次都可以招生200人，寒假暑假就是400人，其中有 月卡，年卡，周卡等 平均算下来一个学生收费500,400&times;500=20万左右，当然20万不是净的，去掉场地租金和回扣等，净利润在12万左右。当然了，每年400个学生如何招到的，小林也和我们分享了一下，<strong><span style=\"color:#ff0000\">他主要的来源渠道是学生，每个学校的学生就是他的招生代理，还有一部分来源是分类信息网，团购，朋友介绍，以及发传单等。</span></strong></span></p>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<p><span style=\"font-size:16px\">&nbsp; 一说到发传单，他可来劲了，他说这个方法又简单又给力！他接着和我们说起了他做溜冰培训班的方法，在小林家附近有一个幼儿园和一个小学，每天放学都有很多家长，舞蹈房有多余的场地，于是他灵机一动，决定搞溜冰，因为小学和幼儿园，用学生介绍的方式更本行不通，都还是孩子，现在的孩子学习压力大，家长都会给孩子报个兴趣班什么的，所以他决定从家长开始切入，方法再简单不过，开始做了几千份传单，请了2个大学生在学习门口发给家长，没想到当天就有不少电话打来咨询，由于场地神马的都是现成的，可谓是天时地利人和，最后自己在淘宝批发了溜冰鞋，孩子要学可以直接买，学溜冰学费一般是500，学时2个月，最好的时候一天可以收6个学生，日赚3000+，小林又请了2个兼职学生教练，每年下来学溜冰的学生在100个左右，去掉开支也能净赚个3-4万多...</span></p>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<p><span style=\"font-size:16px\"><strong>有的人说</strong>，没有项目，其实人和一个技能，特长，产品，都可以作为项目。<br />\r\n<strong>有的人说</strong>，没有方法，方法有很多，关键你有没有去实践，总结经验。<br />\r\n<strong>还有的人说</strong>，没有资金，那你可以从互联网开始改变。<br />\r\n如果说你什么都没有，那么你应该要先去找份工作了。</span></p>\r\n\r\n<p><br />\r\n<span style=\"font-size:16px\">其实任何事情只是开头麻烦些，做顺了也就那样，如果你也是自己有想法的朋友，那么千万不要迟迟的光想，赶紧去做吧！</span></p>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<p>&nbsp;14版最新系统，自动化流量，自动化成交，一键化复制，无需顾虑产品，无需顾虑客户，无需担心技术，让你时时刻刻轻松赚钱。</p>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<p><a href=\"http://10nai.com/user.php?act=login\" target=\"_blank\"><strong><span style=\"font-size:16px\">久恒官方网站登入</span></strong></a></p>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<p>&nbsp;</p>\r\n', '1393824681');
 
 -- ----------------------------
+-- Table structure for article_fee_type
+-- ----------------------------
+DROP TABLE IF EXISTS `article_fee_type`;
+CREATE TABLE `article_fee_type` (
+  `article_fee_type_id` int(11) NOT NULL AUTO_INCREMENT,
+  `type_name` varchar(255) DEFAULT '',
+  `add_time` varchar(255) DEFAULT '',
+  PRIMARY KEY (`article_fee_type_id`)
+) ENGINE=MyISAM DEFAULT CHARSET=utf8;
+
+-- ----------------------------
+-- Records of article_fee_type
+-- ----------------------------
+
+-- ----------------------------
+-- Table structure for article_free
+-- ----------------------------
+DROP TABLE IF EXISTS `article_free`;
+CREATE TABLE `article_free` (
+  `article_free_id` int(11) NOT NULL AUTO_INCREMENT,
+  `type_id` int(11) DEFAULT '0',
+  `title` varchar(255) DEFAULT '',
+  `content` text,
+  `add_time` varchar(255) DEFAULT '',
+  PRIMARY KEY (`article_free_id`)
+) ENGINE=MyISAM AUTO_INCREMENT=3 DEFAULT CHARSET=utf8;
+
+-- ----------------------------
+-- Records of article_free
+-- ----------------------------
+INSERT INTO `article_free` VALUES ('1', null, '久恒营销：专注互联网一对一辅导 全自动模式实现您的时间自由', '<p style=\"text-align:center\">&nbsp;</p>\r\n\r\n<p style=\"text-align:center\"><img alt=\"\" src=\"file:///E:/apache/www/study/html0/images/20130820035046_21714.png\" style=\"word-wrap:break-word\" /></p>\r\n\r\n<p style=\"text-align:center\">&nbsp;</p>\r\n\r\n<p style=\"text-align:center\">&nbsp;</p>\r\n\r\n<p style=\"text-align:center\">&nbsp;</p>\r\n\r\n<p><span style=\"font-size:16px\">&nbsp;&nbsp;<strong>这几天都不在电脑面前，也没时间上网。很多学员都给我发短信息，QQ留言，我回来后都会给大家一一解答，当然也谢谢各位的关心。</strong></span></p>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<p><span style=\"font-size:16px\">&nbsp; 因为自己和几个朋友正在做一个实体项目，这几天跑了外地好几个城市，现在前期铺垫已经洒网布局完成，这不是上班打工，所以咱们做事眼光还是要放长远一些，只有放长线才能钓大鱼，很多朋友都想着今天付出明天就回报，那不现实，农民伯伯春天种的粮食怎么说也得秋天收获呀，所以做任何事心态必须第一位。离开这几天，我的互联网生意当然也没有停息，运作的也非常稳定，互联网持续性的收入，也是我敢再次出去闯一闯的原因。</span></p>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<p><span style=\"font-size:16px\"><img alt=\"\" src=\"http://10nai.com/images/uplaod/s.jpg\" style=\"height:458px; width:956px; word-wrap:break-word\" /></span></p>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<p><span style=\"font-size:16px\">&nbsp; 这次途中认识了一个90后的朋友，我们都喊他小林，他以前是个街舞教练，现在他自己有1个街舞培训班，和2个溜冰培训班，他每年只做暑假和寒假几个月。</span></p>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<p><span style=\"font-size:16px\">吃饭聊天时得知，这几家培训班，他已经开了有4年了，而且每年仅靠3 4个月左右的时间，收入都能稳定在15-20万左右，当然我也提出了我的好奇之处，这个钱是怎么赚的？</span></p>\r\n\r\n<p><br />\r\n<span style=\"font-size:16px\">&nbsp; 深聊中他也给我们算了一笔账，一个舞蹈培训班，基本每次都可以招生200人，寒假暑假就是400人，其中有 月卡，年卡，周卡等 平均算下来一个学生收费500,400&times;500=20万左右，当然20万不是净的，去掉场地租金和回扣等，净利润在12万左右。当然了，每年400个学生如何招到的，小林也和我们分享了一下，<strong><span style=\"color:rgb(255, 0, 0)\">他主要的来源渠道是学生，每个学校的学生就是他的招生代理，还有一部分来源是分类信息网，团购，朋友介绍，以及发传单等。</span></strong></span></p>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<p><span style=\"font-size:16px\">&nbsp; 一说到发传单，他可来劲了，他说这个方法又简单又给力！他接着和我们说起了他做溜冰培训班的方法，在小林家附近有一个幼儿园和一个小学，每天放学都有很多家长，舞蹈房有多余的场地，于是他灵机一动，决定搞溜冰，因为小学和幼儿园，用学生介绍的方式更本行不通，都还是孩子，现在的孩子学习压力大，家长都会给孩子报个兴趣班什么的，所以他决定从家长开始切入，方法再简单不过，开始做了几千份传单，请了2个大学生在学习门口发给家长，没想到当天就有不少电话打来咨询，由于场地神马的都是现成的，可谓是天时地利人和，最后自己在淘宝批发了溜冰鞋，孩子要学可以直接买，学溜冰学费一般是500，学时2个月，最好的时候一天可以收6个学生，日赚3000+，小林又请了2个兼职学生教练，每年下来学溜冰的学生在100个左右，去掉开支也能净赚个3-4万多...</span></p>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<p><span style=\"font-size:16px\"><strong>有的人说</strong>，没有项目，其实人和一个技能，特长，产品，都可以作为项目。<br />\r\n<strong>有的人说</strong>，没有方法，方法有很多，关键你有没有去实践，总结经验。<br />\r\n<strong>还有的人说</strong>，没有资金，那你可以从互联网开始改变。<br />\r\n如果说你什么都没有，那么你应该要先去找份工作了。</span></p>\r\n\r\n<p><br />\r\n<span style=\"font-size:16px\">其实任何事情只是开头麻烦些，做顺了也就那样，如果你也是自己有想法的朋友，那么千万不要迟迟的光想，赶紧去做吧！</span></p>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<p>&nbsp;14版最新系统，自动化流量，自动化成交，一键化复制，无需顾虑产品，无需顾虑客户，无需担心技术，让你时时刻刻轻松赚钱。</p>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<p><a href=\"http://10nai.com/user.php?act=login\" style=\"word-wrap: break-word; color: rgb(51, 51, 51); text-decoration: none;\" target=\"_blank\"><strong><span style=\"font-size:16px\">久恒官方网站登入</span></strong></a></p>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<p>我是小马：QQ 77812886</p>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<p>&nbsp;</p>\r\n', '1398675730');
+
+-- ----------------------------
 -- Table structure for article_type
 -- ----------------------------
 DROP TABLE IF EXISTS `article_type`;
@@ -207,7 +240,7 @@ CREATE TABLE `configs` (
 INSERT INTO `configs` VALUES ('1', 'keywords', '久恒欢迎您', null);
 INSERT INTO `configs` VALUES ('2', 'description', '专注互联网一对一辅导 全自动模式实现您的时间自由', null);
 INSERT INTO `configs` VALUES ('3', 'default_template', 'default', null);
-INSERT INTO `configs` VALUES ('4', 'domain', 'http://10nai.com', null);
+INSERT INTO `configs` VALUES ('4', 'domain', 'http://10na2i.com', null);
 INSERT INTO `configs` VALUES ('5', 'title', '亲爱的会员_您好!', null);
 INSERT INTO `configs` VALUES ('6', 'copyright', 'Copyright 2014 10nai.com版权所有 久恒官方网站\r\n联系方式：Email：vip10nai@qq.com  电话:13771552579', null);
 INSERT INTO `configs` VALUES ('7', 'spreader_string', '专注互联网一对一辅导，全自动模式实现您的时间自由', null);
@@ -234,7 +267,7 @@ INSERT INTO `configs` VALUES ('27', 'services_qq_array', '77812886', null);
 INSERT INTO `configs` VALUES ('28', 'login_credits', '1', null);
 INSERT INTO `configs` VALUES ('29', 'agency_spreader', '0.2', null);
 INSERT INTO `configs` VALUES ('30', 'agency_goods', '0.1', null);
-INSERT INTO `configs` VALUES ('31', 'notice', '<a href=\'index.php\'>这里是链接公告</a>  也可以在这里写文字', null);
+INSERT INTO `configs` VALUES ('31', 'notice', '%3Ca+href%3D%27index.php%27%3E%E8%BF%99%E9%87%8C%E6%98%AF%E9%93%BE%E6%8E%A5%E5%85%AC%E5%91%8A%3C%2Fa%3E++%E4%B9%9F%E5%8F%AF%E4%BB%A5%E5%9C%A8%E8%BF%99%E9%87%8C%E5%86%99%E6%96%87%E5%AD%97', null);
 
 -- ----------------------------
 -- Table structure for expense
@@ -1491,7 +1524,7 @@ INSERT INTO `users` VALUES ('1053', '839797084', '求昵称', '4297f44b139552352
 INSERT INTO `users` VALUES ('1054', '120604425', '求昵称', '6de6c9b2adc56cfdcc881b260c339b2a', '120604425@qq.com', '51', '0', '0', '', '117.64.239.89', '0', '', '', '', '1394675216', '0', '', '0');
 INSERT INTO `users` VALUES ('1056', '991420153', '求昵称', 'd110d3bb041ded384d587b9c7a7ad8f0', '991420153@qq.com', '51', '0', '0', '', '117.136.2.156', '0', '', '', '', '1394689655', '0', '', '0');
 INSERT INTO `users` VALUES ('1057', '244062248', '求昵称', '72b579229f67dc6c4353d00f6a3063fd', '244062248@qq.com', '50', '0', '0', '', '114.104.99.134', '0', '', '', '', '1394690974', '0', '', '0');
-INSERT INTO `users` VALUES ('1058', '1234567', '求昵称', 'fa270fc29196eab2c6bfe5b123a19010', '1234567@qq.com', '0', '9999', '7239', '127.0.0.1', '127.0.0.1', '2', 'asdasd2', '12345', 'asdasd2', '1396161171', '1', '0.5', '36');
+INSERT INTO `users` VALUES ('1058', '1234567', '求昵称', 'fa270fc29196eab2c6bfe5b123a19010', '1234567@qq.com', '0', '9999', '7239', '127.0.0.1', '127.0.0.1', '-1', 'asdasd2', '12345', 'asdasd2', '1396161171', '1', '0.5', '37');
 
 -- ----------------------------
 -- Table structure for vipmsg

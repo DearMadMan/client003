@@ -23,6 +23,8 @@
             <li><a href='main.php?menu=goods&target=vip' >VIP积分转换</a> </li>
             <li><a href='main.php?menu=goods&target=article' >文章中心</a> </li>
             <li><a href='main.php?menu=goods&target=article_type' >文章分类</a> </li>
+             <li><a href='main.php?menu=goods&target=article_free' >营销资讯</a> </li>
+             <li><a href='main.php?menu=goods&target=article_free_type' >营销分类</a> </li>
           </ul>
           {else}
           <ul class='sitemu'>

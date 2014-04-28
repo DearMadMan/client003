@@ -41,7 +41,7 @@ else
 {
     GetConfigsFromDatabaseByAgenciesId($_SESSION['agencies_id']);
 }
-
+$smarty->assign("config_main_domain","http://www.".$config_main_domain);
 $smarty->assign('mad_configs',$GLOBALS['configs']);
 
 $smarty->assign('view_path',"view/".$GLOBALS['configs']['default_template']);
