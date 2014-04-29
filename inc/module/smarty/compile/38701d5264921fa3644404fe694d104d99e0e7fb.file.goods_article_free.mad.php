@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.16, created on 2014-04-28 17:14:02
+<?php /* Smarty version Smarty-3.1.16, created on 2014-04-28 20:00:30
          compiled from "E:\apache\www\study\admin\template\goods_article_free.mad" */ ?>
 <?php /*%%SmartyHeaderCode:2833535e152d29fc10-01473345%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     '38701d5264921fa3644404fe694d104d99e0e7fb' => 
     array (
       0 => 'E:\\apache\\www\\study\\admin\\template\\goods_article_free.mad',
-      1 => 1398676440,
+      1 => 1398677256,
       2 => 'file',
     ),
   ),
@@ -64,6 +64,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
 </tr>
 <tr align="center" bgcolor="#FAFAF1" height="22">
     <td width="6%">ID</td>
+    <td width="11%">分类名</td>
     <td width="50%">标题</td>
     <td width="11%">时间</td>
     <td width="8%">编辑</td>
@@ -76,6 +77,8 @@ $_smarty_tpl->tpl_vars['v']->_loop = true;
 ?>
 <tr align='center' bgcolor="#FFFFFF" onMouseMove="javascript:this.bgColor='#FCFDEE';" onMouseOut="javascript:this.bgColor='#FFFFFF';" height="22" >
     <td><?php echo $_smarty_tpl->tpl_vars['v']->value['article_free_id'];?>
+</td>
+    <td><?php echo $_smarty_tpl->tpl_vars['v']->value['type_name'];?>
 </td>
     <td>
      <a href="../article.php?id=<?php echo $_smarty_tpl->tpl_vars['v']->value['article_free_id'];?>

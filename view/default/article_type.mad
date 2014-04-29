@@ -1,0 +1,38 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>久恒欢迎您</title>
+<meta name="keywords" content="专注互联网一对一辅导 全自动模式实现您的时间自由" />
+<meta name="description" content="久恒欢迎您" />
+<link rel="stylesheet" type="text/css" href="{$vp}/css/style2.css" />
+</head>
+<body class="bg">
+
+{include file="article_header.mad"}
+
+
+<div class="W main clear" style="margin-top:30px;">
+    <div class="listbox clear">
+       <div class="listhead">
+            <h2>{$type.type_name}</h2>
+        </div>
+        <div class="listcon">
+            <ul class="arclist">
+            {foreach $articles as $v}
+                <li>[ <a href="article_type.php?id={$type.article_free_type_id}">{$type.type_name}</a> ]
+                <a href="article.php?id={$v.article_free_id}" title="{$v.title}">
+                {$v.title}
+                </a>
+                <span class="pubdate">{$v.add_time|date_format:"%Y-%m-%d"}</span>
+                </li>
+            {/foreach}
+            </ul>
+    </div>
+</div>
+
+
+{include file='article_footer.mad'}
+
+</body>
+</html>

@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.16, created on 2014-04-28 16:10:13
+<?php /* Smarty version Smarty-3.1.16, created on 2014-04-29 09:34:18
          compiled from "E:\apache\www\study\view\default\article_footer.mad" */ ?>
 <?php /*%%SmartyHeaderCode:14375535e031db08e48-28025655%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     'b3943d1326507a9611997a7bb8a7c31f0c84cfd2' => 
     array (
       0 => 'E:\\apache\\www\\study\\view\\default\\article_footer.mad',
-      1 => 1398672129,
+      1 => 1398732011,
       2 => 'file',
     ),
   ),
@@ -45,7 +45,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
 </div>
 
 <div class="checkweb">
- <a href="<?php echo $_smarty_tpl->tpl_vars['config_main_domain']->value;?>
+ <a target="_blank" href="<?php echo $_smarty_tpl->tpl_vars['config_main_domain']->value;?>
 /agencies_check.php?act=check_now&domain=<?php echo $_smarty_tpl->tpl_vars['mad_configs']->value['domain'];?>
 "><img src="<?php echo $_smarty_tpl->tpl_vars['vp']->value;?>
 /images/checkweb.png" alt="验证"></a>

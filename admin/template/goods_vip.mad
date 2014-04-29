@@ -7,6 +7,7 @@
 <div class='goods-vip' >
 	<p>开通VIP所需金钱:<input type="text" name='vip_money' value="{$mad_configs.vip_money}"></p>
 	<p>开通VIP赠送积分:<input type="text" name='vip_credits' value="{$mad_configs.vip_credits}"></p>
+	<p> 初级会员佣金比率:<input type="text" name='low_spreader' value="{$mad_configs.low_spreader}"></p>
 	<p>VIP默认佣金比率:<input type="text" name='vip_spreader' value="{$mad_configs.vip_spreader}"></p>
 	<p>加盟商Vip佣金比率:<input type="text" name='agency_spreader' value="{$mad_configs.agency_spreader}"></p>
 	<p>加盟商商品佣金比率:<input type="text" name='agency_goods' value="{$mad_configs.agency_goods}"></p>

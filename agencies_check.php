@@ -18,7 +18,7 @@ if($act=="check")
 
     if(strpos($domain,".")!=false)
     {
-        preg_match('/[^.]+.[^.]+$/' , $domain,$matches);
+        preg_match('/[^.\/]+.[^.]+$/' , $domain,$matches);
        $sql="select * from agencies where domain='".$matches[0]."'";
        $res=$db->getRow($sql);
        if(empty($res))
@@ -40,7 +40,7 @@ elseif($act=="check_now")
   $smarty->assign("other","domain");
     if(strpos($domain,".")!=false)
     {
-        preg_match('/[^.]+.[^.]+$/' , $domain,$matches);
+        preg_match('/[^.\/]+.[^.]+$/' , $domain,$matches);
        $sql="select * from agencies where domain='".$matches[0]."'";
        $res=$db->getRow($sql);
        if(empty($res))

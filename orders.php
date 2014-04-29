@@ -208,16 +208,13 @@ elseif($act=='goods')
 				{
 					if($spreader['vip_level']<1)
 					{
-						if($spreader['vip_level']==-1)
+						if($spreader['vip_level']==-1)  //初级会员
 						{
 
 							//增加佣金
-							$spreader_rate=$spreader['spreader_rate'];
-							if(empty($spreader['spreader_rate']))
-							{
 
-								$spreader_rate=floatval($GLOBALS['configs']["spreader_rate"]);
-							}
+							$spreader_rate=floatval($GLOBALS['configs']["low_spreader"]);
+
 							$sql="update users set money=money+".floor($goods["need_money"]*$spreader_rate)." where id=".$spreader['id'];
 							$res=$db->Query($sql);
 

@@ -16,5 +16,5 @@
 </div>
 
 <div class="checkweb">
- <a href="{$config_main_domain}/agencies_check.php?act=check_now&domain={$mad_configs.domain}"><img src="{$vp}/images/checkweb.png" alt="验证"></a>
+ <a target="_blank" href="{$config_main_domain}/agencies_check.php?act=check_now&domain={$mad_configs.domain}"><img src="{$vp}/images/checkweb.png" alt="验证"></a>
 </div>

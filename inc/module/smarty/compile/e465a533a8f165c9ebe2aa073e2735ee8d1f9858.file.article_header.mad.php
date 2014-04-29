@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.16, created on 2014-04-28 15:28:29
+<?php /* Smarty version Smarty-3.1.16, created on 2014-04-29 09:34:18
          compiled from "E:\apache\www\study\view\default\article_header.mad" */ ?>
 <?php /*%%SmartyHeaderCode:6886535e031dae7be4-68512968%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     'e465a533a8f165c9ebe2aa073e2735ee8d1f9858' => 
     array (
       0 => 'E:\\apache\\www\\study\\view\\default\\article_header.mad',
-      1 => 1398670016,
+      1 => 1398735208,
       2 => 'file',
     ),
   ),
@@ -15,13 +15,15 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   'function' => 
   array (
   ),
+  'version' => 'Smarty-3.1.16',
+  'unifunc' => 'content_535e031dafbb45_23100400',
   'variables' => 
   array (
     'vp' => 0,
+    'free_types' => 0,
+    'v' => 0,
   ),
   'has_nocache_code' => false,
-  'version' => 'Smarty-3.1.16',
-  'unifunc' => 'content_535e031dafbb45_23100400',
 ),false); /*/%%SmartyHeaderCode%%*/?>
 <?php if ($_valid && !is_callable('content_535e031dafbb45_23100400')) {function content_535e031dafbb45_23100400($_smarty_tpl) {?>
 <div class="W top">
@@ -47,19 +49,18 @@ $_valid = $_smarty_tpl->decodeProperties(array (
         <li><a href="/">首页</a></li>
         <li><img src="<?php echo $_smarty_tpl->tpl_vars['vp']->value;?>
 /images/navli.png"/></li>
-        <li><a href="/User-index.html">会员中心</a></li>
+        <li><a href="user.php">会员中心</a></li>
+        <?php  $_smarty_tpl->tpl_vars['v'] = new Smarty_Variable; $_smarty_tpl->tpl_vars['v']->_loop = false;
+ $_from = $_smarty_tpl->tpl_vars['free_types']->value; if (!is_array($_from) && !is_object($_from)) { settype($_from, 'array');}
+foreach ($_from as $_smarty_tpl->tpl_vars['v']->key => $_smarty_tpl->tpl_vars['v']->value) {
+$_smarty_tpl->tpl_vars['v']->_loop = true;
+?>
         <li><img src="<?php echo $_smarty_tpl->tpl_vars['vp']->value;?>
 /images/navli.png"/></li>
-        <li><a href="/Archive-show-id-50.html">营销资讯</a></li>
-        <li><img src="<?php echo $_smarty_tpl->tpl_vars['vp']->value;?>
-/images/navli.png"/></li>
-        <li><a href="/Comment-show.html">会员评价</a></li>
-        <li><img src="<?php echo $_smarty_tpl->tpl_vars['vp']->value;?>
-/images/navli.png"/></li>
-        <li><a href="/Page-show-id-47.html">关于我们</a></li>
-        <li><img src="<?php echo $_smarty_tpl->tpl_vars['vp']->value;?>
-/images/navli.png"/></li>
-        <li><a href="/Page-show-id-108.html">加盟合作</a></li>
+        <li><a href="article_type.php?id=<?php echo $_smarty_tpl->tpl_vars['v']->value['article_free_type_id'];?>
+"><?php echo $_smarty_tpl->tpl_vars['v']->value['type_name'];?>
+</a></li>
+        <?php } ?>
     </ul>
 </div>
 

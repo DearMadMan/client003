@@ -29,7 +29,7 @@
   <td width="81%" align="left"><textarea style="width:700px; height:400px" id="article_content" name="content">{$article.content}</textarea>
     </td>
 </tr>
-<input type="hidden" name='id' value='{$article.article_free_id}'>
+<input type="hidden" name='id' value='{$article.type_id}'>
 
 <tr align="center" bgcolor="#FAFAF1" height="22">
 

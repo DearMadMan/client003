@@ -127,10 +127,10 @@ elseif($act=="DeleteArticleType")
 	CanPass();
 	DeleteSomething("article_type");
 }
-elseif($act=="DeleteArticleFreeType","article_fee_type_id")
+elseif($act=="DeleteArticleFreeType")
 {
 	CanPass();
-	DeleteSomething("article_free_type");
+	DeleteSomething("article_free_type","article_free_type_id");
 }
 else
 {

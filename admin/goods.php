@@ -129,8 +129,11 @@ elseif ($act=='articleEdit') {
 
 elseif ($act=='articleFreeEdit') {
 	CanPass();
+
 	if(isset($_REQUEST['id'])&&is_numeric($_REQUEST['id']))
 	{
+
+
 		if($_REQUEST['id']==0)
 		{
 			$fields=array("type_id","title","content","add_time");
@@ -217,11 +220,13 @@ elseif($act=='articleTypeEdit')
 elseif($act=='articleFreeTypeEdit')
 {
 	CanPass();
+
 	if(isset($_REQUEST['id'])&&is_numeric($_REQUEST['id']))
 	{
 		if($_REQUEST['id']==0)
 		{
-			$fields=array("article_fee_type_id","type_name");
+
+			$fields=array("article_free_type_id","type_name");
 			$data=array(
 				intval($_REQUEST['id']),
 				$_REQUEST['type_name']
@@ -239,7 +244,7 @@ elseif($act=='articleFreeTypeEdit')
 		}
 		else
 		{
-				$sql="update article_free_type set type_name='".$_REQUEST['type_name']."' where article_fee_type_id=".intval($_REQUEST['id']);
+				$sql="update article_free_type set type_name='".$_REQUEST['type_name']."' where article_free_type_id=".intval($_REQUEST['id']);
 			$res=$db->Query($sql);
 			if($db->GetAffectedRows()>0)
 			{

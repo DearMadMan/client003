@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.16, created on 2014-04-28 17:00:54
+<?php /* Smarty version Smarty-3.1.16, created on 2014-04-28 20:03:10
          compiled from "E:\apache\www\study\admin\template\main.mad" */ ?>
 <?php /*%%SmartyHeaderCode:275965328f1fd3f72a9-89750931%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     '8e809091ed877dcfeb0e62b5caa54e5f1ce72b68' => 
     array (
       0 => 'E:\\apache\\www\\study\\admin\\template\\main.mad',
-      1 => 1398675652,
+      1 => 1398686587,
       2 => 'file',
     ),
   ),
@@ -126,6 +126,14 @@ $_valid = $_smarty_tpl->decodeProperties(array (
 				<?php } elseif ($_smarty_tpl->tpl_vars['target']->value=='article_type_edit') {?>
 				<?php echo $_smarty_tpl->getSubTemplate ('goods_article_type_edit.mad', $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, null, array(), 0);?>
 
+
+
+
+				<?php } elseif ($_smarty_tpl->tpl_vars['target']->value=='article_free_type') {?>
+				<?php echo $_smarty_tpl->getSubTemplate ('goods_article_free_type.mad', $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, null, array(), 0);?>
+
+				<?php } elseif ($_smarty_tpl->tpl_vars['target']->value=='article_free_type_edit') {?>
+				<?php echo $_smarty_tpl->getSubTemplate ('goods_article_free_type_edit.mad', $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, null, array(), 0);?>
 
 
 				<?php } elseif ($_smarty_tpl->tpl_vars['target']->value=='article_free') {?>

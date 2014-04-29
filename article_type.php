@@ -15,7 +15,7 @@ if(empty($type))
 }
 $smarty->assign("type",$type);
 $sql="select * from article_free where type_id=$id";
-$res=$db->getRow($sql);
+$res=$db->getAll($sql);
 if(empty($res))
 {
     location("index.php");

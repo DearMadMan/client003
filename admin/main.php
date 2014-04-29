@@ -289,7 +289,7 @@ if($menu=='users')
 		}
 		else
 		{
-			$res['article_free_id']=0;
+			$res['type_id']=0;
 			$res['title']="";
 			$res['content']="";
 			$smarty->assign("article",$res);
@@ -307,7 +307,7 @@ if($menu=='users')
 		CanPass();
 		$sql="select * from article_free_type ";
 		$pagePath="main.php?menu=goods&target=article_free_type";
-		$id='article_fee_type_id';
+		$id='article_free_type_id';
 		pageTooleFunc($sql,$pagePath,$id);
 	}
 	elseif ($target=='article_edit')
@@ -353,6 +353,29 @@ if($menu=='users')
 		else
 		{
 			$res['id']=0;
+			$res['type_name']="";
+			$smarty->assign("article_type",$res);
+		}
+	}
+
+	elseif ($target=='article_free_type_edit') {
+		CanPass();
+		if(isset($_REQUEST['id'])&&is_numeric($_REQUEST['id'])&&!empty($_REQUEST['id']))
+		{
+			$sql="select * from article_free_type where article_free_type_id=".intval($_REQUEST['id']);
+			$res=$db->getRow($sql);
+			if(!empty($res))
+			{
+				$smarty->assign("article_type",$res);
+			}
+			else
+			{
+				JsAlertAndJump("获取数据失败,请重新尝试!","main.php?menu=goods&target=article_type");
+			}
+		}
+		else
+		{
+			$res['article_free_type_id']=0;
 			$res['type_name']="";
 			$smarty->assign("article_type",$res);
 		}

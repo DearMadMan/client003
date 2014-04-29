@@ -38,12 +38,12 @@
 </tr>
 {foreach $rows as $v}
 <tr align='center' bgcolor="#FFFFFF" onMouseMove="javascript:this.bgColor='#FCFDEE';" onMouseOut="javascript:this.bgColor='#FFFFFF';" height="22" >
-    <td>{$v.article_fee_type_id}</td>
+    <td>{$v.article_free_type_id}</td>
 
     <td>
       {$v.type_name}</td>
-    <td><a  style="color:red;" value="{$v.article_fee_type_id}" href="main.php?menu=goods&target=article_free_type_edit&id={$v.article_fee_type_id}">编辑</a></td>
-    <td><input name="checkboxid[]" type="checkbox" value="{$v.article_fee_type_id}" class="np"></td>
+    <td><a  style="color:red;" value="{$v.article_free_type_id}" href="main.php?menu=goods&target=article_free_type_edit&id={$v.article_free_type_id}">编辑</a></td>
+    <td><input name="checkboxid[]" type="checkbox" value="{$v.article_free_type_id}" class="np"></td>
 </tr>
 {/foreach}
 <tr bgcolor="#FAFAF1">

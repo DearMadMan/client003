@@ -50,4 +50,12 @@ $smarty->assign("plugin_path","plugin");
 //echo "view/".$GLOBALS['configs']['default_template'];
 //print_r($GLOBALS['configs']);die;
 
+
+//获取所有分类
+
+$sql="select * from article_free_type ";
+$free_types=$db->getAll($sql);
+$smarty->assign("free_types",$free_types);
+
+
 ?>

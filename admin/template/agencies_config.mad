@@ -9,10 +9,12 @@
 <tr bgcolor="#E7E7E7">
   <td height="24" colspan="10" background="{$vp}/images/tbg.gif">站点设置</td>
 </tr>
+<!--
 <tr align="center" bgcolor="#FAFAF1" height="30">
   <td width="19%">Logo</td>
   <td width="81%" align="left"><input style="width:300px" type="text" name="logo" value="{$mad_configs.logo}" /> <input type="button" value='上传'> </td>
 </tr>
+-->
 <tr align="center" bgcolor="#FAFAF1" height="30">
   <td width="19%">首页主图</td>
   <td width="81%" align="left"><input style="width:300px" type="text" name="index_banner" value="{$mad_configs.index_banner}" /> <input type="button" value='上传'></td>

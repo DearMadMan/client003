@@ -19,15 +19,11 @@
     <ul>
         <li><a href="/">首页</a></li>
         <li><img src="{$vp}/images/navli.png"/></li>
-        <li><a href="/User-index.html">会员中心</a></li>
+        <li><a href="user.php">会员中心</a></li>
+        {foreach $free_types as $v}
         <li><img src="{$vp}/images/navli.png"/></li>
-        <li><a href="/Archive-show-id-50.html">营销资讯</a></li>
-        <li><img src="{$vp}/images/navli.png"/></li>
-        <li><a href="/Comment-show.html">会员评价</a></li>
-        <li><img src="{$vp}/images/navli.png"/></li>
-        <li><a href="/Page-show-id-47.html">关于我们</a></li>
-        <li><img src="{$vp}/images/navli.png"/></li>
-        <li><a href="/Page-show-id-108.html">加盟合作</a></li>
+        <li><a href="article_type.php?id={$v.article_free_type_id}">{$v.type_name}</a></li>
+        {/foreach}
     </ul>
 </div>
 
