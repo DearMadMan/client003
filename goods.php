@@ -114,7 +114,7 @@ elseif ($act=="getvip")
 							$sql="update users set money=money+".floor($GLOBALS['configs']['vip_money']*$sp['spreader_rate'])." where id='".$sp['id']."'";
 						}
 					}
-					if($sp['vip_level']==0)
+					if($sp['vip_level']<=0)
 					{
 
 					}

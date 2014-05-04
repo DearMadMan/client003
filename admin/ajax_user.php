@@ -10,7 +10,7 @@ if(isset($_REQUEST['act']))
 
 if($act=="payit")
 {
-	CanPass();
+
 	if(isset($_REQUEST['id'])&&!empty($_REQUEST['id'])&&is_numeric($_REQUEST['id']))
 	{
 		$sql="update expense set expense_status=1 where id=".$_REQUEST['id'];

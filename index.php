@@ -12,7 +12,7 @@ else
 {
 	$url=$_SERVER['HTTP_HOST'];
 	$spreader=0;
-	if(preg_match('/(\d+)\./',$url,$_matchs))
+	if(preg_match('/(\d+)\.[^.]+\./',$url,$_matchs))
 	{
 		$spreader=$_matchs[1];
 	}

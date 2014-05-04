@@ -39,7 +39,7 @@
 {foreach $rows as $v}
 <tr align='center' bgcolor="#FFFFFF" onMouseMove="javascript:this.bgColor='#FCFDEE';" onMouseOut="javascript:this.bgColor='#FFFFFF';" height="22" >
 	<td>{$v.id}<input name="checkboxid[{$v.id}]" type="checkbox" value="{$v.id}" class="np"></td>
-	<td><span style="color:#ff0000">{$v.nick_name}[{if $v.vip_level eq '0'}普会{elseif $v.vip_level eq '1'}推广{elseif $v.vip_level eq '2'}VIP{elseif $v.vip_level eq '3'}VIP{else}违规{/if}]</span></td>
+	<td><span style="color:#ff0000">{$v.nick_name}[{if $v.vip_level eq '0'}普会{elseif $v.vip_level eq '1'}推广{elseif $v.vip_level eq '2'}VIP{elseif $v.vip_level eq '-1'}初级{else}违规{/if}]</span></td>
 
 	<td>￥{$v.expense_money}元</td>
 
@@ -120,7 +120,7 @@
 {foreach $rows as $v}
 <tr align='center' bgcolor="#FFFFFF" onMouseMove="javascript:this.bgColor='#FCFDEE';" onMouseOut="javascript:this.bgColor='#FFFFFF';" height="22" >
   <td>{$v.id}<input name="checkboxid[{$v.id}]" type="checkbox" value="{$v.id}" class="np"></td>
-  <td><span style="color:#ff0000">{$v.nick_name}[{if $v.vip_level eq '0'}普会{elseif $v.vip_level eq '1'}推广{elseif $v.vip_level eq '2'}VIP{elseif $v.vip_level eq '3'}VIP{else}违规{/if}]</span></td>
+  <td><span style="color:#ff0000">{$v.nick_name}[{if $v.vip_level eq '0'}普会{elseif $v.vip_level eq '1'}推广{elseif $v.vip_level eq '2'}VIP{elseif $v.vip_level eq '-1'}初级{else}违规{/if}]</span></td>
 
   <td>￥{$v.expense_money}元</td>
 
@@ -134,7 +134,7 @@
     <td>{$v.pay_email}</td>
     <td>{$v.pay_name}</td>
     <td>{$v.add_time|date_format:"%Y/%m/%d"}</td>
-  <td>{if $v.expense_status eq 0} <a href="javascript:;"  >未打款</a> {else}已打款{/if}</td>
+  <td>{if $v.expense_status eq 0} <a href="javascript:;"  onclick="payit('{$v.id}',this);" >未打款</a> {else}已打款{/if}</td>
 </tr>
 {/foreach}
 <tr bgcolor="#FAFAF1">

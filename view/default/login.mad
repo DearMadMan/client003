@@ -115,7 +115,7 @@
                 </div>
             </div>
             <div class="body">
-                <div class="logo"><a href="{$mad_configs.domain}"><img src="{$vp}/images/logo.jpg" alt="logo"></a></div>
+                <div class="logo"><a href="{$mad_configs.domain}"><img src="images/logo.jpg" alt="logo"></a></div>
                 <div class="nav">
                     <a href="{$mad_configs.domain}"><img src="{$vp}/images/i1.gif" alt="logo"></a>
                     <a href="{$mad_configs.domain}"><img id='help' src="{$vp}/images/i3.gif" alt="logo"></a>

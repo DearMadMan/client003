@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.16, created on 2014-04-01 17:20:56
+<?php /* Smarty version Smarty-3.1.16, created on 2014-05-01 12:26:51
          compiled from "E:\apache\www\study\admin\template\agencies_encashment.mad" */ ?>
 <?php /*%%SmartyHeaderCode:9155533a2393f3c9e9-12577265%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     '2a60fc2049d4d139445a8a76677897081e641aa2' => 
     array (
       0 => 'E:\\apache\\www\\study\\admin\\template\\agencies_encashment.mad',
-      1 => 1396344055,
+      1 => 1397616594,
       2 => 'file',
     ),
   ),
@@ -23,6 +23,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     'v' => 0,
     'pagetool' => 0,
     'ag' => 0,
+    'mad_configs' => 0,
   ),
   'has_nocache_code' => false,
 ),false); /*/%%SmartyHeaderCode%%*/?>
@@ -73,6 +74,18 @@ $_smarty_tpl->tpl_vars['v']->_loop = true;
     <td width="38%" align="right">提现金额：</td>
     <td width="62%" align="left" ><input type="text" name="price" value="10" />
       *必须为整数（单位：元）</td>
+  </tr>
+    <tr>
+    <td width="38%" align="right">支付宝姓名：</td>
+    <td width="62%" align="left" ><input type="text" name="pay_name" value="<?php echo $_smarty_tpl->tpl_vars['mad_configs']->value['pay_name'];?>
+" />
+      </td>
+  </tr>
+    <tr>
+    <td width="38%" align="right">支付宝邮箱：</td>
+    <td width="62%" align="left" ><input type="text" name="pay_email" value="<?php echo $_smarty_tpl->tpl_vars['mad_configs']->value['pay_email'];?>
+" />
+     </td>
   </tr>
 <tr>
   <td align="center" colspan="2"><input style="width:60px; height:25px; line-height:25px" type="submit" name="submit" value="提现" />

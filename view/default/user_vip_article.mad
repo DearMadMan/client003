@@ -10,6 +10,8 @@
         </ul>
         {/if}
     </div>
+    {if $art_name eq '全部资源'}
+    {else}
     <div class="cl"></div>
 
                     <div class='article'> <div class='tit'><p class='pri'>{if $art_name}{$art_name}{else}{if $art_name eq ''}平台资讯&nbsp;&nbsp;&nbsp;&nbsp;<a href="index.php" style=" font-weight:100"><u>返回主页</u></a>{else}全部资源{/if}{/if}</p></div>
@@ -24,7 +26,7 @@
                    </div>
                    </div>
 
-
+    {/if}
 </div>
 
 

@@ -34,7 +34,7 @@ if($act=='edit')
 				$fields[]="user_word";
 				$data[]=MD5($_POST['user_pass']);
 			}
-			if($_POST['vip_level']!=$users['vip_level'])
+			if($_POST['vip_level']!=$users['vip_level']&&$users['vip_level']!=2)
 			{
 				if($_POST['vip_level']>=2)
 				{

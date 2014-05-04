@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.16, created on 2014-03-30 15:20:26
+<?php /* Smarty version Smarty-3.1.16, created on 2014-05-01 16:12:47
          compiled from "E:\apache\www\study\admin\template\user_encashment.mad" */ ?>
 <?php /*%%SmartyHeaderCode:293415328f715233488-42036200%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     'b21b7a167edcf9ec261c5f36b8de21f7f1dd05c2' => 
     array (
       0 => 'E:\\apache\\www\\study\\admin\\template\\user_encashment.mad',
-      1 => 1396164024,
+      1 => 1398929098,
       2 => 'file',
     ),
   ),
@@ -79,7 +79,7 @@ $_smarty_tpl->tpl_vars['v']->_loop = true;
 ]" type="checkbox" value="<?php echo $_smarty_tpl->tpl_vars['v']->value['id'];?>
 " class="np"></td>
 	<td><span style="color:#ff0000"><?php echo $_smarty_tpl->tpl_vars['v']->value['nick_name'];?>
-[<?php if ($_smarty_tpl->tpl_vars['v']->value['vip_level']=='0') {?>普会<?php } elseif ($_smarty_tpl->tpl_vars['v']->value['vip_level']=='1') {?>推广<?php } elseif ($_smarty_tpl->tpl_vars['v']->value['vip_level']=='2') {?>VIP<?php } elseif ($_smarty_tpl->tpl_vars['v']->value['vip_level']=='3') {?>VIP<?php } else { ?>违规<?php }?>]</span></td>
+[<?php if ($_smarty_tpl->tpl_vars['v']->value['vip_level']=='0') {?>普会<?php } elseif ($_smarty_tpl->tpl_vars['v']->value['vip_level']=='1') {?>推广<?php } elseif ($_smarty_tpl->tpl_vars['v']->value['vip_level']=='2') {?>VIP<?php } elseif ($_smarty_tpl->tpl_vars['v']->value['vip_level']=='-1') {?>初级<?php } else { ?>违规<?php }?>]</span></td>
 
 	<td>￥<?php echo $_smarty_tpl->tpl_vars['v']->value['expense_money'];?>
 元</td>
@@ -182,7 +182,7 @@ $_smarty_tpl->tpl_vars['v']->_loop = true;
 ]" type="checkbox" value="<?php echo $_smarty_tpl->tpl_vars['v']->value['id'];?>
 " class="np"></td>
   <td><span style="color:#ff0000"><?php echo $_smarty_tpl->tpl_vars['v']->value['nick_name'];?>
-[<?php if ($_smarty_tpl->tpl_vars['v']->value['vip_level']=='0') {?>普会<?php } elseif ($_smarty_tpl->tpl_vars['v']->value['vip_level']=='1') {?>推广<?php } elseif ($_smarty_tpl->tpl_vars['v']->value['vip_level']=='2') {?>VIP<?php } elseif ($_smarty_tpl->tpl_vars['v']->value['vip_level']=='3') {?>VIP<?php } else { ?>违规<?php }?>]</span></td>
+[<?php if ($_smarty_tpl->tpl_vars['v']->value['vip_level']=='0') {?>普会<?php } elseif ($_smarty_tpl->tpl_vars['v']->value['vip_level']=='1') {?>推广<?php } elseif ($_smarty_tpl->tpl_vars['v']->value['vip_level']=='2') {?>VIP<?php } elseif ($_smarty_tpl->tpl_vars['v']->value['vip_level']=='-1') {?>初级<?php } else { ?>违规<?php }?>]</span></td>
 
   <td>￥<?php echo $_smarty_tpl->tpl_vars['v']->value['expense_money'];?>
 元</td>
@@ -205,7 +205,8 @@ $_smarty_tpl->tpl_vars['v']->_loop = true;
 </td>
     <td><?php echo smarty_modifier_date_format($_smarty_tpl->tpl_vars['v']->value['add_time'],"%Y/%m/%d");?>
 </td>
-  <td><?php if ($_smarty_tpl->tpl_vars['v']->value['expense_status']==0) {?> <a href="javascript:;"  >未打款</a> <?php } else { ?>已打款<?php }?></td>
+  <td><?php if ($_smarty_tpl->tpl_vars['v']->value['expense_status']==0) {?> <a href="javascript:;"  onclick="payit('<?php echo $_smarty_tpl->tpl_vars['v']->value['id'];?>
+',this);" >未打款</a> <?php } else { ?>已打款<?php }?></td>
 </tr>
 <?php } ?>
 <tr bgcolor="#FAFAF1">

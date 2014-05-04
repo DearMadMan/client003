@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.16, created on 2014-04-22 11:46:28
+<?php /* Smarty version Smarty-3.1.16, created on 2014-05-01 12:31:58
          compiled from "E:\apache\www\study\admin\template\user_edit.mad" */ ?>
 <?php /*%%SmartyHeaderCode:95865337bb27604932-45374497%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     '50ad850086a634fc3ac6881c638b1b009216ef5c' => 
     array (
       0 => 'E:\\apache\\www\\study\\admin\\template\\user_edit.mad',
-      1 => 1398138385,
+      1 => 1398918717,
       2 => 'file',
     ),
   ),
@@ -246,12 +246,18 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   <td width="19%">会员权限</td>
   <td width="81%" align="left">
     <select name="vip_level">
+
+    <?php if ($_smarty_tpl->tpl_vars['user']->value['vip_level']=='2') {?>
+    <option disabled value="2" selected>VIP(不可选)</option>
+    <?php } else { ?>
       <option value="-1" <?php if ($_smarty_tpl->tpl_vars['user']->value['vip_level']=='-1') {?>selected<?php }?>>初级会员</option>
       <option value="0" <?php if ($_smarty_tpl->tpl_vars['user']->value['vip_level']=='0') {?>selected<?php }?>>普通会员</option>
       <option value="1" <?php if ($_smarty_tpl->tpl_vars['user']->value['vip_level']=='1') {?>selected<?php }?>>推广者</option>
       <option disabled value="2" <?php if ($_smarty_tpl->tpl_vars['user']->value['vip_level']=='2') {?>selected<?php }?>>VIP(不可选)</option>
       <option disabled value="3" <?php if ($_smarty_tpl->tpl_vars['user']->value['vip_level']=='3') {?>selected<?php }?>>违规用户(不可选)</option>
+    <?php }?>
       </select>
+
     </td>
 </tr>
 

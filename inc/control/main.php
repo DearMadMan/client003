@@ -200,7 +200,7 @@ function GetUserInfo($id)
 		{
 			unset($_SESSION['user_id']);
 		}
-		die("未查询到改会员");
+		die("未查询到该会员");
 	}
 	return $res;
 }

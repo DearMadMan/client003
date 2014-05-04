@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.16, created on 2014-04-22 11:48:31
+<?php /* Smarty version Smarty-3.1.16, created on 2014-05-01 12:17:34
          compiled from "E:\apache\www\study\admin\template\user_list.mad" */ ?>
 <?php /*%%SmartyHeaderCode:190945328f70c5a7da2-72443558%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     '227225906a4a434672b5104be0e140146beb5ae9' => 
     array (
       0 => 'E:\\apache\\www\\study\\admin\\template\\user_list.mad',
-      1 => 1398138510,
+      1 => 1398917812,
       2 => 'file',
     ),
   ),
@@ -80,7 +80,7 @@ $_smarty_tpl->tpl_vars['v']->_loop = true;
 " class="np"></td>
 	<td><span style="color:#ff0000">
 		<?php echo $_smarty_tpl->tpl_vars['v']->value['nick_name'];?>
-[<?php if ($_smarty_tpl->tpl_vars['v']->value['vip_level']=='0') {?>普会<?php } elseif ($_smarty_tpl->tpl_vars['v']->value['vip_level']=='-1') {?>初级<?php } elseif ($_smarty_tpl->tpl_vars['v']->value['vip_level']=='1') {?>推广<?php } elseif ($_smarty_tpl->tpl_vars['v']->value['vip_level']=='2') {?>VIP<?php } elseif ($_smarty_tpl->tpl_vars['v']->value['vip_level']=='3') {?>VIP<?php } else { ?>违规<?php }?>]
+[<?php if ($_smarty_tpl->tpl_vars['v']->value['vip_level']=='0') {?>普会<?php } elseif ($_smarty_tpl->tpl_vars['v']->value['vip_level']=='-1') {?>初级<?php } elseif ($_smarty_tpl->tpl_vars['v']->value['vip_level']=='1') {?>推广<?php } elseif ($_smarty_tpl->tpl_vars['v']->value['vip_level']=='2') {?>VIP<?php } else { ?>违规<?php }?>]
 		</span>
       </td>
 	<td><?php echo $_smarty_tpl->tpl_vars['v']->value['email'];?>
